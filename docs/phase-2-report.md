@@ -26,27 +26,24 @@ La sélection couvre 43 codes de pays/territoires associés par MusicBrainz ; ce
 
 Les artistes peuvent apparaître dans plusieurs boosters, sans duplication de carte. Les filtres musicaux sont indépendants du pays.
 
-## Importation et photographies
+## Importation et direction artistique
 
-Importateur Node sans dépendance : cache avec horodatages, reprise réellement utilisée après interruption, sélection des identités ambiguës documentée, limitation des départs de requêtes, backoff et respect de Retry-After. Les écritures JSON sont atomiques ; les verrous temporaires Windows/OneDrive sont réessayés sans suppression du fichier précédent.
+Importateur Node sans dépendance : cache avec horodatages, reprise, contrôle des identités ambiguës, limitation des requêtes et backoff. Les écritures JSON sont atomiques.
 
-479 propositions Commons disposent d’une image et de métadonnées de licence ; 21 fiches n’ont pas de proposition P18. Lors de la constitution initiale du catalogue, aucun portrait n’était publié et le manifeste de revue était vide.
-
-À la demande de prévisualisation suivante, les 50 légendaires ont reçu un visuel après examen des images et des notices : 48 photos, une illustration Commons de Teresa Teng clairement identifiée et l’illustration officielle Miku sous CC BY-NC 3.0 réservée à l’usage non commercial du jeu. Les fichiers sont servis localement, leurs attributions et licences conservées dans le [manifeste de revue](../data/portraits-reviewed.json) et affichées dans l’application. Les propositions trompeuses ou insuffisantes (pochette Fela Kuti, statue Celia Cruz, photos promotionnelles incertaines, projection Miku sans licence documentée du modèle) ont été écartées au profit de sources adaptées. Les autres cartes gardent le visuel de remplacement.
-
-Les champs sans données sont désormais masqués dans les fiches, sans modifier les valeurs null ni prétendre avoir enrichi les biographies. Après ajout des visuels : 34 tests Node et 24 contrôles navigateur réussis, incluant les 50 fichiers locaux et leurs empreintes SHA-256.
+La direction artistique a été remplacée à la demande du porteur du projet : les 500 cartes utilisent des compositions typographiques des noms, neuf familles de styles et des palettes stables par ID. Les anciens portraits, illustrations, manifestes et importateur photo ont été retirés. Aucun ID ni donnée de sauvegarde modifié. Les champs sans données restent masqués.
 
 ## Interface et vérifications
 
-Explorateur paginé (40 cartes par page), recherche par nom/alias avec priorité au nom exact, filtres solo/groupe, genre, rareté et booster. Fiches accessibles par dialogue, sources cliquables, âge calculé uniquement avec des dates complètes, crédits conditionnels et champs manquants signalés.
+Explorateur paginé (40 cartes par page), recherche par nom/alias avec priorité au nom exact, filtres solo/groupe, genre, rareté et booster. Fiches accessibles par dialogue, sources cliquables, âge calculé uniquement avec des dates complètes, visuels typographiques et champs absents masqués.
 
-- npm.cmd test : 32 tests réussis (Node.js 24.22.1).
+- npm.cmd test : 33 tests réussis, dont couverture typographique des 500 cartes et classification indépendante du pays.
 - npm.cmd run check:catalog : catalogue complet accepté, tous les boosters disposent des quatre raretés.
-- Suite navigateur : 19 assertions réussies sur le serveur local, puis 19 sur un proxy local sous /legends-of-sound/.
+- Suite navigateur : 24 assertions réussies sur le serveur local après remplacement des portraits.
+- Contrôle des 500 compositions à 390 px : aucun nom hors cadre ou chevauchant les bandeaux.
 - Contrôles navigateur : navigation, recherche sans accent, ordre nom exact/alias, fiche Queen et MBID réel, restitution du focus, pagination et absence de débordement à 390 et 1 100 px.
 
 Les ouvertures, tickets actifs, paiements et recyclages restent désactivés en attente de la Phase 3. La CI GitHub n’a pas été exécutée à distance et aucun site n’a été déployé. Aucun test sur appareil Android physique n’a été effectué.
 
 ## Références du dépôt
 
-[Catalogue](../data/artists.json), [registre permanent](../data/candidates.json), [rapport d’import détaillé](../data/import-report.json), [propositions de portraits](../data/portrait-candidates.json), [politique éditoriale](./editorial-policy.md), [contrat de données](./catalog-contract.md), [README](../README.md).
+[Catalogue](../data/artists.json), [registre permanent](../data/candidates.json), [rapport d’import détaillé](../data/import-report.json), [politique éditoriale](./editorial-policy.md), [contrat de données](./catalog-contract.md), [README](../README.md).

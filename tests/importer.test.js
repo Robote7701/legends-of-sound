@@ -5,7 +5,6 @@ import os from 'node:os';
 import path from 'node:path';
 import { ApiClient } from '../scripts/lib/api-client.js';
 import { claimValues, verifyIdentity, makeCard } from '../scripts/lib/identity.js';
-import { validatePortrait } from '../src/catalog/portraits.js';
 import { ageAt, filterArtists } from '../src/catalog/details.js';
 const mbid = '0383dadf-2a4e-4d10-a46a-e9e041da8eb3';
 const candidate = { id:'los-000001',name:'Queen',type:'group',genres:['rock'],rarity:'legendary' };
@@ -39,12 +38,6 @@ test('champs inconnus à null, dates de groupe distinctes d’une naissance',()=
 test('personnage Vocaloid : aucune naissance humaine dérivée',()=>{
   const card=makeCard({...candidate,type:'solo'},entity,{data:{...artist,type:'Character'},fetchedAt:'2026-10-27T12:00:00Z'},{});
   assert.equal(card.birthDate,null); assert.equal(card.formationDate,null);
-});
-test('portrait refusé sans revue, avec licence ND ou hôte non Commons',()=>{
-  assert.equal(validatePortrait(null),null);
-  const portrait={imageUrl:'https://upload.wikimedia.org/example.jpg',sourceUrl:'https://commons.wikimedia.org/wiki/File:Example.jpg',license:'CC-BY-SA-4.0',licenseUrl:'https://creativecommons.org/licenses/by-sa/4.0/',photographer:'Photographe de test',modifications:'Aucune',identityVerification:'Identité revue',rightsReview:'Licence et restrictions examinées',identityVerifiedAt:'2026-10-27',rightsReviewedAt:'2026-10-27'};
-  assert.equal(validatePortrait(portrait),portrait);
-  for(const change of [{license:'CC-BY-ND-4.0'},{rightsReview:''},{imageUrl:'https://example.com/a.jpg'},{sourceUrl:'javascript:alert(1)'},{photographer:''}]) assert.throws(()=>validatePortrait({...portrait,...change}));
 });
 test('âge calculé avec anniversaire, décès et dates incomplètes',()=>{
   assert.equal(ageAt('1980-10-28',null,new Date('2026-10-27')),45);

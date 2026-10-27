@@ -17,6 +17,8 @@ try {
   }
   doc.querySelector('nav a[href="#collection"]').click();
   await until(() => doc.querySelectorAll('.artist-card').length === 40);
+  // Laisser finir le changement de rubrique et sa restitution de focus.
+  await new Promise(resolve => setTimeout(resolve, 150));
   assert(doc.querySelectorAll('.artist-card').length === 40, 'Catalogue paginé : 40 cartes sur la première page');
   const search = doc.querySelector('input[type="search"]');
   search.value = 'Queen'; search.dispatchEvent(new Event('input', { bubbles: true }));
@@ -26,7 +28,7 @@ try {
   assert(!!dialog && dialog.querySelector('h2').textContent === 'Queen', 'Fiche artiste accessible');
   assert([...dialog.querySelectorAll('a')].some(a => a.href === 'https://musicbrainz.org/artist/0383dadf-2a4e-4d10-a46a-e9e041da8eb3'), 'Lien MusicBrainz réel dans la fiche');
   assert(!dialog.textContent.includes('Non documenté') && !dialog.textContent.includes('Biographie non documentée'), 'Fiche allégée : champs vides masqués');
-  assert(!!dialog.querySelector('a[href*="commons.wikimedia.org"]'), 'Crédit photographique et source accessibles');
+  assert(dialog.querySelector('.type-name')?.textContent === 'Queen' && !dialog.querySelector('img'), 'Fiche Queen typographique sans photographie');
   dialog.querySelector('.close-dialog').click();
   await until(() => doc.activeElement.classList.contains('artist-card'));
   assert(doc.activeElement.classList.contains('artist-card'), 'Fermeture de fiche : focus restitué à la carte');
@@ -40,14 +42,10 @@ try {
   doc.querySelector('.pagination button:last-child').click();
   assert(doc.querySelector('.pagination span').textContent === '2 / 13', 'Pagination des 500 cartes : treize pages');
   selects[1].value = 'legendary'; selects[1].dispatchEvent(new Event('change', { bubbles: true }));
-  for (const image of doc.querySelectorAll('.artist-card img')) image.loading = 'eager';
-  await until(() => [...doc.querySelectorAll('.artist-card img')].every(img => img.complete && img.naturalWidth > 0));
-  assert(doc.querySelectorAll('.artist-card img').length === 40, 'Les 40 premiers visuels légendaires se chargent');
-  assert([...doc.querySelectorAll('.artist-card img')].every(img => new URL(img.src).origin === frame.contentWindow.location.origin), 'Images servies localement sans dépendance externe');
+  assert(doc.querySelectorAll('.artist-card .type-art').length === 40, '40 compositions typographiques légendaires');
+  assert(!doc.querySelector('.artist-card img'), 'Aucune image artiste chargée');
   doc.querySelector('.pagination button:last-child').click();
-  for (const image of doc.querySelectorAll('.artist-card img')) image.loading = 'eager';
-  await until(() => [...doc.querySelectorAll('.artist-card img')].every(img => img.complete && img.naturalWidth > 0));
-  assert(doc.querySelectorAll('.artist-card img').length === 10, 'Les dix autres visuels légendaires se chargent');
+  assert(doc.querySelectorAll('.artist-card .type-art').length === 10, 'Dix autres légendaires typographiques');
   frame.style.width = '390px'; await new Promise(r => setTimeout(r, 100));
   assert(doc.documentElement.scrollWidth <= 390, 'Catalogue mobile : aucun débordement global');
   doc.querySelector('nav a[href="#boosters"]').click();

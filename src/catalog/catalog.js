@@ -1,5 +1,4 @@
 import { RARITIES } from '../domain/config.js';
-import { validatePortrait } from './portraits.js';
 const MBID = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
 export function validateCatalog(artists, editions, { requireComplete = false } = {}) {
   if (!Array.isArray(artists) || !Array.isArray(editions)) throw new Error('Catalogue invalide.');
@@ -13,7 +12,7 @@ export function validateCatalog(artists, editions, { requireComplete = false } =
     if (!card.provenance?.musicbrainz?.verifiedAt || card.provenance.musicbrainz.url !== 'https://musicbrainz.org/artist/' + card.mbid) throw new Error('Vérification MusicBrainz manquante.');
     const proof = card.provenance.musicbrainz.verification;
     if (!proof?.verified || !proof.nameMatch || !proof.reciprocal || proof.reciprocalUrl !== 'https://www.wikidata.org/wiki/' + card.wikidataId) throw new Error('Preuve de vérification croisée manquante.');
-    validatePortrait(card.portrait);
+    if (card.portrait != null) throw new Error('Les cartes utilisent exclusivement des compositions typographiques.');
     ids.add(card.id); mbids.add(identityKey);
   }
   for (const edition of editions) {

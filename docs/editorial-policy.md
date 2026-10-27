@@ -24,8 +24,8 @@ Pays MusicBrainz et nationalité restent distincts. Une date de formation n’es
 
 Les notices « Pourquoi est-il célèbre ? » utilisent les descriptions structurées Wikidata en français, sinon en anglais, sans inventer de succès ou récompense. Ce sont des notices d’identification courtes, pas des biographies complètes. Les biographies, albums marquants, titres, récompenses et débuts de carrière absents restent null. Les futurs enrichissements devront documenter leur propre source par champ. Aucun compteur d’enregistrements ne représente un nombre de chansons originales.
 
-## Portraits
+## Direction typographique
 
-Un fichier P18 Wikidata est une suggestion, jamais une autorisation automatique. Le script Commons conserve les métadonnées dans un registre de propositions distinct du catalogue. Le manifeste portraits-reviewed.json constitue la sélection explicite après contrôle de l’image, de son auteur, de sa licence, des modifications et des restrictions. Sans revue, portrait reste null et un visuel original de remplacement est affiché. Les images CC BY-ND et les pochettes ne sont pas importées.
+À la demande du porteur du projet, les portraits et illustrations sont remplacés par des compositions originales des noms. Les familles typographiques suivent les genres, jamais les nationalités. Les palettes et motifs sont définis localement en CSS, avec polices système et sans reproduire les logos des artistes. Aucun import de photographie.
 
-Sources de référence : [MusicBrainz — API](https://musicbrainz.org/doc/MusicBrainz_API), [licences MusicBrainz](https://musicbrainz.org/doc/About/Data_License), [licence Wikidata](https://www.wikidata.org/wiki/Wikidata:Licensing), [réutilisation Commons](https://commons.wikimedia.org/wiki/Commons:Reusing_content_outside_Wikimedia).
+Sources de référence : [MusicBrainz — API](https://musicbrainz.org/doc/MusicBrainz_API), [licences MusicBrainz](https://musicbrainz.org/doc/About/Data_License), [licence Wikidata](https://www.wikidata.org/wiki/Wikidata:Licensing).

@@ -1,25 +1,10 @@
 import { el } from './dom.js';
+import { artistArtwork } from './artist-artwork.js';
 import { RARITIES } from '../domain/config.js';
 import { ageAt, filterArtists } from '../catalog/details.js';
 
 function link(text, url) {
   const node = el('a', text); node.href = url; node.target = '_blank'; node.rel = 'noopener noreferrer'; return node;
-}
-function portrait(artist) {
-  const holder = el('div', '', 'artist-art');
-  const fallback = () => {
-    holder.setAttribute('aria-hidden', 'true');
-    holder.replaceChildren(el('span', artist.type === 'group' ? '◎' : '◉', 'vinyl'), el('span', 'LEGENDS / ORIGINS', 'art-label'));
-  };
-  if (artist.portrait) {
-    const p = artist.portrait, img = el('img');
-    img.src = p.localPath ? new URL('../../' + p.localPath, import.meta.url).href : p.imageUrl;
-    img.alt = (p.mediaType === 'illustration' ? 'Illustration de ' : 'Photo de ') + artist.displayName;
-    img.loading = 'lazy'; img.decoding = 'async'; img.style.objectFit = p.fit || 'cover';
-    img.addEventListener('error', fallback, { once: true }); holder.append(img);
-    if (p.mediaType === 'illustration') holder.append(el('span', 'Illustration', 'media-label'));
-  } else fallback();
-  return holder;
 }
 export function showArtist(artist, opener) {
   const dialog = el('dialog', '', 'artist-dialog');
@@ -27,7 +12,7 @@ export function showArtist(artist, opener) {
   close.onclick = () => dialog.close();
   const heading = el('h2', artist.displayName || artist.name); heading.id = 'artist-dialog-title';
   dialog.setAttribute('aria-labelledby', heading.id);
-  dialog.append(close, portrait(artist), el('div', RARITIES[artist.rarity].label + ' / ' + artist.id, 'eyebrow'), heading);
+  dialog.append(close, artistArtwork(artist), el('div', RARITIES[artist.rarity].label + ' / ' + artist.id, 'eyebrow'), heading);
   if (artist.name !== artist.displayName) dialog.append(el('p', 'Nom MusicBrainz : ' + artist.name, 'muted'));
   const table = el('dl', '', 'facts');
   const fact = (label, value) => {
@@ -56,11 +41,6 @@ export function showArtist(artist, opener) {
   if (artist.biography) dialog.append(el('h3', 'Biographie'), el('p', artist.biography));
   dialog.append(el('h3', 'Sources & crédits'), link('MusicBrainz — identité et données CC0', artist.provenance.musicbrainz.url), el('br'), link('Wikidata — notice descriptive CC0', artist.provenance.wikidata.url));
   dialog.append(el('p', 'Identité croisée vérifiée le ' + artist.provenance.musicbrainz.verifiedAt.slice(0, 10) + '. Les genres et raretés sont des choix éditoriaux, sans mesure du talent.', 'muted'));
-  if (artist.portrait) {
-    const p = artist.portrait;
-    dialog.append(el('p', (p.mediaType === 'illustration' ? 'Illustration : ' : 'Photo : ') + p.photographer + ' · ' + p.license), el('p', p.title, 'muted'), el('p', p.modifications, 'muted'), link('Page source du visuel', p.sourceUrl), el('br'), link('Licence du visuel', p.licenseUrl));
-    if (p.attribution) dialog.append(el('p', p.attribution, 'muted'));
-  } else dialog.append(el('p', 'Visuel de remplacement original. Aucun portrait sans identité et droits vérifiés n’est publié.', 'muted'));
   dialog.addEventListener('close', () => { dialog.remove(); opener?.focus(); }, { once: true });
   dialog.addEventListener('click', event => { if (event.target === dialog) { const box = dialog.getBoundingClientRect(); if (event.clientX < box.left || event.clientX > box.right || event.clientY < box.top || event.clientY > box.bottom) dialog.close(); } });
   document.body.append(dialog); dialog.showModal();
@@ -98,7 +78,7 @@ export function catalogView(catalog, save) {
       const card = el('button', '', 'artist-card rarity-' + artist.rarity);
       const owned = save?.collection[artist.id]?.count || 0;
       card.setAttribute('aria-label', (artist.displayName || artist.name) + ' — ouvrir la fiche');
-      card.append(portrait(artist), el('span', RARITIES[artist.rarity].label, 'rarity-label'), el('strong', artist.displayName || artist.name), el('span', artist.genres.slice(0, 3).join(' / '), 'card-genres'), el('span', owned ? 'Possédée ×' + owned : 'Non découverte', 'owned-label'));
+      card.append(artistArtwork(artist), el('span', RARITIES[artist.rarity].label, 'rarity-label'), el('strong', artist.displayName || artist.name), el('span', artist.genres.slice(0, 3).join(' / '), 'card-genres'), el('span', owned ? 'Possédée ×' + owned : 'Non découverte', 'owned-label'));
       card.onclick = () => showArtist(artist, card); grid.append(card);
     }
     const previous = el('button', '← Précédent', 'secondary'); previous.disabled = page === 0;

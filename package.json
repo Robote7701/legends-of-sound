@@ -11,7 +11,6 @@
     "dev": "node scripts/serve.js",
     "test": "node --test",
     "check:catalog": "node scripts/validate-catalog.js --complete",
-    "import:artists": "node scripts/import-artists.js",
-    "import:portraits": "node scripts/import-portraits.js"
+    "import:artists": "node scripts/import-artists.js"
   }
 }

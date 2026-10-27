@@ -61,12 +61,10 @@ function render() {
     heading('Votre empreinte musicale.', 'Statistiques de votre sauvegarde locale.');
     if (save) { const grid = el('div', '', 'grid'); for (const [key,label] of [['boostersOpened','Boosters ouverts'],['cardsObtained','Cartes obtenues'],['cardsRecycled','Cartes recyclées']]) { const panel = el('section','','panel'); panel.append(el('h2',label),el('p',String(save.stats[key]))); grid.append(panel); } main.append(grid); }
   } else if (route === 'credits') {
-    heading('Sources & crédits.', 'Des identités vérifiées. Des droits documentés.');
+    heading('Sources & crédits.', 'Des identités vérifiées. Une identité visuelle originale.');
     main.append(el('p', 'Identités, alias, dates et relations : MusicBrainz (données centrales CC0). Descriptions : Wikidata (CC0). Genres et raretés : classement éditorial Legends of Sound, sans mesure du talent.'));
     for (const [name, url] of [['MusicBrainz — sources et licences', 'https://musicbrainz.org/doc/About/Data_License'], ['Wikidata — licence CC0', 'https://www.wikidata.org/wiki/Wikidata:Licensing']]) { const link = el('a', name); link.href = url; main.append(link, el('br')); }
-    const illustrated = catalog.artists.filter(a => a.portrait);
-    main.append(el('p', illustrated.length + ' portrait(s) publié(s) après revue. Les autres fiches utilisent un visuel de remplacement original. Une proposition Commons n’est jamais publiée automatiquement.'));
-    for (const artist of illustrated) { const p = artist.portrait; const credit = el('p', artist.displayName + ' — ' + p.photographer + ' · ' + p.license + ' · ' + (p.title || '') + ' · Modifications : ' + p.modifications + (p.attribution ? ' · ' + p.attribution : '') + ' '); const link = el('a', 'Source'); link.href = p.sourceUrl; const license = el('a', 'Licence'); license.href = p.licenseUrl; credit.append(link, document.createTextNode(' · '), license); main.append(credit); }
+    main.append(el('p', 'Les 500 cartes utilisent des compositions typographiques originales : noms des artistes et groupes, motifs géométriques et palettes adaptées aux genres. Les polices sont celles du système ; aucun portrait, illustration externe ou logo d’artiste n’est chargé.'));
   } else { heading('Page introuvable.', 'Choisissez une rubrique dans la navigation.'); }
 }
 document.querySelector('.skip').addEventListener('click', event => { event.preventDefault(); main.focus(); });

@@ -18,13 +18,9 @@ nationality, careerStart, notableAlbums, knownTracks, awards et biography resten
 
 provenance conserve URL, date de récupération, révision Wikidata, méthode et résultat du contrôle. sources indique la provenance par catégorie et licence. Identités centrales MusicBrainz et données structurées Wikidata : CC0. Aucun tag, vote ou annotation supplémentaire MusicBrainz importé. Aucun nombre de chansons originales déduit d’un compteur d’enregistrements.
 
-## Portraits
+## Visuels typographiques
 
-portrait reste null avant revue. Champs requis sinon : imageUrl, sourceUrl, photographer, license, licenseUrl, modifications, identityVerifiedAt, rightsReviewedAt, identityVerification, rightsReview. Les droits inconnus et licences ND sont refusés. Seuls les CDN Commons sont acceptés, à l’exception précise de l’illustration officielle Miku (Piapro, CC BY-NC 3.0, non-commercial uniquement et attribution Crypton).
-
-localPath indique un asset local sous assets/images/artists/, assetSha256 son empreinte ; title conserve le titre source. mediaType distingue photo et illustration. Les illustrations ne doivent pas être présentées comme des photographies. fit précise le cadrage de présentation ; les images de groupes et illustrations sont conservées entières. Les fiches masquent les valeurs null sans les remplir artificiellement.
-
-[portrait-candidates.json](../data/portrait-candidates.json) est distinct des images autorisées. [portraits-reviewed.json](../data/portraits-reviewed.json) contient les sélections revues explicitement. Les métadonnées automatiques ne remplacent pas la vérification des licences, restrictions et sujets.
+Les 500 cartes utilisent le nom affiché, des motifs CSS et des polices système. Le premier genre reconnu choisit une famille graphique ; un ID permanent détermine la variation de palette. Aucun pays n’intervient. portrait reste null et tout objet portrait est refusé. Aucun visuel externe, photo ou logo importé. Les champs inconnus des fiches restent masqués.
 
 ## Importation
 

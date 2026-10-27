@@ -22,7 +22,7 @@ test('les références demandées sont présentes sans cartes alternatives en do
   for(const name of ['Queen','Michael Jackson','Daft Punk','Rammstein','Linkin Park','Metallica','AC/DC','Nirvana','David Bowie','Prince','Eminem','Kendrick Lamar','Hatsune Miku','Reol','PinocchioP','Ado','YOASOBI','Atarashii Gakko!','bbno$']) assert.equal(artists.filter(a=>a.displayName===name).length,1,name);
   const miku=artists.find(a=>a.displayName==='Hatsune Miku'); assert.equal(miku.entityType,'Character'); assert.equal(miku.birthDate,null);
 });
-test('le validateur refuse doublon de MBID, preuve absente et portrait non revu',()=>{
+test('le validateur refuse doublon de MBID, preuve absente et portrait externe',()=>{
   const first=artists[0];
   assert.throws(()=>validateCatalog([first,{...first,id:'los-another'}],editions));
   assert.throws(()=>validateCatalog([{...first,provenance:{musicbrainz:{url:first.provenance.musicbrainz.url,verifiedAt:'2026-10-27'}}}],editions));

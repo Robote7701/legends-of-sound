@@ -12,7 +12,7 @@ Critères : tests de sauvegarde et configurations passants, erreurs non destruct
 
 ## Phase 2 — Catalogue
 
-Sélectionner 500 artistes et groupes internationaux ; conserver leurs identifiants internes permanents. Construire l’importateur avec User-Agent identifiable, limite MusicBrainz d’au plus une requête par seconde, cache, reprise, backoff et revue manuelle des homonymes. Vérifier les identités, genres et scènes, documenter les sources par champ et les informations manquantes. Attribuer les raretés selon une politique éditoriale expliquée ; vérifier la disponibilité des quatre raretés dans chaque booster. Rechercher les portraits Commons, proposer la sélection manuelle et ne publier que les images avec droits et identité vérifiés. Enregistrer null pour les informations inconnues. Ajouter la validation complète des 500 entrées et les tests de provenance.
+Sélectionner 500 artistes et groupes internationaux ; conserver leurs identifiants internes permanents. Construire l’importateur avec User-Agent identifiable, limite MusicBrainz d’au plus une requête par seconde, cache, reprise, backoff et revue manuelle des homonymes. Vérifier les identités, genres et scènes, documenter les sources par champ et les informations manquantes. Attribuer les raretés selon une politique éditoriale expliquée ; vérifier la disponibilité des quatre raretés dans chaque booster. Composer les noms des 500 artistes en visuels typographiques originaux adaptés aux genres, sans photo ni logo externe. Enregistrer null pour les informations inconnues. Ajouter la validation complète des 500 entrées et les tests de provenance.
 
 ## Phase 3 — Moteur du jeu
 
@@ -20,7 +20,7 @@ Développer les fonctions pures de recharge par horodatage, devis tickets/crédi
 
 ## Phase 4 — Interface premium
 
-Développer la direction artistique originale, cartes et portraits vérifiés, animations individuelles et légendaires, récapitulatifs de boosters et de sessions multiples, accélération et réduction des animations. Compléter les fiches factuelles et les crédits photo. Tester clavier, mobile et performances sur Android.
+Développer la direction artistique originale, cartes typographiques, animations individuelles et légendaires, récapitulatifs de boosters et de sessions multiples, accélération et réduction des animations. Compléter les fiches factuelles et la direction typographique. Tester clavier, mobile et performances sur Android.
 
 ## Phase 5 — Validation
 

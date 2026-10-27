@@ -6,7 +6,7 @@ TCG musical gratuit, statique et indépendant de Velvet Collection. Sound Credit
 
 ORIGINS comprend **500 artistes et groupes identifiés sur MusicBrainz**, avec contrôle croisé Wikidata, genres et raretés éditoriaux, neuf boosters, fiches sourcées et explorateur du catalogue. Les champs inconnus restent null. Les notices courtes Wikidata ne sont pas des biographies complètes.
 
-Les ouvertures, la recharge active et le recyclage restent désactivés jusqu’à la Phase 3. Consulter une fiche ne donne pas la carte. Les 50 légendaires disposent de visuels revus, servis localement : 48 photos et deux illustrations identifiées (Teresa Teng et Hatsune Miku). Les autres propositions restent en attente ; aucune photographie n’est publiée automatiquement. Les champs de fiche sans données sont masqués, sans modifier les valeurs null du catalogue.
+Les ouvertures, la recharge active et le recyclage restent désactivés jusqu’à la Phase 3. Consulter une fiche ne donne pas la carte. Les 500 cartes utilisent des compositions typographiques originales adaptées aux genres : aucune photo, illustration externe ou logo d’artiste. Les champs sans données sont masqués.
 
 ## Démarrer et tester
 
@@ -26,8 +26,8 @@ Tests navigateur : http://127.0.0.1:4173/tests/browser.html. Contrôles de navig
 
 ## Architecture
 
-- [data/](./data/) : catalogue, registre permanent des candidats, éditions, boosters, rapports et propositions de portraits.
-- [src/catalog/](./src/catalog/) : validation, filtres, âge et contrôle des portraits.
+- [data/](./data/) : catalogue, registre permanent des candidats, éditions, boosters, rapports.
+- [src/catalog/](./src/catalog/) : validation, filtres, âge et direction artistique par genre.
 - [src/domain/config.js](./src/domain/config.js) : probabilités, économie et limites configurables.
 - [src/state/](./src/state/) : schéma et persistance versionnée.
 - [src/services/](./src/services/) : chargement des JSON relatifs aux modules.
@@ -46,11 +46,6 @@ npm run import:artists
 # Écrire uniquement les JSON locaux du catalogue
 npm run import:artists -- --publish
 
-# Rechercher des propositions Commons sans publier de photo
-npm run import:portraits
-
-# Appliquer uniquement le manifeste revu manuellement
-npm run import:portraits -- --apply-reviewed
 ~~~
 
 --publish ne pousse rien sur GitHub et ne publie pas de site. Il refuse un catalogue différent de 500 entrées, une identité non résolue, une rareté manquante dans un booster et la réattribution d’un ID existant. --limit=10 permet une prévisualisation partielle sans modifier le catalogue publié.
@@ -61,15 +56,11 @@ Un seul import à la fois. User-Agent identifié, départs espacés d’au moins
 
 [editorial-policy.md](./docs/editorial-policy.md) explique sélection, genres et raretés. Les tags et votes communautaires MusicBrainz ne sont pas copiés. Identités centrales MusicBrainz et données structurées Wikidata : CC0, avec sources par carte. Aucune biographie Wikipédia copiée.
 
-## Sélection manuelle des portraits
+## Identité typographique
 
-[portrait-candidates.json](./data/portrait-candidates.json) rassemble des propositions P18/Commons non publiées : fichier, source, auteur en métadonnées brutes, licence et restrictions disponibles. Aucune proposition n’est affichée comme portrait dans les cartes. Les métadonnées absentes ne valent pas permission.
+Les noms deviennent les visuels des 500 cartes. Neuf familles graphiques suivent le premier genre reconnu : rock, métal, électronique, hip-hop, pop, Asia Wave, jazz/soul/blues, groove et musiques du monde. Aucune inférence par pays. Les artistes multigenres conservent tous leurs genres et leurs boosters.
 
-Après contrôle visuel de l’identité, des licences et restrictions, ajouter une entrée dans le tableau [portraits-reviewed.json](./data/portraits-reviewed.json). Champs obligatoires : id existant, imageUrl HTTPS sur upload.wikimedia.org, sourceUrl HTTPS sur commons.wikimedia.org, photographer en texte sans HTML, license, licenseUrl, modifications, identityVerifiedAt et rightsReviewedAt (dates ISO réelles), identityVerification et rightsReview (notes concrètes de revue).
-
-Licences prises en charge : CC0-1.0, Public-domain, CC-BY-2.0/3.0/4.0, CC-BY-SA-2.0/2.5/3.0/3.0-NL/4.0. CC BY-ND refusée. Exception précisément limitée à l’illustration officielle de Hatsune Miku : CC-BY-NC-3.0, image et page d’autorisation Piapro exactes, attribution Crypton et usage exclusivement non commercial. Cette exception ne vaut pas autorisation générale pour d’autres images NC.
-
-Les assets locaux dans [assets/images/artists/](./assets/images/artists/) conservent chacun leur licence source, indépendamment du code. Le manifeste contient leurs empreintes SHA-256, auteurs, titres, sources, références de revue et modifications de présentation. Les crédits apparaissent dans les fiches et dans Crédits. Le visuel Miku ne doit pas être réutilisé dans un usage commercial. Si l’identité ou les droits restent incertains, conserver portrait:null. Ne jamais inscrire une revue qui n’a pas eu lieu.
+[art-direction.js](./src/catalog/art-direction.js) définit les associations, palettes et variations stables par ID. [artist-artwork.js](./src/ui/artist-artwork.js) compose le texte et [artwork.css](./assets/css/artwork.css) définit les polices système et motifs CSS. Aucun téléchargement de police ou d’image. Le champ portrait reste null et le validateur refuse les portraits. L’importateur ne recherche plus de visuels. Les IDs et sauvegardes restent compatibles.
 
 ## Sauvegarde
 

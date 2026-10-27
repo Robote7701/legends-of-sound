@@ -60,12 +60,9 @@ await Promise.all(Array.from({ length: 3 }, async () => {
 artists.sort((a, b) => a.id.localeCompare(b.id));
 decisions.sort((a, b) => a.id.localeCompare(b.id));
 const existing = await read('data/artists.json');
-for (const previous of existing) {
-  const current = artists.find(a => a.id === previous.id && a.mbid === previous.mbid);
-  if (current) current.portrait = previous.portrait;
-}
+
 validateCatalog(artists, editions.map(e => ({ ...e, status: 'preparation' })));
-const missingFields = ['portrait', 'biography', 'notableAlbums', 'knownTracks', 'awards', 'careerStart', 'nationality'];
+const missingFields = ['biography', 'notableAlbums', 'knownTracks', 'awards', 'careerStart', 'nationality'];
 const report = {
   generatedAt: new Date().toISOString(), candidates: selected.length, verified: artists.length,
   pending, decisions,
