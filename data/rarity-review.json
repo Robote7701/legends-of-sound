@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-27T22:34:00.516Z",
+  "generatedAt": "2026-10-27T23:15:16.759Z",
   "method": "Indicateurs documentaires pour revue humaine. Une absence de distinction ne justifie pas une rareté basse. Aucun quota par pays ou genre.",
   "entries": [
     {
@@ -30609,6 +30609,1406 @@
       "sources": [
         "https://musicbrainz.org/artist/fc3ae4dd-dcc5-4f99-a865-6bc1a5c9b705",
         "https://www.wikidata.org/wiki/Q15715520"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001553",
+      "name": "Furax Barbarossa",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/e1164802-5a16-46cc-90f3-42f2d6a9762d",
+        "https://www.wikidata.org/wiki/Q3090987"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001554",
+      "name": "La Fève",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/2c832944-52b6-428e-8d36-5d2cbc7121d9",
+        "https://www.wikidata.org/wiki/Q123980600"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001555",
+      "name": "Juliette Armanet",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/bfc041af-595d-4a0d-9026-8bce9aab3e53",
+        "https://www.wikidata.org/wiki/Q29591607"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001556",
+      "name": "Feu! Chatterton",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/b1eac47e-77b5-4f5c-ae33-442c07182278",
+        "https://www.wikidata.org/wiki/Q21426156"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001557",
+      "name": "Bad Omens",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/eecada09-acfc-472d-ae55-e9e5a43f12d8",
+        "https://www.wikidata.org/wiki/Q54958373"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001558",
+      "name": "L’Impératrice",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/abc31be8-02b2-4bb1-867d-604d50b7be78",
+        "https://www.wikidata.org/wiki/Q48754425"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001559",
+      "name": "Oum",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/d5099437-811e-4cba-909a-c3d263e1ae89",
+        "https://www.wikidata.org/wiki/Q13534653"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001560",
+      "name": "Kerchak",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/8eedc669-1461-4175-bfa5-99e0b49da603",
+        "https://www.wikidata.org/wiki/Q121616975"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001561",
+      "name": "Ashe 22",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/1ae4dcc7-a0d3-4ad6-9ba5-00e6c6ef0495",
+        "https://www.wikidata.org/wiki/Q123819509"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001562",
+      "name": "Clara Luciani",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/a6386935-e6ee-4aaa-aaa8-70f56b79bc29",
+        "https://www.wikidata.org/wiki/Q55128479"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001563",
+      "name": "La Femme",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/559211a5-2a51-4346-ba84-5cc74821a1cd",
+        "https://www.wikidata.org/wiki/Q13038522"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001564",
+      "name": "Loathe",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/56eb02c4-1f16-4613-8bb3-b4a752283fc3",
+        "https://www.wikidata.org/wiki/Q30610109"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001565",
+      "name": "Franc Moody",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/003ca7a0-60ef-4c4b-a4d6-f8e33256577e",
+        "https://www.wikidata.org/wiki/Q109254689"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001566",
+      "name": "Hindi Zahra",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/34964ede-3103-4023-93c8-ee514abdcb3b",
+        "https://www.wikidata.org/wiki/Q463514"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001567",
+      "name": "Limsa d’Aulnay",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/b789f619-d9c5-4314-a064-8cc3d72f80ed",
+        "https://www.wikidata.org/wiki/Q124536108"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001568",
+      "name": "Zaho de Sagazan",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/87685458-1aef-49b7-945b-03a892d9c482",
+        "https://www.wikidata.org/wiki/Q117353279"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001569",
+      "name": "Thornhill",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/368f19e5-51c0-45d7-80c5-963be6971ac7",
+        "https://www.wikidata.org/wiki/Q108266552"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001570",
+      "name": "tricot",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/8849da42-cbf6-452b-9220-95c7c691014b",
+        "https://www.wikidata.org/wiki/Q20019100"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001571",
+      "name": "Souad Massi",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/0f7a9866-5644-4a45-9781-b87e60eb3269",
+        "https://www.wikidata.org/wiki/Q236370"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001572",
+      "name": "Souffrance",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/2534079e-ce7d-4798-b258-8496838ab126",
+        "https://www.wikidata.org/wiki/Q124081373"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001573",
+      "name": "Demi Portion",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/a661f3c4-4c38-4ec1-93a9-4fec5b16577e",
+        "https://www.wikidata.org/wiki/Q24578944"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001574",
+      "name": "Dooz Kawa",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/cb54014a-d728-4e8d-8934-15426a3ddd5d",
+        "https://www.wikidata.org/wiki/Q104822350"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001575",
+      "name": "Pierre de Maere",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/5e07a62f-c3dd-4a72-b47f-ab64cc78cca1",
+        "https://www.wikidata.org/wiki/Q111509980"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001576",
+      "name": "Mickey 3d",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/bac316b8-e971-403d-a5e4-f81fa6a4efbb",
+        "https://www.wikidata.org/wiki/Q1431646"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001577",
+      "name": "Polaris",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/b695cfa1-9804-4d33-9b53-7744c9e0c73a",
+        "https://www.wikidata.org/wiki/Q938895"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001578",
+      "name": "Mass of the Fermenting Dregs",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/1a19b0cd-fa9d-4363-b130-b3eb394cf373",
+        "https://www.wikidata.org/wiki/Q6784076"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001579",
+      "name": "Rachid Taha",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/04dd1f61-c21b-4d6a-b110-55b3c1309fa0",
+        "https://www.wikidata.org/wiki/Q502990"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001580",
+      "name": "Isha",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/785498ee-99f4-4699-8caf-2c742e996559",
+        "https://www.wikidata.org/wiki/Q89044968"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001581",
+      "name": "Pomme",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/c75b226d-d643-41dc-a2b7-00c0ff8c8e7b",
+        "https://www.wikidata.org/wiki/Q42397176"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001582",
+      "name": "Les Wampas",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/46c6a335-6064-4118-8021-83fb37b1bc6a",
+        "https://www.wikidata.org/wiki/Q1820618"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001583",
+      "name": "Lettuce",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/e88313e2-22f6-4f6d-9656-6d2ad20ea415",
+        "https://www.wikidata.org/wiki/Q6533861"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001584",
+      "name": "Hitsujibungaku",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/cd8858ea-73c4-4c8f-8fcc-5aba0b877688",
+        "https://www.wikidata.org/wiki/Q97311286"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001585",
+      "name": "Idir",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/e6e4079d-ecf9-477f-8ac2-25b4ce17709b",
+        "https://www.wikidata.org/wiki/Q2272870"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001586",
+      "name": "Caballero",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/2cf020ab-c329-476d-b5ff-3207fd3317d1",
+        "https://www.wikidata.org/wiki/Q30731393"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001587",
+      "name": "JeanJass",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/5ab77d5d-f95f-4d95-b6bf-286ea3bd1a64",
+        "https://www.wikidata.org/wiki/Q20973361"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001588",
+      "name": "Hoshi",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/b8faccf9-bdf4-455f-b161-42fac858f1f4",
+        "https://www.wikidata.org/wiki/Q52516479"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001589",
+      "name": "Les Fatals Picards",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/1a71713c-6cef-49e2-b2b7-8cdb6eb3f8cf",
+        "https://www.wikidata.org/wiki/Q1642063"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001590",
+      "name": "Invent Animate",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/af3fd27c-c59f-4eb7-9303-042ee3eef006",
+        "https://www.wikidata.org/wiki/Q20191939"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001591",
+      "name": "Vulfpeck",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/7d0e8067-10b9-4069-95dc-1110a0fbb877",
+        "https://www.wikidata.org/wiki/Q17091147"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001592",
+      "name": "Kinoko Teikoku",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/18a15d8d-b7bf-4921-9976-aa6388b99a9a",
+        "https://www.wikidata.org/wiki/Q17210175"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001593",
+      "name": "Lounès Matoub",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/e2af3275-06f0-482f-b687-ff9f24b40aff",
+        "https://www.wikidata.org/wiki/Q524362"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001594",
+      "name": "Di-Meh",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/eb1d279d-a204-4611-830f-746d398b7ac0",
+        "https://www.wikidata.org/wiki/Q85709225"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001595",
+      "name": "Slimka",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/6143579e-84ab-48dd-b793-969adc283bb1",
+        "https://www.wikidata.org/wiki/Q87436387"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001596",
+      "name": "Les Têtes Raides",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/739162d3-8f9d-4710-8fe1-a73e59690506",
+        "https://www.wikidata.org/wiki/Q1478667"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001597",
+      "name": "ERRA",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/5c14e10e-735e-4108-a8a5-74d8771672da",
+        "https://www.wikidata.org/wiki/Q18990899"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001598",
+      "name": "Number Girl",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/808fe413-ff00-4a68-99fe-0ab265a7e2be",
+        "https://www.wikidata.org/wiki/Q5359582"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001599",
+      "name": "Cheb Hasni",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/4f1370f3-3c3b-48e0-997e-a00fdcab7955",
+        "https://www.wikidata.org/wiki/Q983496"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001600",
+      "name": "Varnish la Piscine",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/b577c816-134a-45ea-89a9-da1cca59d221",
+        "https://www.wikidata.org/wiki/Q134302081"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001601",
+      "name": "Sopico",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/e2e98f64-4b5b-497f-8534-7da6622361be",
+        "https://www.wikidata.org/wiki/Q59286669"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001602",
+      "name": "Suzane",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/d0fd9aec-0483-46ef-8126-4fcbb7dc5ab0",
+        "https://www.wikidata.org/wiki/Q83610427"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001603",
+      "name": "Les Ogres de Barback",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/a9a7819b-8c6a-4b9a-a3e9-cad0471963df",
+        "https://www.wikidata.org/wiki/Q1513824"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001604",
+      "name": "Silent Planet",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/c62afc98-8596-4532-a1dd-bc1a595c927e",
+        "https://www.wikidata.org/wiki/Q18712529"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001605",
+      "name": "The Fearless Flyers",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/3a6c52b4-48ff-4153-afac-0be3c98d9eb5",
+        "https://www.wikidata.org/wiki/Q134589329"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001606",
+      "name": "Zutomayo",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/14d2a235-30e2-489f-b490-f9dc7d2c0861",
+        "https://www.wikidata.org/wiki/Q60989925"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001607",
+      "name": "Faudel",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/5b330b43-ea98-486f-a15d-4aa09e990ac7",
+        "https://www.wikidata.org/wiki/Q741850"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001608",
+      "name": "Rocé",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/9cb468f4-2894-4381-9ee4-42fbfe67b6b6",
+        "https://www.wikidata.org/wiki/Q3438057"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001609",
+      "name": "Roc Marciano",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/9b14ef6d-119b-47b8-9d06-fc72901451e2",
+        "https://www.wikidata.org/wiki/Q7353659"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001610",
+      "name": "Yseult",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/50a948ac-3bf7-4097-ab73-773bc3cb8fed",
+        "https://www.wikidata.org/wiki/Q29788794"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001611",
+      "name": "Debout sur le zinc",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/9f35bff0-a843-4303-a416-2c5303e4b080",
+        "https://www.wikidata.org/wiki/Q3020918"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001612",
+      "name": "Currents",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/b7e442b4-30cd-4bd2-9238-032e74f7807d",
+        "https://www.wikidata.org/wiki/Q51029545"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001613",
+      "name": "GoGo Penguin",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/b328de0e-ee48-4d74-9d36-7c7ee16ffc69",
+        "https://www.wikidata.org/wiki/Q18151740"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001614",
+      "name": "Yorushika",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/dfc6a151-3792-4695-8fda-f64723eaa788",
+        "https://www.wikidata.org/wiki/Q55525789"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001615",
+      "name": "Dhafer Youssef",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/e193397d-a888-4b4d-b11d-2a602c24b023",
+        "https://www.wikidata.org/wiki/Q957007"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001616",
+      "name": "Billy Woods",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/f30fea51-fa9c-4067-bc49-fc43236e89ba",
+        "https://www.wikidata.org/wiki/Q16247049"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001617",
+      "name": "Olivia Ruiz",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/5083e4bf-3246-4ab9-a6d3-23be8db8db2c",
+        "https://www.wikidata.org/wiki/Q270284"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001618",
+      "name": "La Rue Kétanou",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/fddf4c3e-fecc-4fe4-83d7-eb830dcfee2b",
+        "https://www.wikidata.org/wiki/Q1799105"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001619",
+      "name": "Make Them Suffer",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/b6f8cce8-cbac-48a0-b0fa-d6cc06447928",
+        "https://www.wikidata.org/wiki/Q11880653"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001620",
+      "name": "Mammal Hands",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/5fd9d175-1fed-45e5-a2b4-e4e727f34d8b",
+        "https://www.wikidata.org/wiki/Q18984313"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001621",
+      "name": "Ryokuoushoku Shakai",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/3ed40054-97ab-4783-b3c3-15c2c7b06546",
+        "https://www.wikidata.org/wiki/Q30930490"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001622",
+      "name": "Anouar Brahem",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/1ffab459-9b77-488d-b224-49a9e730a41f",
+        "https://www.wikidata.org/wiki/Q548428"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001623",
+      "name": "Navy Blue",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/304c731f-ea4f-407c-b4fc-65131b1b2b37",
+        "https://www.wikidata.org/wiki/Q64875639"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001624",
+      "name": "Mach-Hommy",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/b5aa7895-c9c1-4350-9f2b-b55ff085609c",
+        "https://www.wikidata.org/wiki/Q111337749"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001625",
+      "name": "Your Old Droog",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/ef39d47a-d530-4fa2-8f74-0c73ce195f02",
+        "https://www.wikidata.org/wiki/Q18719075"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001626",
+      "name": "Jeanne Cherhal",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/1c964d5b-ddf8-443f-a722-4e3d57b55d3c",
+        "https://www.wikidata.org/wiki/Q456328"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001627",
+      "name": "Les Négresses vertes",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/d9968436-64d6-4a33-85e8-7f4fcfa78d63",
+        "https://www.wikidata.org/wiki/Q1820571"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001628",
+      "name": "Alpha Wolf",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/ea89deb6-10f0-4c85-bf32-cc1102dc8d58",
+        "https://www.wikidata.org/wiki/Q36827208"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001629",
+      "name": "Portico Quartet",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/0e6e5a3e-b5cb-45ff-97f4-c23c88efc563",
+        "https://www.wikidata.org/wiki/Q3399302"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001630",
+      "name": "Polkadot Stingray",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/0f0caf6e-e815-4ad3-93db-fb37be9adcc8",
+        "https://www.wikidata.org/wiki/Q24876989"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001631",
+      "name": "Bombino",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/d7613e57-4383-454a-8b26-b1e7c28cb740",
+        "https://www.wikidata.org/wiki/Q891919"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001632",
+      "name": "Boldy James",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/a59a3fdd-4bcc-4c61-b4c5-7d0c1341f2e2",
+        "https://www.wikidata.org/wiki/Q16199628"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001633",
+      "name": "Stove God Cooks",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/fe7aac6d-cc69-401b-82ab-8f09ead93068",
+        "https://www.wikidata.org/wiki/Q135070865"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001634",
+      "name": "Emily Loizeau",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/51a77a0b-69be-41c4-88f4-22f25a9a63e5",
+        "https://www.wikidata.org/wiki/Q2453923"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001635",
+      "name": "Mano Negra",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/e024a3ca-c78e-459a-9a98-8029f49b5a5f",
+        "https://www.wikidata.org/wiki/Q936474"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001636",
+      "name": "Knocked Loose",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/9ca10859-49e2-44e3-b3d6-04c535207bc2",
+        "https://www.wikidata.org/wiki/Q27817179"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001637",
+      "name": "Svaneborg Kardyb",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/c2b967c8-e9b5-40a0-86f9-c2941d7434d2",
+        "https://www.wikidata.org/wiki/Q116955658"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001638",
+      "name": "Mdou Moctar",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/d85defaf-b82e-48be-beb5-2672099e392e",
+        "https://www.wikidata.org/wiki/Q16732408"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001639",
+      "name": "Westside Gunn",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/9f42ba3d-3cfc-499c-ba16-7226f56b622f",
+        "https://www.wikidata.org/wiki/Q27733794"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001640",
+      "name": "Conway the Machine",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/a633ebb5-b81a-400f-b5df-0e625ea81fe9",
+        "https://www.wikidata.org/wiki/Q32836087"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001641",
+      "name": "Benny the Butcher",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/8ffb6b8e-3933-4f93-b315-8f5293b1b350",
+        "https://www.wikidata.org/wiki/Q66584231"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001642",
+      "name": "Pauline Croze",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/9e759871-95c1-49d4-8c59-c171a01c9d8f",
+        "https://www.wikidata.org/wiki/Q3141798"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001643",
+      "name": "Bérurier Noir",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/82bf8189-39fb-4f5d-ac0e-80cdd7e30191",
+        "https://www.wikidata.org/wiki/Q1019489"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001644",
+      "name": "Kublai Khan TX",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/1ef09925-fb5d-46db-8263-e336d152487e",
+        "https://www.wikidata.org/wiki/Q20191998"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001645",
+      "name": "Fatoumata Diawara",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/6f5064bb-7dbb-4a44-bac5-04c467394817",
+        "https://www.wikidata.org/wiki/Q707255"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001646",
+      "name": "Noname",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/1395c84b-2e84-4f25-9962-f1c0d5aa31ed",
+        "https://www.wikidata.org/wiki/Q20684992"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001647",
+      "name": "Mick Jenkins",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/64c4dfcc-ba2b-4036-ac01-1636ae15ebb8",
+        "https://www.wikidata.org/wiki/Q18044251"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001648",
+      "name": "Tagada Jones",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/0ae2530c-6794-4e23-b345-62b1e7b53571",
+        "https://www.wikidata.org/wiki/Q1520936"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001649",
+      "name": "Barry Can’t Swim",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/7dcf3b98-701a-4309-a90c-eb4179b96ea9",
+        "https://www.wikidata.org/wiki/Q124098371"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001650",
+      "name": "Wednesday Campanella",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/f9f9f6a1-693b-43da-bbeb-70395bb0a66a",
+        "https://www.wikidata.org/wiki/Q18458718"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001651",
+      "name": "Rokia Traoré",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/900fb180-4427-4e56-a99f-84adb74bd3bd",
+        "https://www.wikidata.org/wiki/Q256065"
+      ],
+      "evidenceSource": null
+    },
+    {
+      "id": "los-001652",
+      "name": "Open Mike Eagle",
+      "current": "common",
+      "proposed": null,
+      "status": "to-review",
+      "reason": "Données insuffisantes pour proposer une promotion. Examiner influence et reconnaissance dans sa scène.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/4508a423-daaa-4d43-a839-aa1a9be88a9c",
+        "https://www.wikidata.org/wiki/Q7096134"
       ],
       "evidenceSource": null
     }

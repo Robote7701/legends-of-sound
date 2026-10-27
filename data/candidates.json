@@ -32049,5 +32049,1915 @@
       "source": "data/artist-additions/expansion-50.json"
     },
     "id": "los-001552"
+  },
+  {
+    "name": "Furax Barbarossa",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ],
+    "wikidataId": "Q3090987",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json"
+    },
+    "id": "los-001553"
+  },
+  {
+    "name": "La Fève",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ],
+    "wikidataId": "Q123980600",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json"
+    },
+    "id": "los-001554"
+  },
+  {
+    "name": "Juliette Armanet",
+    "type": "solo",
+    "genres": [
+      "chanson",
+      "pop"
+    ],
+    "wikidataId": "Q29591607",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json"
+    },
+    "id": "los-001555"
+  },
+  {
+    "name": "Feu! Chatterton",
+    "type": "group",
+    "genres": [
+      "rock",
+      "pop"
+    ],
+    "wikidataId": "Q21426156",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json"
+    },
+    "id": "los-001556"
+  },
+  {
+    "name": "Bad Omens",
+    "type": "group",
+    "genres": [
+      "metal"
+    ],
+    "wikidataId": "Q54958373",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json"
+    },
+    "id": "los-001557"
+  },
+  {
+    "name": "L’Impératrice",
+    "type": "group",
+    "genres": [
+      "electronic",
+      "funk"
+    ],
+    "wikidataId": "Q48754425",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json"
+    },
+    "id": "los-001558"
+  },
+  {
+    "name": "Oum",
+    "type": "solo",
+    "genres": [
+      "world"
+    ],
+    "wikidataId": "Q13534653",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json"
+    },
+    "id": "los-001559"
+  },
+  {
+    "name": "Kerchak",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ],
+    "wikidataId": "Q121616975",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json"
+    },
+    "id": "los-001560"
+  },
+  {
+    "name": "Ashe 22",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ],
+    "wikidataId": "Q123819509",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json"
+    },
+    "id": "los-001561"
+  },
+  {
+    "name": "Clara Luciani",
+    "type": "solo",
+    "genres": [
+      "chanson",
+      "pop"
+    ],
+    "wikidataId": "Q55128479",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json"
+    },
+    "id": "los-001562"
+  },
+  {
+    "name": "La Femme",
+    "type": "group",
+    "genres": [
+      "rock",
+      "pop"
+    ],
+    "wikidataId": "Q13038522",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json"
+    },
+    "id": "los-001563"
+  },
+  {
+    "name": "Loathe",
+    "type": "group",
+    "genres": [
+      "metal"
+    ],
+    "wikidataId": "Q30610109",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json"
+    },
+    "id": "los-001564"
+  },
+  {
+    "name": "Franc Moody",
+    "type": "group",
+    "genres": [
+      "electronic",
+      "funk"
+    ],
+    "wikidataId": "Q109254689",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json"
+    },
+    "id": "los-001565"
+  },
+  {
+    "name": "Hindi Zahra",
+    "type": "solo",
+    "genres": [
+      "world"
+    ],
+    "wikidataId": "Q463514",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json"
+    },
+    "id": "los-001566"
+  },
+  {
+    "name": "Limsa d’Aulnay",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ],
+    "wikidataId": "Q124536108",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json"
+    },
+    "id": "los-001567"
+  },
+  {
+    "name": "Zaho de Sagazan",
+    "type": "solo",
+    "genres": [
+      "chanson",
+      "pop"
+    ],
+    "wikidataId": "Q117353279",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json"
+    },
+    "id": "los-001568"
+  },
+  {
+    "name": "Thornhill",
+    "type": "group",
+    "genres": [
+      "metal"
+    ],
+    "wikidataId": "Q108266552",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json"
+    },
+    "id": "los-001569"
+  },
+  {
+    "name": "tricot",
+    "type": "group",
+    "genres": [
+      "j-rock",
+      "rock"
+    ],
+    "wikidataId": "Q20019100",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json"
+    },
+    "id": "los-001570"
+  },
+  {
+    "name": "Souad Massi",
+    "type": "solo",
+    "genres": [
+      "world"
+    ],
+    "wikidataId": "Q236370",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json"
+    },
+    "id": "los-001571"
+  },
+  {
+    "name": "Souffrance",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ],
+    "wikidataId": "Q124081373",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json"
+    },
+    "id": "los-001572"
+  },
+  {
+    "name": "Demi Portion",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ],
+    "wikidataId": "Q24578944",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json"
+    },
+    "id": "los-001573"
+  },
+  {
+    "name": "Dooz Kawa",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ],
+    "wikidataId": "Q104822350",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json"
+    },
+    "id": "los-001574"
+  },
+  {
+    "name": "Pierre de Maere",
+    "type": "solo",
+    "genres": [
+      "chanson",
+      "pop"
+    ],
+    "wikidataId": "Q111509980",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json"
+    },
+    "id": "los-001575"
+  },
+  {
+    "name": "Mickey 3d",
+    "type": "group",
+    "genres": [
+      "rock",
+      "pop"
+    ],
+    "wikidataId": "Q1431646",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json"
+    },
+    "id": "los-001576"
+  },
+  {
+    "name": "Polaris",
+    "type": "group",
+    "genres": [
+      "rock"
+    ],
+    "wikidataId": "Q938895",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json",
+      "reviewSource": "https://www.wikidata.org/wiki/Q938895",
+      "reviewReason": "Revue des genres documentés par Wikidata (P136 ou description), sans inférence par pays."
+    },
+    "id": "los-001577"
+  },
+  {
+    "name": "Mass of the Fermenting Dregs",
+    "type": "group",
+    "genres": [
+      "j-rock",
+      "rock"
+    ],
+    "wikidataId": "Q6784076",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json"
+    },
+    "id": "los-001578"
+  },
+  {
+    "name": "Rachid Taha",
+    "type": "solo",
+    "genres": [
+      "world"
+    ],
+    "wikidataId": "Q502990",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json"
+    },
+    "id": "los-001579"
+  },
+  {
+    "name": "Isha",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ],
+    "wikidataId": "Q89044968",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json"
+    },
+    "id": "los-001580"
+  },
+  {
+    "name": "Pomme",
+    "type": "solo",
+    "genres": [
+      "chanson",
+      "pop"
+    ],
+    "wikidataId": "Q42397176",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json"
+    },
+    "id": "los-001581"
+  },
+  {
+    "name": "Les Wampas",
+    "type": "group",
+    "genres": [
+      "rock",
+      "pop"
+    ],
+    "wikidataId": "Q1820618",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json"
+    },
+    "id": "los-001582"
+  },
+  {
+    "name": "Lettuce",
+    "type": "group",
+    "genres": [
+      "funk"
+    ],
+    "wikidataId": "Q6533861",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json",
+      "reviewSource": "https://www.wikidata.org/wiki/Q6533861",
+      "reviewReason": "Revue des genres documentés par Wikidata (P136 ou description), sans inférence par pays."
+    },
+    "id": "los-001583"
+  },
+  {
+    "name": "Hitsujibungaku",
+    "type": "group",
+    "genres": [
+      "j-rock",
+      "rock"
+    ],
+    "wikidataId": "Q97311286",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json"
+    },
+    "id": "los-001584"
+  },
+  {
+    "name": "Idir",
+    "type": "solo",
+    "genres": [
+      "world"
+    ],
+    "wikidataId": "Q2272870",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json"
+    },
+    "id": "los-001585"
+  },
+  {
+    "name": "Caballero",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ],
+    "wikidataId": "Q30731393",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json"
+    },
+    "id": "los-001586"
+  },
+  {
+    "name": "JeanJass",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ],
+    "wikidataId": "Q20973361",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json"
+    },
+    "id": "los-001587"
+  },
+  {
+    "name": "Hoshi",
+    "type": "solo",
+    "genres": [
+      "chanson",
+      "pop"
+    ],
+    "wikidataId": "Q52516479",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json"
+    },
+    "id": "los-001588"
+  },
+  {
+    "name": "Les Fatals Picards",
+    "type": "group",
+    "genres": [
+      "rock",
+      "pop"
+    ],
+    "wikidataId": "Q1642063",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json"
+    },
+    "id": "los-001589"
+  },
+  {
+    "name": "Invent Animate",
+    "type": "group",
+    "genres": [
+      "metal"
+    ],
+    "wikidataId": "Q20191939",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json"
+    },
+    "id": "los-001590"
+  },
+  {
+    "name": "Vulfpeck",
+    "type": "group",
+    "genres": [
+      "funk"
+    ],
+    "wikidataId": "Q17091147",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json",
+      "reviewSource": "https://www.wikidata.org/wiki/Q17091147",
+      "reviewReason": "Revue des genres documentés par Wikidata (P136 ou description), sans inférence par pays."
+    },
+    "id": "los-001591"
+  },
+  {
+    "name": "Kinoko Teikoku",
+    "type": "group",
+    "genres": [
+      "j-rock",
+      "rock"
+    ],
+    "wikidataId": "Q17210175",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json"
+    },
+    "id": "los-001592"
+  },
+  {
+    "name": "Lounès Matoub",
+    "type": "solo",
+    "genres": [
+      "world"
+    ],
+    "wikidataId": "Q524362",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json"
+    },
+    "id": "los-001593"
+  },
+  {
+    "name": "Di-Meh",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ],
+    "wikidataId": "Q85709225",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json"
+    },
+    "id": "los-001594"
+  },
+  {
+    "name": "Slimka",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ],
+    "wikidataId": "Q87436387",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json"
+    },
+    "id": "los-001595"
+  },
+  {
+    "name": "Les Têtes Raides",
+    "type": "group",
+    "genres": [
+      "chanson",
+      "rock",
+      "folk"
+    ],
+    "wikidataId": "Q1478667",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json",
+      "reviewSource": "https://www.wikidata.org/wiki/Q1478667",
+      "reviewReason": "Revue des genres documentés par Wikidata (P136 ou description), sans inférence par pays."
+    },
+    "id": "los-001596"
+  },
+  {
+    "name": "ERRA",
+    "type": "group",
+    "genres": [
+      "metal"
+    ],
+    "wikidataId": "Q18990899",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json"
+    },
+    "id": "los-001597"
+  },
+  {
+    "name": "Number Girl",
+    "type": "group",
+    "genres": [
+      "j-rock",
+      "rock"
+    ],
+    "wikidataId": "Q5359582",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json"
+    },
+    "id": "los-001598"
+  },
+  {
+    "name": "Cheb Hasni",
+    "type": "solo",
+    "genres": [
+      "world"
+    ],
+    "wikidataId": "Q983496",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json"
+    },
+    "id": "los-001599"
+  },
+  {
+    "name": "Varnish la Piscine",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ],
+    "wikidataId": "Q134302081",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json"
+    },
+    "id": "los-001600"
+  },
+  {
+    "name": "Sopico",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ],
+    "wikidataId": "Q59286669",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json"
+    },
+    "id": "los-001601"
+  },
+  {
+    "name": "Suzane",
+    "type": "solo",
+    "genres": [
+      "chanson",
+      "pop"
+    ],
+    "wikidataId": "Q83610427",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json"
+    },
+    "id": "los-001602"
+  },
+  {
+    "name": "Les Ogres de Barback",
+    "type": "group",
+    "genres": [
+      "chanson",
+      "rock"
+    ],
+    "wikidataId": "Q1513824",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json",
+      "reviewSource": "https://www.wikidata.org/wiki/Q1513824",
+      "reviewReason": "Revue des genres documentés par Wikidata (P136 ou description), sans inférence par pays."
+    },
+    "id": "los-001603"
+  },
+  {
+    "name": "Silent Planet",
+    "type": "group",
+    "genres": [
+      "metal"
+    ],
+    "wikidataId": "Q18712529",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json"
+    },
+    "id": "los-001604"
+  },
+  {
+    "name": "The Fearless Flyers",
+    "type": "group",
+    "genres": [
+      "funk"
+    ],
+    "wikidataId": "Q134589329",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json",
+      "reviewSource": "https://www.wikidata.org/wiki/Q134589329",
+      "reviewReason": "Revue des genres documentés par Wikidata (P136 ou description), sans inférence par pays."
+    },
+    "id": "los-001605"
+  },
+  {
+    "name": "Zutomayo",
+    "type": "group",
+    "genres": [
+      "j-rock",
+      "rock"
+    ],
+    "wikidataId": "Q60989925",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json"
+    },
+    "id": "los-001606"
+  },
+  {
+    "name": "Faudel",
+    "type": "solo",
+    "genres": [
+      "world"
+    ],
+    "wikidataId": "Q741850",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json"
+    },
+    "id": "los-001607"
+  },
+  {
+    "name": "Rocé",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ],
+    "wikidataId": "Q3438057",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json"
+    },
+    "id": "los-001608"
+  },
+  {
+    "name": "Roc Marciano",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ],
+    "wikidataId": "Q7353659",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json"
+    },
+    "id": "los-001609"
+  },
+  {
+    "name": "Yseult",
+    "type": "solo",
+    "genres": [
+      "chanson",
+      "pop"
+    ],
+    "wikidataId": "Q29788794",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json"
+    },
+    "id": "los-001610"
+  },
+  {
+    "name": "Debout sur le zinc",
+    "type": "group",
+    "genres": [
+      "chanson"
+    ],
+    "wikidataId": "Q3020918",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json",
+      "reviewSource": "https://www.wikidata.org/wiki/Q3020918",
+      "reviewReason": "Revue des genres documentés par Wikidata (P136 ou description), sans inférence par pays."
+    },
+    "id": "los-001611"
+  },
+  {
+    "name": "Currents",
+    "type": "group",
+    "genres": [
+      "metal"
+    ],
+    "wikidataId": "Q51029545",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json"
+    },
+    "id": "los-001612"
+  },
+  {
+    "name": "GoGo Penguin",
+    "type": "group",
+    "genres": [
+      "jazz"
+    ],
+    "wikidataId": "Q18151740",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json",
+      "reviewSource": "https://www.wikidata.org/wiki/Q18151740",
+      "reviewReason": "Revue des genres documentés par Wikidata (P136 ou description), sans inférence par pays."
+    },
+    "id": "los-001613"
+  },
+  {
+    "name": "Yorushika",
+    "type": "group",
+    "genres": [
+      "j-rock",
+      "rock"
+    ],
+    "wikidataId": "Q55525789",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json"
+    },
+    "id": "los-001614"
+  },
+  {
+    "name": "Dhafer Youssef",
+    "type": "solo",
+    "genres": [
+      "jazz",
+      "world"
+    ],
+    "wikidataId": "Q957007",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json",
+      "reviewSource": "https://www.wikidata.org/wiki/Q957007",
+      "reviewReason": "Revue des genres documentés par Wikidata (P136 ou description), sans inférence par pays."
+    },
+    "id": "los-001615"
+  },
+  {
+    "name": "Billy Woods",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ],
+    "wikidataId": "Q16247049",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json"
+    },
+    "id": "los-001616"
+  },
+  {
+    "name": "Olivia Ruiz",
+    "type": "solo",
+    "genres": [
+      "chanson",
+      "pop"
+    ],
+    "wikidataId": "Q270284",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json"
+    },
+    "id": "los-001617"
+  },
+  {
+    "name": "La Rue Kétanou",
+    "type": "group",
+    "genres": [
+      "chanson"
+    ],
+    "wikidataId": "Q1799105",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json",
+      "reviewSource": "https://www.wikidata.org/wiki/Q1799105",
+      "reviewReason": "Revue des genres documentés par Wikidata (P136 ou description), sans inférence par pays."
+    },
+    "id": "los-001618"
+  },
+  {
+    "name": "Make Them Suffer",
+    "type": "group",
+    "genres": [
+      "metal"
+    ],
+    "wikidataId": "Q11880653",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json"
+    },
+    "id": "los-001619"
+  },
+  {
+    "name": "Mammal Hands",
+    "type": "group",
+    "genres": [
+      "jazz"
+    ],
+    "wikidataId": "Q18984313",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json",
+      "reviewSource": "https://www.wikidata.org/wiki/Q18984313",
+      "reviewReason": "Revue des genres documentés par Wikidata (P136 ou description), sans inférence par pays."
+    },
+    "id": "los-001620"
+  },
+  {
+    "name": "Ryokuoushoku Shakai",
+    "type": "group",
+    "genres": [
+      "j-rock",
+      "rock"
+    ],
+    "wikidataId": "Q30930490",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json"
+    },
+    "id": "los-001621"
+  },
+  {
+    "name": "Anouar Brahem",
+    "type": "solo",
+    "genres": [
+      "jazz",
+      "world"
+    ],
+    "wikidataId": "Q548428",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json",
+      "reviewSource": "https://www.wikidata.org/wiki/Q548428",
+      "reviewReason": "Revue des genres documentés par Wikidata (P136 ou description), sans inférence par pays."
+    },
+    "id": "los-001622"
+  },
+  {
+    "name": "Navy Blue",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ],
+    "wikidataId": "Q64875639",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json"
+    },
+    "id": "los-001623"
+  },
+  {
+    "name": "Mach-Hommy",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ],
+    "wikidataId": "Q111337749",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json"
+    },
+    "id": "los-001624"
+  },
+  {
+    "name": "Your Old Droog",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ],
+    "wikidataId": "Q18719075",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json"
+    },
+    "id": "los-001625"
+  },
+  {
+    "name": "Jeanne Cherhal",
+    "type": "solo",
+    "genres": [
+      "chanson",
+      "pop"
+    ],
+    "wikidataId": "Q456328",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json"
+    },
+    "id": "los-001626"
+  },
+  {
+    "name": "Les Négresses vertes",
+    "type": "group",
+    "genres": [
+      "rock"
+    ],
+    "wikidataId": "Q1820571",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json",
+      "reviewSource": "https://www.wikidata.org/wiki/Q1820571",
+      "reviewReason": "Revue des genres documentés par Wikidata (P136 ou description), sans inférence par pays."
+    },
+    "id": "los-001627"
+  },
+  {
+    "name": "Alpha Wolf",
+    "type": "group",
+    "genres": [
+      "metal"
+    ],
+    "wikidataId": "Q36827208",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json"
+    },
+    "id": "los-001628"
+  },
+  {
+    "name": "Portico Quartet",
+    "type": "group",
+    "genres": [
+      "jazz"
+    ],
+    "wikidataId": "Q3399302",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json",
+      "reviewSource": "https://www.wikidata.org/wiki/Q3399302",
+      "reviewReason": "Revue des genres documentés par Wikidata (P136 ou description), sans inférence par pays."
+    },
+    "id": "los-001629"
+  },
+  {
+    "name": "Polkadot Stingray",
+    "type": "group",
+    "genres": [
+      "j-rock",
+      "rock"
+    ],
+    "wikidataId": "Q24876989",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json"
+    },
+    "id": "los-001630"
+  },
+  {
+    "name": "Bombino",
+    "type": "solo",
+    "genres": [
+      "world"
+    ],
+    "wikidataId": "Q891919",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json"
+    },
+    "id": "los-001631"
+  },
+  {
+    "name": "Boldy James",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ],
+    "wikidataId": "Q16199628",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json"
+    },
+    "id": "los-001632"
+  },
+  {
+    "name": "Stove God Cooks",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ],
+    "wikidataId": "Q135070865",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json"
+    },
+    "id": "los-001633"
+  },
+  {
+    "name": "Emily Loizeau",
+    "type": "solo",
+    "genres": [
+      "chanson",
+      "pop"
+    ],
+    "wikidataId": "Q2453923",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json"
+    },
+    "id": "los-001634"
+  },
+  {
+    "name": "Mano Negra",
+    "type": "group",
+    "genres": [
+      "rock",
+      "punk",
+      "latin",
+      "ska"
+    ],
+    "wikidataId": "Q936474",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json",
+      "reviewSource": "https://www.wikidata.org/wiki/Q936474",
+      "reviewReason": "Revue des genres documentés par Wikidata (P136 ou description), sans inférence par pays."
+    },
+    "id": "los-001635"
+  },
+  {
+    "name": "Knocked Loose",
+    "type": "group",
+    "genres": [
+      "metal",
+      "punk"
+    ],
+    "wikidataId": "Q27817179",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json",
+      "reviewSource": "https://www.wikidata.org/wiki/Q27817179",
+      "reviewReason": "Revue des genres documentés par Wikidata (P136 ou description), sans inférence par pays."
+    },
+    "id": "los-001636"
+  },
+  {
+    "name": "Svaneborg Kardyb",
+    "type": "group",
+    "genres": [
+      "jazz",
+      "electronic"
+    ],
+    "wikidataId": "Q116955658",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json",
+      "reviewSource": "https://www.wikidata.org/wiki/Q116955658",
+      "reviewReason": "Revue des genres documentés par Wikidata (P136 ou description), sans inférence par pays."
+    },
+    "id": "los-001637"
+  },
+  {
+    "name": "Mdou Moctar",
+    "type": "solo",
+    "genres": [
+      "world"
+    ],
+    "wikidataId": "Q16732408",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json"
+    },
+    "id": "los-001638"
+  },
+  {
+    "name": "Westside Gunn",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ],
+    "wikidataId": "Q27733794",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json"
+    },
+    "id": "los-001639"
+  },
+  {
+    "name": "Conway the Machine",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ],
+    "wikidataId": "Q32836087",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json"
+    },
+    "id": "los-001640"
+  },
+  {
+    "name": "Benny the Butcher",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ],
+    "wikidataId": "Q66584231",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json"
+    },
+    "id": "los-001641"
+  },
+  {
+    "name": "Pauline Croze",
+    "type": "solo",
+    "genres": [
+      "chanson",
+      "pop"
+    ],
+    "wikidataId": "Q3141798",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json"
+    },
+    "id": "los-001642"
+  },
+  {
+    "name": "Bérurier Noir",
+    "type": "group",
+    "genres": [
+      "punk",
+      "rock"
+    ],
+    "wikidataId": "Q1019489",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json",
+      "reviewSource": "https://www.wikidata.org/wiki/Q1019489",
+      "reviewReason": "Revue des genres documentés par Wikidata (P136 ou description), sans inférence par pays."
+    },
+    "id": "los-001643"
+  },
+  {
+    "name": "Kublai Khan TX",
+    "type": "group",
+    "genres": [
+      "metal"
+    ],
+    "wikidataId": "Q20191998",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json"
+    },
+    "id": "los-001644"
+  },
+  {
+    "name": "Fatoumata Diawara",
+    "type": "solo",
+    "genres": [
+      "world"
+    ],
+    "wikidataId": "Q707255",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json"
+    },
+    "id": "los-001645"
+  },
+  {
+    "name": "Noname",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ],
+    "wikidataId": "Q20684992",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json"
+    },
+    "id": "los-001646"
+  },
+  {
+    "name": "Mick Jenkins",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ],
+    "wikidataId": "Q18044251",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json"
+    },
+    "id": "los-001647"
+  },
+  {
+    "name": "Tagada Jones",
+    "type": "group",
+    "genres": [
+      "punk",
+      "rock"
+    ],
+    "wikidataId": "Q1520936",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json",
+      "reviewSource": "https://www.wikidata.org/wiki/Q1520936",
+      "reviewReason": "Revue des genres documentés par Wikidata (P136 ou description), sans inférence par pays."
+    },
+    "id": "los-001648"
+  },
+  {
+    "name": "Barry Can’t Swim",
+    "type": "solo",
+    "genres": [
+      "electronic"
+    ],
+    "wikidataId": "Q124098371",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json"
+    },
+    "id": "los-001649"
+  },
+  {
+    "name": "Wednesday Campanella",
+    "type": "group",
+    "genres": [
+      "electronic",
+      "j-pop"
+    ],
+    "wikidataId": "Q18458718",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json",
+      "reviewSource": "https://www.wikidata.org/wiki/Q18458718",
+      "reviewReason": "Revue des genres documentés par Wikidata (P136 ou description), sans inférence par pays."
+    },
+    "id": "los-001650"
+  },
+  {
+    "name": "Rokia Traoré",
+    "type": "solo",
+    "genres": [
+      "world"
+    ],
+    "wikidataId": "Q256065",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json"
+    },
+    "id": "los-001651"
+  },
+  {
+    "name": "Open Mike Eagle",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ],
+    "wikidataId": "Q7096134",
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "genreSelection": {
+      "kind": "editorial",
+      "source": "data/artist-additions/expansion-100.json"
+    },
+    "id": "los-001652"
   }
 ]

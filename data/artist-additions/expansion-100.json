@@ -1,0 +1,2278 @@
+[
+  {
+    "name": "Furax Barbarossa",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Swift Guad",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "La Fève",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Juliette Armanet",
+    "type": "solo",
+    "genres": [
+      "chanson",
+      "pop"
+    ]
+  },
+  {
+    "name": "Feu! Chatterton",
+    "type": "group",
+    "genres": [
+      "rock",
+      "pop"
+    ]
+  },
+  {
+    "name": "Bad Omens",
+    "type": "group",
+    "genres": [
+      "metal"
+    ]
+  },
+  {
+    "name": "L’Impératrice",
+    "type": "group",
+    "genres": [
+      "electronic",
+      "funk"
+    ]
+  },
+  {
+    "name": "Lamp",
+    "type": "group",
+    "genres": [
+      "j-rock",
+      "rock"
+    ]
+  },
+  {
+    "name": "Oum",
+    "type": "solo",
+    "genres": [
+      "world"
+    ]
+  },
+  {
+    "name": "Guy2Bezbar",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Kerchak",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Ashe 22",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Clara Luciani",
+    "type": "solo",
+    "genres": [
+      "chanson",
+      "pop"
+    ]
+  },
+  {
+    "name": "La Femme",
+    "type": "group",
+    "genres": [
+      "rock",
+      "pop"
+    ]
+  },
+  {
+    "name": "Loathe",
+    "type": "group",
+    "genres": [
+      "metal"
+    ]
+  },
+  {
+    "name": "Franc Moody",
+    "type": "group",
+    "genres": [
+      "electronic",
+      "funk"
+    ]
+  },
+  {
+    "name": "toe",
+    "type": "group",
+    "genres": [
+      "j-rock",
+      "rock"
+    ]
+  },
+  {
+    "name": "Hindi Zahra",
+    "type": "solo",
+    "genres": [
+      "world"
+    ]
+  },
+  {
+    "name": "Saké",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Yamê",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Limsa d’Aulnay",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Zaho de Sagazan",
+    "type": "solo",
+    "genres": [
+      "chanson",
+      "pop"
+    ]
+  },
+  {
+    "name": "Dionysos",
+    "type": "group",
+    "genres": [
+      "rock",
+      "pop"
+    ]
+  },
+  {
+    "name": "Thornhill",
+    "type": "group",
+    "genres": [
+      "metal"
+    ]
+  },
+  {
+    "name": "LEISURE",
+    "type": "group",
+    "genres": [
+      "electronic",
+      "funk"
+    ]
+  },
+  {
+    "name": "tricot",
+    "type": "group",
+    "genres": [
+      "j-rock",
+      "rock"
+    ]
+  },
+  {
+    "name": "Souad Massi",
+    "type": "solo",
+    "genres": [
+      "world"
+    ]
+  },
+  {
+    "name": "Souffrance",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Demi Portion",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Dooz Kawa",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Pierre de Maere",
+    "type": "solo",
+    "genres": [
+      "chanson",
+      "pop"
+    ]
+  },
+  {
+    "name": "Mickey 3d",
+    "type": "group",
+    "genres": [
+      "rock",
+      "pop"
+    ]
+  },
+  {
+    "name": "Polaris",
+    "type": "group",
+    "genres": [
+      "rock"
+    ]
+  },
+  {
+    "name": "Dabeull",
+    "type": "group",
+    "genres": [
+      "electronic",
+      "funk"
+    ]
+  },
+  {
+    "name": "Mass of the Fermenting Dregs",
+    "type": "group",
+    "genres": [
+      "j-rock",
+      "rock"
+    ]
+  },
+  {
+    "name": "Rachid Taha",
+    "type": "solo",
+    "genres": [
+      "world"
+    ]
+  },
+  {
+    "name": "Hippocampe Fou",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Seyté",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Isha",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Pomme",
+    "type": "solo",
+    "genres": [
+      "chanson",
+      "pop"
+    ]
+  },
+  {
+    "name": "Les Wampas",
+    "type": "group",
+    "genres": [
+      "rock",
+      "pop"
+    ]
+  },
+  {
+    "name": "Northlane",
+    "type": "group",
+    "genres": [
+      "metal"
+    ]
+  },
+  {
+    "name": "Lettuce",
+    "type": "group",
+    "genres": [
+      "funk"
+    ]
+  },
+  {
+    "name": "Hitsujibungaku",
+    "type": "group",
+    "genres": [
+      "j-rock",
+      "rock"
+    ]
+  },
+  {
+    "name": "Idir",
+    "type": "solo",
+    "genres": [
+      "world"
+    ]
+  },
+  {
+    "name": "Peet",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Caballero",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "JeanJass",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Hoshi",
+    "type": "solo",
+    "genres": [
+      "chanson",
+      "pop"
+    ]
+  },
+  {
+    "name": "Les Fatals Picards",
+    "type": "group",
+    "genres": [
+      "rock",
+      "pop"
+    ]
+  },
+  {
+    "name": "Invent Animate",
+    "type": "group",
+    "genres": [
+      "metal"
+    ]
+  },
+  {
+    "name": "Vulfpeck",
+    "type": "group",
+    "genres": [
+      "funk"
+    ]
+  },
+  {
+    "name": "Kinoko Teikoku",
+    "type": "group",
+    "genres": [
+      "j-rock",
+      "rock"
+    ]
+  },
+  {
+    "name": "Lounès Matoub",
+    "type": "solo",
+    "genres": [
+      "world"
+    ]
+  },
+  {
+    "name": "Makala",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Di-Meh",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Slimka",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Santa",
+    "type": "solo",
+    "genres": [
+      "chanson",
+      "pop"
+    ]
+  },
+  {
+    "name": "Les Têtes Raides",
+    "type": "group",
+    "genres": [
+      "chanson",
+      "rock",
+      "folk"
+    ]
+  },
+  {
+    "name": "ERRA",
+    "type": "group",
+    "genres": [
+      "metal"
+    ]
+  },
+  {
+    "name": "Cory Wong",
+    "type": "group",
+    "genres": [
+      "electronic",
+      "funk"
+    ]
+  },
+  {
+    "name": "Number Girl",
+    "type": "group",
+    "genres": [
+      "j-rock",
+      "rock"
+    ]
+  },
+  {
+    "name": "Cheb Hasni",
+    "type": "solo",
+    "genres": [
+      "world"
+    ]
+  },
+  {
+    "name": "Varnish la Piscine",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Django",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Sopico",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Suzane",
+    "type": "solo",
+    "genres": [
+      "chanson",
+      "pop"
+    ]
+  },
+  {
+    "name": "Les Ogres de Barback",
+    "type": "group",
+    "genres": [
+      "chanson",
+      "rock"
+    ]
+  },
+  {
+    "name": "Silent Planet",
+    "type": "group",
+    "genres": [
+      "metal"
+    ]
+  },
+  {
+    "name": "The Fearless Flyers",
+    "type": "group",
+    "genres": [
+      "funk"
+    ]
+  },
+  {
+    "name": "Zutomayo",
+    "type": "group",
+    "genres": [
+      "j-rock",
+      "rock"
+    ]
+  },
+  {
+    "name": "Faudel",
+    "type": "solo",
+    "genres": [
+      "world"
+    ]
+  },
+  {
+    "name": "Casey",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Rocé",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Roc Marciano",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Yseult",
+    "type": "solo",
+    "genres": [
+      "chanson",
+      "pop"
+    ]
+  },
+  {
+    "name": "Debout sur le zinc",
+    "type": "group",
+    "genres": [
+      "chanson"
+    ]
+  },
+  {
+    "name": "Currents",
+    "type": "group",
+    "genres": [
+      "metal"
+    ]
+  },
+  {
+    "name": "GoGo Penguin",
+    "type": "group",
+    "genres": [
+      "jazz"
+    ]
+  },
+  {
+    "name": "Yorushika",
+    "type": "group",
+    "genres": [
+      "j-rock",
+      "rock"
+    ]
+  },
+  {
+    "name": "Dhafer Youssef",
+    "type": "solo",
+    "genres": [
+      "jazz",
+      "world"
+    ]
+  },
+  {
+    "name": "Ka",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Billy Woods",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "MIKE",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Olivia Ruiz",
+    "type": "solo",
+    "genres": [
+      "chanson",
+      "pop"
+    ]
+  },
+  {
+    "name": "La Rue Kétanou",
+    "type": "group",
+    "genres": [
+      "chanson"
+    ]
+  },
+  {
+    "name": "Make Them Suffer",
+    "type": "group",
+    "genres": [
+      "metal"
+    ]
+  },
+  {
+    "name": "Mammal Hands",
+    "type": "group",
+    "genres": [
+      "jazz"
+    ]
+  },
+  {
+    "name": "Ryokuoushoku Shakai",
+    "type": "group",
+    "genres": [
+      "j-rock",
+      "rock"
+    ]
+  },
+  {
+    "name": "Anouar Brahem",
+    "type": "solo",
+    "genres": [
+      "jazz",
+      "world"
+    ]
+  },
+  {
+    "name": "Navy Blue",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Mach-Hommy",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Your Old Droog",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Jeanne Cherhal",
+    "type": "solo",
+    "genres": [
+      "chanson",
+      "pop"
+    ]
+  },
+  {
+    "name": "Les Négresses vertes",
+    "type": "group",
+    "genres": [
+      "rock"
+    ]
+  },
+  {
+    "name": "Alpha Wolf",
+    "type": "group",
+    "genres": [
+      "metal"
+    ]
+  },
+  {
+    "name": "Portico Quartet",
+    "type": "group",
+    "genres": [
+      "jazz"
+    ]
+  },
+  {
+    "name": "Polkadot Stingray",
+    "type": "group",
+    "genres": [
+      "j-rock",
+      "rock"
+    ]
+  },
+  {
+    "name": "Bombino",
+    "type": "solo",
+    "genres": [
+      "world"
+    ]
+  },
+  {
+    "name": "Boldy James",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Rome Streetz",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Stove God Cooks",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Emily Loizeau",
+    "type": "solo",
+    "genres": [
+      "chanson",
+      "pop"
+    ]
+  },
+  {
+    "name": "Mano Negra",
+    "type": "group",
+    "genres": [
+      "rock",
+      "punk",
+      "latin",
+      "ska"
+    ]
+  },
+  {
+    "name": "Knocked Loose",
+    "type": "group",
+    "genres": [
+      "metal",
+      "punk"
+    ]
+  },
+  {
+    "name": "Svaneborg Kardyb",
+    "type": "group",
+    "genres": [
+      "jazz",
+      "electronic"
+    ]
+  },
+  {
+    "name": "Frederic",
+    "type": "group",
+    "genres": [
+      "j-rock",
+      "rock"
+    ]
+  },
+  {
+    "name": "Mdou Moctar",
+    "type": "solo",
+    "genres": [
+      "world"
+    ]
+  },
+  {
+    "name": "Westside Gunn",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Conway the Machine",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Benny the Butcher",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Pauline Croze",
+    "type": "solo",
+    "genres": [
+      "chanson",
+      "pop"
+    ]
+  },
+  {
+    "name": "Bérurier Noir",
+    "type": "group",
+    "genres": [
+      "punk",
+      "rock"
+    ]
+  },
+  {
+    "name": "Kublai Khan TX",
+    "type": "group",
+    "genres": [
+      "metal"
+    ]
+  },
+  {
+    "name": "Bicep",
+    "type": "solo",
+    "genres": [
+      "electronic"
+    ]
+  },
+  {
+    "name": "Cidergirl",
+    "type": "group",
+    "genres": [
+      "j-rock",
+      "rock"
+    ]
+  },
+  {
+    "name": "Fatoumata Diawara",
+    "type": "solo",
+    "genres": [
+      "world"
+    ]
+  },
+  {
+    "name": "Saba",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Noname",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Mick Jenkins",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Clarika",
+    "type": "solo",
+    "genres": [
+      "chanson",
+      "pop"
+    ]
+  },
+  {
+    "name": "Tagada Jones",
+    "type": "group",
+    "genres": [
+      "punk",
+      "rock"
+    ]
+  },
+  {
+    "name": "Jesus Piece",
+    "type": "group",
+    "genres": [
+      "metal"
+    ]
+  },
+  {
+    "name": "Barry Can’t Swim",
+    "type": "solo",
+    "genres": [
+      "electronic"
+    ]
+  },
+  {
+    "name": "Wednesday Campanella",
+    "type": "group",
+    "genres": [
+      "electronic",
+      "j-pop"
+    ]
+  },
+  {
+    "name": "Rokia Traoré",
+    "type": "solo",
+    "genres": [
+      "world"
+    ]
+  },
+  {
+    "name": "Open Mike Eagle",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "El-P",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Killer Mike",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Bénabar",
+    "type": "solo",
+    "genres": [
+      "chanson",
+      "pop"
+    ]
+  },
+  {
+    "name": "Les Sheriff",
+    "type": "group",
+    "genres": [
+      "rock",
+      "pop"
+    ]
+  },
+  {
+    "name": "Drain",
+    "type": "group",
+    "genres": [
+      "metal"
+    ]
+  },
+  {
+    "name": "Salute",
+    "type": "solo",
+    "genres": [
+      "electronic"
+    ]
+  },
+  {
+    "name": "Chilli Beans.",
+    "type": "group",
+    "genres": [
+      "j-rock",
+      "rock"
+    ]
+  },
+  {
+    "name": "Habib Koité",
+    "type": "solo",
+    "genres": [
+      "world"
+    ]
+  },
+  {
+    "name": "Brother Ali",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Slug",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Eyedea",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Vincent Delerm",
+    "type": "solo",
+    "genres": [
+      "chanson",
+      "pop"
+    ]
+  },
+  {
+    "name": "Mass Hysteria",
+    "type": "group",
+    "genres": [
+      "rock",
+      "pop"
+    ]
+  },
+  {
+    "name": "Scowl",
+    "type": "group",
+    "genres": [
+      "metal"
+    ]
+  },
+  {
+    "name": "Logic1000",
+    "type": "solo",
+    "genres": [
+      "electronic"
+    ]
+  },
+  {
+    "name": "Quruli",
+    "type": "group",
+    "genres": [
+      "j-rock",
+      "rock"
+    ]
+  },
+  {
+    "name": "Boubacar Traoré",
+    "type": "solo",
+    "genres": [
+      "world"
+    ]
+  },
+  {
+    "name": "Gift of Gab",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Del the Funky Homosapien",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Chali 2na",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Alexis HK",
+    "type": "solo",
+    "genres": [
+      "chanson",
+      "pop"
+    ]
+  },
+  {
+    "name": "Ultra Vomit",
+    "type": "group",
+    "genres": [
+      "rock",
+      "pop"
+    ]
+  },
+  {
+    "name": "Speed",
+    "type": "group",
+    "genres": [
+      "metal"
+    ]
+  },
+  {
+    "name": "TSHA",
+    "type": "solo",
+    "genres": [
+      "electronic"
+    ]
+  },
+  {
+    "name": "Supercar",
+    "type": "group",
+    "genres": [
+      "j-rock",
+      "rock"
+    ]
+  },
+  {
+    "name": "Dobet Gnahoré",
+    "type": "solo",
+    "genres": [
+      "world"
+    ]
+  },
+  {
+    "name": "Masta Ace",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Kool G Rap",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Sean Price",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Aldebert",
+    "type": "solo",
+    "genres": [
+      "chanson",
+      "pop"
+    ]
+  },
+  {
+    "name": "No One Is Innocent",
+    "type": "group",
+    "genres": [
+      "rock",
+      "pop"
+    ]
+  },
+  {
+    "name": "Dying Wish",
+    "type": "group",
+    "genres": [
+      "metal"
+    ]
+  },
+  {
+    "name": "HAAi",
+    "type": "solo",
+    "genres": [
+      "electronic"
+    ]
+  },
+  {
+    "name": "The Pillows",
+    "type": "group",
+    "genres": [
+      "j-rock",
+      "rock"
+    ]
+  },
+  {
+    "name": "Sona Jobarteh",
+    "type": "solo",
+    "genres": [
+      "world"
+    ]
+  },
+  {
+    "name": "Pharoahe Monch",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Talib Kweli",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Mos Def",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Oldelaf",
+    "type": "solo",
+    "genres": [
+      "chanson",
+      "pop"
+    ]
+  },
+  {
+    "name": "Silmarils",
+    "type": "group",
+    "genres": [
+      "rock",
+      "pop"
+    ]
+  },
+  {
+    "name": "Static Dress",
+    "type": "group",
+    "genres": [
+      "metal"
+    ]
+  },
+  {
+    "name": "DJ Seinfeld",
+    "type": "solo",
+    "genres": [
+      "electronic"
+    ]
+  },
+  {
+    "name": "Straightener",
+    "type": "group",
+    "genres": [
+      "j-rock",
+      "rock"
+    ]
+  },
+  {
+    "name": "Arooj Aftab",
+    "type": "solo",
+    "genres": [
+      "world"
+    ]
+  },
+  {
+    "name": "Black Thought",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "KRS-One",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Big Daddy Kane",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Thomas Fersen",
+    "type": "solo",
+    "genres": [
+      "chanson",
+      "pop"
+    ]
+  },
+  {
+    "name": "Astonvilla",
+    "type": "group",
+    "genres": [
+      "rock",
+      "pop"
+    ]
+  },
+  {
+    "name": "Holding Absence",
+    "type": "group",
+    "genres": [
+      "metal"
+    ]
+  },
+  {
+    "name": "Ross from Friends",
+    "type": "solo",
+    "genres": [
+      "electronic"
+    ]
+  },
+  {
+    "name": "milet",
+    "type": "solo",
+    "genres": [
+      "j-pop"
+    ]
+  },
+  {
+    "name": "Lankum",
+    "type": "solo",
+    "genres": [
+      "world"
+    ]
+  },
+  {
+    "name": "MC Lyte",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Monie Love",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Bahamadia",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Arthur H",
+    "type": "solo",
+    "genres": [
+      "chanson",
+      "pop"
+    ]
+  },
+  {
+    "name": "Deportivo",
+    "type": "group",
+    "genres": [
+      "rock",
+      "pop"
+    ]
+  },
+  {
+    "name": "Mall Grab",
+    "type": "solo",
+    "genres": [
+      "electronic"
+    ]
+  },
+  {
+    "name": "Rei Yasuda",
+    "type": "solo",
+    "genres": [
+      "j-pop"
+    ]
+  },
+  {
+    "name": "Gaye Su Akyol",
+    "type": "solo",
+    "genres": [
+      "world"
+    ]
+  },
+  {
+    "name": "Jean Grae",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Sa-Roc",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Che Noir",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Dominique A",
+    "type": "solo",
+    "genres": [
+      "chanson",
+      "pop"
+    ]
+  },
+  {
+    "name": "Eiffel",
+    "type": "group",
+    "genres": [
+      "rock",
+      "pop"
+    ]
+  },
+  {
+    "name": "Kettama",
+    "type": "solo",
+    "genres": [
+      "electronic"
+    ]
+  },
+  {
+    "name": "Minami",
+    "type": "solo",
+    "genres": [
+      "j-pop"
+    ]
+  },
+  {
+    "name": "Altin Gün",
+    "type": "solo",
+    "genres": [
+      "world"
+    ]
+  },
+  {
+    "name": "Armani Caesar",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Snow Tha Product",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Rapsusklei",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Bertrand Belin",
+    "type": "solo",
+    "genres": [
+      "chanson",
+      "pop"
+    ]
+  },
+  {
+    "name": "Skip the Use",
+    "type": "group",
+    "genres": [
+      "rock",
+      "pop"
+    ]
+  },
+  {
+    "name": "Folamour",
+    "type": "solo",
+    "genres": [
+      "electronic"
+    ]
+  },
+  {
+    "name": "Yuika",
+    "type": "solo",
+    "genres": [
+      "j-pop"
+    ]
+  },
+  {
+    "name": "Kase.O",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Nach",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "SFDK",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Alain Bashung",
+    "type": "solo",
+    "genres": [
+      "chanson",
+      "pop"
+    ]
+  },
+  {
+    "name": "BB Brunes",
+    "type": "group",
+    "genres": [
+      "rock",
+      "pop"
+    ]
+  },
+  {
+    "name": "Darius",
+    "type": "solo",
+    "genres": [
+      "electronic"
+    ]
+  },
+  {
+    "name": "imase",
+    "type": "solo",
+    "genres": [
+      "j-pop"
+    ]
+  },
+  {
+    "name": "Residente",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Canserbero",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Aczino",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Christophe",
+    "type": "solo",
+    "genres": [
+      "chanson",
+      "pop"
+    ]
+  },
+  {
+    "name": "Naive New Beaters",
+    "type": "group",
+    "genres": [
+      "rock",
+      "pop"
+    ]
+  },
+  {
+    "name": "FKJ",
+    "type": "solo",
+    "genres": [
+      "electronic"
+    ]
+  },
+  {
+    "name": "Tatsuya Kitani",
+    "type": "solo",
+    "genres": [
+      "j-pop"
+    ]
+  },
+  {
+    "name": "Nathy Peluso",
+    "type": "solo",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "La Scred Connexion",
+    "type": "group",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Scred Connexion",
+    "type": "group",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Christophe Maé",
+    "type": "solo",
+    "genres": [
+      "chanson",
+      "pop"
+    ]
+  },
+  {
+    "name": "Puggy",
+    "type": "group",
+    "genres": [
+      "rock",
+      "pop"
+    ]
+  },
+  {
+    "name": "French 79",
+    "type": "solo",
+    "genres": [
+      "electronic"
+    ]
+  },
+  {
+    "name": "Natori",
+    "type": "solo",
+    "genres": [
+      "j-pop"
+    ]
+  },
+  {
+    "name": "La Caution",
+    "type": "group",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "ATK",
+    "type": "group",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Les Sages Poètes de la Rue",
+    "type": "group",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Christophe Willem",
+    "type": "solo",
+    "genres": [
+      "chanson",
+      "pop"
+    ]
+  },
+  {
+    "name": "Ghinzu",
+    "type": "group",
+    "genres": [
+      "rock",
+      "pop"
+    ]
+  },
+  {
+    "name": "Kid Francescoli",
+    "type": "solo",
+    "genres": [
+      "electronic"
+    ]
+  },
+  {
+    "name": "Tani Yuuki",
+    "type": "solo",
+    "genres": [
+      "j-pop"
+    ]
+  },
+  {
+    "name": "Ärsenik",
+    "type": "group",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Expression Direkt",
+    "type": "group",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Hocus Pocus",
+    "type": "group",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Julien Doré",
+    "type": "solo",
+    "genres": [
+      "chanson",
+      "pop"
+    ]
+  },
+  {
+    "name": "Balthazar",
+    "type": "group",
+    "genres": [
+      "rock",
+      "pop"
+    ]
+  },
+  {
+    "name": "NTO",
+    "type": "solo",
+    "genres": [
+      "electronic"
+    ]
+  },
+  {
+    "name": "Tomoo",
+    "type": "solo",
+    "genres": [
+      "j-pop"
+    ]
+  },
+  {
+    "name": "La Smala",
+    "type": "group",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "L’Entourage",
+    "type": "group",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Doppelgangaz",
+    "type": "group",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Raphaël",
+    "type": "solo",
+    "genres": [
+      "chanson",
+      "pop"
+    ]
+  },
+  {
+    "name": "Girls in Hawaii",
+    "type": "group",
+    "genres": [
+      "rock",
+      "pop"
+    ]
+  },
+  {
+    "name": "Worakls",
+    "type": "solo",
+    "genres": [
+      "electronic"
+    ]
+  },
+  {
+    "name": "SIRUP",
+    "type": "solo",
+    "genres": [
+      "j-pop"
+    ]
+  },
+  {
+    "name": "The Doppelgangaz",
+    "type": "group",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Armand Hammer",
+    "type": "group",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "clipping.",
+    "type": "group",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Calogero",
+    "type": "solo",
+    "genres": [
+      "chanson",
+      "pop"
+    ]
+  },
+  {
+    "name": "Sharko",
+    "type": "group",
+    "genres": [
+      "rock",
+      "pop"
+    ]
+  },
+  {
+    "name": "Joachim Pastor",
+    "type": "solo",
+    "genres": [
+      "electronic"
+    ]
+  },
+  {
+    "name": "iri",
+    "type": "solo",
+    "genres": [
+      "j-pop"
+    ]
+  },
+  {
+    "name": "Blackalicious",
+    "type": "group",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Atmosphere",
+    "type": "group",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Eyedea & Abilities",
+    "type": "group",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Garou",
+    "type": "solo",
+    "genres": [
+      "chanson",
+      "pop"
+    ]
+  },
+  {
+    "name": "dEUS",
+    "type": "group",
+    "genres": [
+      "rock",
+      "pop"
+    ]
+  },
+  {
+    "name": "Meute",
+    "type": "solo",
+    "genres": [
+      "electronic"
+    ]
+  },
+  {
+    "name": "Taeko Ohnuki",
+    "type": "solo",
+    "genres": [
+      "j-pop"
+    ]
+  },
+  {
+    "name": "Hieroglyphics",
+    "type": "group",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Smif-N-Wessun",
+    "type": "group",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Heltah Skeltah",
+    "type": "group",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Isabelle Boulay",
+    "type": "solo",
+    "genres": [
+      "chanson",
+      "pop"
+    ]
+  },
+  {
+    "name": "K’s Choice",
+    "type": "group",
+    "genres": [
+      "rock",
+      "pop"
+    ]
+  },
+  {
+    "name": "Organized Konfusion",
+    "type": "group",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Company Flow",
+    "type": "group",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Cannibal Ox",
+    "type": "group",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Lynda Lemay",
+    "type": "solo",
+    "genres": [
+      "chanson",
+      "pop"
+    ]
+  },
+  {
+    "name": "Hooverphonic",
+    "type": "group",
+    "genres": [
+      "rock",
+      "pop"
+    ]
+  },
+  {
+    "name": "Dead Prez",
+    "type": "group",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Injury Reserve",
+    "type": "group",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Flatbush Zombies",
+    "type": "group",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Daniel Lavoie",
+    "type": "solo",
+    "genres": [
+      "chanson",
+      "pop"
+    ]
+  },
+  {
+    "name": "The Underachievers",
+    "type": "group",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "EarthGang",
+    "type": "group",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Coast Contra",
+    "type": "group",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Roch Voisine",
+    "type": "solo",
+    "genres": [
+      "chanson",
+      "pop"
+    ]
+  },
+  {
+    "name": "Freundeskreis",
+    "type": "group",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Beginner",
+    "type": "group",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Die Fantastischen Vier",
+    "type": "group",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Robert Charlebois",
+    "type": "solo",
+    "genres": [
+      "chanson",
+      "pop"
+    ]
+  },
+  {
+    "name": "Looptroop Rockers",
+    "type": "group",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Gilles Vigneault",
+    "type": "solo",
+    "genres": [
+      "chanson",
+      "pop"
+    ]
+  },
+  {
+    "name": "Félix Leclerc",
+    "type": "solo",
+    "genres": [
+      "chanson",
+      "pop"
+    ]
+  },
+  {
+    "name": "Paul Piché",
+    "type": "solo",
+    "genres": [
+      "chanson",
+      "pop"
+    ]
+  },
+  {
+    "name": "Richard Desjardins",
+    "type": "solo",
+    "genres": [
+      "chanson",
+      "pop"
+    ]
+  },
+  {
+    "name": "Jean Leloup",
+    "type": "solo",
+    "genres": [
+      "chanson",
+      "pop"
+    ]
+  },
+  {
+    "name": "Pierre Lapointe",
+    "type": "solo",
+    "genres": [
+      "chanson",
+      "pop"
+    ]
+  },
+  {
+    "name": "Ariane Moffatt",
+    "type": "solo",
+    "genres": [
+      "chanson",
+      "pop"
+    ]
+  },
+  {
+    "name": "Cœur de pirate",
+    "type": "solo",
+    "genres": [
+      "chanson",
+      "pop"
+    ]
+  },
+  {
+    "name": "Safia Nolin",
+    "type": "solo",
+    "genres": [
+      "chanson",
+      "pop"
+    ]
+  },
+  {
+    "name": "Charlotte Cardin",
+    "type": "solo",
+    "genres": [
+      "chanson",
+      "pop"
+    ]
+  },
+  {
+    "name": "Klô Pelgag",
+    "type": "solo",
+    "genres": [
+      "chanson",
+      "pop"
+    ]
+  },
+  {
+    "name": "Hubert Lenoir",
+    "type": "solo",
+    "genres": [
+      "chanson",
+      "pop"
+    ]
+  }
+]

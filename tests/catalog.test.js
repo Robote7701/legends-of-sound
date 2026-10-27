@@ -57,3 +57,25 @@ test('les 50 ajouts sont vérifiés et préservent les 1501 identités précéde
   }
   assert.ok(additions.filter(a=>artists.find(c=>c.id===a.id).genres.includes('rap')).length>=15);
 });
+
+test('les 100 nouveaux artistes sont sourcés, distincts et compatibles avec la collection précédente',async()=>{
+  const additions = await load('artist-additions/expansion-100-verified');
+  const previous = await load('artist-additions/expansion-50-verified');
+  const baseline = JSON.parse(await readFile(new URL('./fixtures/origins-before-expansion-50.json', import.meta.url)));
+  assert.equal(additions.length,100);
+  const previousIds = new Set([...baseline,...previous].map(a=>a.id));
+  const added = additions.map(entry=>{
+    const card=artists.find(a=>a.id===entry.id);
+    assert.ok(card && !previousIds.has(entry.id));
+    assert.equal(card.mbid,entry.mbid);
+    assert.equal(card.wikidataId,entry.wikidataId);
+    assert.equal(card.provenance.musicbrainz.verification.reciprocal,true);
+    assert.ok(entry.sources.includes(card.provenance.musicbrainz.url));
+    assert.ok(entry.sources.includes(card.provenance.wikidata.url));
+    return card;
+  });
+  assert.equal(new Set(added.map(a=>a.mbid)).size,100);
+  assert.ok(added.filter(a=>a.genres.includes('rap')).length>=15);
+  assert.ok(new Set(added.flatMap(a=>a.genres)).size>=8);
+  for(const a of previous) assert.equal(artists.find(c=>c.id===a.id)?.mbid,a.mbid);
+});
