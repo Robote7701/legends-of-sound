@@ -27,6 +27,9 @@ try{
  doc.querySelector('.sealed-pack').click();
  await until(()=>!!doc.querySelector('.card-reveal'));
  assert(doc.querySelector('.card-reveal.rarity-legendary'),'Révélation individuelle et effet légendaire');
+ doc.querySelector('.card-reveal').click();
+ assert(doc.querySelectorAll('.card-reveal').length===2&&!doc.querySelector('.artist-dialog'),'Cliquer sur la carte révèle la suivante sans ouvrir de fiche');
+ assert(doc.querySelectorAll('.spotlight-grid .artist-card:not([hidden])').length===1,'Une seule carte active au centre de la scène');
  const skip=[...doc.querySelectorAll('.opening-dialog button')].find(b=>b.textContent.includes('Tout révéler'));skip.click();
  assert(doc.querySelectorAll('.opening-summary .artist-card').length===5,'Ignorer les animations conserve les cinq cartes');
  assert(new Set(saved().lastOpening.cards.map(c=>c.id)).size===5,'Cinq artistes distincts dans le paquet');

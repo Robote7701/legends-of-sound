@@ -17,13 +17,14 @@ export function showOpening(batch, catalog, opener) {
   const cards = [];
   const ranks = ['common', 'rare', 'epic', 'legendary'];
   for (let i = 0; i < batch.cards.length; i += 5) cards.push(...batch.cards.slice(i, i + 5).map(result => ({ ...result, artist: index.get(result.id) })).sort((a,b) => ranks.indexOf(a.artist?.rarity) - ranks.indexOf(b.artist?.rarity)));
-  function cardNode(result, reveal = true) {
+  function cardNode(result, reveal = true, advance) {
     const artist = result.artist;
     const button = el('button', '', 'artist-card rarity-' + (artist?.rarity || 'common'));
     if (!artist) { button.textContent = result.id; return button; }
     button.append(artistArtwork(artist), el('span', RARITIES[artist.rarity].label, 'rarity-label'), el('strong', artist.displayName || artist.name), el('span', result.isNew ? 'NOUVELLE DÉCOUVERTE' : 'DOUBLON', 'result-badge'));
     if (reveal) button.classList.add('card-reveal');
-    button.onclick = () => showArtist(artist, button);
+    button.onclick = reveal ? advance : () => showArtist(artist, button);
+    if (reveal) button.setAttribute('aria-label', (artist.displayName || artist.name) + ' · ' + RARITIES[artist.rarity].label + ' · Continuer la révélation');
     return button;
   }
   function summary() {
@@ -42,16 +43,31 @@ export function showOpening(batch, catalog, opener) {
     stage.className = 'opening-stage awaiting-pack'; stage.style.setProperty('--pack', booster?.color || '#d9ff65'); stage.replaceChildren(); actions.replaceChildren();
     const packVisual = boosterArtwork(booster || { id: 'all-stars', name: 'ORIGINS' }, true);
     const instruction = el('p', 'DÉCHIREZ LE SCELLÉ · DÉCOUVREZ LE SON', 'tear-instruction');
-    const strip = el('div', '', 'reveal-grid');
+    const strip = el('div', '', 'reveal-grid spotlight-grid');
+    const atmosphere = el('div', '', 'reveal-atmosphere'); atmosphere.setAttribute('aria-hidden','true');
+    const announcement = el('div', '', 'reveal-announcement');
+    const trail = el('div', '', 'reveal-trail'); trail.setAttribute('aria-label','Progression du paquet');
+    const hint = el('p', '', 'reveal-hint');
     const next = el('button', 'Révéler la prochaine carte');
     function reveal() {
       if (finished || revealed >= 5) return;
-      const focusPack = document.activeElement === packVisual;
+      const focusCard = document.activeElement === packVisual || strip.contains(document.activeElement);
       packVisual.remove();
       instruction.remove(); stage.classList.remove('awaiting-pack');
       const result = cards[pack * 5 + revealed]; revealed++;
-      strip.append(cardNode(result));
-      if (focusPack) next.focus();
+      const rarity = result.artist?.rarity || 'common';
+      stage.className = 'opening-stage concert-reveal rarity-' + rarity;
+      announcement.replaceChildren(el('span', 'CARTE ' + revealed + ' / 5', 'reveal-counter'), el('strong', RARITIES[rarity].label, 'reveal-rarity'));
+      const sparks = el('div', '', 'reveal-sparks');
+      for (let i=0;i<16;i++) { const spark = el('i'); spark.style.setProperty('--spark',i); sparks.append(spark); }
+      atmosphere.replaceChildren(el('div','','reveal-halo'), sparks);
+      const card = cardNode(result, true, () => next.onclick());
+      // Une seule carte interactive sur scène ; les gains précédents restent au récapitulatif.
+      for (const previous of strip.children) { previous.hidden = true; previous.tabIndex = -1; }
+      strip.append(card);
+      trail.replaceChildren(...cards.slice(pack*5,pack*5+5).map((gain,i) => { const pip = el('span', i < revealed ? '✦' : '○', i < revealed ? 'revealed rarity-' + (gain.artist?.rarity || 'common') : ''); pip.setAttribute('aria-label','Carte ' + (i+1) + (i<revealed ? ' révélée' : ' à découvrir')); return pip; }));
+      hint.textContent = revealed < 5 ? 'CLIQUEZ SUR LA CARTE POUR DÉCOUVRIR LA SUIVANTE' : 'PAQUET COMPLET · CLIQUEZ POUR CONTINUER';
+      if (focusCard) card.focus({preventScroll:true});
       status.textContent = result.artist ? RARITIES[result.artist.rarity].label + ' · ' + result.artist.displayName + (result.isNew ? ' · nouvelle découverte' : ' · doublon') : 'Carte enregistrée';
       if (revealed === 5) {
         const gains = cards.slice(pack * 5, pack * 5 + 5);
@@ -70,7 +86,7 @@ export function showOpening(batch, catalog, opener) {
     next.onclick = reveal;
     const fast = el('button', 'Révéler les cinq cartes', 'secondary'); fast.onclick = () => { while (revealed < 5) reveal(); };
     const skip = el('button', 'Tout révéler / ignorer les animations', 'secondary'); skip.onclick = summary;
-    stage.append(packVisual, instruction, strip); actions.append(next, fast, skip); status.textContent = 'Cliquez sur la pochette pour ouvrir votre booster.';
+    stage.append(packVisual, instruction, atmosphere, announcement, strip, trail, hint); actions.append(next, fast, skip); status.textContent = 'Cliquez sur la pochette pour ouvrir votre booster.';
   }
   dialog.append(close, title, info, stage, status, actions);
   dialog.addEventListener('close', () => { dialog.remove(); opener?.focus(); }, { once: true });
