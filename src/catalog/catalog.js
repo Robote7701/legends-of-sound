@@ -1,15 +1,20 @@
 import { RARITIES } from '../domain/config.js';
+import { validatePortrait } from './portraits.js';
 const MBID = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
 export function validateCatalog(artists, editions, { requireComplete = false } = {}) {
   if (!Array.isArray(artists) || !Array.isArray(editions)) throw new Error('Catalogue invalide.');
   const ids = new Set(), mbids = new Set();
   for (const card of artists) {
     if (!card || typeof card.id !== 'string' || !/^los-[a-z0-9-]+$/.test(card.id) || ids.has(card.id)) throw new Error('Identifiant de carte invalide ou dupliqué.');
-    if (typeof card.mbid !== 'string' || !MBID.test(card.mbid) || mbids.has(card.mbid.toLowerCase())) throw new Error('MBID invalide ou dupliqué.');
+    const identityKey = card.editionId + ':' + card.mbid?.toLowerCase();
+    if (typeof card.mbid !== 'string' || !MBID.test(card.mbid) || mbids.has(identityKey)) throw new Error('MBID invalide ou dupliqué dans cette édition.');
     if (!editions.some(e => e.id === card.editionId) || !['solo', 'group'].includes(card.type) || !Object.hasOwn(RARITIES, card.rarity)) throw new Error('Classification invalide.');
     if (typeof card.name !== 'string' || !card.name.trim() || !Array.isArray(card.genres) || !card.genres.length || !card.genres.every(g => typeof g === 'string' && g.length > 0)) throw new Error('Nom ou genres manquants.');
     if (!card.provenance?.musicbrainz?.verifiedAt || card.provenance.musicbrainz.url !== 'https://musicbrainz.org/artist/' + card.mbid) throw new Error('Vérification MusicBrainz manquante.');
-    ids.add(card.id); mbids.add(card.mbid.toLowerCase());
+    const proof = card.provenance.musicbrainz.verification;
+    if (!proof?.verified || !proof.nameMatch || !proof.reciprocal || proof.reciprocalUrl !== 'https://www.wikidata.org/wiki/' + card.wikidataId) throw new Error('Preuve de vérification croisée manquante.');
+    validatePortrait(card.portrait);
+    ids.add(card.id); mbids.add(identityKey);
   }
   for (const edition of editions) {
     const count = artists.filter(a => a.editionId === edition.id).length;

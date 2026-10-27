@@ -1,73 +1,91 @@
 # LEGENDS OF SOUND
 
-TCG musical gratuit, statique et indépendant de Velvet Collection. Sound Credits fictifs, sans valeur monétaire, achat ni transfert.
+TCG musical gratuit, statique et indépendant de Velvet Collection. Sound Credits fictifs, sans achat, conversion ou transfert.
 
-## État — Phase 1 réalisée
+## État — Phase 2
 
-Fondations de la version 0.1 : navigation responsive, neuf configurations de boosters, édition ORIGINS, sauvegarde locale versionnée, export/import validé, tests et CI. **Le catalogue est vide volontairement.** Aucune identité, biographie ou photographie n’a été inventée. Les ouvertures et le recyclage restent désactivés jusqu’aux phases correspondantes. Les probabilités affichées sont des cibles, pas des probabilités actives.
+ORIGINS comprend **500 artistes et groupes identifiés sur MusicBrainz**, avec contrôle croisé Wikidata, genres et raretés éditoriaux, neuf boosters, fiches sourcées et explorateur du catalogue. Les champs inconnus restent null. Les notices courtes Wikidata ne sont pas des biographies complètes.
 
-## Démarrer
+Les ouvertures, la recharge active et le recyclage restent désactivés jusqu’à la Phase 3. Consulter une fiche ne donne pas la carte. Les portraits proposés par Commons sont en attente de revue ; aucune photographie n’est publiée automatiquement.
 
-Node.js 22 ou supérieur. Aucune dépendance à installer ; aucun build.
+## Démarrer et tester
+
+Node.js 22 ou supérieur. Aucune dépendance à installer, aucun build.
+
+Sous PowerShell, si la politique système bloque npm.ps1, utiliser npm.cmd à la place de npm (sans changer la politique d’exécution).
 
 ~~~sh
 npm run dev
-~~~
-
-Ouvrir http://127.0.0.1:4173. Le serveur écoute uniquement sur la machine locale. Utiliser HTTP, pas une ouverture directe en file://, pour les modules et JSON. PORT permet de changer le port.
-
-~~~sh
 npm test
 npm run check:catalog
-node scripts/validate-catalog.js --complete
 ~~~
 
-La dernière commande doit échouer tant que les 500 identités ne sont pas prêtes. La CI vérifie les fondations à chaque push et PR ; elle ne publie rien.
+Ouvrir http://127.0.0.1:4173. Utiliser HTTP, pas file://. Le serveur écoute uniquement sur la machine locale ; PORT permet de changer le port. La CI vérifie les tests et le catalogue complet, sans déploiement.
+
+Tests navigateur : http://127.0.0.1:4173/tests/browser.html. Contrôles de navigation, catalogue, recherche, fiches, pagination, accès clavier et responsive, exécutés séparément de la CI Node. Les tests d’ouverture seront ajoutés en Phase 3.
 
 ## Architecture
 
-- [data/](./data/) : catalogue, éditions et filtres déclaratifs de boosters.
-- [src/catalog/](./src/catalog/) : validation et éligibilité des cartes.
+- [data/](./data/) : catalogue, registre permanent des candidats, éditions, boosters, rapports et propositions de portraits.
+- [src/catalog/](./src/catalog/) : validation, filtres, âge et contrôle des portraits.
 - [src/domain/config.js](./src/domain/config.js) : probabilités, économie et limites configurables.
-- [src/state/](./src/state/) : schéma, validation et persistance.
+- [src/state/](./src/state/) : schéma et persistance versionnée.
 - [src/services/](./src/services/) : chargement des JSON relatifs aux modules.
-- [src/ui/](./src/ui/) : primitives DOM et export de fichiers.
-- [src/main.js](./src/main.js) : interface de fondations et navigation par fragments.
-- [assets/css/](./assets/css/) : présentation responsive, focus clavier et réduction des animations.
-- [scripts/](./scripts/) : serveur local et validation de catalogue.
-- [tests/](./tests/) : tests Node natifs sans dépendance.
-- [docs/implementation-plan.md](./docs/implementation-plan.md) : phases et critères de livraison.
-- [docs/catalog-contract.md](./docs/catalog-contract.md) : contrat du futur catalogue et droits.
+- [src/ui/](./src/ui/) : explorateur, fiches et primitives DOM.
+- [src/main.js](./src/main.js) : navigation et interface de sauvegarde.
+- [assets/css/](./assets/css/) : cartes, responsive, focus clavier et réduction des animations.
+- [scripts/](./scripts/) : serveur local, importateurs et contrôles.
+- [tests/](./tests/) : tests Node natifs et suite navigateur.
+
+## Importer et reprendre
+
+~~~sh
+# Prévisualisation et rapport ; reprise depuis le cache
+npm run import:artists
+
+# Écrire uniquement les JSON locaux du catalogue
+npm run import:artists -- --publish
+
+# Rechercher des propositions Commons sans publier de photo
+npm run import:portraits
+
+# Appliquer uniquement le manifeste revu manuellement
+npm run import:portraits -- --apply-reviewed
+~~~
+
+--publish ne pousse rien sur GitHub et ne publie pas de site. Il refuse un catalogue différent de 500 entrées, une identité non résolue, une rareté manquante dans un booster et la réattribution d’un ID existant. --limit=10 permet une prévisualisation partielle sans modifier le catalogue publié.
+
+[candidates.json](./data/candidates.json) est le registre éditorial : conserver ses IDs. Les liens interwiki et P434 Wikidata permettent de trouver les MBID, puis les fiches sont consultées sur l’API officielle MusicBrainz avec aliases, url-rels et artist-rels. Nom/alias, type et lien retour vers la même entité Wikidata sont obligatoires. Les cas à plusieurs MBID sont documentés dans identitySelection ou identityReview ; aucun homonyme incertain n’est choisi selon sa popularité.
+
+Un seul import à la fois. User-Agent identifié, départs espacés d’au moins 1 150 ms, trois réponses au maximum en vol, timeout, Retry-After et backoff. Le cache local ignoré par Git contient les réponses réussies avec URL et date ; relancer reprend les données déjà obtenues. [import-report.json](./data/import-report.json) expose les décisions, exceptions, catégories et champs manquants. Aucun secret nécessaire.
+
+[editorial-policy.md](./docs/editorial-policy.md) explique sélection, genres et raretés. Les tags et votes communautaires MusicBrainz ne sont pas copiés. Identités centrales MusicBrainz et données structurées Wikidata : CC0, avec sources par carte. Aucune biographie Wikipédia copiée.
+
+## Sélection manuelle des portraits
+
+[portrait-candidates.json](./data/portrait-candidates.json) rassemble des propositions P18/Commons non publiées : fichier, source, auteur en métadonnées brutes, licence et restrictions disponibles. Aucune proposition n’est affichée comme portrait dans les cartes. Les métadonnées absentes ne valent pas permission.
+
+Après contrôle visuel de l’identité, des licences et restrictions, ajouter une entrée dans le tableau [portraits-reviewed.json](./data/portraits-reviewed.json). Champs obligatoires : id existant, imageUrl HTTPS sur upload.wikimedia.org, sourceUrl HTTPS sur commons.wikimedia.org, photographer en texte sans HTML, license, licenseUrl, modifications, identityVerifiedAt et rightsReviewedAt (dates ISO réelles), identityVerification et rightsReview (notes concrètes de revue).
+
+Licences prises en charge : CC0-1.0, Public-domain, CC-BY-2.0/3.0/4.0, CC-BY-SA-2.0/3.0/4.0. CC BY-ND refusée. Si l’identité ou les droits restent incertains, conserver portrait:null et le visuel original de remplacement. Les crédits des portraits appliqués s’affichent dans les fiches et dans la rubrique Crédits. Ne jamais inscrire une revue qui n’a pas eu lieu.
 
 ## Sauvegarde
 
-Clé exclusive : legends-of-sound-v1. Version de schéma indépendante de la version du jeu. Une nouvelle partie reçoit 500 SC et dix tickets. La Phase 1 conserve l’horodatage ; la recharge et les transactions de jeu seront développées en Phase 3.
+Clé exclusive : legends-of-sound-v1. Une nouvelle partie reçoit 500 SC et dix tickets. Persistance des crédits, tickets, horodatages, exemplaires, dates d’acquisition, favoris, verrous et statistiques. Progression dérivée de la collection. IDs inconnus du catalogue courant conservés pour les futures éditions.
 
-Les champs persistés comprennent crédits, tickets, horodatages, exemplaires, premières/dernières acquisitions, favoris, verrous et statistiques. La progression est dérivée de la collection, sans compteur divergent. Les identifiants inconnus du catalogue courant sont préservés pour les futures éditions.
+JSON corrompu, version future et erreur localStorage : signalement sans réinitialisation automatique. Export brut disponible. L’import demande confirmation et conserve une copie sous legends-of-sound-v1-before-import ; un échec de copie l’annule. Web Locks et comparaison de l’état chargé protègent les écritures entre onglets. Sans Web Locks, aucune écriture. Une écriture atomique précède la mise à jour mémoire. Le stockage local ne constitue pas un système anti-triche ; exporter régulièrement avant de changer d’appareil ou d’effacer les données du navigateur.
 
-Les lectures corrompues, les versions futures et les erreurs localStorage sont signalées ; aucune réinitialisation automatique. Export brut disponible en cas de données illisibles. L’import demande confirmation et conserve la sauvegarde précédente sous legends-of-sound-v1-before-import. Un échec de copie annule l’import. Aucun bouton ne vide la collection.
+## GitHub Pages — après validation explicite
 
-Les écritures applicatives utilisent Web Locks et une comparaison de la version chargée ; un conflit oblige à recharger. Sans Web Locks, l’application refuse les écritures. GitHub Pages et localhost sont des contextes compatibles dans les navigateurs modernes. Une écriture localStorage atomique précède toute mise à jour mémoire. Ce stockage reste local, modifiable par son propriétaire et ne constitue pas un système anti-triche. Exporter régulièrement ; ne pas éditer simultanément la collection sur plusieurs appareils.
+Aucun workflow de déploiement automatique.
 
-## Catalogue et importation (Phase 2)
+1. Exécuter tests, contrôle des sources/licences et vérification sous un sous-répertoire.
+2. Après validation explicite, pousser la branche validée sur GitHub.
+3. Settings → Pages → Deploy from a branch : branche validée, / (root).
+4. Vérifier https://UTILISATEUR.github.io/legends-of-sound/ ainsi que les ressources, fiches et sauvegardes.
 
-[data/artists.json](./data/artists.json) est vide ; [data/editions.json](./data/editions.json) déclare une cible de 500, jamais 500 cartes déjà présentes. Les boosters exigent au moins une carte de chaque rareté pour être disponibles. ASIA WAVE repose sur les genres j-pop, k-pop, j-rock et vocaloid, indépendamment du pays.
+[.nojekyll](./.nojekyll) désactive Jekyll. Chemins relatifs et navigation par fragments compatibles avec un sous-répertoire. Aucune clé API dans Git ou le navigateur.
 
-L’importateur MusicBrainz/Commons n’est pas encore implémenté : aucun appel API ni téléchargement de photographie en Phase 1. Le contrat et la procédure prévus figurent dans [docs/catalog-contract.md](./docs/catalog-contract.md). Ne pas remplir le catalogue avec des UUID ou des artistes fictifs pour faire passer les tests. La validation syntaxique d’un MBID ne vérifie pas son identité ; une revue de la source est indispensable.
+## Suite
 
-## GitHub Pages — publication uniquement après validation
-
-Aucun workflow de déploiement automatique n’est installé. Après validation explicite de la publication :
-
-1. Exécuter les tests, vérifier le catalogue selon la phase et tester le site dans un sous-répertoire.
-2. Pousser la branche validée sur GitHub.
-3. Dans Settings → Pages, sélectionner Deploy from a branch, la branche validée, puis / (root).
-4. Vérifier l’URL https://UTILISATEUR.github.io/legends-of-sound/ et le chargement des modules et JSON.
-
-[.nojekyll](./.nojekyll) désactive le traitement Jekyll. Aucun chemin d’application ne commence par / ; les fragments permettent de recharger les rubriques sans configuration serveur. Aucun secret ou clé API ne doit être ajouté au navigateur ou au dépôt.
-
-## Vérification navigateur
-
-Lancer le serveur puis ouvrir http://127.0.0.1:4173/tests/browser.html : dix assertions automatiques contrôlent les six rubriques, les boosters désactivés, le lien d’accès au contenu et les largeurs de 390 et 1100 px. Ce test navigateur est exécuté manuellement et ne fait pas partie de la CI Node.
-
-Pour les contrôles complémentaires, parcourir les six rubriques au clavier et sur une largeur de 390 px. Vérifier neuf boosters indisponibles, 500 SC et dix tickets, export puis import avec confirmation, refus d’un JSON invalide, persistance après rechargement. Dans un profil de test, injecter un JSON corrompu et vérifier que la sauvegarde brute reste exportable et n’est pas écrasée. La navigation et les sauvegardes font partie de la Phase 1 ; les tests navigateur d’ouverture seront ajoutés avec le moteur en Phase 3.
+[Plan des cinq phases](./docs/implementation-plan.md). Phase 3 : transactions, tickets, tirages, collection jouable et recyclage. Phase 4 : expérience premium d’ouverture. Phase 5 : validation finale avant publication. Aucun combat en v0.1.

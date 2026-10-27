@@ -3,13 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "description": "TCG musical gratuit — fondations de la version 0.1",
+  "description": "TCG musical gratuit — édition ORIGINS et catalogue vérifié",
   "engines": {
     "node": ">=22"
   },
   "scripts": {
     "dev": "node scripts/serve.js",
     "test": "node --test",
-    "check:catalog": "node scripts/validate-catalog.js"
+    "check:catalog": "node scripts/validate-catalog.js --complete",
+    "import:artists": "node scripts/import-artists.js",
+    "import:portraits": "node scripts/import-portraits.js"
   }
 }

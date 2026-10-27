@@ -1,0 +1,5569 @@
+[
+  {
+    "id": "los-000001",
+    "name": "Queen",
+    "wikipediaTitle": "Queen (band)",
+    "type": "group",
+    "genres": [
+      "rock"
+    ],
+    "rarity": "legendary"
+  },
+  {
+    "id": "los-000002",
+    "name": "The Beatles",
+    "wikipediaTitle": "The Beatles",
+    "type": "group",
+    "genres": [
+      "rock"
+    ],
+    "rarity": "legendary"
+  },
+  {
+    "id": "los-000003",
+    "name": "The Rolling Stones",
+    "wikipediaTitle": "The Rolling Stones",
+    "type": "group",
+    "genres": [
+      "rock"
+    ],
+    "rarity": "legendary"
+  },
+  {
+    "id": "los-000004",
+    "name": "Led Zeppelin",
+    "wikipediaTitle": "Led Zeppelin",
+    "type": "group",
+    "genres": [
+      "rock"
+    ],
+    "rarity": "legendary"
+  },
+  {
+    "id": "los-000005",
+    "name": "Pink Floyd",
+    "wikipediaTitle": "Pink Floyd",
+    "type": "group",
+    "genres": [
+      "rock"
+    ],
+    "rarity": "legendary"
+  },
+  {
+    "id": "los-000006",
+    "name": "AC/DC",
+    "wikipediaTitle": "AC/DC",
+    "type": "group",
+    "genres": [
+      "rock"
+    ],
+    "rarity": "legendary"
+  },
+  {
+    "id": "los-000007",
+    "name": "Nirvana",
+    "wikipediaTitle": "Nirvana (band)",
+    "type": "group",
+    "genres": [
+      "rock"
+    ],
+    "rarity": "legendary"
+  },
+  {
+    "id": "los-000008",
+    "name": "The Who",
+    "wikipediaTitle": "The Who",
+    "type": "group",
+    "genres": [
+      "rock"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000009",
+    "name": "The Doors",
+    "wikipediaTitle": "The Doors",
+    "type": "group",
+    "genres": [
+      "rock"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000010",
+    "name": "Fleetwood Mac",
+    "wikipediaTitle": "Fleetwood Mac",
+    "type": "group",
+    "genres": [
+      "rock"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000011",
+    "name": "Eagles",
+    "wikipediaTitle": "Eagles (band)",
+    "type": "group",
+    "genres": [
+      "rock"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000012",
+    "name": "U2",
+    "wikipediaTitle": "U2",
+    "type": "group",
+    "genres": [
+      "rock"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000013",
+    "name": "R.E.M.",
+    "wikipediaTitle": "R.E.M.",
+    "type": "group",
+    "genres": [
+      "rock"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000014",
+    "name": "Radiohead",
+    "wikipediaTitle": "Radiohead",
+    "type": "group",
+    "genres": [
+      "rock"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000015",
+    "name": "Coldplay",
+    "wikipediaTitle": "Coldplay",
+    "type": "group",
+    "genres": [
+      "rock"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000016",
+    "name": "Oasis",
+    "wikipediaTitle": "Oasis (band)",
+    "type": "group",
+    "genres": [
+      "rock"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000017",
+    "name": "Blur",
+    "wikipediaTitle": "Blur (band)",
+    "type": "group",
+    "genres": [
+      "rock"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000018",
+    "name": "Muse",
+    "wikipediaTitle": "Muse (band)",
+    "type": "group",
+    "genres": [
+      "rock"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000019",
+    "name": "Foo Fighters",
+    "wikipediaTitle": "Foo Fighters",
+    "type": "group",
+    "genres": [
+      "rock"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000020",
+    "name": "Red Hot Chili Peppers",
+    "wikipediaTitle": "Red Hot Chili Peppers",
+    "type": "group",
+    "genres": [
+      "rock"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000021",
+    "name": "The Strokes",
+    "wikipediaTitle": "The Strokes",
+    "type": "group",
+    "genres": [
+      "rock"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000022",
+    "name": "Arctic Monkeys",
+    "wikipediaTitle": "Arctic Monkeys",
+    "type": "group",
+    "genres": [
+      "rock"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000023",
+    "name": "The Killers",
+    "wikipediaTitle": "The Killers",
+    "type": "group",
+    "genres": [
+      "rock"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000024",
+    "name": "Kings of Leon",
+    "wikipediaTitle": "Kings of Leon",
+    "type": "group",
+    "genres": [
+      "rock"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000025",
+    "name": "The White Stripes",
+    "wikipediaTitle": "The White Stripes",
+    "type": "group",
+    "genres": [
+      "rock"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000026",
+    "name": "The Black Keys",
+    "wikipediaTitle": "The Black Keys",
+    "type": "group",
+    "genres": [
+      "rock"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000027",
+    "name": "Franz Ferdinand",
+    "wikipediaTitle": "Franz Ferdinand (band)",
+    "type": "group",
+    "genres": [
+      "rock"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000028",
+    "name": "Interpol",
+    "wikipediaTitle": "Interpol (band)",
+    "type": "group",
+    "genres": [
+      "rock"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000029",
+    "name": "Yeah Yeah Yeahs",
+    "wikipediaTitle": "Yeah Yeah Yeahs",
+    "type": "group",
+    "genres": [
+      "rock"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000030",
+    "name": "The National",
+    "wikipediaTitle": "The National (band)",
+    "type": "group",
+    "genres": [
+      "rock"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000031",
+    "name": "Arcade Fire",
+    "wikipediaTitle": "Arcade Fire",
+    "type": "group",
+    "genres": [
+      "rock"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000032",
+    "name": "Tame Impala",
+    "wikipediaTitle": "Tame Impala",
+    "type": "solo",
+    "genres": [
+      "rock"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000033",
+    "name": "King Gizzard & the Lizard Wizard",
+    "wikipediaTitle": "King Gizzard & the Lizard Wizard",
+    "type": "group",
+    "genres": [
+      "rock"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000034",
+    "name": "Khruangbin",
+    "wikipediaTitle": "Khruangbin",
+    "type": "group",
+    "genres": [
+      "rock"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000035",
+    "name": "The Beach Boys",
+    "wikipediaTitle": "The Beach Boys",
+    "type": "group",
+    "genres": [
+      "rock"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000036",
+    "name": "ABBA",
+    "wikipediaTitle": "ABBA",
+    "type": "group",
+    "genres": [
+      "pop",
+      "disco"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000037",
+    "name": "Supertramp",
+    "wikipediaTitle": "Supertramp",
+    "type": "group",
+    "genres": [
+      "rock"
+    ],
+    "rarity": "rare",
+    "mbid": "d2ff6b6b-fc30-48dc-8952-06f9d8fc64f8",
+    "identityReview": {
+      "source": "https://musicbrainz.org/artist/d2ff6b6b-fc30-48dc-8952-06f9d8fc64f8",
+      "reason": "Identifiant du projet principal sélectionné après examen des qualificatifs Wikidata et de la fiche MusicBrainz ; le nom, le type et le lien retour Wikidata restent obligatoires à l’import."
+    }
+  },
+  {
+    "id": "los-000038",
+    "name": "Dire Straits",
+    "wikipediaTitle": "Dire Straits",
+    "type": "group",
+    "genres": [
+      "rock"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000039",
+    "name": "Genesis",
+    "wikipediaTitle": "Genesis (band)",
+    "type": "group",
+    "genres": [
+      "rock"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000040",
+    "name": "Yes",
+    "wikipediaTitle": "Yes (band)",
+    "type": "group",
+    "genres": [
+      "rock"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000041",
+    "name": "Rush",
+    "wikipediaTitle": "Rush (band)",
+    "type": "group",
+    "genres": [
+      "rock"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000042",
+    "name": "Deep Purple",
+    "wikipediaTitle": "Deep Purple",
+    "type": "group",
+    "genres": [
+      "rock"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000043",
+    "name": "Aerosmith",
+    "wikipediaTitle": "Aerosmith",
+    "type": "group",
+    "genres": [
+      "rock"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000044",
+    "name": "Guns N' Roses",
+    "wikipediaTitle": "Guns N' Roses",
+    "type": "group",
+    "genres": [
+      "rock"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000045",
+    "name": "Bon Jovi",
+    "wikipediaTitle": "Bon Jovi",
+    "type": "group",
+    "genres": [
+      "rock"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000046",
+    "name": "Scorpions",
+    "wikipediaTitle": "Scorpions (band)",
+    "type": "group",
+    "genres": [
+      "rock"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000047",
+    "name": "ZZ Top",
+    "wikipediaTitle": "ZZ Top",
+    "type": "group",
+    "genres": [
+      "rock"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000048",
+    "name": "Creedence Clearwater Revival",
+    "wikipediaTitle": "Creedence Clearwater Revival",
+    "type": "group",
+    "genres": [
+      "rock"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000049",
+    "name": "Lynyrd Skynyrd",
+    "wikipediaTitle": "Lynyrd Skynyrd",
+    "type": "group",
+    "genres": [
+      "rock"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000050",
+    "name": "Santana",
+    "wikipediaTitle": "Santana (band)",
+    "type": "group",
+    "genres": [
+      "rock"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000051",
+    "name": "Metallica",
+    "wikipediaTitle": "Metallica",
+    "type": "group",
+    "genres": [
+      "metal",
+      "rock"
+    ],
+    "rarity": "legendary"
+  },
+  {
+    "id": "los-000052",
+    "name": "Black Sabbath",
+    "wikipediaTitle": "Black Sabbath",
+    "type": "group",
+    "genres": [
+      "metal",
+      "rock"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000053",
+    "name": "Iron Maiden",
+    "wikipediaTitle": "Iron Maiden",
+    "type": "group",
+    "genres": [
+      "metal",
+      "rock"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000054",
+    "name": "Judas Priest",
+    "wikipediaTitle": "Judas Priest",
+    "type": "group",
+    "genres": [
+      "metal",
+      "rock"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000055",
+    "name": "Rammstein",
+    "wikipediaTitle": "Rammstein",
+    "type": "group",
+    "genres": [
+      "metal",
+      "rock"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000056",
+    "name": "Linkin Park",
+    "wikipediaTitle": "Linkin Park",
+    "type": "group",
+    "genres": [
+      "metal",
+      "rock"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000057",
+    "name": "System of a Down",
+    "wikipediaTitle": "System of a Down",
+    "type": "group",
+    "genres": [
+      "metal",
+      "rock"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000058",
+    "name": "Slipknot",
+    "wikipediaTitle": "Slipknot (band)",
+    "type": "group",
+    "genres": [
+      "metal",
+      "rock"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000059",
+    "name": "Korn",
+    "wikipediaTitle": "Korn",
+    "type": "group",
+    "genres": [
+      "metal",
+      "rock"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000060",
+    "name": "Deftones",
+    "wikipediaTitle": "Deftones",
+    "type": "group",
+    "genres": [
+      "metal",
+      "rock"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000061",
+    "name": "Tool",
+    "wikipediaTitle": "Tool (band)",
+    "type": "group",
+    "genres": [
+      "metal",
+      "rock"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000062",
+    "name": "Megadeth",
+    "wikipediaTitle": "Megadeth",
+    "type": "group",
+    "genres": [
+      "metal",
+      "rock"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000063",
+    "name": "Slayer",
+    "wikipediaTitle": "Slayer",
+    "type": "group",
+    "genres": [
+      "metal",
+      "rock"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000064",
+    "name": "Pantera",
+    "wikipediaTitle": "Pantera",
+    "type": "group",
+    "genres": [
+      "metal",
+      "rock"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000065",
+    "name": "Gojira",
+    "wikipediaTitle": "Gojira (band)",
+    "type": "group",
+    "genres": [
+      "metal",
+      "rock"
+    ],
+    "rarity": "common",
+    "mbid": "1c5efd53-d6b6-4d63-9d22-a15025cf5f07",
+    "identitySelection": {
+      "source": "https://www.wikidata.org/wiki/Q1011412",
+      "reason": "Un seul identifiant porte le qualificatif P1810 correspondant exactement au nom éditorial. Les anciens noms et projets alternatifs ne sont pas sélectionnés."
+    }
+  },
+  {
+    "id": "los-000066",
+    "name": "Nightwish",
+    "wikipediaTitle": "Nightwish",
+    "type": "group",
+    "genres": [
+      "metal",
+      "rock"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000067",
+    "name": "Within Temptation",
+    "wikipediaTitle": "Within Temptation",
+    "type": "group",
+    "genres": [
+      "metal",
+      "rock"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000068",
+    "name": "Epica",
+    "wikipediaTitle": "Epica (band)",
+    "type": "group",
+    "genres": [
+      "metal",
+      "rock"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000069",
+    "name": "Sabaton",
+    "wikipediaTitle": "Sabaton (band)",
+    "type": "group",
+    "genres": [
+      "metal",
+      "rock"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000070",
+    "name": "Ghost",
+    "wikipediaTitle": "Ghost (Swedish band)",
+    "type": "group",
+    "genres": [
+      "metal",
+      "rock"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000071",
+    "name": "The Clash",
+    "wikipediaTitle": "The Clash",
+    "type": "group",
+    "genres": [
+      "punk",
+      "rock"
+    ],
+    "rarity": "legendary"
+  },
+  {
+    "id": "los-000072",
+    "name": "Ramones",
+    "wikipediaTitle": "Ramones",
+    "type": "group",
+    "genres": [
+      "punk",
+      "rock"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000073",
+    "name": "Sex Pistols",
+    "wikipediaTitle": "Sex Pistols",
+    "type": "group",
+    "genres": [
+      "punk",
+      "rock"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000074",
+    "name": "Green Day",
+    "wikipediaTitle": "Green Day",
+    "type": "group",
+    "genres": [
+      "punk",
+      "rock"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000075",
+    "name": "The Offspring",
+    "wikipediaTitle": "The Offspring",
+    "type": "group",
+    "genres": [
+      "punk",
+      "rock"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000076",
+    "name": "Blink-182",
+    "wikipediaTitle": "Blink-182",
+    "type": "group",
+    "genres": [
+      "punk",
+      "rock"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000077",
+    "name": "Sum 41",
+    "wikipediaTitle": "Sum 41",
+    "type": "group",
+    "genres": [
+      "punk",
+      "rock"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000078",
+    "name": "My Chemical Romance",
+    "wikipediaTitle": "My Chemical Romance",
+    "type": "group",
+    "genres": [
+      "punk",
+      "rock"
+    ],
+    "rarity": "rare",
+    "mbid": "c07f0676-9143-4217-8a9f-4c26bd636f13",
+    "identitySelection": {
+      "source": "https://www.wikidata.org/wiki/Q483285",
+      "reason": "Un seul identifiant porte le qualificatif P1810 correspondant exactement au nom éditorial. Les anciens noms et projets alternatifs ne sont pas sélectionnés."
+    }
+  },
+  {
+    "id": "los-000079",
+    "name": "Paramore",
+    "wikipediaTitle": "Paramore",
+    "type": "group",
+    "genres": [
+      "punk",
+      "rock"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000080",
+    "name": "Fall Out Boy",
+    "wikipediaTitle": "Fall Out Boy",
+    "type": "group",
+    "genres": [
+      "punk",
+      "rock"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000081",
+    "name": "Panic! at the Disco",
+    "wikipediaTitle": "Panic! at the Disco",
+    "type": "group",
+    "genres": [
+      "punk",
+      "rock"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000082",
+    "name": "The Cure",
+    "wikipediaTitle": "The Cure",
+    "type": "group",
+    "genres": [
+      "punk",
+      "rock"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000083",
+    "name": "Joy Division",
+    "wikipediaTitle": "Joy Division",
+    "type": "group",
+    "genres": [
+      "punk",
+      "rock"
+    ],
+    "rarity": "common",
+    "mbid": "9a58fda3-f4ed-4080-a3a5-f457aac9fcdd",
+    "identitySelection": {
+      "source": "https://www.wikidata.org/wiki/Q172763",
+      "reason": "Un seul identifiant porte le qualificatif P1810 correspondant exactement au nom éditorial. Les anciens noms et projets alternatifs ne sont pas sélectionnés."
+    }
+  },
+  {
+    "id": "los-000084",
+    "name": "New Order",
+    "wikipediaTitle": "New Order (band)",
+    "type": "group",
+    "genres": [
+      "punk",
+      "rock"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000085",
+    "name": "Siouxsie and the Banshees",
+    "wikipediaTitle": "Siouxsie and the Banshees",
+    "type": "group",
+    "genres": [
+      "punk",
+      "rock"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000086",
+    "name": "Daft Punk",
+    "wikipediaTitle": "Daft Punk",
+    "type": "group",
+    "genres": [
+      "electronic"
+    ],
+    "rarity": "legendary"
+  },
+  {
+    "id": "los-000087",
+    "name": "Kraftwerk",
+    "wikipediaTitle": "Kraftwerk",
+    "type": "group",
+    "genres": [
+      "electronic"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000088",
+    "name": "Depeche Mode",
+    "wikipediaTitle": "Depeche Mode",
+    "type": "group",
+    "genres": [
+      "electronic"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000089",
+    "name": "The Prodigy",
+    "wikipediaTitle": "The Prodigy",
+    "type": "group",
+    "genres": [
+      "electronic"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000090",
+    "name": "The Chemical Brothers",
+    "wikipediaTitle": "The Chemical Brothers",
+    "type": "group",
+    "genres": [
+      "electronic"
+    ],
+    "rarity": "epic",
+    "mbid": "1946a82a-f927-40c2-8235-38d64f50d043",
+    "identitySelection": {
+      "source": "https://www.wikidata.org/wiki/Q208507",
+      "reason": "Un seul identifiant porte le qualificatif P1810 correspondant exactement au nom éditorial. Les anciens noms et projets alternatifs ne sont pas sélectionnés."
+    }
+  },
+  {
+    "id": "los-000091",
+    "name": "Massive Attack",
+    "wikipediaTitle": "Massive Attack",
+    "type": "group",
+    "genres": [
+      "electronic"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000092",
+    "name": "Portishead",
+    "wikipediaTitle": "Portishead (band)",
+    "type": "group",
+    "genres": [
+      "electronic"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000093",
+    "name": "Air",
+    "wikipediaTitle": "Air (French band)",
+    "type": "group",
+    "genres": [
+      "electronic"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000094",
+    "name": "Justice",
+    "wikipediaTitle": "Justice (band)",
+    "type": "group",
+    "genres": [
+      "electronic"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000095",
+    "name": "The xx",
+    "wikipediaTitle": "The xx",
+    "type": "group",
+    "genres": [
+      "electronic"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000096",
+    "name": "Disclosure",
+    "wikipediaTitle": "Disclosure (band)",
+    "type": "group",
+    "genres": [
+      "electronic"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000097",
+    "name": "Underworld",
+    "wikipediaTitle": "Underworld (band)",
+    "type": "group",
+    "genres": [
+      "electronic"
+    ],
+    "rarity": "rare",
+    "mbid": "ba2f4f3b-0293-4bc8-bb94-2f73b5207343",
+    "identitySelection": {
+      "source": "https://www.wikidata.org/wiki/Q849429",
+      "reason": "Un seul identifiant porte le qualificatif P1810 correspondant exactement au nom éditorial. Les anciens noms et projets alternatifs ne sont pas sélectionnés."
+    }
+  },
+  {
+    "id": "los-000098",
+    "name": "Orbital",
+    "wikipediaTitle": "Orbital (band)",
+    "type": "group",
+    "genres": [
+      "electronic"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000099",
+    "name": "Pet Shop Boys",
+    "wikipediaTitle": "Pet Shop Boys",
+    "type": "group",
+    "genres": [
+      "electronic"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000100",
+    "name": "Eurythmics",
+    "wikipediaTitle": "Eurythmics",
+    "type": "group",
+    "genres": [
+      "electronic"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000101",
+    "name": "Röyksopp",
+    "wikipediaTitle": "Röyksopp",
+    "type": "group",
+    "genres": [
+      "electronic"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000102",
+    "name": "Boards of Canada",
+    "wikipediaTitle": "Boards of Canada",
+    "type": "group",
+    "genres": [
+      "electronic"
+    ],
+    "rarity": "common",
+    "mbid": "69158f97-4c07-4c4e-baf8-4e4ab1ed666e",
+    "identitySelection": {
+      "source": "https://www.wikidata.org/wiki/Q722778",
+      "reason": "Un seul identifiant porte le qualificatif P1810 correspondant exactement au nom éditorial. Les anciens noms et projets alternatifs ne sont pas sélectionnés."
+    }
+  },
+  {
+    "id": "los-000103",
+    "name": "Tangerine Dream",
+    "wikipediaTitle": "Tangerine Dream",
+    "type": "group",
+    "genres": [
+      "electronic"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000104",
+    "name": "M83",
+    "wikipediaTitle": "M83 (band)",
+    "type": "group",
+    "genres": [
+      "electronic"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000105",
+    "name": "Caravan Palace",
+    "wikipediaTitle": "Caravan Palace",
+    "type": "group",
+    "genres": [
+      "electronic",
+      "electro-swing"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000106",
+    "name": "Parov Stelar",
+    "wikipediaTitle": "Parov Stelar",
+    "type": "solo",
+    "genres": [
+      "electronic",
+      "electro-swing"
+    ],
+    "rarity": "common",
+    "mbid": "fe1a873d-2000-4789-a895-4187fe756203",
+    "identitySelection": {
+      "source": "https://www.wikidata.org/wiki/Q89525",
+      "reason": "Un seul identifiant porte le qualificatif P1810 correspondant exactement au nom éditorial. Les anciens noms et projets alternatifs ne sont pas sélectionnés."
+    }
+  },
+  {
+    "id": "los-000107",
+    "name": "Jungle",
+    "wikipediaTitle": "Jungle (band)",
+    "type": "group",
+    "genres": [
+      "funk",
+      "soul",
+      "electronic"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000108",
+    "name": "CHVRCHES",
+    "wikipediaTitle": "CHVRCHES",
+    "type": "group",
+    "genres": [
+      "electronic"
+    ],
+    "rarity": "common",
+    "wikidataId": "Q5118436"
+  },
+  {
+    "id": "los-000109",
+    "name": "Purity Ring",
+    "wikipediaTitle": "Purity Ring (band)",
+    "type": "group",
+    "genres": [
+      "electronic"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000110",
+    "name": "Gorillaz",
+    "wikipediaTitle": "Gorillaz",
+    "type": "group",
+    "genres": [
+      "electronic",
+      "pop",
+      "hip-hop"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000111",
+    "name": "Bee Gees",
+    "wikipediaTitle": "Bee Gees",
+    "type": "group",
+    "genres": [
+      "pop",
+      "rnb"
+    ],
+    "rarity": "legendary"
+  },
+  {
+    "id": "los-000112",
+    "name": "Destiny's Child",
+    "wikipediaTitle": "Destiny's Child",
+    "type": "group",
+    "genres": [
+      "pop",
+      "rnb"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000113",
+    "name": "TLC",
+    "wikipediaTitle": "TLC (group)",
+    "type": "group",
+    "genres": [
+      "pop",
+      "rnb"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000114",
+    "name": "Spice Girls",
+    "wikipediaTitle": "Spice Girls",
+    "type": "group",
+    "genres": [
+      "pop",
+      "rnb"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000115",
+    "name": "Backstreet Boys",
+    "wikipediaTitle": "Backstreet Boys",
+    "type": "group",
+    "genres": [
+      "pop",
+      "rnb"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000116",
+    "name": "NSYNC",
+    "wikipediaTitle": "NSYNC",
+    "type": "group",
+    "genres": [
+      "pop",
+      "rnb"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000117",
+    "name": "One Direction",
+    "wikipediaTitle": "One Direction",
+    "type": "group",
+    "genres": [
+      "pop",
+      "rnb"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000118",
+    "name": "Take That",
+    "wikipediaTitle": "Take That",
+    "type": "group",
+    "genres": [
+      "pop",
+      "rnb"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000119",
+    "name": "Maroon 5",
+    "wikipediaTitle": "Maroon 5",
+    "type": "group",
+    "genres": [
+      "pop",
+      "rnb"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000120",
+    "name": "Imagine Dragons",
+    "wikipediaTitle": "Imagine Dragons",
+    "type": "group",
+    "genres": [
+      "pop",
+      "rnb"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000121",
+    "name": "Twenty One Pilots",
+    "wikipediaTitle": "Twenty One Pilots",
+    "type": "group",
+    "genres": [
+      "pop",
+      "rnb"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000122",
+    "name": "Little Mix",
+    "wikipediaTitle": "Little Mix",
+    "type": "group",
+    "genres": [
+      "pop",
+      "rnb"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000123",
+    "name": "Fifth Harmony",
+    "wikipediaTitle": "Fifth Harmony",
+    "type": "group",
+    "genres": [
+      "pop",
+      "rnb"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000124",
+    "name": "HAIM",
+    "wikipediaTitle": "HAIM",
+    "type": "group",
+    "genres": [
+      "pop",
+      "rnb"
+    ],
+    "rarity": "common",
+    "wikidataId": "Q868810"
+  },
+  {
+    "id": "los-000125",
+    "name": "Florence and the Machine",
+    "wikipediaTitle": "Florence and the Machine",
+    "type": "group",
+    "genres": [
+      "pop",
+      "rnb"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000126",
+    "name": "Evanescence",
+    "wikipediaTitle": "Evanescence",
+    "type": "group",
+    "genres": [
+      "rock",
+      "metal"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000127",
+    "name": "No Doubt",
+    "wikipediaTitle": "No Doubt",
+    "type": "group",
+    "genres": [
+      "rock",
+      "ska",
+      "pop"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000128",
+    "name": "Bananarama",
+    "wikipediaTitle": "Bananarama",
+    "type": "group",
+    "genres": [
+      "pop",
+      "rnb"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000129",
+    "name": "Ace of Base",
+    "wikipediaTitle": "Ace of Base",
+    "type": "group",
+    "genres": [
+      "pop",
+      "rnb"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000130",
+    "name": "a-ha",
+    "wikipediaTitle": "a-ha",
+    "type": "group",
+    "genres": [
+      "pop",
+      "rnb"
+    ],
+    "rarity": "common",
+    "wikidataId": "Q156305"
+  },
+  {
+    "id": "los-000131",
+    "name": "Wu-Tang Clan",
+    "wikipediaTitle": "Wu-Tang Clan",
+    "type": "group",
+    "genres": [
+      "hip-hop",
+      "rap"
+    ],
+    "rarity": "legendary"
+  },
+  {
+    "id": "los-000132",
+    "name": "Public Enemy",
+    "wikipediaTitle": "Public Enemy (group)",
+    "type": "group",
+    "genres": [
+      "hip-hop",
+      "rap"
+    ],
+    "rarity": "epic",
+    "wikidataId": "Q209182"
+  },
+  {
+    "id": "los-000133",
+    "name": "N.W.A",
+    "wikipediaTitle": "N.W.A",
+    "type": "group",
+    "genres": [
+      "hip-hop",
+      "rap"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000134",
+    "name": "Run-DMC",
+    "wikipediaTitle": "Run-DMC",
+    "type": "group",
+    "genres": [
+      "hip-hop",
+      "rap"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000135",
+    "name": "A Tribe Called Quest",
+    "wikipediaTitle": "A Tribe Called Quest",
+    "type": "group",
+    "genres": [
+      "hip-hop",
+      "rap"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000136",
+    "name": "Outkast",
+    "wikipediaTitle": "Outkast",
+    "type": "group",
+    "genres": [
+      "hip-hop",
+      "rap"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000137",
+    "name": "Beastie Boys",
+    "wikipediaTitle": "Beastie Boys",
+    "type": "group",
+    "genres": [
+      "hip-hop",
+      "rap"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000138",
+    "name": "Fugees",
+    "wikipediaTitle": "Fugees",
+    "type": "group",
+    "genres": [
+      "hip-hop",
+      "rap"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000139",
+    "name": "De La Soul",
+    "wikipediaTitle": "De La Soul",
+    "type": "group",
+    "genres": [
+      "hip-hop",
+      "rap"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000140",
+    "name": "Cypress Hill",
+    "wikipediaTitle": "Cypress Hill",
+    "type": "group",
+    "genres": [
+      "hip-hop",
+      "rap"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000141",
+    "name": "Mobb Deep",
+    "wikipediaTitle": "Mobb Deep",
+    "type": "group",
+    "genres": [
+      "hip-hop",
+      "rap"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000142",
+    "name": "The Roots",
+    "wikipediaTitle": "The Roots",
+    "type": "group",
+    "genres": [
+      "hip-hop",
+      "rap"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000143",
+    "name": "Brockhampton",
+    "wikipediaTitle": "Brockhampton (band)",
+    "type": "group",
+    "genres": [
+      "hip-hop",
+      "rap"
+    ],
+    "rarity": "common",
+    "wikidataId": "Q30612260"
+  },
+  {
+    "id": "los-000144",
+    "name": "IAM",
+    "wikipediaTitle": "IAM (band)",
+    "type": "group",
+    "genres": [
+      "hip-hop",
+      "rap"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000145",
+    "name": "Suprême NTM",
+    "wikipediaTitle": "Suprême NTM",
+    "type": "group",
+    "genres": [
+      "hip-hop",
+      "rap"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000146",
+    "name": "BTS",
+    "wikipediaTitle": "BTS",
+    "type": "group",
+    "genres": [
+      "k-pop",
+      "pop"
+    ],
+    "rarity": "legendary"
+  },
+  {
+    "id": "los-000147",
+    "name": "Blackpink",
+    "wikipediaTitle": "Blackpink",
+    "type": "group",
+    "genres": [
+      "k-pop",
+      "pop"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000148",
+    "name": "BigBang",
+    "wikipediaTitle": "BigBang (South Korean band)",
+    "type": "group",
+    "genres": [
+      "k-pop",
+      "pop"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000149",
+    "name": "Girls' Generation",
+    "wikipediaTitle": "Girls' Generation",
+    "type": "group",
+    "genres": [
+      "k-pop",
+      "pop"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000150",
+    "name": "Twice",
+    "wikipediaTitle": "Twice",
+    "type": "group",
+    "genres": [
+      "k-pop",
+      "pop"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000151",
+    "name": "Red Velvet",
+    "wikipediaTitle": "Red Velvet (group)",
+    "type": "group",
+    "genres": [
+      "k-pop",
+      "pop"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000152",
+    "name": "EXO",
+    "wikipediaTitle": "Exo",
+    "type": "group",
+    "genres": [
+      "k-pop",
+      "pop"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000153",
+    "name": "Stray Kids",
+    "wikipediaTitle": "Stray Kids",
+    "type": "group",
+    "genres": [
+      "k-pop",
+      "pop"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000154",
+    "name": "Seventeen",
+    "wikipediaTitle": "Seventeen (South Korean band)",
+    "type": "group",
+    "genres": [
+      "k-pop",
+      "pop"
+    ],
+    "rarity": "rare",
+    "mbid": "e04d239e-9fa8-49b3-b9b7-9e439c3cb1d1",
+    "identityReview": {
+      "source": "https://musicbrainz.org/artist/e04d239e-9fa8-49b3-b9b7-9e439c3cb1d1",
+      "reason": "Identifiant du projet principal sélectionné après examen des qualificatifs Wikidata et de la fiche MusicBrainz ; le nom, le type et le lien retour Wikidata restent obligatoires à l’import."
+    }
+  },
+  {
+    "id": "los-000155",
+    "name": "SHINee",
+    "wikipediaTitle": "Shinee",
+    "type": "group",
+    "genres": [
+      "k-pop",
+      "pop"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000156",
+    "name": "2NE1",
+    "wikipediaTitle": "2NE1",
+    "type": "group",
+    "genres": [
+      "k-pop",
+      "pop"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000157",
+    "name": "ITZY",
+    "wikipediaTitle": "Itzy",
+    "type": "group",
+    "genres": [
+      "k-pop",
+      "pop"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000158",
+    "name": "aespa",
+    "wikipediaTitle": "Aespa",
+    "type": "group",
+    "genres": [
+      "k-pop",
+      "pop"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000159",
+    "name": "NewJeans",
+    "wikipediaTitle": "NewJeans",
+    "type": "group",
+    "genres": [
+      "k-pop",
+      "pop"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000160",
+    "name": "LE SSERAFIM",
+    "wikipediaTitle": "Le Sserafim",
+    "type": "group",
+    "genres": [
+      "k-pop",
+      "pop"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000161",
+    "name": "X Japan",
+    "wikipediaTitle": "X Japan",
+    "type": "group",
+    "genres": [
+      "j-rock",
+      "rock",
+      "metal"
+    ],
+    "rarity": "legendary"
+  },
+  {
+    "id": "los-000162",
+    "name": "B'z",
+    "wikipediaTitle": "B'z",
+    "type": "group",
+    "genres": [
+      "j-rock",
+      "rock"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000163",
+    "name": "L'Arc-en-Ciel",
+    "wikipediaTitle": "L'Arc-en-Ciel",
+    "type": "group",
+    "genres": [
+      "j-rock",
+      "rock"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000164",
+    "name": "BABYMETAL",
+    "wikipediaTitle": "Babymetal",
+    "type": "group",
+    "genres": [
+      "metal",
+      "j-pop",
+      "j-rock"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000165",
+    "name": "YOASOBI",
+    "wikipediaTitle": "Yoasobi",
+    "type": "group",
+    "genres": [
+      "j-pop",
+      "pop",
+      "electronic"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000166",
+    "name": "ONE OK ROCK",
+    "wikipediaTitle": "One Ok Rock",
+    "type": "group",
+    "genres": [
+      "j-rock",
+      "rock"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000167",
+    "name": "RADWIMPS",
+    "wikipediaTitle": "Radwimps",
+    "type": "group",
+    "genres": [
+      "j-rock",
+      "rock"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000168",
+    "name": "ASIAN KUNG-FU GENERATION",
+    "wikipediaTitle": "Asian Kung-Fu Generation",
+    "type": "group",
+    "genres": [
+      "j-rock",
+      "rock"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000169",
+    "name": "Perfume",
+    "wikipediaTitle": "Perfume (Japanese band)",
+    "type": "group",
+    "genres": [
+      "j-pop",
+      "pop",
+      "electronic"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000170",
+    "name": "Atarashii Gakko!",
+    "wikipediaTitle": "Atarashii Gakko!",
+    "type": "group",
+    "genres": [
+      "j-pop",
+      "pop",
+      "dance-pop"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000171",
+    "name": "BAND-MAID",
+    "wikipediaTitle": "Band-Maid",
+    "type": "group",
+    "genres": [
+      "j-rock",
+      "rock",
+      "metal"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000172",
+    "name": "SCANDAL",
+    "wikipediaTitle": "Scandal (Japanese band)",
+    "type": "group",
+    "genres": [
+      "j-rock",
+      "rock"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000173",
+    "name": "Maximum the Hormone",
+    "wikipediaTitle": "Maximum the Hormone",
+    "type": "group",
+    "genres": [
+      "j-rock",
+      "rock",
+      "metal"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000174",
+    "name": "Fishmans",
+    "wikipediaTitle": "Fishmans",
+    "type": "group",
+    "genres": [
+      "j-rock",
+      "reggae",
+      "dub"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000175",
+    "name": "Sakanaction",
+    "wikipediaTitle": "Sakanaction",
+    "type": "group",
+    "genres": [
+      "j-rock",
+      "electronic"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000176",
+    "name": "Earth, Wind & Fire",
+    "wikipediaTitle": "Earth, Wind & Fire",
+    "type": "group",
+    "genres": [
+      "funk",
+      "soul"
+    ],
+    "rarity": "legendary"
+  },
+  {
+    "id": "los-000177",
+    "name": "Parliament-Funkadelic",
+    "wikipediaTitle": "Parliament-Funkadelic",
+    "type": "group",
+    "genres": [
+      "funk",
+      "soul"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000178",
+    "name": "Kool & the Gang",
+    "wikipediaTitle": "Kool & the Gang",
+    "type": "group",
+    "genres": [
+      "funk",
+      "soul"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000179",
+    "name": "Sly and the Family Stone",
+    "wikipediaTitle": "Sly and the Family Stone",
+    "type": "group",
+    "genres": [
+      "funk",
+      "soul"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000180",
+    "name": "The Temptations",
+    "wikipediaTitle": "The Temptations",
+    "type": "group",
+    "genres": [
+      "funk",
+      "soul"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000181",
+    "name": "The Supremes",
+    "wikipediaTitle": "The Supremes",
+    "type": "group",
+    "genres": [
+      "funk",
+      "soul"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000182",
+    "name": "The Jackson 5",
+    "wikipediaTitle": "The Jackson 5",
+    "type": "group",
+    "genres": [
+      "funk",
+      "soul"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000183",
+    "name": "The Isley Brothers",
+    "wikipediaTitle": "The Isley Brothers",
+    "type": "group",
+    "genres": [
+      "funk",
+      "soul"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000184",
+    "name": "The Commodores",
+    "wikipediaTitle": "Commodores",
+    "type": "group",
+    "genres": [
+      "funk",
+      "soul"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000185",
+    "name": "The Meters",
+    "wikipediaTitle": "The Meters",
+    "type": "group",
+    "genres": [
+      "funk",
+      "soul"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000186",
+    "name": "Weather Report",
+    "wikipediaTitle": "Weather Report",
+    "type": "group",
+    "genres": [
+      "jazz"
+    ],
+    "rarity": "legendary"
+  },
+  {
+    "id": "los-000187",
+    "name": "The Dave Brubeck Quartet",
+    "wikipediaTitle": "Dave Brubeck Quartet",
+    "type": "group",
+    "genres": [
+      "jazz"
+    ],
+    "rarity": "epic",
+    "wikidataId": "Q264163"
+  },
+  {
+    "id": "los-000188",
+    "name": "Snarky Puppy",
+    "wikipediaTitle": "Snarky Puppy",
+    "type": "group",
+    "genres": [
+      "jazz"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000189",
+    "name": "The Cinematic Orchestra",
+    "wikipediaTitle": "The Cinematic Orchestra",
+    "type": "group",
+    "genres": [
+      "jazz"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000190",
+    "name": "BADBADNOTGOOD",
+    "wikipediaTitle": "BadBadNotGood",
+    "type": "group",
+    "genres": [
+      "jazz"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000191",
+    "name": "Bob Marley and the Wailers",
+    "wikipediaTitle": "Bob Marley and the Wailers",
+    "type": "group",
+    "genres": [
+      "reggae"
+    ],
+    "rarity": "legendary"
+  },
+  {
+    "id": "los-000192",
+    "name": "UB40",
+    "wikipediaTitle": "UB40",
+    "type": "group",
+    "genres": [
+      "reggae",
+      "pop"
+    ],
+    "rarity": "epic",
+    "mbid": "7113aab7-628f-4050-ae49-dbecac110ca8",
+    "identitySelection": {
+      "source": "https://www.wikidata.org/wiki/Q560153",
+      "reason": "Un seul identifiant porte le qualificatif P1810 correspondant exactement au nom éditorial. Les anciens noms et projets alternatifs ne sont pas sélectionnés."
+    }
+  },
+  {
+    "id": "los-000193",
+    "name": "Toots and the Maytals",
+    "wikipediaTitle": "Toots and the Maytals",
+    "type": "group",
+    "genres": [
+      "reggae",
+      "ska"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000194",
+    "name": "Steel Pulse",
+    "wikipediaTitle": "Steel Pulse",
+    "type": "group",
+    "genres": [
+      "reggae"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000195",
+    "name": "Burning Spear",
+    "wikipediaTitle": "Burning Spear",
+    "type": "solo",
+    "genres": [
+      "reggae"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000196",
+    "name": "Buena Vista Social Club",
+    "wikipediaTitle": "Buena Vista Social Club",
+    "type": "group",
+    "genres": [
+      "son-cubano",
+      "latin",
+      "world"
+    ],
+    "rarity": "common",
+    "mbid": "2a85ecff-41e9-4be1-aca6-c87054a4c334",
+    "identitySelection": {
+      "source": "https://www.wikidata.org/wiki/Q842415",
+      "reason": "Un seul identifiant porte le qualificatif P1810 correspondant exactement au nom éditorial. Les anciens noms et projets alternatifs ne sont pas sélectionnés."
+    }
+  },
+  {
+    "id": "los-000197",
+    "name": "Tinariwen",
+    "wikipediaTitle": "Tinariwen",
+    "type": "group",
+    "genres": [
+      "desert-blues",
+      "world",
+      "blues"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000198",
+    "name": "Ladysmith Black Mambazo",
+    "wikipediaTitle": "Ladysmith Black Mambazo",
+    "type": "group",
+    "genres": [
+      "isicathamiya",
+      "world"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000199",
+    "name": "Sigur Rós",
+    "wikipediaTitle": "Sigur Rós",
+    "type": "group",
+    "genres": [
+      "post-rock",
+      "rock",
+      "ambient"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000200",
+    "name": "Gipsy Kings",
+    "wikipediaTitle": "Gipsy Kings",
+    "type": "group",
+    "genres": [
+      "rumba",
+      "latin",
+      "world"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000201",
+    "name": "David Bowie",
+    "wikipediaTitle": "David Bowie",
+    "type": "solo",
+    "genres": [
+      "rock"
+    ],
+    "rarity": "legendary"
+  },
+  {
+    "id": "los-000202",
+    "name": "Elvis Presley",
+    "wikipediaTitle": "Elvis Presley",
+    "type": "solo",
+    "genres": [
+      "rock"
+    ],
+    "rarity": "legendary"
+  },
+  {
+    "id": "los-000203",
+    "name": "Bob Dylan",
+    "wikipediaTitle": "Bob Dylan",
+    "type": "solo",
+    "genres": [
+      "rock"
+    ],
+    "rarity": "legendary"
+  },
+  {
+    "id": "los-000204",
+    "name": "Jimi Hendrix",
+    "wikipediaTitle": "Jimi Hendrix",
+    "type": "solo",
+    "genres": [
+      "rock"
+    ],
+    "rarity": "legendary"
+  },
+  {
+    "id": "los-000205",
+    "name": "Bruce Springsteen",
+    "wikipediaTitle": "Bruce Springsteen",
+    "type": "solo",
+    "genres": [
+      "rock"
+    ],
+    "rarity": "legendary"
+  },
+  {
+    "id": "los-000206",
+    "name": "Elton John",
+    "wikipediaTitle": "Elton John",
+    "type": "solo",
+    "genres": [
+      "rock"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000207",
+    "name": "Freddie Mercury",
+    "wikipediaTitle": "Freddie Mercury",
+    "type": "solo",
+    "genres": [
+      "rock"
+    ],
+    "rarity": "epic",
+    "mbid": "022589ac-7177-460d-a178-9976cf70e29f",
+    "identitySelection": {
+      "source": "https://www.wikidata.org/wiki/Q15869",
+      "reason": "Un seul identifiant porte le qualificatif P1810 correspondant exactement au nom éditorial. Les anciens noms et projets alternatifs ne sont pas sélectionnés."
+    }
+  },
+  {
+    "id": "los-000208",
+    "name": "John Lennon",
+    "wikipediaTitle": "John Lennon",
+    "type": "solo",
+    "genres": [
+      "rock"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000209",
+    "name": "Paul McCartney",
+    "wikipediaTitle": "Paul McCartney",
+    "type": "solo",
+    "genres": [
+      "rock"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000210",
+    "name": "George Harrison",
+    "wikipediaTitle": "George Harrison",
+    "type": "solo",
+    "genres": [
+      "rock"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000211",
+    "name": "Ringo Starr",
+    "wikipediaTitle": "Ringo Starr",
+    "type": "solo",
+    "genres": [
+      "rock"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000212",
+    "name": "Eric Clapton",
+    "wikipediaTitle": "Eric Clapton",
+    "type": "solo",
+    "genres": [
+      "rock"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000213",
+    "name": "Neil Young",
+    "wikipediaTitle": "Neil Young",
+    "type": "solo",
+    "genres": [
+      "rock"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000214",
+    "name": "Leonard Cohen",
+    "wikipediaTitle": "Leonard Cohen",
+    "type": "solo",
+    "genres": [
+      "rock"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000215",
+    "name": "Patti Smith",
+    "wikipediaTitle": "Patti Smith",
+    "type": "solo",
+    "genres": [
+      "rock"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000216",
+    "name": "Lou Reed",
+    "wikipediaTitle": "Lou Reed",
+    "type": "solo",
+    "genres": [
+      "rock"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000217",
+    "name": "Iggy Pop",
+    "wikipediaTitle": "Iggy Pop",
+    "type": "solo",
+    "genres": [
+      "rock"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000218",
+    "name": "Ozzy Osbourne",
+    "wikipediaTitle": "Ozzy Osbourne",
+    "type": "solo",
+    "genres": [
+      "rock"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000219",
+    "name": "Alice Cooper",
+    "wikipediaTitle": "Alice Cooper",
+    "type": "solo",
+    "genres": [
+      "rock"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000220",
+    "name": "Lenny Kravitz",
+    "wikipediaTitle": "Lenny Kravitz",
+    "type": "solo",
+    "genres": [
+      "rock"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000221",
+    "name": "Sting",
+    "wikipediaTitle": "Sting (musician)",
+    "type": "solo",
+    "genres": [
+      "rock"
+    ],
+    "rarity": "rare",
+    "mbid": "7944ed53-2a58-4035-9b93-140a71e41c34",
+    "identitySelection": {
+      "source": "https://www.wikidata.org/wiki/Q483203",
+      "reason": "Un seul identifiant porte le qualificatif P1810 correspondant exactement au nom éditorial. Les anciens noms et projets alternatifs ne sont pas sélectionnés."
+    }
+  },
+  {
+    "id": "los-000222",
+    "name": "Peter Gabriel",
+    "wikipediaTitle": "Peter Gabriel",
+    "type": "solo",
+    "genres": [
+      "rock"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000223",
+    "name": "Phil Collins",
+    "wikipediaTitle": "Phil Collins",
+    "type": "solo",
+    "genres": [
+      "rock"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000224",
+    "name": "Bryan Adams",
+    "wikipediaTitle": "Bryan Adams",
+    "type": "solo",
+    "genres": [
+      "rock"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000225",
+    "name": "Billy Joel",
+    "wikipediaTitle": "Billy Joel",
+    "type": "solo",
+    "genres": [
+      "rock"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000226",
+    "name": "Alanis Morissette",
+    "wikipediaTitle": "Alanis Morissette",
+    "type": "solo",
+    "genres": [
+      "rock"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000227",
+    "name": "Avril Lavigne",
+    "wikipediaTitle": "Avril Lavigne",
+    "type": "solo",
+    "genres": [
+      "rock"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000228",
+    "name": "PJ Harvey",
+    "wikipediaTitle": "PJ Harvey",
+    "type": "solo",
+    "genres": [
+      "rock"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000229",
+    "name": "Nick Cave",
+    "wikipediaTitle": "Nick Cave",
+    "type": "solo",
+    "genres": [
+      "rock"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000230",
+    "name": "Jack White",
+    "wikipediaTitle": "Jack White",
+    "type": "solo",
+    "genres": [
+      "rock"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000231",
+    "name": "Beck",
+    "wikipediaTitle": "Beck",
+    "type": "solo",
+    "genres": [
+      "rock"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000232",
+    "name": "Jeff Buckley",
+    "wikipediaTitle": "Jeff Buckley",
+    "type": "solo",
+    "genres": [
+      "rock"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000233",
+    "name": "Tom Waits",
+    "wikipediaTitle": "Tom Waits",
+    "type": "solo",
+    "genres": [
+      "rock"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000234",
+    "name": "Frank Zappa",
+    "wikipediaTitle": "Frank Zappa",
+    "type": "solo",
+    "genres": [
+      "rock"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000235",
+    "name": "Kate Bush",
+    "wikipediaTitle": "Kate Bush",
+    "type": "solo",
+    "genres": [
+      "rock"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000236",
+    "name": "Michael Jackson",
+    "wikipediaTitle": "Michael Jackson",
+    "type": "solo",
+    "genres": [
+      "pop",
+      "rnb"
+    ],
+    "rarity": "legendary"
+  },
+  {
+    "id": "los-000237",
+    "name": "Prince",
+    "wikipediaTitle": "Prince (musician)",
+    "type": "solo",
+    "genres": [
+      "pop",
+      "rnb"
+    ],
+    "rarity": "legendary",
+    "mbid": "070d193a-845c-479f-980e-bef15710653e",
+    "identityReview": {
+      "source": "https://musicbrainz.org/artist/070d193a-845c-479f-980e-bef15710653e",
+      "reason": "Identifiant du projet principal sélectionné après examen des qualificatifs Wikidata et de la fiche MusicBrainz ; le nom, le type et le lien retour Wikidata restent obligatoires à l’import."
+    }
+  },
+  {
+    "id": "los-000238",
+    "name": "Madonna",
+    "wikipediaTitle": "Madonna",
+    "type": "solo",
+    "genres": [
+      "pop",
+      "rnb"
+    ],
+    "rarity": "legendary"
+  },
+  {
+    "id": "los-000239",
+    "name": "Beyoncé",
+    "wikipediaTitle": "Beyoncé",
+    "type": "solo",
+    "genres": [
+      "pop",
+      "rnb"
+    ],
+    "rarity": "legendary"
+  },
+  {
+    "id": "los-000240",
+    "name": "Whitney Houston",
+    "wikipediaTitle": "Whitney Houston",
+    "type": "solo",
+    "genres": [
+      "pop",
+      "rnb"
+    ],
+    "rarity": "legendary"
+  },
+  {
+    "id": "los-000241",
+    "name": "Mariah Carey",
+    "wikipediaTitle": "Mariah Carey",
+    "type": "solo",
+    "genres": [
+      "pop",
+      "rnb"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000242",
+    "name": "Janet Jackson",
+    "wikipediaTitle": "Janet Jackson",
+    "type": "solo",
+    "genres": [
+      "pop",
+      "rnb"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000243",
+    "name": "Tina Turner",
+    "wikipediaTitle": "Tina Turner",
+    "type": "solo",
+    "genres": [
+      "pop",
+      "rnb"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000244",
+    "name": "Céline Dion",
+    "wikipediaTitle": "Céline Dion",
+    "type": "solo",
+    "genres": [
+      "pop",
+      "rnb"
+    ],
+    "rarity": "epic",
+    "wikidataId": "Q5105"
+  },
+  {
+    "id": "los-000245",
+    "name": "Cher",
+    "wikipediaTitle": "Cher",
+    "type": "solo",
+    "genres": [
+      "pop",
+      "rnb"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000246",
+    "name": "George Michael",
+    "wikipediaTitle": "George Michael",
+    "type": "solo",
+    "genres": [
+      "pop",
+      "rnb"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000247",
+    "name": "Britney Spears",
+    "wikipediaTitle": "Britney Spears",
+    "type": "solo",
+    "genres": [
+      "pop",
+      "rnb"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000248",
+    "name": "Christina Aguilera",
+    "wikipediaTitle": "Christina Aguilera",
+    "type": "solo",
+    "genres": [
+      "pop",
+      "rnb"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000249",
+    "name": "Justin Timberlake",
+    "wikipediaTitle": "Justin Timberlake",
+    "type": "solo",
+    "genres": [
+      "pop",
+      "rnb"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000250",
+    "name": "Rihanna",
+    "wikipediaTitle": "Rihanna",
+    "type": "solo",
+    "genres": [
+      "pop",
+      "rnb"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000251",
+    "name": "Lady Gaga",
+    "wikipediaTitle": "Lady Gaga",
+    "type": "solo",
+    "genres": [
+      "pop",
+      "rnb"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000252",
+    "name": "Taylor Swift",
+    "wikipediaTitle": "Taylor Swift",
+    "type": "solo",
+    "genres": [
+      "pop",
+      "rnb"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000253",
+    "name": "Adele",
+    "wikipediaTitle": "Adele",
+    "type": "solo",
+    "genres": [
+      "pop",
+      "rnb"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000254",
+    "name": "Bruno Mars",
+    "wikipediaTitle": "Bruno Mars",
+    "type": "solo",
+    "genres": [
+      "pop",
+      "rnb"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000255",
+    "name": "The Weeknd",
+    "wikipediaTitle": "The Weeknd",
+    "type": "solo",
+    "genres": [
+      "pop",
+      "rnb"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000256",
+    "name": "Ariana Grande",
+    "wikipediaTitle": "Ariana Grande",
+    "type": "solo",
+    "genres": [
+      "pop",
+      "rnb"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000257",
+    "name": "Dua Lipa",
+    "wikipediaTitle": "Dua Lipa",
+    "type": "solo",
+    "genres": [
+      "pop",
+      "rnb"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000258",
+    "name": "Billie Eilish",
+    "wikipediaTitle": "Billie Eilish",
+    "type": "solo",
+    "genres": [
+      "pop",
+      "rnb"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000259",
+    "name": "Olivia Rodrigo",
+    "wikipediaTitle": "Olivia Rodrigo",
+    "type": "solo",
+    "genres": [
+      "pop",
+      "rnb"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000260",
+    "name": "Sabrina Carpenter",
+    "wikipediaTitle": "Sabrina Carpenter",
+    "type": "solo",
+    "genres": [
+      "pop",
+      "rnb"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000261",
+    "name": "Chappell Roan",
+    "wikipediaTitle": "Chappell Roan",
+    "type": "solo",
+    "genres": [
+      "pop",
+      "rnb"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000262",
+    "name": "Lana Del Rey",
+    "wikipediaTitle": "Lana Del Rey",
+    "type": "solo",
+    "genres": [
+      "pop",
+      "rnb"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000263",
+    "name": "Lorde",
+    "wikipediaTitle": "Lorde",
+    "type": "solo",
+    "genres": [
+      "pop",
+      "rnb"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000264",
+    "name": "Katy Perry",
+    "wikipediaTitle": "Katy Perry",
+    "type": "solo",
+    "genres": [
+      "pop",
+      "rnb"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000265",
+    "name": "P!nk",
+    "wikipediaTitle": "Pink (singer)",
+    "type": "solo",
+    "genres": [
+      "pop",
+      "rnb"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000266",
+    "name": "Sia",
+    "wikipediaTitle": "Sia",
+    "type": "solo",
+    "genres": [
+      "pop",
+      "rnb"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000267",
+    "name": "Miley Cyrus",
+    "wikipediaTitle": "Miley Cyrus",
+    "type": "solo",
+    "genres": [
+      "pop",
+      "rnb"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000268",
+    "name": "Teresa Teng",
+    "wikipediaTitle": "Teresa Teng",
+    "type": "solo",
+    "genres": [
+      "mandopop",
+      "pop"
+    ],
+    "rarity": "legendary"
+  },
+  {
+    "id": "los-000269",
+    "name": "Faye Wong",
+    "wikipediaTitle": "Faye Wong",
+    "type": "solo",
+    "genres": [
+      "cantopop",
+      "pop"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000270",
+    "name": "Justin Bieber",
+    "wikipediaTitle": "Justin Bieber",
+    "type": "solo",
+    "genres": [
+      "pop",
+      "rnb"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000271",
+    "name": "Jay Chou",
+    "wikipediaTitle": "Jay Chou",
+    "type": "solo",
+    "genres": [
+      "mandopop",
+      "pop"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000272",
+    "name": "Ed Sheeran",
+    "wikipediaTitle": "Ed Sheeran",
+    "type": "solo",
+    "genres": [
+      "pop",
+      "rnb"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000273",
+    "name": "Sam Smith",
+    "wikipediaTitle": "Sam Smith",
+    "type": "solo",
+    "genres": [
+      "pop",
+      "rnb"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000274",
+    "name": "Harry Styles",
+    "wikipediaTitle": "Harry Styles",
+    "type": "solo",
+    "genres": [
+      "pop",
+      "rnb"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000275",
+    "name": "Robbie Williams",
+    "wikipediaTitle": "Robbie Williams",
+    "type": "solo",
+    "genres": [
+      "pop",
+      "rnb"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000276",
+    "name": "Kylie Minogue",
+    "wikipediaTitle": "Kylie Minogue",
+    "type": "solo",
+    "genres": [
+      "pop",
+      "rnb"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000277",
+    "name": "Caetano Veloso",
+    "wikipediaTitle": "Caetano Veloso",
+    "type": "solo",
+    "genres": [
+      "mpb",
+      "tropicalia",
+      "world"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000278",
+    "name": "Charli XCX",
+    "wikipediaTitle": "Charli XCX",
+    "type": "solo",
+    "genres": [
+      "pop",
+      "rnb"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000279",
+    "name": "Anggun",
+    "wikipediaTitle": "Anggun",
+    "type": "solo",
+    "genres": [
+      "pop",
+      "world"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000280",
+    "name": "Tim Maia",
+    "wikipediaTitle": "Tim Maia",
+    "type": "solo",
+    "genres": [
+      "soul",
+      "funk",
+      "mpb"
+    ],
+    "rarity": "rare",
+    "mbid": "446ac261-09ae-43f4-a7e1-2c753c0813ce",
+    "identitySelection": {
+      "source": "https://www.wikidata.org/wiki/Q1262590",
+      "reason": "Un seul identifiant porte le qualificatif P1810 correspondant exactement au nom éditorial. Les anciens noms et projets alternatifs ne sont pas sélectionnés."
+    }
+  },
+  {
+    "id": "los-000281",
+    "name": "FKA twigs",
+    "wikipediaTitle": "FKA twigs",
+    "type": "solo",
+    "genres": [
+      "pop",
+      "rnb"
+    ],
+    "rarity": "common",
+    "wikidataId": "Q15291033"
+  },
+  {
+    "id": "los-000282",
+    "name": "Marisa Monte",
+    "wikipediaTitle": "Marisa Monte",
+    "type": "solo",
+    "genres": [
+      "mpb",
+      "pop",
+      "world"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000283",
+    "name": "Janelle Monáe",
+    "wikipediaTitle": "Janelle Monáe",
+    "type": "solo",
+    "genres": [
+      "pop",
+      "rnb"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000284",
+    "name": "SZA",
+    "wikipediaTitle": "SZA",
+    "type": "solo",
+    "genres": [
+      "pop",
+      "rnb"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000285",
+    "name": "Frank Ocean",
+    "wikipediaTitle": "Frank Ocean",
+    "type": "solo",
+    "genres": [
+      "pop",
+      "rnb"
+    ],
+    "rarity": "common",
+    "mbid": "e520459c-dff4-491d-a6e4-c97be35e0044",
+    "identitySelection": {
+      "source": "https://www.wikidata.org/wiki/Q357645",
+      "reason": "Un seul identifiant porte le qualificatif P1810 correspondant exactement au nom éditorial. Les anciens noms et projets alternatifs ne sont pas sélectionnés."
+    }
+  },
+  {
+    "id": "los-000286",
+    "name": "H.E.R.",
+    "wikipediaTitle": "H.E.R.",
+    "type": "solo",
+    "genres": [
+      "pop",
+      "rnb"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000287",
+    "name": "Elis Regina",
+    "wikipediaTitle": "Elis Regina",
+    "type": "solo",
+    "genres": [
+      "mpb",
+      "jazz",
+      "world"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000288",
+    "name": "Gilberto Gil",
+    "wikipediaTitle": "Gilberto Gil",
+    "type": "solo",
+    "genres": [
+      "mpb",
+      "tropicalia",
+      "world"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000289",
+    "name": "Antônio Carlos Jobim",
+    "wikipediaTitle": "Antônio Carlos Jobim",
+    "type": "solo",
+    "genres": [
+      "bossa-nova",
+      "jazz",
+      "world"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000290",
+    "name": "João Gilberto",
+    "wikipediaTitle": "João Gilberto",
+    "type": "solo",
+    "genres": [
+      "bossa-nova",
+      "jazz",
+      "world"
+    ],
+    "rarity": "legendary"
+  },
+  {
+    "id": "los-000291",
+    "name": "Eminem",
+    "wikipediaTitle": "Eminem",
+    "type": "solo",
+    "genres": [
+      "hip-hop",
+      "rap"
+    ],
+    "rarity": "legendary"
+  },
+  {
+    "id": "los-000292",
+    "name": "Kendrick Lamar",
+    "wikipediaTitle": "Kendrick Lamar",
+    "type": "solo",
+    "genres": [
+      "hip-hop",
+      "rap"
+    ],
+    "rarity": "legendary"
+  },
+  {
+    "id": "los-000293",
+    "name": "Tupac Shakur",
+    "wikipediaTitle": "Tupac Shakur",
+    "type": "solo",
+    "genres": [
+      "hip-hop",
+      "rap"
+    ],
+    "rarity": "legendary",
+    "mbid": "382f1005-e9ab-4684-afd4-0bdae4ee37f2",
+    "identityReview": {
+      "source": "https://musicbrainz.org/artist/382f1005-e9ab-4684-afd4-0bdae4ee37f2",
+      "reason": "Identifiant du projet principal sélectionné après examen des qualificatifs Wikidata et de la fiche MusicBrainz ; le nom, le type et le lien retour Wikidata restent obligatoires à l’import."
+    }
+  },
+  {
+    "id": "los-000294",
+    "name": "The Notorious B.I.G.",
+    "wikipediaTitle": "The Notorious B.I.G.",
+    "type": "solo",
+    "genres": [
+      "hip-hop",
+      "rap"
+    ],
+    "rarity": "legendary"
+  },
+  {
+    "id": "los-000295",
+    "name": "Jay-Z",
+    "wikipediaTitle": "Jay-Z",
+    "type": "solo",
+    "genres": [
+      "hip-hop",
+      "rap"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000296",
+    "name": "Nas",
+    "wikipediaTitle": "Nas",
+    "type": "solo",
+    "genres": [
+      "hip-hop",
+      "rap"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000297",
+    "name": "Dr. Dre",
+    "wikipediaTitle": "Dr. Dre",
+    "type": "solo",
+    "genres": [
+      "hip-hop",
+      "rap"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000298",
+    "name": "Snoop Dogg",
+    "wikipediaTitle": "Snoop Dogg",
+    "type": "solo",
+    "genres": [
+      "hip-hop",
+      "rap"
+    ],
+    "rarity": "epic",
+    "mbid": "f90e8b26-9e52-4669-a5c9-e28529c47894",
+    "identitySelection": {
+      "source": "https://www.wikidata.org/wiki/Q6096",
+      "reason": "Un seul identifiant porte le qualificatif P1810 correspondant exactement au nom éditorial. Les anciens noms et projets alternatifs ne sont pas sélectionnés."
+    }
+  },
+  {
+    "id": "los-000299",
+    "name": "Kanye West",
+    "wikipediaTitle": "Kanye West",
+    "type": "solo",
+    "genres": [
+      "hip-hop",
+      "rap"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000300",
+    "name": "Lauryn Hill",
+    "wikipediaTitle": "Lauryn Hill",
+    "type": "solo",
+    "genres": [
+      "hip-hop",
+      "rap"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000301",
+    "name": "Missy Elliott",
+    "wikipediaTitle": "Missy Elliott",
+    "type": "solo",
+    "genres": [
+      "hip-hop",
+      "rap"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000302",
+    "name": "Nicki Minaj",
+    "wikipediaTitle": "Nicki Minaj",
+    "type": "solo",
+    "genres": [
+      "hip-hop",
+      "rap"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000303",
+    "name": "Drake",
+    "wikipediaTitle": "Drake (musician)",
+    "type": "solo",
+    "genres": [
+      "hip-hop",
+      "rap"
+    ],
+    "rarity": "epic",
+    "mbid": "9fff2f8a-21e6-47de-a2b8-7f449929d43f",
+    "identitySelection": {
+      "source": "https://www.wikidata.org/wiki/Q33240",
+      "reason": "Un seul identifiant porte le qualificatif P1810 correspondant exactement au nom éditorial. Les anciens noms et projets alternatifs ne sont pas sélectionnés."
+    }
+  },
+  {
+    "id": "los-000304",
+    "name": "J. Cole",
+    "wikipediaTitle": "J. Cole",
+    "type": "solo",
+    "genres": [
+      "hip-hop",
+      "rap"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000305",
+    "name": "Tyler, the Creator",
+    "wikipediaTitle": "Tyler, the Creator",
+    "type": "solo",
+    "genres": [
+      "hip-hop",
+      "rap"
+    ],
+    "rarity": "rare",
+    "mbid": "f6beac20-5dfe-4d1f-ae02-0b0a740aafd6",
+    "identityReview": {
+      "source": "https://musicbrainz.org/artist/f6beac20-5dfe-4d1f-ae02-0b0a740aafd6",
+      "reason": "Identifiant du projet principal sélectionné après examen des qualificatifs Wikidata et de la fiche MusicBrainz ; le nom, le type et le lien retour Wikidata restent obligatoires à l’import."
+    }
+  },
+  {
+    "id": "los-000306",
+    "name": "Childish Gambino",
+    "wikipediaTitle": "Donald Glover",
+    "type": "solo",
+    "genres": [
+      "hip-hop",
+      "rap"
+    ],
+    "rarity": "rare",
+    "mbid": "7fb57fba-a6ef-44c2-abab-2fa3bdee607e",
+    "identitySelection": {
+      "source": "https://www.wikidata.org/wiki/Q1239933",
+      "reason": "Un seul identifiant porte le qualificatif P1810 correspondant exactement au nom éditorial. Les anciens noms et projets alternatifs ne sont pas sélectionnés."
+    }
+  },
+  {
+    "id": "los-000307",
+    "name": "Travis Scott",
+    "wikipediaTitle": "Travis Scott",
+    "type": "solo",
+    "genres": [
+      "hip-hop",
+      "rap"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000308",
+    "name": "Future",
+    "wikipediaTitle": "Future (rapper)",
+    "type": "solo",
+    "genres": [
+      "hip-hop",
+      "rap"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000309",
+    "name": "Lil Wayne",
+    "wikipediaTitle": "Lil Wayne",
+    "type": "solo",
+    "genres": [
+      "hip-hop",
+      "rap"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000310",
+    "name": "50 Cent",
+    "wikipediaTitle": "50 Cent",
+    "type": "solo",
+    "genres": [
+      "hip-hop",
+      "rap"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000311",
+    "name": "Ice Cube",
+    "wikipediaTitle": "Ice Cube",
+    "type": "solo",
+    "genres": [
+      "hip-hop",
+      "rap"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000312",
+    "name": "Rakim",
+    "wikipediaTitle": "Rakim",
+    "type": "solo",
+    "genres": [
+      "hip-hop",
+      "rap"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000313",
+    "name": "DMX",
+    "wikipediaTitle": "DMX",
+    "type": "solo",
+    "genres": [
+      "hip-hop",
+      "rap"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000314",
+    "name": "Busta Rhymes",
+    "wikipediaTitle": "Busta Rhymes",
+    "type": "solo",
+    "genres": [
+      "hip-hop",
+      "rap"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000315",
+    "name": "A$AP Rocky",
+    "wikipediaTitle": "A$AP Rocky",
+    "type": "solo",
+    "genres": [
+      "hip-hop",
+      "rap"
+    ],
+    "rarity": "rare",
+    "wikidataId": "Q129910"
+  },
+  {
+    "id": "los-000316",
+    "name": "Mac Miller",
+    "wikipediaTitle": "Mac Miller",
+    "type": "solo",
+    "genres": [
+      "hip-hop",
+      "rap"
+    ],
+    "rarity": "rare",
+    "mbid": "a0e8a1b1-5f8f-475a-a253-17415c17d0ff",
+    "identitySelection": {
+      "source": "https://www.wikidata.org/wiki/Q324726",
+      "reason": "Un seul identifiant porte le qualificatif P1810 correspondant exactement au nom éditorial. Les anciens noms et projets alternatifs ne sont pas sélectionnés."
+    }
+  },
+  {
+    "id": "los-000317",
+    "name": "Post Malone",
+    "wikipediaTitle": "Post Malone",
+    "type": "solo",
+    "genres": [
+      "hip-hop",
+      "rap"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000318",
+    "name": "Doja Cat",
+    "wikipediaTitle": "Doja Cat",
+    "type": "solo",
+    "genres": [
+      "hip-hop",
+      "rap"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000319",
+    "name": "Megan Thee Stallion",
+    "wikipediaTitle": "Megan Thee Stallion",
+    "type": "solo",
+    "genres": [
+      "hip-hop",
+      "rap"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000320",
+    "name": "Cardi B",
+    "wikipediaTitle": "Cardi B",
+    "type": "solo",
+    "genres": [
+      "hip-hop",
+      "rap"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000321",
+    "name": "Little Simz",
+    "wikipediaTitle": "Little Simz",
+    "type": "solo",
+    "genres": [
+      "hip-hop",
+      "rap"
+    ],
+    "rarity": "common",
+    "mbid": "3cdb40fe-a63e-4bb9-b40d-17cda5f50979",
+    "identitySelection": {
+      "source": "https://www.wikidata.org/wiki/Q6547427",
+      "reason": "Un seul identifiant porte le qualificatif P1810 correspondant exactement au nom éditorial. Les anciens noms et projets alternatifs ne sont pas sélectionnés."
+    }
+  },
+  {
+    "id": "los-000322",
+    "name": "Denzel Curry",
+    "wikipediaTitle": "Denzel Curry",
+    "type": "solo",
+    "genres": [
+      "hip-hop",
+      "rap"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000323",
+    "name": "JID",
+    "wikipediaTitle": "JID",
+    "type": "solo",
+    "genres": [
+      "hip-hop",
+      "rap"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000324",
+    "name": "MF DOOM",
+    "wikipediaTitle": "MF Doom",
+    "type": "solo",
+    "genres": [
+      "hip-hop",
+      "rap"
+    ],
+    "rarity": "common",
+    "mbid": "188711ed-c99b-439c-844a-ca831f63a727",
+    "identitySelection": {
+      "source": "https://www.wikidata.org/wiki/Q304675",
+      "reason": "Un seul identifiant porte le qualificatif P1810 correspondant exactement au nom éditorial. Les anciens noms et projets alternatifs ne sont pas sélectionnés."
+    }
+  },
+  {
+    "id": "los-000325",
+    "name": "Aesop Rock",
+    "wikipediaTitle": "Aesop Rock",
+    "type": "solo",
+    "genres": [
+      "hip-hop",
+      "rap"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000326",
+    "name": "JPEGMAFIA",
+    "wikipediaTitle": "JPEGMafia",
+    "type": "solo",
+    "genres": [
+      "hip-hop",
+      "rap"
+    ],
+    "rarity": "common",
+    "mbid": "c42e60f4-4520-4954-b6e4-82bbdf532c11",
+    "identitySelection": {
+      "source": "https://www.wikidata.org/wiki/Q50415953",
+      "reason": "Un seul identifiant porte le qualificatif P1810 correspondant exactement au nom éditorial. Les anciens noms et projets alternatifs ne sont pas sélectionnés."
+    }
+  },
+  {
+    "id": "los-000327",
+    "name": "bbno$",
+    "wikipediaTitle": "Bbno$",
+    "type": "solo",
+    "genres": [
+      "hip-hop",
+      "rap"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000328",
+    "name": "Skepta",
+    "wikipediaTitle": "Skepta",
+    "type": "solo",
+    "genres": [
+      "hip-hop",
+      "rap"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000329",
+    "name": "Stormzy",
+    "wikipediaTitle": "Stormzy",
+    "type": "solo",
+    "genres": [
+      "hip-hop",
+      "rap"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000330",
+    "name": "Dave",
+    "wikipediaTitle": "Dave (rapper)",
+    "type": "solo",
+    "genres": [
+      "hip-hop",
+      "rap"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000331",
+    "name": "Jean-Michel Jarre",
+    "wikipediaTitle": "Jean-Michel Jarre",
+    "type": "solo",
+    "genres": [
+      "electronic"
+    ],
+    "rarity": "legendary"
+  },
+  {
+    "id": "los-000332",
+    "name": "Aphex Twin",
+    "wikipediaTitle": "Aphex Twin",
+    "type": "solo",
+    "genres": [
+      "electronic"
+    ],
+    "rarity": "legendary",
+    "mbid": "f22942a1-6f70-4f48-866e-238cb2308fbd",
+    "identitySelection": {
+      "source": "https://www.wikidata.org/wiki/Q223161",
+      "reason": "Un seul identifiant porte le qualificatif P1810 correspondant exactement au nom éditorial. Les anciens noms et projets alternatifs ne sont pas sélectionnés."
+    }
+  },
+  {
+    "id": "los-000333",
+    "name": "Brian Eno",
+    "wikipediaTitle": "Brian Eno",
+    "type": "solo",
+    "genres": [
+      "electronic"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000334",
+    "name": "Giorgio Moroder",
+    "wikipediaTitle": "Giorgio Moroder",
+    "type": "solo",
+    "genres": [
+      "electronic"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000335",
+    "name": "Fatboy Slim",
+    "wikipediaTitle": "Fatboy Slim",
+    "type": "solo",
+    "genres": [
+      "electronic"
+    ],
+    "rarity": "epic",
+    "mbid": "34c63966-445c-4613-afe1-4f0e1e53ae9a",
+    "identitySelection": {
+      "source": "https://www.wikidata.org/wiki/Q272619",
+      "reason": "Un seul identifiant porte le qualificatif P1810 correspondant exactement au nom éditorial. Les anciens noms et projets alternatifs ne sont pas sélectionnés."
+    }
+  },
+  {
+    "id": "los-000336",
+    "name": "Moby",
+    "wikipediaTitle": "Moby",
+    "type": "solo",
+    "genres": [
+      "electronic"
+    ],
+    "rarity": "epic",
+    "mbid": "8970d868-0723-483b-a75b-51088913d3d4",
+    "identitySelection": {
+      "source": "https://www.wikidata.org/wiki/Q14045",
+      "reason": "Un seul identifiant porte le qualificatif P1810 correspondant exactement au nom éditorial. Les anciens noms et projets alternatifs ne sont pas sélectionnés."
+    }
+  },
+  {
+    "id": "los-000337",
+    "name": "Björk",
+    "wikipediaTitle": "Björk",
+    "type": "solo",
+    "genres": [
+      "electronic"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000338",
+    "name": "David Guetta",
+    "wikipediaTitle": "David Guetta",
+    "type": "solo",
+    "genres": [
+      "electronic"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000339",
+    "name": "Tiësto",
+    "wikipediaTitle": "Tiësto",
+    "type": "solo",
+    "genres": [
+      "electronic"
+    ],
+    "rarity": "epic",
+    "mbid": "aabb1d9f-be12-45b3-a84d-a1fc3e8181fd",
+    "identityReview": {
+      "source": "https://musicbrainz.org/artist/aabb1d9f-be12-45b3-a84d-a1fc3e8181fd",
+      "reason": "Identifiant du projet principal sélectionné après examen des qualificatifs Wikidata et de la fiche MusicBrainz ; le nom, le type et le lien retour Wikidata restent obligatoires à l’import."
+    }
+  },
+  {
+    "id": "los-000340",
+    "name": "Armin van Buuren",
+    "wikipediaTitle": "Armin van Buuren",
+    "type": "solo",
+    "genres": [
+      "electronic"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000341",
+    "name": "Avicii",
+    "wikipediaTitle": "Avicii",
+    "type": "solo",
+    "genres": [
+      "electronic"
+    ],
+    "rarity": "rare",
+    "mbid": "c85cfd6b-b1e9-4a50-bd55-eb725f04f7d5",
+    "identitySelection": {
+      "source": "https://www.wikidata.org/wiki/Q505476",
+      "reason": "Un seul identifiant porte le qualificatif P1810 correspondant exactement au nom éditorial. Les anciens noms et projets alternatifs ne sont pas sélectionnés."
+    }
+  },
+  {
+    "id": "los-000342",
+    "name": "Calvin Harris",
+    "wikipediaTitle": "Calvin Harris",
+    "type": "solo",
+    "genres": [
+      "electronic"
+    ],
+    "rarity": "rare",
+    "mbid": "8dd98bdc-80ec-4e93-8509-2f46bafc09a7",
+    "identityReview": {
+      "source": "https://musicbrainz.org/artist/8dd98bdc-80ec-4e93-8509-2f46bafc09a7",
+      "reason": "Identifiant du projet principal sélectionné après examen des qualificatifs Wikidata et de la fiche MusicBrainz ; le nom, le type et le lien retour Wikidata restent obligatoires à l’import."
+    }
+  },
+  {
+    "id": "los-000343",
+    "name": "Deadmau5",
+    "wikipediaTitle": "Deadmau5",
+    "type": "solo",
+    "genres": [
+      "electronic"
+    ],
+    "rarity": "rare",
+    "mbid": "4a00ec9d-c635-463a-8cd4-eb61725f0c60",
+    "identityReview": {
+      "source": "https://musicbrainz.org/artist/4a00ec9d-c635-463a-8cd4-eb61725f0c60",
+      "reason": "Identifiant du projet principal sélectionné après examen des qualificatifs Wikidata et de la fiche MusicBrainz ; le nom, le type et le lien retour Wikidata restent obligatoires à l’import."
+    }
+  },
+  {
+    "id": "los-000344",
+    "name": "Skrillex",
+    "wikipediaTitle": "Skrillex",
+    "type": "solo",
+    "genres": [
+      "electronic"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000345",
+    "name": "Diplo",
+    "wikipediaTitle": "Diplo",
+    "type": "solo",
+    "genres": [
+      "electronic"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000346",
+    "name": "Martin Garrix",
+    "wikipediaTitle": "Martin Garrix",
+    "type": "solo",
+    "genres": [
+      "electronic"
+    ],
+    "rarity": "rare",
+    "mbid": "3e1f2ee4-16be-4406-bf18-6173840cf2b1",
+    "identitySelection": {
+      "source": "https://www.wikidata.org/wiki/Q14544318",
+      "reason": "Un seul identifiant porte le qualificatif P1810 correspondant exactement au nom éditorial. Les anciens noms et projets alternatifs ne sont pas sélectionnés."
+    }
+  },
+  {
+    "id": "los-000347",
+    "name": "Kygo",
+    "wikipediaTitle": "Kygo",
+    "type": "solo",
+    "genres": [
+      "electronic"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000348",
+    "name": "Zedd",
+    "wikipediaTitle": "Zedd",
+    "type": "solo",
+    "genres": [
+      "electronic"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000349",
+    "name": "Ryuichi Sakamoto",
+    "wikipediaTitle": "Ryuichi Sakamoto",
+    "type": "solo",
+    "genres": [
+      "electronic",
+      "ambient",
+      "classical"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000350",
+    "name": "Carl Cox",
+    "wikipediaTitle": "Carl Cox",
+    "type": "solo",
+    "genres": [
+      "electronic"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000351",
+    "name": "Richie Hawtin",
+    "wikipediaTitle": "Richie Hawtin",
+    "type": "solo",
+    "genres": [
+      "electronic"
+    ],
+    "rarity": "common",
+    "mbid": "76da816f-ea05-4172-ad9e-ffb69c32199f",
+    "identitySelection": {
+      "source": "https://www.wikidata.org/wiki/Q378876",
+      "reason": "Un seul identifiant porte le qualificatif P1810 correspondant exactement au nom éditorial. Les anciens noms et projets alternatifs ne sont pas sélectionnés."
+    }
+  },
+  {
+    "id": "los-000352",
+    "name": "Nina Kraviz",
+    "wikipediaTitle": "Nina Kraviz",
+    "type": "solo",
+    "genres": [
+      "electronic"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000353",
+    "name": "Charlotte de Witte",
+    "wikipediaTitle": "Charlotte de Witte",
+    "type": "solo",
+    "genres": [
+      "electronic"
+    ],
+    "rarity": "common",
+    "mbid": "1de4e373-e597-4087-bf3d-256ec597749e",
+    "identitySelection": {
+      "source": "https://www.wikidata.org/wiki/Q22668666",
+      "reason": "Un seul identifiant porte le qualificatif P1810 correspondant exactement au nom éditorial. Les anciens noms et projets alternatifs ne sont pas sélectionnés."
+    }
+  },
+  {
+    "id": "los-000354",
+    "name": "Amelie Lens",
+    "wikipediaTitle": "Amelie Lens",
+    "type": "solo",
+    "genres": [
+      "electronic"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000355",
+    "name": "Peggy Gou",
+    "wikipediaTitle": "Peggy Gou",
+    "type": "solo",
+    "genres": [
+      "electronic"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000356",
+    "name": "Bonobo",
+    "wikipediaTitle": "Bonobo (musician)",
+    "type": "solo",
+    "genres": [
+      "electronic"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000357",
+    "name": "Four Tet",
+    "wikipediaTitle": "Four Tet",
+    "type": "solo",
+    "genres": [
+      "electronic"
+    ],
+    "rarity": "common",
+    "mbid": "3bcff06f-675a-451f-9075-99e8657047e8",
+    "identityReview": {
+      "source": "https://musicbrainz.org/artist/3bcff06f-675a-451f-9075-99e8657047e8",
+      "reason": "Identifiant du projet principal sélectionné après examen des qualificatifs Wikidata et de la fiche MusicBrainz ; le nom, le type et le lien retour Wikidata restent obligatoires à l’import."
+    }
+  },
+  {
+    "id": "los-000358",
+    "name": "Jon Hopkins",
+    "wikipediaTitle": "Jon Hopkins",
+    "type": "solo",
+    "genres": [
+      "electronic"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000359",
+    "name": "Kavinsky",
+    "wikipediaTitle": "Kavinsky",
+    "type": "solo",
+    "genres": [
+      "electronic"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000360",
+    "name": "Carpenter Brut",
+    "wikipediaTitle": "Carpenter Brut",
+    "type": "solo",
+    "genres": [
+      "electronic"
+    ],
+    "rarity": "common",
+    "mbid": "303abdee-ffca-4685-a582-6aaaefd81b01",
+    "identitySelection": {
+      "source": "https://www.wikidata.org/wiki/Q24666176",
+      "reason": "Un seul identifiant porte le qualificatif P1810 correspondant exactement au nom éditorial. Les anciens noms et projets alternatifs ne sont pas sélectionnés."
+    }
+  },
+  {
+    "id": "los-000361",
+    "name": "Hikaru Utada",
+    "wikipediaTitle": "Hikaru Utada",
+    "type": "solo",
+    "genres": [
+      "j-pop"
+    ],
+    "rarity": "legendary"
+  },
+  {
+    "id": "los-000362",
+    "name": "Ayumi Hamasaki",
+    "wikipediaTitle": "Ayumi Hamasaki",
+    "type": "solo",
+    "genres": [
+      "j-pop"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000363",
+    "name": "Namie Amuro",
+    "wikipediaTitle": "Namie Amuro",
+    "type": "solo",
+    "genres": [
+      "j-pop"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000364",
+    "name": "Kumi Koda",
+    "wikipediaTitle": "Kumi Koda",
+    "type": "solo",
+    "genres": [
+      "j-pop"
+    ],
+    "rarity": "epic",
+    "wikidataId": "Q229732"
+  },
+  {
+    "id": "los-000365",
+    "name": "Sheena Ringo",
+    "wikipediaTitle": "Sheena Ringo",
+    "type": "solo",
+    "genres": [
+      "j-pop"
+    ],
+    "rarity": "epic",
+    "wikidataId": "Q234591"
+  },
+  {
+    "id": "los-000366",
+    "name": "Kenshi Yonezu",
+    "wikipediaTitle": "Kenshi Yonezu",
+    "type": "solo",
+    "genres": [
+      "j-pop"
+    ],
+    "rarity": "epic",
+    "mbid": "09d4a85c-4916-4b4e-bc96-c4cfcf371046",
+    "identityReview": {
+      "source": "https://musicbrainz.org/artist/09d4a85c-4916-4b4e-bc96-c4cfcf371046",
+      "reason": "Identifiant du projet principal sélectionné après examen des qualificatifs Wikidata et de la fiche MusicBrainz ; le nom, le type et le lien retour Wikidata restent obligatoires à l’import."
+    }
+  },
+  {
+    "id": "los-000367",
+    "name": "Ado",
+    "wikipediaTitle": "Ado (singer)",
+    "type": "solo",
+    "genres": [
+      "j-pop"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000368",
+    "name": "LiSA",
+    "wikipediaTitle": "LiSA (Japanese musician, born 1987)",
+    "type": "solo",
+    "genres": [
+      "j-pop"
+    ],
+    "rarity": "rare",
+    "wikidataId": "Q333333"
+  },
+  {
+    "id": "los-000369",
+    "name": "Aimer",
+    "wikipediaTitle": "Aimer",
+    "type": "solo",
+    "genres": [
+      "j-pop"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000370",
+    "name": "Reol",
+    "wikipediaTitle": "Reol (singer)",
+    "type": "solo",
+    "genres": [
+      "j-pop"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000371",
+    "name": "Kyary Pamyu Pamyu",
+    "wikipediaTitle": "Kyary Pamyu Pamyu",
+    "type": "solo",
+    "genres": [
+      "j-pop"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000372",
+    "name": "Yui",
+    "wikipediaTitle": "Yui (singer)",
+    "type": "solo",
+    "genres": [
+      "j-pop"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000373",
+    "name": "Mika Nakashima",
+    "wikipediaTitle": "Mika Nakashima",
+    "type": "solo",
+    "genres": [
+      "j-pop"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000374",
+    "name": "Tatsuro Yamashita",
+    "wikipediaTitle": "Tatsuro Yamashita",
+    "type": "solo",
+    "genres": [
+      "j-pop"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000375",
+    "name": "Mariya Takeuchi",
+    "wikipediaTitle": "Mariya Takeuchi",
+    "type": "solo",
+    "genres": [
+      "j-pop"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000376",
+    "name": "Miki Matsubara",
+    "wikipediaTitle": "Miki Matsubara",
+    "type": "solo",
+    "genres": [
+      "j-pop"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000377",
+    "name": "Anri",
+    "wikipediaTitle": "Anri (singer)",
+    "type": "solo",
+    "genres": [
+      "j-pop"
+    ],
+    "rarity": "common",
+    "wikidataId": "Q2761128"
+  },
+  {
+    "id": "los-000378",
+    "name": "Eve",
+    "wikipediaTitle": "Eve (Japanese singer)",
+    "type": "solo",
+    "genres": [
+      "j-pop"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000379",
+    "name": "Vaundy",
+    "wikipediaTitle": "Vaundy",
+    "type": "solo",
+    "genres": [
+      "j-pop"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000380",
+    "name": "Fujii Kaze",
+    "wikipediaTitle": "Fujii Kaze",
+    "type": "solo",
+    "genres": [
+      "j-pop"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000381",
+    "name": "Hatsune Miku",
+    "wikipediaTitle": "Hatsune Miku",
+    "type": "solo",
+    "genres": [
+      "vocaloid",
+      "electronic"
+    ],
+    "rarity": "legendary"
+  },
+  {
+    "id": "los-000382",
+    "name": "DECO*27",
+    "wikipediaTitle": "DECO*27",
+    "type": "solo",
+    "genres": [
+      "vocaloid",
+      "electronic"
+    ],
+    "rarity": "epic",
+    "wikidataId": "Q11195683"
+  },
+  {
+    "id": "los-000383",
+    "name": "wowaka",
+    "wikipediaTitle": "Wowaka",
+    "type": "solo",
+    "genres": [
+      "vocaloid",
+      "electronic"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000384",
+    "name": "PinocchioP",
+    "wikipediaTitle": "PinocchioP",
+    "type": "solo",
+    "genres": [
+      "vocaloid",
+      "electronic"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000385",
+    "name": "Kikuo",
+    "wikipediaTitle": "Kikuo",
+    "type": "solo",
+    "genres": [
+      "vocaloid",
+      "electronic"
+    ],
+    "rarity": "rare",
+    "wikidataId": "Q11264741"
+  },
+  {
+    "id": "los-000386",
+    "name": "Mitchie M",
+    "wikipediaTitle": "Mitchie M",
+    "type": "solo",
+    "genres": [
+      "vocaloid",
+      "electronic"
+    ],
+    "rarity": "common",
+    "wikidataId": "Q17213171"
+  },
+  {
+    "id": "los-000387",
+    "name": "Giga",
+    "wikipediaTitle": "Giga (musician)",
+    "type": "solo",
+    "genres": [
+      "vocaloid",
+      "electronic"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000388",
+    "name": "Neru",
+    "wikipediaTitle": "Neru (musician)",
+    "type": "solo",
+    "genres": [
+      "vocaloid",
+      "electronic"
+    ],
+    "rarity": "common",
+    "wikidataId": "Q15909712"
+  },
+  {
+    "id": "los-000389",
+    "name": "inabakumori",
+    "wikipediaTitle": "Inabakumori",
+    "type": "solo",
+    "genres": [
+      "vocaloid",
+      "electronic"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000390",
+    "name": "Kanaria",
+    "wikipediaTitle": "Kanaria (musician)",
+    "type": "solo",
+    "genres": [
+      "vocaloid",
+      "electronic"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000391",
+    "name": "BoA",
+    "wikipediaTitle": "BoA",
+    "type": "solo",
+    "genres": [
+      "k-pop",
+      "pop"
+    ],
+    "rarity": "legendary"
+  },
+  {
+    "id": "los-000392",
+    "name": "IU",
+    "wikipediaTitle": "IU (singer)",
+    "type": "solo",
+    "genres": [
+      "k-pop",
+      "pop"
+    ],
+    "rarity": "epic",
+    "wikidataId": "Q20145"
+  },
+  {
+    "id": "los-000393",
+    "name": "Taeyeon",
+    "wikipediaTitle": "Taeyeon",
+    "type": "solo",
+    "genres": [
+      "k-pop",
+      "pop"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000394",
+    "name": "G-Dragon",
+    "wikipediaTitle": "G-Dragon",
+    "type": "solo",
+    "genres": [
+      "k-pop",
+      "pop"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000395",
+    "name": "Taemin",
+    "wikipediaTitle": "Taemin",
+    "type": "solo",
+    "genres": [
+      "k-pop",
+      "pop"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000396",
+    "name": "Aretha Franklin",
+    "wikipediaTitle": "Aretha Franklin",
+    "type": "solo",
+    "genres": [
+      "soul",
+      "rnb"
+    ],
+    "rarity": "legendary"
+  },
+  {
+    "id": "los-000397",
+    "name": "Stevie Wonder",
+    "wikipediaTitle": "Stevie Wonder",
+    "type": "solo",
+    "genres": [
+      "soul",
+      "rnb"
+    ],
+    "rarity": "legendary",
+    "mbid": "1ee18fb3-18a6-4c7f-8ba0-bc41cdd0462e",
+    "identitySelection": {
+      "source": "https://www.wikidata.org/wiki/Q714",
+      "reason": "Un seul identifiant porte le qualificatif P1810 correspondant exactement au nom éditorial. Les anciens noms et projets alternatifs ne sont pas sélectionnés."
+    }
+  },
+  {
+    "id": "los-000398",
+    "name": "Marvin Gaye",
+    "wikipediaTitle": "Marvin Gaye",
+    "type": "solo",
+    "genres": [
+      "soul",
+      "rnb"
+    ],
+    "rarity": "legendary"
+  },
+  {
+    "id": "los-000399",
+    "name": "Sam Cooke",
+    "wikipediaTitle": "Sam Cooke",
+    "type": "solo",
+    "genres": [
+      "soul",
+      "rnb"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000400",
+    "name": "Otis Redding",
+    "wikipediaTitle": "Otis Redding",
+    "type": "solo",
+    "genres": [
+      "soul",
+      "rnb"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000401",
+    "name": "Al Green",
+    "wikipediaTitle": "Al Green",
+    "type": "solo",
+    "genres": [
+      "soul",
+      "rnb"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000402",
+    "name": "Diana Ross",
+    "wikipediaTitle": "Diana Ross",
+    "type": "solo",
+    "genres": [
+      "soul",
+      "rnb"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000403",
+    "name": "Curtis Mayfield",
+    "wikipediaTitle": "Curtis Mayfield",
+    "type": "solo",
+    "genres": [
+      "soul",
+      "rnb"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000404",
+    "name": "Barry White",
+    "wikipediaTitle": "Barry White",
+    "type": "solo",
+    "genres": [
+      "soul",
+      "rnb"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000405",
+    "name": "Isaac Hayes",
+    "wikipediaTitle": "Isaac Hayes",
+    "type": "solo",
+    "genres": [
+      "soul",
+      "rnb"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000406",
+    "name": "Donny Hathaway",
+    "wikipediaTitle": "Donny Hathaway",
+    "type": "solo",
+    "genres": [
+      "soul",
+      "rnb"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000407",
+    "name": "Bill Withers",
+    "wikipediaTitle": "Bill Withers",
+    "type": "solo",
+    "genres": [
+      "soul",
+      "rnb"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000408",
+    "name": "Roberta Flack",
+    "wikipediaTitle": "Roberta Flack",
+    "type": "solo",
+    "genres": [
+      "soul",
+      "rnb"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000409",
+    "name": "Anita Baker",
+    "wikipediaTitle": "Anita Baker",
+    "type": "solo",
+    "genres": [
+      "soul",
+      "rnb"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000410",
+    "name": "Sade Adu",
+    "wikipediaTitle": "Sade (singer)",
+    "type": "solo",
+    "genres": [
+      "soul",
+      "rnb"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000411",
+    "name": "D'Angelo",
+    "wikipediaTitle": "D'Angelo",
+    "type": "solo",
+    "genres": [
+      "soul",
+      "rnb"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000412",
+    "name": "Erykah Badu",
+    "wikipediaTitle": "Erykah Badu",
+    "type": "solo",
+    "genres": [
+      "soul",
+      "rnb"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000413",
+    "name": "Alicia Keys",
+    "wikipediaTitle": "Alicia Keys",
+    "type": "solo",
+    "genres": [
+      "soul",
+      "rnb"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000414",
+    "name": "Mary J. Blige",
+    "wikipediaTitle": "Mary J. Blige",
+    "type": "solo",
+    "genres": [
+      "soul",
+      "rnb"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000415",
+    "name": "A. R. Rahman",
+    "wikipediaTitle": "A. R. Rahman",
+    "type": "solo",
+    "genres": [
+      "filmi",
+      "world",
+      "electronic"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000416",
+    "name": "Louis Armstrong",
+    "wikipediaTitle": "Louis Armstrong",
+    "type": "solo",
+    "genres": [
+      "jazz"
+    ],
+    "rarity": "legendary"
+  },
+  {
+    "id": "los-000417",
+    "name": "Miles Davis",
+    "wikipediaTitle": "Miles Davis",
+    "type": "solo",
+    "genres": [
+      "jazz"
+    ],
+    "rarity": "legendary"
+  },
+  {
+    "id": "los-000418",
+    "name": "John Coltrane",
+    "wikipediaTitle": "John Coltrane",
+    "type": "solo",
+    "genres": [
+      "jazz"
+    ],
+    "rarity": "legendary"
+  },
+  {
+    "id": "los-000419",
+    "name": "Duke Ellington",
+    "wikipediaTitle": "Duke Ellington",
+    "type": "solo",
+    "genres": [
+      "jazz"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000420",
+    "name": "Charlie Parker",
+    "wikipediaTitle": "Charlie Parker",
+    "type": "solo",
+    "genres": [
+      "jazz"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000421",
+    "name": "Thelonious Monk",
+    "wikipediaTitle": "Thelonious Monk",
+    "type": "solo",
+    "genres": [
+      "jazz"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000422",
+    "name": "Ella Fitzgerald",
+    "wikipediaTitle": "Ella Fitzgerald",
+    "type": "solo",
+    "genres": [
+      "jazz"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000423",
+    "name": "Billie Holiday",
+    "wikipediaTitle": "Billie Holiday",
+    "type": "solo",
+    "genres": [
+      "jazz"
+    ],
+    "rarity": "epic",
+    "mbid": "d59c4cda-11d9-48db-8bfe-b557ee602aed",
+    "identitySelection": {
+      "source": "https://www.wikidata.org/wiki/Q104358",
+      "reason": "Un seul identifiant porte le qualificatif P1810 correspondant exactement au nom éditorial. Les anciens noms et projets alternatifs ne sont pas sélectionnés."
+    }
+  },
+  {
+    "id": "los-000424",
+    "name": "Nina Simone",
+    "wikipediaTitle": "Nina Simone",
+    "type": "solo",
+    "genres": [
+      "jazz"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000425",
+    "name": "Dizzy Gillespie",
+    "wikipediaTitle": "Dizzy Gillespie",
+    "type": "solo",
+    "genres": [
+      "jazz"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000426",
+    "name": "Herbie Hancock",
+    "wikipediaTitle": "Herbie Hancock",
+    "type": "solo",
+    "genres": [
+      "jazz"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000427",
+    "name": "Chick Corea",
+    "wikipediaTitle": "Chick Corea",
+    "type": "solo",
+    "genres": [
+      "jazz"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000428",
+    "name": "Charles Mingus",
+    "wikipediaTitle": "Charles Mingus",
+    "type": "solo",
+    "genres": [
+      "jazz"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000429",
+    "name": "Chet Baker",
+    "wikipediaTitle": "Chet Baker",
+    "type": "solo",
+    "genres": [
+      "jazz"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000430",
+    "name": "Stan Getz",
+    "wikipediaTitle": "Stan Getz",
+    "type": "solo",
+    "genres": [
+      "jazz"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000431",
+    "name": "Wes Montgomery",
+    "wikipediaTitle": "Wes Montgomery",
+    "type": "solo",
+    "genres": [
+      "jazz"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000432",
+    "name": "Oscar Peterson",
+    "wikipediaTitle": "Oscar Peterson",
+    "type": "solo",
+    "genres": [
+      "jazz"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000433",
+    "name": "Keith Jarrett",
+    "wikipediaTitle": "Keith Jarrett",
+    "type": "solo",
+    "genres": [
+      "jazz"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000434",
+    "name": "Esperanza Spalding",
+    "wikipediaTitle": "Esperanza Spalding",
+    "type": "solo",
+    "genres": [
+      "jazz"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000435",
+    "name": "Kamasi Washington",
+    "wikipediaTitle": "Kamasi Washington",
+    "type": "solo",
+    "genres": [
+      "jazz"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000436",
+    "name": "B.B. King",
+    "wikipediaTitle": "B.B. King",
+    "type": "solo",
+    "genres": [
+      "blues"
+    ],
+    "rarity": "legendary",
+    "wikidataId": "Q188969"
+  },
+  {
+    "id": "los-000437",
+    "name": "Muddy Waters",
+    "wikipediaTitle": "Muddy Waters",
+    "type": "solo",
+    "genres": [
+      "blues"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000438",
+    "name": "Robert Johnson",
+    "wikipediaTitle": "Robert Johnson",
+    "type": "solo",
+    "genres": [
+      "blues"
+    ],
+    "rarity": "epic",
+    "mbid": "8a8bbba6-72f7-4900-a306-c40b94f2631b",
+    "identityReview": {
+      "source": "https://musicbrainz.org/artist/8a8bbba6-72f7-4900-a306-c40b94f2631b",
+      "reason": "Identifiant du projet principal sélectionné après examen des qualificatifs Wikidata et de la fiche MusicBrainz ; le nom, le type et le lien retour Wikidata restent obligatoires à l’import."
+    }
+  },
+  {
+    "id": "los-000439",
+    "name": "Howlin' Wolf",
+    "wikipediaTitle": "Howlin' Wolf",
+    "type": "solo",
+    "genres": [
+      "blues"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000440",
+    "name": "John Lee Hooker",
+    "wikipediaTitle": "John Lee Hooker",
+    "type": "solo",
+    "genres": [
+      "blues"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000441",
+    "name": "Buddy Guy",
+    "wikipediaTitle": "Buddy Guy",
+    "type": "solo",
+    "genres": [
+      "blues"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000442",
+    "name": "Stevie Ray Vaughan",
+    "wikipediaTitle": "Stevie Ray Vaughan",
+    "type": "solo",
+    "genres": [
+      "blues"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000443",
+    "name": "Djavan",
+    "wikipediaTitle": "Djavan",
+    "type": "solo",
+    "genres": [
+      "mpb",
+      "jazz",
+      "world"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000444",
+    "name": "Jorge Ben Jor",
+    "wikipediaTitle": "Jorge Ben",
+    "type": "solo",
+    "genres": [
+      "samba",
+      "funk",
+      "mpb"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000445",
+    "name": "Sister Rosetta Tharpe",
+    "wikipediaTitle": "Sister Rosetta Tharpe",
+    "type": "solo",
+    "genres": [
+      "blues"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000446",
+    "name": "James Brown",
+    "wikipediaTitle": "James Brown",
+    "type": "solo",
+    "genres": [
+      "funk",
+      "soul"
+    ],
+    "rarity": "legendary"
+  },
+  {
+    "id": "los-000447",
+    "name": "George Clinton",
+    "wikipediaTitle": "George Clinton (funk musician)",
+    "type": "solo",
+    "genres": [
+      "funk"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000448",
+    "name": "Bootsy Collins",
+    "wikipediaTitle": "Bootsy Collins",
+    "type": "solo",
+    "genres": [
+      "funk"
+    ],
+    "rarity": "rare",
+    "mbid": "b0ca0d85-24a8-4a00-860d-357ff688b69c",
+    "identitySelection": {
+      "source": "https://www.wikidata.org/wiki/Q452411",
+      "reason": "Un seul identifiant porte le qualificatif P1810 correspondant exactement au nom éditorial. Les anciens noms et projets alternatifs ne sont pas sélectionnés."
+    }
+  },
+  {
+    "id": "los-000449",
+    "name": "Peter Tosh",
+    "wikipediaTitle": "Peter Tosh",
+    "type": "solo",
+    "genres": [
+      "reggae"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000450",
+    "name": "Jimmy Cliff",
+    "wikipediaTitle": "Jimmy Cliff",
+    "type": "solo",
+    "genres": [
+      "reggae",
+      "ska"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000451",
+    "name": "Celia Cruz",
+    "wikipediaTitle": "Celia Cruz",
+    "type": "solo",
+    "genres": [
+      "world",
+      "latin"
+    ],
+    "rarity": "legendary"
+  },
+  {
+    "id": "los-000452",
+    "name": "Tito Puente",
+    "wikipediaTitle": "Tito Puente",
+    "type": "solo",
+    "genres": [
+      "world",
+      "latin"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000453",
+    "name": "Héctor Lavoe",
+    "wikipediaTitle": "Héctor Lavoe",
+    "type": "solo",
+    "genres": [
+      "world",
+      "latin"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000454",
+    "name": "Rubén Blades",
+    "wikipediaTitle": "Rubén Blades",
+    "type": "solo",
+    "genres": [
+      "world",
+      "latin"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000455",
+    "name": "Juan Gabriel",
+    "wikipediaTitle": "Juan Gabriel",
+    "type": "solo",
+    "genres": [
+      "world",
+      "latin"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000456",
+    "name": "Luis Miguel",
+    "wikipediaTitle": "Luis Miguel",
+    "type": "solo",
+    "genres": [
+      "world",
+      "latin"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000457",
+    "name": "Vicente Fernández",
+    "wikipediaTitle": "Vicente Fernández",
+    "type": "solo",
+    "genres": [
+      "world",
+      "latin"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000458",
+    "name": "Selena",
+    "wikipediaTitle": "Selena",
+    "type": "solo",
+    "genres": [
+      "world",
+      "latin"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000459",
+    "name": "Shakira",
+    "wikipediaTitle": "Shakira",
+    "type": "solo",
+    "genres": [
+      "pop",
+      "latin"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000460",
+    "name": "Gloria Estefan",
+    "wikipediaTitle": "Gloria Estefan",
+    "type": "solo",
+    "genres": [
+      "world",
+      "latin"
+    ],
+    "rarity": "rare",
+    "mbid": "becd8cc6-a453-4183-af88-dedaaec859a6",
+    "identitySelection": {
+      "source": "https://www.wikidata.org/wiki/Q184697",
+      "reason": "Un seul identifiant porte le qualificatif P1810 correspondant exactement au nom éditorial. Les anciens noms et projets alternatifs ne sont pas sélectionnés."
+    }
+  },
+  {
+    "id": "los-000461",
+    "name": "Ricky Martin",
+    "wikipediaTitle": "Ricky Martin",
+    "type": "solo",
+    "genres": [
+      "world",
+      "latin"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000462",
+    "name": "Enrique Iglesias",
+    "wikipediaTitle": "Enrique Iglesias",
+    "type": "solo",
+    "genres": [
+      "world",
+      "latin"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000463",
+    "name": "Marc Anthony",
+    "wikipediaTitle": "Marc Anthony",
+    "type": "solo",
+    "genres": [
+      "world",
+      "latin"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000464",
+    "name": "Rosalía",
+    "wikipediaTitle": "Rosalía",
+    "type": "solo",
+    "genres": [
+      "flamenco-pop",
+      "pop",
+      "latin"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000465",
+    "name": "Bad Bunny",
+    "wikipediaTitle": "Bad Bunny",
+    "type": "solo",
+    "genres": [
+      "reggaeton",
+      "latin",
+      "trap"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000466",
+    "name": "Daddy Yankee",
+    "wikipediaTitle": "Daddy Yankee",
+    "type": "solo",
+    "genres": [
+      "reggaeton",
+      "latin",
+      "trap"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000467",
+    "name": "J Balvin",
+    "wikipediaTitle": "J Balvin",
+    "type": "solo",
+    "genres": [
+      "reggaeton",
+      "latin",
+      "trap"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000468",
+    "name": "Karol G",
+    "wikipediaTitle": "Karol G",
+    "type": "solo",
+    "genres": [
+      "reggaeton",
+      "latin",
+      "trap"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000469",
+    "name": "Rauw Alejandro",
+    "wikipediaTitle": "Rauw Alejandro",
+    "type": "solo",
+    "genres": [
+      "reggaeton",
+      "latin",
+      "trap"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000470",
+    "name": "Peso Pluma",
+    "wikipediaTitle": "Peso Pluma",
+    "type": "solo",
+    "genres": [
+      "corridos-tumbados",
+      "latin"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000471",
+    "name": "Fela Kuti",
+    "wikipediaTitle": "Fela Kuti",
+    "type": "solo",
+    "genres": [
+      "afrobeat",
+      "jazz",
+      "funk",
+      "world"
+    ],
+    "rarity": "legendary"
+  },
+  {
+    "id": "los-000472",
+    "name": "Miriam Makeba",
+    "wikipediaTitle": "Miriam Makeba",
+    "type": "solo",
+    "genres": [
+      "world"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000473",
+    "name": "Youssou N'Dour",
+    "wikipediaTitle": "Youssou N'Dour",
+    "type": "solo",
+    "genres": [
+      "world"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000474",
+    "name": "Angélique Kidjo",
+    "wikipediaTitle": "Angélique Kidjo",
+    "type": "solo",
+    "genres": [
+      "world"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000475",
+    "name": "Salif Keita",
+    "wikipediaTitle": "Salif Keita",
+    "type": "solo",
+    "genres": [
+      "world"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000476",
+    "name": "Ali Farka Touré",
+    "wikipediaTitle": "Ali Farka Touré",
+    "type": "solo",
+    "genres": [
+      "world"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000477",
+    "name": "Oumou Sangaré",
+    "wikipediaTitle": "Oumou Sangaré",
+    "type": "solo",
+    "genres": [
+      "world"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000478",
+    "name": "Burna Boy",
+    "wikipediaTitle": "Burna Boy",
+    "type": "solo",
+    "genres": [
+      "afrobeats",
+      "world",
+      "rnb"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000479",
+    "name": "Wizkid",
+    "wikipediaTitle": "Wizkid",
+    "type": "solo",
+    "genres": [
+      "afrobeats",
+      "world",
+      "rnb"
+    ],
+    "rarity": "common",
+    "mbid": "efc5d365-a448-4e2f-9b5f-4a7c84be725c",
+    "identityReview": {
+      "source": "https://musicbrainz.org/artist/efc5d365-a448-4e2f-9b5f-4a7c84be725c",
+      "reason": "Identifiant du projet principal sélectionné après examen des qualificatifs Wikidata et de la fiche MusicBrainz ; le nom, le type et le lien retour Wikidata restent obligatoires à l’import."
+    }
+  },
+  {
+    "id": "los-000480",
+    "name": "Tems",
+    "wikipediaTitle": "Tems",
+    "type": "solo",
+    "genres": [
+      "afrobeats",
+      "world",
+      "rnb"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000481",
+    "name": "Édith Piaf",
+    "wikipediaTitle": "Édith Piaf",
+    "type": "solo",
+    "genres": [
+      "chanson"
+    ],
+    "rarity": "legendary"
+  },
+  {
+    "id": "los-000482",
+    "name": "Jacques Brel",
+    "wikipediaTitle": "Jacques Brel",
+    "type": "solo",
+    "genres": [
+      "chanson"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000483",
+    "name": "Charles Aznavour",
+    "wikipediaTitle": "Charles Aznavour",
+    "type": "solo",
+    "genres": [
+      "chanson"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000484",
+    "name": "Serge Gainsbourg",
+    "wikipediaTitle": "Serge Gainsbourg",
+    "type": "solo",
+    "genres": [
+      "chanson"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000485",
+    "name": "Françoise Hardy",
+    "wikipediaTitle": "Françoise Hardy",
+    "type": "solo",
+    "genres": [
+      "chanson"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000486",
+    "name": "Barbara",
+    "wikipediaTitle": "Barbara (singer)",
+    "type": "solo",
+    "genres": [
+      "chanson"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000487",
+    "name": "Stromae",
+    "wikipediaTitle": "Stromae",
+    "type": "solo",
+    "genres": [
+      "pop",
+      "electronic"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000488",
+    "name": "Angèle",
+    "wikipediaTitle": "Angèle (singer)",
+    "type": "solo",
+    "genres": [
+      "pop"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000489",
+    "name": "Aya Nakamura",
+    "wikipediaTitle": "Aya Nakamura",
+    "type": "solo",
+    "genres": [
+      "pop"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000490",
+    "name": "Zaz",
+    "wikipediaTitle": "Zaz (singer)",
+    "type": "solo",
+    "genres": [
+      "pop"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000491",
+    "name": "Lata Mangeshkar",
+    "wikipediaTitle": "Lata Mangeshkar",
+    "type": "solo",
+    "genres": [
+      "filmi",
+      "world"
+    ],
+    "rarity": "legendary"
+  },
+  {
+    "id": "los-000492",
+    "name": "Asha Bhosle",
+    "wikipediaTitle": "Asha Bhosle",
+    "type": "solo",
+    "genres": [
+      "filmi",
+      "world"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000493",
+    "name": "Nusrat Fateh Ali Khan",
+    "wikipediaTitle": "Nusrat Fateh Ali Khan",
+    "type": "solo",
+    "genres": [
+      "qawwali",
+      "world"
+    ],
+    "rarity": "epic"
+  },
+  {
+    "id": "los-000494",
+    "name": "Ravi Shankar",
+    "wikipediaTitle": "Ravi Shankar",
+    "type": "solo",
+    "genres": [
+      "hindustani-classical",
+      "world"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000495",
+    "name": "Umm Kulthum",
+    "wikipediaTitle": "Umm Kulthum",
+    "type": "solo",
+    "genres": [
+      "arabic-classical",
+      "world"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000496",
+    "name": "Fairuz",
+    "wikipediaTitle": "Fairuz",
+    "type": "solo",
+    "genres": [
+      "arabic-pop",
+      "world"
+    ],
+    "rarity": "rare"
+  },
+  {
+    "id": "los-000497",
+    "name": "Amália Rodrigues",
+    "wikipediaTitle": "Amália Rodrigues",
+    "type": "solo",
+    "genres": [
+      "fado",
+      "world"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000498",
+    "name": "Cesária Évora",
+    "wikipediaTitle": "Cesária Évora",
+    "type": "solo",
+    "genres": [
+      "morna",
+      "world"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000499",
+    "name": "Nana Mouskouri",
+    "wikipediaTitle": "Nana Mouskouri",
+    "type": "solo",
+    "genres": [
+      "world"
+    ],
+    "rarity": "common"
+  },
+  {
+    "id": "los-000500",
+    "name": "Sezen Aksu",
+    "wikipediaTitle": "Sezen Aksu",
+    "type": "solo",
+    "genres": [
+      "turkish-pop",
+      "pop"
+    ],
+    "rarity": "common"
+  }
+]

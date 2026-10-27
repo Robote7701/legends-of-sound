@@ -4,6 +4,7 @@ import { SaveStore, withSaveLock } from './state/storage.js';
 import { parseSave } from './state/schema.js';
 import { GAME, RARITIES } from './domain/config.js';
 import { boosterAvailability } from './catalog/catalog.js';
+import { catalogView } from './ui/catalog-view.js';
 const main = document.querySelector('main');
 let catalog, store, save, saveError;
 function heading(title, description) { main.append(el('div', 'LEGENDS OF SOUND / ORIGINS', 'eyebrow'), el('h1', title), el('p', description, 'muted')); }
@@ -37,13 +38,13 @@ function render() {
   if (route === 'settings') { settings(); return; }
   if (route === 'boosters') {
     heading('La musique devient collection.', 'Les voix qui vous accompagnent. Les groupes qui vous marquent. Bientôt, cinq cartes pour découvrir une nouvelle histoire.');
-    message('Phase 1 — Fondations. Le catalogue est en préparation : aucune carte vérifiée disponible, aucun ticket ni crédit ne peut être dépensé.');
+    message(catalog.artists.length + ' identités vérifiées dans ORIGINS. Les ouvertures et le moteur économique seront activés en Phase 3 ; aucun ticket ni crédit ne peut encore être dépensé.');
     const grid = el('div', '', 'grid');
     for (const booster of catalog.boosters) {
       const availability = boosterAvailability(catalog.artists, booster);
       const panel = el('article', '', 'panel pack'); panel.style.setProperty('--pack', booster.color);
-      const button = el('button', 'Catalogue en préparation'); button.disabled = true;
-      panel.append(el('span', 'ORIGINS / 5 CARTES', 'tag'), el('h2', booster.name), el('p', booster.description, 'muted'), el('p', availability.count + ' carte vérifiée'), button, el('p', 'Raretés indisponibles : ' + availability.missingRarities.map(r => RARITIES[r].label).join(', '), 'muted'));
+      const button = el('button', 'Ouvertures — Phase 3'); button.disabled = true;
+      panel.append(el('span', 'ORIGINS / 5 CARTES', 'tag'), el('h2', booster.name), el('p', booster.description, 'muted'), el('p', availability.count + ' cartes vérifiées'), button, el('p', availability.available ? 'Les quatre raretés sont représentées.' : 'Raretés indisponibles : ' + availability.missingRarities.map(r => RARITIES[r].label).join(', '), 'muted'));
       grid.append(panel);
     }
     main.append(grid, el('p', 'Probabilités cibles par carte, lorsque toutes les raretés seront disponibles : légendaire 4 %, épique 16 %, rare 35 %, commune 45 %.'));
@@ -51,7 +52,7 @@ function render() {
     heading('Votre discothèque de légendes.', 'ÉDITION 01 — ORIGINS');
     const count = save ? Object.keys(save.collection).length : 0;
     main.append(el('h2', count + ' carte(s) possédée(s) · objectif de l’édition : 500'));
-    message('Le catalogue sera constitué en Phase 2 avec des identités MusicBrainz vérifiées. Aucune carte fictive n’est affichée.');
+    main.append(el('p', catalog.artists.length + ' identités vérifiées. Explorez le catalogue et les sources ; consulter une fiche ne donne pas la carte.', 'muted'), catalogView(catalog, save));
   } else if (route === 'recycling') {
     heading('Atelier de recyclage.', 'Donnez une seconde vie à vos doublons.');
     message('Disponible en Phase 3 avec le moteur du jeu. Aucun recyclage n’est actuellement possible.');
@@ -61,9 +62,11 @@ function render() {
     if (save) { const grid = el('div', '', 'grid'); for (const [key,label] of [['boostersOpened','Boosters ouverts'],['cardsObtained','Cartes obtenues'],['cardsRecycled','Cartes recyclées']]) { const panel = el('section','','panel'); panel.append(el('h2',label),el('p',String(save.stats[key]))); grid.append(panel); } main.append(grid); }
   } else if (route === 'credits') {
     heading('Sources & crédits.', 'Des identités vérifiées. Des droits documentés.');
-    main.append(el('p', 'Aucune photographie publiée en Phase 1. Les visuels de boosters reposent uniquement sur du CSS et de la typographie système.'));
-    const link = el('a', 'MusicBrainz — source d’identité prévue'); link.href = 'https://musicbrainz.org/'; main.append(link);
-    main.append(el('p', 'La Phase 2 documentera la provenance par champ et les crédits photographiques : source, photographe, licence, lien et modifications. Un MBID syntaxiquement valide ne constitue pas une vérification d’identité.'));
+    main.append(el('p', 'Identités, alias, dates et relations : MusicBrainz (données centrales CC0). Descriptions : Wikidata (CC0). Genres et raretés : classement éditorial Legends of Sound, sans mesure du talent.'));
+    for (const [name, url] of [['MusicBrainz — sources et licences', 'https://musicbrainz.org/doc/About/Data_License'], ['Wikidata — licence CC0', 'https://www.wikidata.org/wiki/Wikidata:Licensing']]) { const link = el('a', name); link.href = url; main.append(link, el('br')); }
+    const illustrated = catalog.artists.filter(a => a.portrait);
+    main.append(el('p', illustrated.length + ' portrait(s) publié(s) après revue. Les autres fiches utilisent un visuel de remplacement original. Une proposition Commons n’est jamais publiée automatiquement.'));
+    for (const artist of illustrated) { const p = artist.portrait; const credit = el('p', artist.displayName + ' — ' + p.photographer + ' · ' + p.license + ' · Modifications : ' + p.modifications + ' '); const link = el('a', 'Source'); link.href = p.sourceUrl; const license = el('a', 'Licence'); license.href = p.licenseUrl; credit.append(link, document.createTextNode(' · '), license); main.append(credit); }
   } else { heading('Page introuvable.', 'Choisissez une rubrique dans la navigation.'); }
 }
 document.querySelector('.skip').addEventListener('click', event => { event.preventDefault(); main.focus(); });

@@ -16,8 +16,9 @@ test('configuration : 9 boosters uniques, 500 cartes cibles, probabilités total
   assert.equal(GAME.maxTickets,10); assert.equal(GAME.rechargeMs,300000);
 });
 test('catalogue vide déclaré en préparation, validation complète refusée', () => {
-  assert.equal(artists.length,0); assert.throws(()=>validateCatalog(artists,editions,{requireComplete:true}));
-  for(const b of boosters) { assert.equal(boosterAvailability(artists,b).available,false); assert.equal(boosterAvailability(artists,b).missingRarities.length,4); }
+  const preparing = editions.map(e => ({...e, status:'preparation'}));
+  assert.throws(()=>validateCatalog([],preparing,{requireComplete:true}));
+  for(const b of boosters) { assert.equal(boosterAvailability([],b).available,false); assert.equal(boosterAvailability([],b).missingRarities.length,4); }
 });
 test('genres de scène explicites : ASIA WAVE ne filtre pas par nationalité', () => {
   const wave = boosters.find(b=>b.id==='asia-wave');
