@@ -4,9 +4,9 @@ TCG musical gratuit, statique et indépendant de Velvet Collection. Sound Credit
 
 ## État — Catalogue et ouvertures
 
-ORIGINS comprend **1 500 artistes et groupes identifiés sur MusicBrainz**, avec contrôle croisé Wikidata, genres et raretés éditoriaux, dix boosters, fiches sourcées et explorateur du catalogue. Les champs inconnus restent null. Les notices courtes Wikidata ne sont pas des biographies complètes.
+ORIGINS comprend **1 501 artistes et groupes identifiés sur MusicBrainz**, avec contrôle croisé Wikidata, genres et raretés éditoriaux, dix boosters, fiches sourcées et explorateur du catalogue. Les champs inconnus restent null. Les notices courtes Wikidata ne sont pas des biographies complètes.
 
-Les dix boosters sont jouables en x1, x3, x5 et x10. Les tickets se rechargent hors ligne (un toutes les cinq minutes, maximum dix). Les Sound Credits complètent les tickets après confirmation. Les gains, paiements et statistiques sont enregistrés ensemble avant toute révélation. La dernière ouverture peut être revue sans paiement, même après rechargement. Le recyclage, les favoris, les souhaits et les objectifs sont disponibles. Consulter une fiche ne donne pas la carte. Les 1 500 cartes utilisent des compositions typographiques originales adaptées aux genres : aucune photo, illustration externe ou logo d’artiste. Les champs sans données sont masqués.
+Les dix boosters sont jouables en x1, x3, x5 et x10. Les tickets se rechargent hors ligne (un toutes les cinq minutes, maximum dix). Les Sound Credits complètent les tickets après confirmation. Les gains, paiements et statistiques sont enregistrés ensemble avant toute révélation. La dernière ouverture peut être revue sans paiement, même après rechargement. Le recyclage, les favoris, les souhaits et les objectifs sont disponibles. Consulter une fiche ne donne pas la carte. Les 1 501 cartes utilisent des compositions typographiques originales adaptées aux genres : aucune photo, illustration externe ou logo d’artiste. Les champs sans données sont masqués.
 
 ## Démarrer et tester
 
@@ -24,7 +24,7 @@ Ouvrir http://127.0.0.1:4173. Utiliser HTTP, pas file://. Le serveur écoute uni
 
 Tests navigateur : http://127.0.0.1:4173/tests/browser.html. Contrôles de navigation, catalogue, recherche, fiches, pagination, accès clavier et responsive, exécutés séparément de la CI Node.
 
-Tests d’ouverture avec écriture : démarrer un serveur séparé sur le port 4176 (PowerShell : `$env:PORT='4176'; npm.cmd run dev`), puis ouvrir http://127.0.0.1:4176/tests/openings.html. Le port 4177 est également autorisé pour une seconde origine de test vierge. Le test exige une origine de test vierge et refuse de modifier un stockage préexistant. Il supprime uniquement sa propre partie de test à la fin et ne touche pas la partie du port 4173. Contrôles x1/x3/x5/x10, annulation, paiement mixte, doubles clics, interruption/reprise, quota de stockage et devis devenu obsolète.
+Tests d’ouverture avec écriture : démarrer un serveur séparé sur le port 4176 (PowerShell : `$env:PORT='4176'; npm.cmd run dev`), puis ouvrir http://127.0.0.1:4176/tests/openings.html. Les ports 4177 et 4178 sont également autorisés pour une seconde origine de test vierge. Le test exige une origine de test vierge et refuse de modifier un stockage préexistant. Il supprime uniquement sa propre partie de test à la fin et ne touche pas la partie du port 4173. Contrôles x1/x3/x5/x10, annulation, paiement mixte, doubles clics, interruption/reprise, quota de stockage et devis devenu obsolète.
 
 ## Ouvrir des boosters
 
@@ -40,11 +40,15 @@ La révélation propose une ouverture du paquet, un dos de carte puis une carte 
 
 La collection propose favoris, verrous, souhaits, filtres possédées/manquantes et tris par nom, rareté ou obtention. Les favoris et verrous exigent une carte possédée ; un souhait peut viser une carte manquante. L’atelier de recyclage propose quantités manuelles et sélection de tous les doublons. Cette sélection garde un exemplaire et ignore favoris/verrous ; le recyclage manuel peut retirer le dernier exemplaire d’une carte non protégée. Aperçu des SC, confirmation et transaction atomique précèdent toute modification.
 
-Six objectifs donnent 1 à 3 tickets : découvertes globales, rap/hip-hop, groupes rock et première légendaire. La récompense se récupère une seule fois. Si la réserve de dix tickets est trop pleine, elle reste disponible et le joueur est invité à libérer de la place. Les anciens fichiers sans wishlist ou claimedGoals restent compatibles. Ces champs sont validés à l’import.
+50 objectifs donnent de 100 à 2 000 SC : découvertes globales, sept scènes musicales, solo/groupes, raretés, ouvertures et recyclage. Filtres disponibles : récompenses à récupérer, objectifs en cours et déjà récupérés. Les récompenses se récupèrent une seule fois, même avec dix tickets en réserve. Les IDs des six premiers objectifs sont conservés : une récompense déjà reçue en tickets ne redonne pas des SC après la mise à jour. Les anciens fichiers sans wishlist ou claimedGoals restent compatibles. Ces champs sont validés à l’import.
+
+Le recyclage rapide affiche, pour chacune des quatre raretés et pour l’ensemble des doublons, le nombre d’exemplaires et le gain exact en SC. Un clic ouvre la confirmation ; le premier exemplaire, les favoris et les verrous sont conservés. La sélection manuelle reste dans une rubrique repliable. Les contours des cartes sont renforcés à 3 px (4 px en légendaire) ; NEW et « Dans vos favoris » sont signalés lors des révélations et dans le bilan.
+
+Jean-Jacques Goldman a été ajouté après vérification croisée MusicBrainz/Wikidata avec un nouvel ID permanent, portant ORIGINS à **1 501 cartes**. Le dossier SACEM motive la rareté légendaire. L’outil d’ajout conserve les identifiants existants et vérifie le catalogue avant écriture : `node scripts/add-artist.js --candidate=data/artist-additions/goldman.json` (refus si déjà présent).
 
 ## Revue éditoriale des raretés
 
-Depuis COLLECTION, ouvrir « Revoir les raretés et les sources ». Les 1 500 fiches disposent d’un dossier ; 412 suggestions documentaires aident à repérer les cas à examiner. Elles ne constituent pas 1 500 décisions finales : manque de distinctions, pays ou scène ne permettent pas de déduire une rareté. Quatre promotions éditoriales motivées sont appliquées : Céline Dion, Ray Charles, Frank Sinatra et Bob Marley en légendaire. Les autres valeurs provisoires restent signalées.
+Depuis COLLECTION, ouvrir « Revoir les raretés et les sources ». Les 1 501 fiches disposent d’un dossier ; 413 suggestions documentaires aident à repérer les cas à examiner. Elles ne constituent pas 1 501 décisions finales : manque de distinctions, pays ou scène ne permettent pas de déduire une rareté. Quatre promotions éditoriales motivées sont appliquées : Céline Dion, Ray Charles, Frank Sinatra et Bob Marley en légendaire. Les autres valeurs provisoires restent signalées.
 
 Les brouillons sont enregistrés séparément sous legends-of-sound-rarity-drafts-v1 et exportables avec justification. Le script refuse des IDs inconnus/dupliqués ou des décisions sans justification, vérifie le catalogue et la disponibilité des boosters, et conserve une copie du catalogue dans le cache avant remplacement. Il ne déploie rien.
 
@@ -93,7 +97,7 @@ Un seul import à la fois. User-Agent identifié, départs espacés d’au moins
 
 ## Identité typographique
 
-Les noms deviennent les visuels des 1 500 cartes. Neuf familles graphiques suivent le premier genre reconnu : rock, métal, électronique, hip-hop, pop, Asia Wave, jazz/soul/blues, groove et musiques du monde. Aucune inférence par pays. Les artistes multigenres conservent tous leurs genres et leurs boosters.
+Les noms deviennent les visuels des 1 501 cartes. Neuf familles graphiques suivent le premier genre reconnu : rock, métal, électronique, hip-hop, pop, Asia Wave, jazz/soul/blues, groove et musiques du monde. Aucune inférence par pays. Les artistes multigenres conservent tous leurs genres et leurs boosters.
 
 [art-direction.js](./src/catalog/art-direction.js) définit les associations, palettes et variations stables par ID. [artist-artwork.js](./src/ui/artist-artwork.js) compose le texte et [artwork.css](./assets/css/artwork.css) définit les polices système et motifs CSS. Aucun téléchargement de police ou d’image. Le champ portrait reste null et le validateur refuse les portraits. L’importateur ne recherche plus de visuels. Les IDs et sauvegardes restent compatibles.
 
@@ -110,7 +114,7 @@ Les distinctions (P166), œuvres notables (P800), genres documentés (P136) et d
 npm run discover:artists
 npm run expand:catalog
 npm run enrich:catalog
-# Appliquer uniquement après validation complète des 1 500 cartes locales
+# Appliquer uniquement après validation complète des 1 501 cartes locales
 npm run enrich:catalog -- --apply
 ~~~
 

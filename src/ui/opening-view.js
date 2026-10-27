@@ -25,6 +25,10 @@ export function showOpening(batch, catalog, opener, save) {
     const button = el('button', '', 'artist-card rarity-' + (artist?.rarity || 'common'));
     if (!artist) { button.textContent = result.id; return button; }
     button.append(artistArtwork(artist), el('span', RARITIES[artist.rarity].label, 'rarity-label'), el('strong', artist.displayName || artist.name), el('span', result.isNew ? 'NOUVELLE DÉCOUVERTE' : 'DOUBLON', 'result-badge'));
+    const badges=el('span','','opening-card-badges');
+    if(result.isNew)badges.append(el('span','NEW','opening-new-badge'));
+    if(save?.favorites.includes(artist.id))badges.append(el('span','♥ Dans vos favoris','opening-favorite-badge'));
+    if(badges.children.length)button.append(badges);
     if (reveal) button.classList.add('card-reveal');
     button.onclick = reveal ? advance : () => showArtist(artist, button);
     if (reveal) button.setAttribute('aria-label', (artist.displayName || artist.name) + ' · ' + RARITIES[artist.rarity].label + ' · Continuer la révélation');

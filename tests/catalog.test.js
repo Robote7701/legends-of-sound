@@ -20,7 +20,7 @@ test('chaque booster contient les quatre raretés et respecte ses filtres',()=>{
   assert.equal(artists.filter(a=>matchesBooster(a,groups)).length+artists.filter(a=>matchesBooster(a,solos)).length,target);
 });
 test('les références demandées sont présentes sans cartes alternatives en doublon',()=>{
-  for(const name of ['Queen','Michael Jackson','Daft Punk','Rammstein','Linkin Park','Metallica','AC/DC','Nirvana','David Bowie','Prince','Eminem','Kendrick Lamar','Hatsune Miku','Reol','PinocchioP','Ado','YOASOBI','Atarashii Gakko!','bbno$']) assert.equal(artists.filter(a=>a.displayName===name).length,1,name);
+  for(const name of ['Queen','Michael Jackson','Daft Punk','Rammstein','Linkin Park','Metallica','AC/DC','Nirvana','David Bowie','Prince','Eminem','Kendrick Lamar','Hatsune Miku','Reol','PinocchioP','Ado','YOASOBI','Atarashii Gakko!','bbno$','Jean-Jacques Goldman']) assert.equal(artists.filter(a=>a.displayName===name).length,1,name);
   const miku=artists.find(a=>a.displayName==='Hatsune Miku'); assert.equal(miku.entityType,'Character'); assert.equal(miku.birthDate,null);
 });
 test('le validateur refuse doublon de MBID, preuve absente et portrait externe',()=>{

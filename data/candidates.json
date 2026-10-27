@@ -31077,5 +31077,25 @@
       "queryUrl": "https://query.wikidata.org/sparql?query=SELECT+DISTINCT+%3Fitem+%3Flinks+WHERE+%7B+VALUES+%3Fgenre+%7B+wd%3AQ208239+wd%3AQ9764+wd%3AQ25099840+wd%3AQ1062400+wd%3AQ512410+wd%3AQ973150+wd%3AQ202930+wd%3AQ388296+%7D+%3Fitem+wdt%3AP136+%3Fgenre%3B+wdt%3AP434+%3Fmbid%3B+wikibase%3Asitelinks+%3Flinks+.++%7D+ORDER+BY+DESC%28%3Flinks%29+%3Fitem+LIMIT+400&format=json",
       "mapping": "scripts/lib/genres.js"
     }
+  },
+  {
+    "name": "Jean-Jacques Goldman",
+    "wikidataId": "Q44709",
+    "type": "solo",
+    "genres": [
+      "chanson",
+      "pop",
+      "rock"
+    ],
+    "rarity": "legendary",
+    "rarityReview": {
+      "status": "reviewed",
+      "reason": "Choix éditorial de figure majeure de la chanson française. Dossier SACEM : Grand Prix de la Chanson Française (1989), Prix Vincent Scotto (1992), Prix Rolf Marbot (1994). Ce choix ne mesure pas le talent.",
+      "sources": [
+        "https://musee.sacem.fr/index.php/Detail/entities/1681",
+        "https://musicbrainz.org/artist/0b3819e6-3fa1-4a50-a84c-f2a62643185d"
+      ]
+    },
+    "id": "los-001502"
   }
 ]

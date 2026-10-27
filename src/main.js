@@ -98,10 +98,10 @@ function render() {
     heading('Atelier de recyclage.', 'Donnez une seconde vie à vos doublons.');
     main.append(recyclingView(catalog,()=>save,mutate));
   } else if (route === 'goals') {
-    heading('Chaque découverte compte.', 'Des objectifs de collection et des tickets gratuits. Chaque récompense se récupère une seule fois ; libérez de la place si votre réserve est pleine.');
+    heading('Chaque découverte compte.', '50 objectifs de collection, de découverte et de progression. Gagnez des Sound Credits, même lorsque votre réserve de tickets est pleine. Chaque récompense se récupère une seule fois.');
     main.append(goalsView(catalog,()=>save,mutate));
   } else if (route === 'rarity-review') {
-    heading('Les légendes méritent une vraie revue.', 'Un atelier éditorial pour les 1 500 artistes. Les brouillons ne changent pas les tirages tant qu’ils ne sont pas appliqués au catalogue.');
+    heading('Les légendes méritent une vraie revue.', 'Un atelier éditorial pour les '+catalog.artists.length+' artistes. Les brouillons ne changent pas les tirages tant qu’ils ne sont pas appliqués au catalogue.');
     main.append(rarityReviewView(catalog));
   } else if (route === 'statistics') {
     heading('Votre empreinte musicale.', 'Statistiques de votre sauvegarde locale.');

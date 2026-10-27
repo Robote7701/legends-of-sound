@@ -26,12 +26,22 @@ test('recyclage individuel : dernier exemplaire, quantités strictes et protecti
  assert.throws(()=>recycleCards(save,artists,{}));assert.throws(()=>recycleCards(next,artists,{[id]:1}));
  for(const kind of ['favorites','locked']){const protectedSave=structuredClone(save);protectedSave[kind]=[id];assert.throws(()=>recycleCards(protectedSave,artists,{[id]:1}));}
 });
-test('objectifs : validation des critères, récompense une seule fois et plafond sans perte',()=>{
+test('objectifs : crédits une seule fois, sans modifier les tickets même à réserve pleine',()=>{
  const save=state(),goal=GOALS.find(g=>g.id==='rap-20'),next=claimGoal(save,artists,goal.id,1000);
- assert.equal(next.tickets,7);assert.deepEqual(next.claimedGoals,[goal.id]);assert.equal(save.tickets,5);
+ assert.equal(next.tickets,5);assert.equal(next.credits,700);assert.deepEqual(next.claimedGoals,[goal.id]);assert.equal(save.tickets,5);
  assert.throws(()=>claimGoal(next,artists,goal.id,1000));assert.throws(()=>claimGoal(createSave(1000),artists,goal.id,1000));
- const full=state();full.tickets=10;assert.throws(()=>claimGoal(full,artists,goal.id,1000),/réserve/);assert.deepEqual(full.claimedGoals,[]);
+ const full=state();full.tickets=10;assert.equal(claimGoal(full,artists,goal.id).credits,700);assert.deepEqual(full.claimedGoals,[]);
  assert.deepEqual(parseSave(serializeSave(next)),next);
+});
+test('50 objectifs uniques, récompenses en SC, paliers statistiques et exclusion par rareté au recyclage',()=>{
+ assert.equal(GOALS.length,50);assert.equal(new Set(GOALS.map(g=>g.id)).size,50);assert.ok(GOALS.every(g=>Number.isSafeInteger(g.credits)&&g.credits>0&&!g.tickets));
+ const save=state();save.favorites=[artists[0].id];
+ assert.deepEqual(duplicatePlan(save,artists,'legendary'),{});
+ const common=duplicatePlan(save,artists,'common');assert.equal(Object.keys(common).length,19);assert.equal(recyclingQuote(save,artists,common).credits,380);
+ assert.throws(()=>duplicatePlan(save,artists,'fake'));
+ save.stats.boostersOpened=5;assert.equal(claimGoal(save,artists,'boostersOpened-5').credits,600);
+ save.stats.cardsRecycled=10;assert.equal(claimGoal(save,artists,'cardsRecycled-10').credits,600);
+ save.credits=Number.MAX_SAFE_INTEGER;assert.throws(()=>claimGoal(save,artists,'discover-10'),/Solde/);
 });
 test('compatibilité des anciennes sauvegardes et rejet des nouveaux champs malformés',()=>{
  const old=createSave(1000);delete old.wishlist;delete old.claimedGoals;assert.deepEqual(validateSave(old),old);

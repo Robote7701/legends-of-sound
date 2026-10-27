@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-27T21:54:41.849Z",
+  "generatedAt": "2026-10-27T22:09:22.020Z",
   "method": "Indicateurs documentaires pour revue humaine. Une absence de distinction ne justifie pas une rareté basse. Aucun quota par pays ou genre.",
   "entries": [
     {
@@ -29897,6 +29897,20 @@
         "accessedAt": "2026-10-27T18:14:12.464Z",
         "license": "CC0-1.0"
       }
+    },
+    {
+      "id": "los-001502",
+      "name": "Jean-Jacques Goldman",
+      "current": "legendary",
+      "proposed": "legendary",
+      "status": "reviewed",
+      "reason": "Choix éditorial de figure majeure de la chanson française. Dossier SACEM : Grand Prix de la Chanson Française (1989), Prix Vincent Scotto (1992), Prix Rolf Marbot (1994). Ce choix ne mesure pas le talent.",
+      "evidence": [],
+      "sources": [
+        "https://musicbrainz.org/artist/0b3819e6-3fa1-4a50-a84c-f2a62643185d",
+        "https://www.wikidata.org/wiki/Q44709"
+      ],
+      "evidenceSource": null
     }
   ]
 }

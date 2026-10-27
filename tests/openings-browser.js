@@ -6,9 +6,10 @@ async function until(predicate){const end=Date.now()+8000;while(!predicate()){if
 let owned=false,sequence=0;
 const saved=()=>JSON.parse(localStorage.getItem(GAME.storageKey));
 const artists=await (await fetch('../data/artists.json')).json();
-async function load(tickets=10,credits=500,elapsed=0,owned=0){
+async function load(tickets=10,credits=500,elapsed=0,owned=0,favorite=false){
  const state=createSave(Date.now());state.tickets=tickets;state.credits=credits;state.ticketUpdatedAt-=elapsed;
  for(const artist of artists.slice(0,owned))state.collection[artist.id]={count:3,firstObtainedAt:state.createdAt,lastObtainedAt:state.createdAt};
+ if(favorite)state.favorites=[artists[0].id];
  localStorage.setItem(GAME.storageKey,JSON.stringify(state));
  frame.src='../index.html?opening-test='+sequence+++'#boosters';
  await new Promise(resolve=>frame.onload=resolve);
@@ -16,7 +17,7 @@ async function load(tickets=10,credits=500,elapsed=0,owned=0){
  return frame.contentDocument;
 }
 try{
- if(location.hostname!=='127.0.0.1'||!['4176','4177'].includes(location.port))throw Error('Refus : utiliser une origine de test isolée sur 127.0.0.1:4176 ou :4177.');
+ if(location.hostname!=='127.0.0.1'||!['4176','4177','4178'].includes(location.port))throw Error('Refus : utiliser une origine de test isolée sur 127.0.0.1:4176, :4177 ou :4178.');
  if(localStorage.getItem(GAME.storageKey)!==null)throw Error('Stockage de test non vierge : utiliser un profil de test vide. Aucune donnée remplacée.');
  owned=true;
  let doc=await load();
@@ -30,6 +31,7 @@ try{
  doc.querySelector('.sealed-pack').click();
  await until(()=>!!doc.querySelector('.card-reveal'));
  assert(doc.querySelector('.card-reveal.rarity-legendary'),'Révélation individuelle et effet légendaire');
+ assert(doc.querySelector('.card-reveal .opening-new-badge')?.textContent==='NEW','Badge NEW sur une découverte');
  doc.querySelector('.card-reveal').click();
  await until(()=>doc.querySelectorAll('.card-reveal').length===2);
  assert(doc.querySelectorAll('.card-reveal').length===2&&!doc.querySelector('.artist-dialog'),'Cliquer sur la carte révèle la suivante sans ouvrir de fiche');
@@ -92,10 +94,21 @@ try{
  assert(saved().collection[saved().favorites[0]].count===3&&Object.values(saved().collection).filter(c=>c.count===1).length===19,'Recyclage cohérent et carte protégée intacte');
  doc.querySelector('nav a[href="#goals"]').click();await until(()=>!!doc.querySelector('.goal-panel button'));
  doc.querySelector('.goal-panel button').click();await until(()=>saved().claimedGoals.length===1);
- assert(saved().tickets===6&&doc.querySelector('.goal-panel button').disabled,'Objectif : ticket attribué une seule fois, bouton bloqué après récupération');
+ assert(saved().tickets===5&&doc.querySelector('.goal-panel button').disabled,'Objectif : SC attribués sans modifier les tickets, bouton bloqué après récupération');
  frame.contentWindow.location.hash='#rarity-review';await until(()=>!!doc.querySelector('.rarity-review-list article'));
  const reviewSearch=doc.querySelector('input[type="search"]');reviewSearch.value='celine dion';reviewSearch.dispatchEvent(new Event('input'));
  assert(doc.querySelectorAll('.rarity-review-list article').length===1&&doc.querySelector('.rarity-review-list').textContent.includes('Actuelle : Légendaire'),'Revue : recherche sans accent et correction sourcée de Céline Dion');
+ doc=await load(5,500,0,20);
+ doc.querySelector('nav a[href="#recycling"]').click();await until(()=>!!doc.querySelector('.recycle-quick-button'));
+ const quick=doc.querySelector('[data-rarity="epic"]'),amount=Number(quick.querySelector('strong').textContent.split(' ')[0]),gain=Number(quick.querySelector('b').textContent.replace(/[^0-9]/g,''));
+ assert(amount>0&&gain>0&&doc.querySelectorAll('.recycle-quick-button').length===5,'Recyclage rapide : nombre et gain par rareté affichés avant validation');
+ frame.contentWindow.confirm=()=>false;quick.click();assert(saved().stats.cardsRecycled===0,'Annulation du recyclage rapide sans modification');
+ frame.contentWindow.confirm=()=>true;quick.click();quick.click();await until(()=>saved().stats.cardsRecycled===amount);
+ assert(saved().credits===500+gain&&Object.values(saved().collection).every(c=>c.count>=1),'Recyclage rapide : gain annoncé exact, dernier exemplaire conservé et double clic bloqué');
+ doc=await load(5,500,0,20,true);frame.contentWindow.crypto.getRandomValues=array=>{array.fill(0);return array;};
+ doc.querySelector('.open-selected').click();await until(()=>!!doc.querySelector('.opening-dialog[open]'));
+ [...doc.querySelectorAll('.opening-dialog button')].find(b=>b.textContent==='Révéler la prochaine carte').click();await until(()=>!!doc.querySelector('.card-reveal'));
+ assert(doc.querySelector('.card-reveal .opening-favorite-badge')?.textContent.includes('Dans vos favoris')&&!doc.querySelector('.card-reveal .opening-new-badge'),'Badge favori sur une carte déjà possédée, sans faux NEW');
  output.dataset.status='passed';
 }catch(error){checks.push('ÉCHEC — '+error.message);output.dataset.status='failed';}
 finally{if(owned){frame.src='about:blank';localStorage.removeItem(GAME.storageKey);}output.textContent=checks.join('\n')+'\n'+checks.filter(c=>c.startsWith('OK')).length+' contrôles réussis.';}

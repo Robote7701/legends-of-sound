@@ -243916,5 +243916,114 @@
       "shard": "origins-01-030.json"
     },
     "notableWorks": null
+  },
+  {
+    "id": "los-001502",
+    "editionId": "origins-01",
+    "mbid": "0b3819e6-3fa1-4a50-a84c-f2a62643185d",
+    "wikidataId": "Q44709",
+    "name": "Jean‐Jacques Goldman",
+    "displayName": "Jean-Jacques Goldman",
+    "type": "solo",
+    "entityType": "Person",
+    "genres": [
+      "chanson",
+      "pop",
+      "rock"
+    ],
+    "rarity": "legendary",
+    "rarityReview": {
+      "status": "reviewed",
+      "reason": "Choix éditorial de figure majeure de la chanson française. Dossier SACEM : Grand Prix de la Chanson Française (1989), Prix Vincent Scotto (1992), Prix Rolf Marbot (1994). Ce choix ne mesure pas le talent.",
+      "sources": [
+        "https://musee.sacem.fr/index.php/Detail/entities/1681",
+        "https://musicbrainz.org/artist/0b3819e6-3fa1-4a50-a84c-f2a62643185d"
+      ]
+    },
+    "aliases": [
+      "First Prayer",
+      "Goldman Jean-Jacques",
+      "JJ Goldman",
+      "JJG",
+      "Jean Jacques Goldman",
+      "Jean Jaques Goldmann",
+      "Jean-Jaques Goldman",
+      "O. Menor",
+      "Sam Brewski",
+      "Sweet Memories"
+    ],
+    "country": "FR",
+    "area": "France",
+    "birthDate": "1951-10-11",
+    "deathDate": null,
+    "formationDate": null,
+    "careerStart": null,
+    "nationality": null,
+    "members": null,
+    "formerMembers": null,
+    "notableAlbums": null,
+    "knownTracks": null,
+    "awards": null,
+    "biography": null,
+    "knownFor": "auteur, compositeur et chanteur français",
+    "knownForLanguage": "fr",
+    "portrait": null,
+    "provenance": {
+      "musicbrainz": {
+        "url": "https://musicbrainz.org/artist/0b3819e6-3fa1-4a50-a84c-f2a62643185d",
+        "apiUrl": "https://musicbrainz.org/ws/2/artist/0b3819e6-3fa1-4a50-a84c-f2a62643185d?inc=aliases+url-rels+artist-rels&fmt=json",
+        "verifiedAt": "2026-10-27T22:08:44.086Z",
+        "verification": {
+          "verified": true,
+          "method": "reciprocal-musicbrainz-wikidata-and-name-type",
+          "nameMatch": true,
+          "reciprocal": true,
+          "declaredMbid": true,
+          "returnedName": "Jean‐Jacques Goldman",
+          "returnedType": "Person",
+          "reciprocalUrl": "https://www.wikidata.org/wiki/Q44709",
+          "review": null
+        }
+      },
+      "wikidata": {
+        "url": "https://www.wikidata.org/wiki/Q44709",
+        "revision": null
+      },
+      "classification": {
+        "kind": "editorial",
+        "source": "data/candidates.json",
+        "policy": "docs/editorial-policy.md"
+      }
+    },
+    "sources": {
+      "identity": {
+        "url": "https://musicbrainz.org/artist/0b3819e6-3fa1-4a50-a84c-f2a62643185d",
+        "license": "CC0-1.0",
+        "accessedAt": "2026-10-27T22:08:44.086Z"
+      },
+      "aliases": {
+        "url": "https://musicbrainz.org/artist/0b3819e6-3fa1-4a50-a84c-f2a62643185d",
+        "license": "CC0-1.0"
+      },
+      "country": {
+        "url": "https://musicbrainz.org/artist/0b3819e6-3fa1-4a50-a84c-f2a62643185d",
+        "meaning": "MusicBrainz country association; not nationality",
+        "license": "CC0-1.0"
+      },
+      "dates": {
+        "url": "https://musicbrainz.org/artist/0b3819e6-3fa1-4a50-a84c-f2a62643185d",
+        "license": "CC0-1.0"
+      },
+      "members": {
+        "url": "https://musicbrainz.org/artist/0b3819e6-3fa1-4a50-a84c-f2a62643185d",
+        "license": "CC0-1.0",
+        "exhaustive": false
+      },
+      "knownFor": {
+        "url": "https://www.wikidata.org/wiki/Q44709",
+        "field": "description",
+        "license": "CC0-1.0"
+      }
+    }
   }
 ]
