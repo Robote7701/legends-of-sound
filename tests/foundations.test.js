@@ -9,8 +9,8 @@ const json = async name => JSON.parse(await readFile(new URL('../data/' + name +
 const editions = await json('editions'), boosters = await json('boosters'), artists = await json('artists');
 function memory() { const data = new Map(); return { data, getItem: k => data.get(k) ?? null, setItem(k, v) { data.set(k, v); } }; }
 function setup() { const storage = memory(), store = new SaveStore(storage); store.load(100); store.commit(store.state,100); return { storage, store }; }
-test('configuration : 9 boosters uniques, capacité déclarative, probabilités totalisant 100 %', () => {
-  assert.equal(boosters.length, 9); assert.ok(editions[0].targetCardCount >= 500);
+test('configuration : 10 boosters uniques, capacité déclarative, probabilités totalisant 100 %', () => {
+  assert.equal(boosters.length, 10); assert.ok(editions[0].targetCardCount >= 500);
   validateBoosters(boosters, editions); validateCatalog(artists, editions);
   assert.equal(Object.values(RARITIES).reduce((n,r)=>n+r.probability,0),1);
   assert.equal(GAME.maxTickets,10); assert.equal(GAME.rechargeMs,300000);

@@ -36,12 +36,16 @@ export function openingPools(artists, booster) {
   if (Object.values(pools).some(pool => !pool.length)) throw new Error('Ouverture indisponible : une rareté manque dans ce booster.');
   return pools;
 }
-export function drawCard(pools, rng = randomFloat) {
-  const roll = random(rng); let threshold = 0;
+export function drawCard(pools, rng = randomFloat, excluded = new Set()) {
+  const remaining = Object.fromEntries(Object.entries(pools).map(([r, pool]) => [r, pool.filter(card => !excluded.has(card.id))]));
+  const weight = Object.entries(RARITIES).reduce((sum, [r, config]) => sum + (remaining[r]?.length ? config.probability : 0), 0);
+  if (!weight) throw new Error('Pas assez de cartes distinctes dans ce booster.');
+  const roll = random(rng) * weight; let threshold = 0;
   for (const [rarity, config] of Object.entries(RARITIES)) {
+    if (!remaining[rarity]?.length) continue;
     threshold += config.probability;
     if (roll < threshold) {
-      const pool = pools[rarity];
+      const pool = remaining[rarity];
       return pool[Math.floor(random(rng) * pool.length)];
     }
   }
@@ -52,10 +56,19 @@ export function openBoosters(state, artists, booster, count, { now = Date.now(),
   if (!payment.affordable) throw new Error('Sound Credits insuffisants.');
   if (payment.credits !== approvedCredits) throw new Error('Le coût a changé. Vérifiez le nouveau paiement.');
   const pools = openingPools(artists, booster), cards = [];
-  for (let i = 0; i < count * GAME.cardsPerBooster; i++) {
-    const card = drawCard(pools, rng), previous = next.collection[card.id];
-    cards.push({ id: card.id, isNew: !previous });
-    next.collection[card.id] = { count: (previous?.count || 0) + 1, firstObtainedAt: previous?.firstObtainedAt ?? now, lastObtainedAt: Math.max(previous?.lastObtainedAt || 0, now) };
+  if (Object.values(pools).flat().length < GAME.cardsPerBooster) throw new Error('Pas assez de cartes distinctes dans ce booster.');
+  const ranks = ['common', 'rare', 'epic', 'legendary'];
+  for (let pack = 0; pack < count; pack++) {
+    const excluded = new Set(), gains = [];
+    for (let i = 0; i < GAME.cardsPerBooster; i++) {
+      const card = drawCard(pools, rng, excluded); excluded.add(card.id); gains.push(card);
+    }
+    gains.sort((a, b) => ranks.indexOf(a.rarity) - ranks.indexOf(b.rarity));
+    for (const card of gains) {
+      const previous = next.collection[card.id];
+      cards.push({ id: card.id, isNew: !previous });
+      next.collection[card.id] = { count: (previous?.count || 0) + 1, firstObtainedAt: previous?.firstObtainedAt ?? now, lastObtainedAt: Math.max(previous?.lastObtainedAt || 0, now) };
+    }
   }
   next.tickets -= payment.tickets; next.credits -= payment.credits;
   next.stats.boostersOpened += count; next.stats.cardsObtained += cards.length; next.stats.creditsSpent += payment.credits;

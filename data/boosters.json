@@ -82,15 +82,21 @@
     "color": "#ff8cca"
   },
   {
+    "id": "rap",
+    "name": "RAP",
+    "description": "Plumes, flow et trap. Du quartier au sommet.",
+    "editionId": "origins-01",
+    "filter": { "genresAny": ["rap", "trap"] },
+    "color": "#f5a35c"
+  },
+  {
     "id": "hip-hop",
     "name": "HIP-HOP",
     "description": "Rimes, rythme et nouvelles voix.",
     "editionId": "origins-01",
     "filter": {
       "genresAny": [
-        "rap",
-        "hip-hop",
-        "trap"
+        "hip-hop"
       ]
     },
     "color": "#ffda69"

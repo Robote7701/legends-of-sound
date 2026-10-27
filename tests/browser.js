@@ -8,9 +8,13 @@ async function until(predicate) {
   while (!predicate()) { if (Date.now() > deadline) throw new Error('Délai dépassé'); await new Promise(r => setTimeout(r, 30)); }
 }
 try {
-  await until(() => frame.contentDocument?.querySelectorAll('.pack').length === 9);
+  await until(() => frame.contentDocument?.querySelectorAll('.pack').length === 10);
   const doc = frame.contentDocument;
-  assert(doc.querySelectorAll('.pack select').length === 9 && doc.querySelector('.pack select').options.length === 4, 'Neuf boosters avec ouvertures x1, x3, x5 et x10');
+  assert(doc.querySelectorAll('.quantity-button').length === 4 && doc.querySelector('.selected-booster h2').textContent === 'ALL STARS', 'Roulette : ALL STARS prioritaire et quatre quantités directes');
+  const rap = [...doc.querySelectorAll('.booster-tab')].find(b=>b.textContent==='RAP'), hiphop=[...doc.querySelectorAll('.booster-tab')].find(b=>b.textContent==='HIP-HOP');
+  rap.click(); assert(doc.querySelector('.selected-booster h2').textContent==='RAP', 'Booster RAP séparé');
+  hiphop.click(); assert(doc.querySelector('.selected-booster h2').textContent==='HIP-HOP', 'Booster HIP-HOP séparé');
+  assert(doc.querySelectorAll('.drop-rate').length===4 && !!doc.querySelector('.free-boosters progress'), 'Taux de drop et barre de recharge visibles');
   for (const route of ['collection', 'recycling', 'statistics', 'settings', 'credits', 'boosters']) {
     doc.querySelector('nav a[href="#' + route + '"]').click();
     await until(() => doc.querySelector('nav a[aria-current="page"]')?.hash === '#' + route);

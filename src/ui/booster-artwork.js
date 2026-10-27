@@ -14,7 +14,7 @@ const scenes = {
 };
 
 export function boosterArtwork(booster, interactive = false) {
-  const [caption, ink, illustration] = scenes[booster.id] || scenes['all-stars'];
+  const [caption, ink, illustration] = booster.id === 'rap' ? ['WORDS HIT HARDER', '#8d3526', scenes['hip-hop'][2]] : scenes[booster.id] || scenes['all-stars'];
   const wrapper = el(interactive ? 'button' : 'div', '', 'booster-object' + (interactive ? ' sealed-pack' : ''));
   wrapper.style.setProperty('--pack', booster.color || '#d9ff65');
   wrapper.style.setProperty('--pack-ink', ink);

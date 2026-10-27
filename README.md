@@ -4,9 +4,9 @@ TCG musical gratuit, statique et indépendant de Velvet Collection. Sound Credit
 
 ## État — Catalogue et ouvertures
 
-ORIGINS comprend **1 500 artistes et groupes identifiés sur MusicBrainz**, avec contrôle croisé Wikidata, genres et raretés éditoriaux, neuf boosters, fiches sourcées et explorateur du catalogue. Les champs inconnus restent null. Les notices courtes Wikidata ne sont pas des biographies complètes.
+ORIGINS comprend **1 500 artistes et groupes identifiés sur MusicBrainz**, avec contrôle croisé Wikidata, genres et raretés éditoriaux, dix boosters, fiches sourcées et explorateur du catalogue. Les champs inconnus restent null. Les notices courtes Wikidata ne sont pas des biographies complètes.
 
-Les neuf boosters sont jouables en x1, x3, x5 et x10. Les tickets se rechargent hors ligne (un toutes les cinq minutes, maximum dix). Les Sound Credits complètent les tickets après confirmation. Les gains, paiements et statistiques sont enregistrés ensemble avant toute révélation. La dernière ouverture peut être revue sans paiement, même après rechargement. Le recyclage reste à développer. Consulter une fiche ne donne pas la carte. Les 1 500 cartes utilisent des compositions typographiques originales adaptées aux genres : aucune photo, illustration externe ou logo d’artiste. Les champs sans données sont masqués.
+Les dix boosters sont jouables en x1, x3, x5 et x10. Les tickets se rechargent hors ligne (un toutes les cinq minutes, maximum dix). Les Sound Credits complètent les tickets après confirmation. Les gains, paiements et statistiques sont enregistrés ensemble avant toute révélation. La dernière ouverture peut être revue sans paiement, même après rechargement. Le recyclage reste à développer. Consulter une fiche ne donne pas la carte. Les 1 500 cartes utilisent des compositions typographiques originales adaptées aux genres : aucune photo, illustration externe ou logo d’artiste. Les champs sans données sont masqués.
 
 ## Démarrer et tester
 
@@ -24,17 +24,19 @@ Ouvrir http://127.0.0.1:4173. Utiliser HTTP, pas file://. Le serveur écoute uni
 
 Tests navigateur : http://127.0.0.1:4173/tests/browser.html. Contrôles de navigation, catalogue, recherche, fiches, pagination, accès clavier et responsive, exécutés séparément de la CI Node.
 
-Tests d’ouverture avec écriture : démarrer un serveur séparé sur le port 4176 (PowerShell : `$env:PORT='4176'; npm.cmd run dev`), puis ouvrir http://127.0.0.1:4176/tests/openings.html. Le test exige une origine de test vierge et refuse de modifier un stockage préexistant. Il supprime uniquement sa propre partie de test à la fin et ne touche pas la partie du port 4173. Contrôles x1/x3/x5/x10, annulation, paiement mixte, doubles clics, interruption/reprise, quota de stockage et devis devenu obsolète.
+Tests d’ouverture avec écriture : démarrer un serveur séparé sur le port 4176 (PowerShell : `$env:PORT='4176'; npm.cmd run dev`), puis ouvrir http://127.0.0.1:4176/tests/openings.html. Le port 4177 est également autorisé pour une seconde origine de test vierge. Le test exige une origine de test vierge et refuse de modifier un stockage préexistant. Il supprime uniquement sa propre partie de test à la fin et ne touche pas la partie du port 4173. Contrôles x1/x3/x5/x10, annulation, paiement mixte, doubles clics, interruption/reprise, quota de stockage et devis devenu obsolète.
 
 ## Ouvrir des boosters
 
-Chaque booster contient cinq tirages indépendants avec doublons possibles. Le moteur choisit d’abord la rareté (4/16/35/45 %), puis une carte uniformément dans cette rareté et le filtre du booster. Une rareté absente bloque le booster. Le nombre de cartes communes provisoires ne modifie pas ces probabilités ; les classements restent à revoir.
+Chaque booster contient cinq artistes distincts. Le moteur choisit d’abord la rareté (taux initiaux : 4/16/35/45 %), puis une carte uniformément parmi les artistes de cette rareté non encore tirés dans le paquet. Si une rareté est épuisée, ses chances sont redistribuées proportionnellement aux raretés restantes. Cela concerne notamment ELECTRONIC, qui compte quatre légendaires. Une rareté absente dès le départ bloque le booster. Les doublons restent possibles entre paquets ; chaque paquet est trié de commune à légendaire pour la révélation. Les classements provisoires restent à revoir.
+
+La sélection utilise un carrousel à flèches, clavier et balayage tactile. ALL STARS est sélectionné au départ ; RAP (tags rap/trap) et HIP-HOP (tag hip-hop) sont deux boosters séparés, avec recouvrement possible des artistes multigenres. Les quantités x1/x3/x5/x10 sont des boutons directs. Une barre affiche la réserve gratuite et le temps restant avant le prochain ticket. Les quatre taux initiaux et la règle de redistribution sont visibles avant l’achat.
 
 Le devis affiche tickets utilisés, SC dépensés et solde après paiement. Les paiements en crédits nécessitent une confirmation ; un changement de sauvegarde ou de coût annule le devis. Web Locks et écriture locale atomique protègent le paiement et les gains. Une erreur de stockage ne produit pas de paiement partiel. Le compteur repose sur l’horodatage persisté, pas sur le temps pendant lequel la page reste ouverte.
 
 La révélation propose une ouverture du paquet, cinq cartes individuelles, un effet légendaire, un bilan par booster et un récapitulatif de session. Révélation rapide, saut des animations, fermeture et préférences de réduction des mouvements sont pris en charge. Le champ optionnel lastOpening garde les résultats du dernier achat pour les revoir, sans migration ni suppression des sauvegardes existantes.
 
-Les neuf boosters ont des pochettes verticales à scellés crantés et reflets métallisés. Chaque thème utilise une illustration SVG originale autour d’un vinyle : guitare, batterie, micro, fréquences électroniques, etc. Le même composant sert à la sélection et à l’ouverture ; le scellé se détache avant la révélation. Aucun fichier graphique externe ni portrait n’est nécessaire. Les compositions sont définies dans [booster-artwork.js](./src/ui/booster-artwork.js) et leur mise en scène dans [opening.css](./assets/css/opening.css).
+Les dix boosters ont des pochettes verticales à scellés crantés et reflets métallisés. Chaque thème utilise une illustration SVG originale autour d’un vinyle : guitare, batterie, micro, fréquences électroniques, etc. Le même composant sert à la sélection et à l’ouverture ; le scellé se détache avant la révélation. Aucun fichier graphique externe ni portrait n’est nécessaire. Les compositions sont définies dans [booster-artwork.js](./src/ui/booster-artwork.js) et leur mise en scène dans [opening.css](./assets/css/opening.css).
 
 ## Architecture
 

@@ -14,7 +14,9 @@ export function showOpening(batch, catalog, opener) {
   const status = el('p', '', 'opening-status'); status.setAttribute('aria-live', 'polite');
   let pack = 0, revealed = 0, finished = false;
   const index = new Map(catalog.artists.map(a => [a.id, a]));
-  const cards = batch.cards.map(result => ({ ...result, artist: index.get(result.id) }));
+  const cards = [];
+  const ranks = ['common', 'rare', 'epic', 'legendary'];
+  for (let i = 0; i < batch.cards.length; i += 5) cards.push(...batch.cards.slice(i, i + 5).map(result => ({ ...result, artist: index.get(result.id) })).sort((a,b) => ranks.indexOf(a.artist?.rarity) - ranks.indexOf(b.artist?.rarity)));
   function cardNode(result, reveal = true) {
     const artist = result.artist;
     const button = el('button', '', 'artist-card rarity-' + (artist?.rarity || 'common'));

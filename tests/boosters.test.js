@@ -52,14 +52,29 @@ test('fréquences exactes sur un balayage uniforme de 10 000 tirages',()=>{
  assert.deepEqual(counts,{legendary:400,epic:1600,rare:3500,common:4500});
  for(const value of [-1,1,NaN,Infinity])assert.throws(()=>drawCard(pools,()=>value));
 });
-test('tirages indépendants, doublons autorisés et nouvelles découvertes comptées une fois',()=>{
+test('cinq identités distinctes par paquet, doublons entre paquets et sauvegarde compatible',()=>{
  for(const count of GAME.openingCounts){
   const initial=state(),next=openBoosters(initial,artists,all,count,options);
-  assert.equal(next.lastOpening.cards.length,count*5);assert.equal(Object.keys(next.collection).length,1);
-  assert.equal(next.lastOpening.cards.filter(c=>c.isNew).length,1);
-  assert.equal(Object.values(next.collection)[0].count,count*5);assert.deepEqual(initial.collection,{});
+  assert.equal(next.lastOpening.cards.length,count*5);assert.equal(Object.keys(next.collection).length,5);
+  assert.equal(next.lastOpening.cards.filter(c=>c.isNew).length,5);
+  assert.equal(Object.values(next.collection)[0].count,count);assert.deepEqual(initial.collection,{});
+  for(let i=0;i<count;i++)assert.equal(new Set(next.lastOpening.cards.slice(i*5,i*5+5).map(c=>c.id)).size,5);
   assert.deepEqual(parseSave(serializeSave(next)),next);
  }
+});
+test('tous les thèmes : exclusion sans boucle et révélation croissante, même après épuisement d’une rareté',()=>{
+ const rank={common:0,rare:1,epic:2,legendary:3},index=new Map(artists.map(a=>[a.id,a]));
+ for(const booster of boosters){
+  const next=openBoosters(state(),artists,booster,10,options);
+  for(let i=0;i<10;i++){
+   const cards=next.lastOpening.cards.slice(i*5,i*5+5).map(c=>index.get(c.id));
+   assert.equal(new Set(cards.map(c=>c.id)).size,5);assert.ok(cards.every(c=>matchesBooster(c,booster)));
+   assert.deepEqual(cards.map(c=>rank[c.rarity]),cards.map(c=>rank[c.rarity]).sort((a,b)=>a-b));
+  }
+ }
+ const electronic=boosters.find(b=>b.id==='electronic');
+ const cards=openBoosters(state(),artists,electronic,1,options).lastOpening.cards.map(c=>index.get(c.id));
+ assert.equal(cards.filter(c=>c.rarity==='legendary').length,4);assert.equal(cards[0].rarity,'epic');
 });
 test('cartes persistées avant la révélation et échec de stockage sans paiement ni gain partiel',()=>{
  const data=new Map();let fail=false;

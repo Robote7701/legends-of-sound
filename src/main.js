@@ -100,4 +100,4 @@ window.addEventListener('storage', event => { if (event.key === GAME.storageKey 
 try { store = new SaveStore(localStorage); save = store.load(); if (store.raw === null) save = await withSaveLock(() => { store.load(); return store.raw === null ? store.commit(store.state) : structuredClone(store.state); }); } catch(e) { save = null; saveError = e.message; }
 try { catalog = await loadCatalog(); } catch(e) { console.error(e); }
 wallet(); render();
-setInterval(() => { wallet(); document.querySelector('.booster-grid')?.parentElement.dispatchEvent(new Event('wallet-tick')); }, 1000);
+setInterval(() => { wallet(); document.querySelector('.booster-lounge')?.dispatchEvent(new Event('wallet-tick')); }, 1000);
