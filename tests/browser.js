@@ -10,7 +10,7 @@ async function until(predicate) {
 try {
   await until(() => frame.contentDocument?.querySelectorAll('.pack').length === 9);
   const doc = frame.contentDocument;
-  assert(doc.querySelectorAll('.pack button:disabled').length === 9, 'Neuf ouvertures désactivées avant la Phase 3');
+  assert(doc.querySelectorAll('.pack select').length === 9 && doc.querySelector('.pack select').options.length === 4, 'Neuf boosters avec ouvertures x1, x3, x5 et x10');
   for (const route of ['collection', 'recycling', 'statistics', 'settings', 'credits', 'boosters']) {
     doc.querySelector('nav a[href="#' + route + '"]').click();
     await until(() => doc.querySelector('nav a[aria-current="page"]')?.hash === '#' + route);

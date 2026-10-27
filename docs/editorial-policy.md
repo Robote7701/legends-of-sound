@@ -22,7 +22,7 @@ Les 500 raretés initiales sont conservées pendant l’extension. Les nouvelles
 
 Légendaire : influence historique ou reconnaissance internationale particulièrement durable, parfois dans une scène spécifique. Épique : figure majeure de son univers. Rare : présence établie et reconnue. Commune : profondeur de sélection et découverte, y compris des artistes très reconnus. Ce classement subjectif sert le jeu ; il ne mesure ni talent, ni qualité, ni valeur culturelle.
 
-La distribution de cartes dans le catalogue est indépendante des probabilités de tirage : le moteur choisira d’abord une rareté à 4/16/35/45 %, puis une carte dans le sous-ensemble correspondant. Chaque booster doit disposer d’au moins une carte des quatre raretés. Les ouvertures restent désactivées jusqu’à la Phase 3.
+La distribution de cartes dans le catalogue est indépendante des probabilités de tirage : le moteur choisit d’abord une rareté à 4/16/35/45 %, puis une carte dans le sous-ensemble correspondant. Chaque booster doit disposer d’au moins une carte des quatre raretés. Les ouvertures sont actives ; les valeurs provisoires des nouvelles cartes restent signalées pendant la revue du classement.
 
 ## Informations manquantes
 

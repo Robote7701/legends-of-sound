@@ -3,13 +3,46 @@ import { loadCatalog } from './services/data.js';
 import { SaveStore, withSaveLock } from './state/storage.js';
 import { parseSave } from './state/schema.js';
 import { GAME, RARITIES } from './domain/config.js';
-import { boosterAvailability } from './catalog/catalog.js';
+import { recharge, nextTicketIn, quoteOpening, openBoosters } from './domain/boosters.js';
+import { boostersView } from './ui/boosters-view.js';
+import { showOpening } from './ui/opening-view.js';
 import { catalogView } from './ui/catalog-view.js';
 const main = document.querySelector('main');
 let catalog, store, save, saveError;
+let opening = false;
 function heading(title, description) { main.append(el('div', 'LEGENDS OF SOUND / ORIGINS', 'eyebrow'), el('h1', title), el('p', description, 'muted')); }
 function message(text, error = false) { const n = el('p', text, 'notice' + (error ? ' error' : '')); n.setAttribute('role', error ? 'alert' : 'status'); main.append(n); return n; }
-function wallet() { document.querySelector('#wallet').textContent = save ? save.tickets + '/10 tickets · ' + save.credits + ' SC' : 'Sauvegarde indisponible'; }
+function wallet() {
+  const node = document.querySelector('#wallet');
+  if (!save) { node.textContent = 'Sauvegarde indisponible'; return; }
+  const now = Date.now(), current = recharge(save, now), remaining = Math.ceil(nextTicketIn(save, now) / 1000);
+  const timer = remaining ? ' · prochain ticket ' + Math.floor(remaining / 60) + ':' + String(remaining % 60).padStart(2, '0') : ' · recharge complète';
+  node.textContent = current.tickets + '/10 tickets · ' + current.credits + ' SC' + timer;
+}
+async function purchaseOpening(booster, count, opener) {
+  if (opening || !save) return;
+  opening = true;
+  try {
+    // Relire avant de présenter le devis ; ne jamais confirmer un ancien solde.
+    save = store.load();
+    const quote = quoteOpening(save, count);
+    if (!quote.affordable) throw new Error('Sound Credits insuffisants.');
+    const expectedRaw = store.raw;
+    if (quote.credits && !confirm('Ouvrir ' + count + ' booster(s) ' + booster.name + ' ?\n' + quote.tickets + ' ticket(s) utilisés + ' + quote.credits + ' SC dépensés.\nCoût total : ' + quote.tickets + ' ticket(s) et ' + quote.credits + ' SC.\nSolde après paiement : ' + quote.balance + ' SC.')) return;
+    save = await withSaveLock(() => {
+      const current = store.load();
+      if (store.raw !== expectedRaw) throw new Error('La sauvegarde a changé. Vérifiez le nouveau devis avant de recommencer.');
+      const next = openBoosters(current, catalog.artists, booster, count, { approvedCredits: quote.credits });
+      return store.commit(next);
+    });
+    wallet(); showOpening(save.lastOpening, catalog, opener);
+  } catch (error) {
+    try { save = store.load(); } catch (readError) { save = null; saveError = readError.message; }
+    message(error.message, true);
+  }
+  finally { opening = false; wallet(); }
+}
+
 function settings() {
   heading('Votre collection vous appartient.', 'Sauvegarde locale à ce navigateur. Exportez régulièrement votre collection avant de changer d’appareil ou d’effacer les données du site.');
   const actions = el('div', '', 'actions');
@@ -38,17 +71,8 @@ function render() {
   document.querySelector('.edition small').textContent = catalog.artists.length + ' identités vérifiées · À vous de les découvrir';
   if (route === 'settings') { settings(); return; }
   if (route === 'boosters') {
-    heading('La musique devient collection.', 'Les voix qui vous accompagnent. Les groupes qui vous marquent. Bientôt, cinq cartes pour découvrir une nouvelle histoire.');
-    message(catalog.artists.length + ' identités vérifiées dans ORIGINS. Les ouvertures et le moteur économique seront activés en Phase 3 ; aucun ticket ni crédit ne peut encore être dépensé.');
-    const grid = el('div', '', 'grid');
-    for (const booster of catalog.boosters) {
-      const availability = boosterAvailability(catalog.artists, booster);
-      const panel = el('article', '', 'panel pack'); panel.style.setProperty('--pack', booster.color);
-      const button = el('button', 'Ouvertures — Phase 3'); button.disabled = true;
-      panel.append(el('span', 'ORIGINS / 5 CARTES', 'tag'), el('h2', booster.name), el('p', booster.description, 'muted'), el('p', availability.count + ' cartes vérifiées'), button, el('p', availability.available ? 'Les quatre raretés sont représentées.' : 'Raretés indisponibles : ' + availability.missingRarities.map(r => RARITIES[r].label).join(', '), 'muted'));
-      grid.append(panel);
-    }
-    main.append(grid, el('p', 'Probabilités cibles par carte, lorsque toutes les raretés seront disponibles : légendaire 4 %, épique 16 %, rare 35 %, commune 45 %.'));
+    heading('La musique devient collection.', 'Choisissez votre scène. Ouvrez le booster. Découvrez vos cinq cartes.');
+    main.append(boostersView(catalog, () => save, purchaseOpening, opener => { if (save?.lastOpening) showOpening(save.lastOpening, catalog, opener); }));
   } else if (route === 'collection') {
     heading('Votre discothèque de légendes.', 'ÉDITION 01 — ORIGINS');
     const count = save ? Object.keys(save.collection).length : 0;
@@ -76,3 +100,4 @@ window.addEventListener('storage', event => { if (event.key === GAME.storageKey 
 try { store = new SaveStore(localStorage); save = store.load(); if (store.raw === null) save = await withSaveLock(() => { store.load(); return store.raw === null ? store.commit(store.state) : structuredClone(store.state); }); } catch(e) { save = null; saveError = e.message; }
 try { catalog = await loadCatalog(); } catch(e) { console.error(e); }
 wallet(); render();
+setInterval(() => { wallet(); document.querySelector('.booster-grid')?.parentElement.dispatchEvent(new Event('wallet-tick')); }, 1000);

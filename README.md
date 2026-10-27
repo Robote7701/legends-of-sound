@@ -2,11 +2,11 @@
 
 TCG musical gratuit, statique et indépendant de Velvet Collection. Sound Credits fictifs, sans achat, conversion ou transfert.
 
-## État — Phase 2
+## État — Catalogue et ouvertures
 
 ORIGINS comprend **1 500 artistes et groupes identifiés sur MusicBrainz**, avec contrôle croisé Wikidata, genres et raretés éditoriaux, neuf boosters, fiches sourcées et explorateur du catalogue. Les champs inconnus restent null. Les notices courtes Wikidata ne sont pas des biographies complètes.
 
-Les ouvertures, la recharge active et le recyclage restent désactivés jusqu’à la Phase 3. Consulter une fiche ne donne pas la carte. Les 1 500 cartes utilisent des compositions typographiques originales adaptées aux genres : aucune photo, illustration externe ou logo d’artiste. Les champs sans données sont masqués.
+Les neuf boosters sont jouables en x1, x3, x5 et x10. Les tickets se rechargent hors ligne (un toutes les cinq minutes, maximum dix). Les Sound Credits complètent les tickets après confirmation. Les gains, paiements et statistiques sont enregistrés ensemble avant toute révélation. La dernière ouverture peut être revue sans paiement, même après rechargement. Le recyclage reste à développer. Consulter une fiche ne donne pas la carte. Les 1 500 cartes utilisent des compositions typographiques originales adaptées aux genres : aucune photo, illustration externe ou logo d’artiste. Les champs sans données sont masqués.
 
 ## Démarrer et tester
 
@@ -22,7 +22,17 @@ npm run check:catalog
 
 Ouvrir http://127.0.0.1:4173. Utiliser HTTP, pas file://. Le serveur écoute uniquement sur la machine locale ; PORT permet de changer le port. La CI vérifie les tests et le catalogue complet, sans déploiement.
 
-Tests navigateur : http://127.0.0.1:4173/tests/browser.html. Contrôles de navigation, catalogue, recherche, fiches, pagination, accès clavier et responsive, exécutés séparément de la CI Node. Les tests d’ouverture seront ajoutés en Phase 3.
+Tests navigateur : http://127.0.0.1:4173/tests/browser.html. Contrôles de navigation, catalogue, recherche, fiches, pagination, accès clavier et responsive, exécutés séparément de la CI Node.
+
+Tests d’ouverture avec écriture : démarrer un serveur séparé sur le port 4176 (PowerShell : `$env:PORT='4176'; npm.cmd run dev`), puis ouvrir http://127.0.0.1:4176/tests/openings.html. Le test exige une origine de test vierge et refuse de modifier un stockage préexistant. Il supprime uniquement sa propre partie de test à la fin et ne touche pas la partie du port 4173. Contrôles x1/x3/x5/x10, annulation, paiement mixte, doubles clics, interruption/reprise, quota de stockage et devis devenu obsolète.
+
+## Ouvrir des boosters
+
+Chaque booster contient cinq tirages indépendants avec doublons possibles. Le moteur choisit d’abord la rareté (4/16/35/45 %), puis une carte uniformément dans cette rareté et le filtre du booster. Une rareté absente bloque le booster. Le nombre de cartes communes provisoires ne modifie pas ces probabilités ; les classements restent à revoir.
+
+Le devis affiche tickets utilisés, SC dépensés et solde après paiement. Les paiements en crédits nécessitent une confirmation ; un changement de sauvegarde ou de coût annule le devis. Web Locks et écriture locale atomique protègent le paiement et les gains. Une erreur de stockage ne produit pas de paiement partiel. Le compteur repose sur l’horodatage persisté, pas sur le temps pendant lequel la page reste ouverte.
+
+La révélation propose une ouverture du paquet, cinq cartes individuelles, un effet légendaire, un bilan par booster et un récapitulatif de session. Révélation rapide, saut des animations, fermeture et préférences de réduction des mouvements sont pris en charge. Le champ optionnel lastOpening garde les résultats du dernier achat pour les revoir, sans migration ni suppression des sauvegardes existantes.
 
 ## Architecture
 
@@ -102,4 +112,4 @@ Aucun workflow de déploiement automatique.
 
 ## Suite
 
-[Plan des cinq phases](./docs/implementation-plan.md). Phase 3 : transactions, tickets, tirages, collection jouable et recyclage. Phase 4 : expérience premium d’ouverture. Phase 5 : validation finale avant publication. Aucun combat en v0.1.
+[Plan des cinq phases](./docs/implementation-plan.md). Les transactions, tickets, tirages et révélations sont disponibles. Restent notamment le recyclage, les favoris/verrous dans l’interface et les tris supplémentaires. Phase 5 : validation finale avant publication. Aucun combat en v0.1.
