@@ -2,6 +2,7 @@ import { el } from './dom.js';
 import { GAME, RARITIES } from '../domain/config.js';
 import { quoteOpening } from '../domain/boosters.js';
 import { boosterAvailability } from '../catalog/catalog.js';
+import { boosterArtwork } from './booster-artwork.js';
 
 export function boostersView(catalog, getSave, onOpen, onReplay) {
   let busy = false;
@@ -12,7 +13,7 @@ export function boostersView(catalog, getSave, onOpen, onReplay) {
   for (const booster of catalog.boosters) {
     const available = boosterAvailability(catalog.artists, booster);
     const panel = el('article', '', 'panel pack'); panel.style.setProperty('--pack', booster.color);
-    const visual = el('div', '', 'mini-pack'); visual.append(el('span', 'LOS / ORIGINS'), el('strong', booster.name), el('span', '5 CARTES'));
+    const visual = el('div', '', 'booster-display'); visual.append(boosterArtwork(booster));
     const label = el('label', 'Quantité '), quantity = el('select'); quantity.setAttribute('aria-label', 'Nombre de boosters ' + booster.name);
     for (const count of GAME.openingCounts) quantity.append(new Option('×' + count, count)); label.append(quantity);
     const cost = el('p', '', 'payment-quote'); cost.setAttribute('aria-live', 'polite');

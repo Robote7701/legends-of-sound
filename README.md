@@ -34,6 +34,8 @@ Le devis affiche tickets utilisés, SC dépensés et solde après paiement. Les 
 
 La révélation propose une ouverture du paquet, cinq cartes individuelles, un effet légendaire, un bilan par booster et un récapitulatif de session. Révélation rapide, saut des animations, fermeture et préférences de réduction des mouvements sont pris en charge. Le champ optionnel lastOpening garde les résultats du dernier achat pour les revoir, sans migration ni suppression des sauvegardes existantes.
 
+Les neuf boosters ont des pochettes verticales à scellés crantés et reflets métallisés. Chaque thème utilise une illustration SVG originale autour d’un vinyle : guitare, batterie, micro, fréquences électroniques, etc. Le même composant sert à la sélection et à l’ouverture ; le scellé se détache avant la révélation. Aucun fichier graphique externe ni portrait n’est nécessaire. Les compositions sont définies dans [booster-artwork.js](./src/ui/booster-artwork.js) et leur mise en scène dans [opening.css](./assets/css/opening.css).
+
 ## Architecture
 
 - [data/](./data/) : catalogue, registre permanent des candidats, éditions, boosters, rapports.

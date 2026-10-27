@@ -2,6 +2,7 @@ import { el } from './dom.js';
 import { artistArtwork } from './artist-artwork.js';
 import { showArtist } from './catalog-view.js';
 import { RARITIES } from '../domain/config.js';
+import { boosterArtwork } from './booster-artwork.js';
 
 export function showOpening(batch, catalog, opener) {
   const dialog = el('dialog', '', 'opening-dialog');
@@ -36,16 +37,19 @@ export function showOpening(batch, catalog, opener) {
     const packIndex = pack; let tearing = false;
     title.textContent = 'Booster ' + (pack + 1) + ' / ' + batch.count;
     const booster = catalog.boosters.find(b => b.id === batch.boosterId);
-    stage.className = 'opening-stage'; stage.replaceChildren(); actions.replaceChildren();
-    const packVisual = el('button', '', 'sealed-pack'); packVisual.style.setProperty('--pack', booster?.color || '#b9a1ff');
-    packVisual.append(el('span', 'LEGENDS OF SOUND'), el('strong', booster?.name || 'ORIGINS'), el('span', '5 CARTES / ORIGINS'), el('span', 'Déchirer le booster ↗'));
+    stage.className = 'opening-stage awaiting-pack'; stage.style.setProperty('--pack', booster?.color || '#d9ff65'); stage.replaceChildren(); actions.replaceChildren();
+    const packVisual = boosterArtwork(booster || { id: 'all-stars', name: 'ORIGINS' }, true);
+    const instruction = el('p', 'DÉCHIREZ LE SCELLÉ · DÉCOUVREZ LE SON', 'tear-instruction');
     const strip = el('div', '', 'reveal-grid');
     const next = el('button', 'Révéler la prochaine carte');
     function reveal() {
       if (finished || revealed >= 5) return;
+      const focusPack = document.activeElement === packVisual;
       packVisual.remove();
+      instruction.remove(); stage.classList.remove('awaiting-pack');
       const result = cards[pack * 5 + revealed]; revealed++;
       strip.append(cardNode(result));
+      if (focusPack) next.focus();
       status.textContent = result.artist ? RARITIES[result.artist.rarity].label + ' · ' + result.artist.displayName + (result.isNew ? ' · nouvelle découverte' : ' · doublon') : 'Carte enregistrée';
       if (revealed === 5) {
         const gains = cards.slice(pack * 5, pack * 5 + 5);
@@ -58,12 +62,13 @@ export function showOpening(batch, catalog, opener) {
       if (tearing) return;
       if (matchMedia('(prefers-reduced-motion: reduce)').matches) { reveal(); return; }
       tearing = true; packVisual.classList.add('pack-unsealing');
-      setTimeout(() => { if (dialog.open && !finished && pack === packIndex && revealed === 0) reveal(); }, 400);
+      instruction.textContent = 'LAISSEZ LA MUSIQUE ENTRER…';
+      setTimeout(() => { if (dialog.open && !finished && pack === packIndex && revealed === 0) reveal(); }, 850);
     };
     next.onclick = reveal;
     const fast = el('button', 'Révéler les cinq cartes', 'secondary'); fast.onclick = () => { while (revealed < 5) reveal(); };
     const skip = el('button', 'Tout révéler / ignorer les animations', 'secondary'); skip.onclick = summary;
-    stage.append(packVisual, strip); actions.append(next, fast, skip); status.textContent = 'Choisissez le booster ou révélez les cartes directement.';
+    stage.append(packVisual, instruction, strip); actions.append(next, fast, skip); status.textContent = 'Cliquez sur la pochette pour ouvrir votre booster.';
   }
   dialog.append(close, title, info, stage, status, actions);
   dialog.addEventListener('close', () => { dialog.remove(); opener?.focus(); }, { once: true });
