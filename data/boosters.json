@@ -1,0 +1,128 @@
+[
+  {
+    "id": "all-stars",
+    "name": "ALL STARS",
+    "description": "Toute la scène. Toutes les époques.",
+    "editionId": "origins-01",
+    "filter": {},
+    "color": "#d9ff65"
+  },
+  {
+    "id": "groups",
+    "name": "GROUPES",
+    "description": "La force du collectif.",
+    "editionId": "origins-01",
+    "filter": {
+      "types": [
+        "group"
+      ]
+    },
+    "color": "#ffb65e"
+  },
+  {
+    "id": "solo",
+    "name": "SOLO",
+    "description": "Une voix. Une signature.",
+    "editionId": "origins-01",
+    "filter": {
+      "types": [
+        "solo"
+      ]
+    },
+    "color": "#c6a0ff"
+  },
+  {
+    "id": "rock-metal",
+    "name": "ROCK & METAL",
+    "description": "Énergie brute, riffs et amplis.",
+    "editionId": "origins-01",
+    "filter": {
+      "genresAny": [
+        "rock",
+        "metal",
+        "punk",
+        "alternative-rock",
+        "hard-rock",
+        "j-rock"
+      ]
+    },
+    "color": "#ff7866"
+  },
+  {
+    "id": "electronic",
+    "name": "ELECTRONIC",
+    "description": "Fréquences nocturnes.",
+    "editionId": "origins-01",
+    "filter": {
+      "genresAny": [
+        "electronic",
+        "house",
+        "techno",
+        "synthwave",
+        "edm",
+        "ambient"
+      ]
+    },
+    "color": "#65dcff"
+  },
+  {
+    "id": "pop-rnb",
+    "name": "POP & R&B",
+    "description": "Mélodies qui traversent le temps.",
+    "editionId": "origins-01",
+    "filter": {
+      "genresAny": [
+        "pop",
+        "rnb",
+        "soul",
+        "k-pop",
+        "j-pop"
+      ]
+    },
+    "color": "#ff8cca"
+  },
+  {
+    "id": "hip-hop",
+    "name": "HIP-HOP",
+    "description": "Rimes, rythme et nouvelles voix.",
+    "editionId": "origins-01",
+    "filter": {
+      "genresAny": [
+        "rap",
+        "hip-hop",
+        "trap"
+      ]
+    },
+    "color": "#ffda69"
+  },
+  {
+    "id": "asia-wave",
+    "name": "ASIA WAVE",
+    "description": "J-pop, K-pop, J-rock et Vocaloid.",
+    "editionId": "origins-01",
+    "filter": {
+      "genresAny": [
+        "j-pop",
+        "k-pop",
+        "j-rock",
+        "vocaloid"
+      ]
+    },
+    "color": "#f8a4f5"
+  },
+  {
+    "id": "roots-groove",
+    "name": "ROOTS & GROOVE",
+    "description": "Aux racines du rythme.",
+    "editionId": "origins-01",
+    "filter": {
+      "genresAny": [
+        "jazz",
+        "blues",
+        "funk",
+        "reggae"
+      ]
+    },
+    "color": "#79e2bb"
+  }
+]
