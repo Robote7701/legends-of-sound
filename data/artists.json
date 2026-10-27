@@ -244025,5 +244025,6019 @@
         "license": "CC0-1.0"
       }
     }
+  },
+  {
+    "id": "los-001503",
+    "editionId": "origins-01",
+    "mbid": "69737ebe-836c-40dc-a938-7e85688426ff",
+    "wikidataId": "Q53453",
+    "name": "Alain Souchon",
+    "displayName": "Alain Souchon",
+    "type": "solo",
+    "entityType": "Person",
+    "genres": [
+      "chanson",
+      "pop"
+    ],
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "aliases": [
+      "Alain Kienast",
+      "Alian Souchon",
+      "Souchon Alain"
+    ],
+    "country": "FR",
+    "area": "France",
+    "birthDate": "1944-05-27",
+    "deathDate": null,
+    "formationDate": null,
+    "careerStart": null,
+    "nationality": null,
+    "members": null,
+    "formerMembers": null,
+    "notableAlbums": null,
+    "knownTracks": null,
+    "awards": null,
+    "biography": null,
+    "knownFor": "auteur-compositeur-interprète et acteur franco-suisse",
+    "knownForLanguage": "fr",
+    "portrait": null,
+    "provenance": {
+      "musicbrainz": {
+        "url": "https://musicbrainz.org/artist/69737ebe-836c-40dc-a938-7e85688426ff",
+        "apiUrl": "https://musicbrainz.org/ws/2/artist/69737ebe-836c-40dc-a938-7e85688426ff?inc=aliases+url-rels+artist-rels&fmt=json",
+        "verifiedAt": "2026-10-27T22:28:57.041Z",
+        "verification": {
+          "verified": true,
+          "method": "reciprocal-musicbrainz-wikidata-and-name-type",
+          "nameMatch": true,
+          "reciprocal": true,
+          "declaredMbid": true,
+          "returnedName": "Alain Souchon",
+          "returnedType": "Person",
+          "reciprocalUrl": "https://www.wikidata.org/wiki/Q53453",
+          "review": null
+        }
+      },
+      "wikidata": {
+        "url": "https://www.wikidata.org/wiki/Q53453",
+        "revision": null
+      },
+      "classification": {
+        "kind": "editorial",
+        "source": "data/candidates.json",
+        "policy": "docs/editorial-policy.md",
+        "genres": {
+          "kind": "editorial",
+          "source": "data/artist-additions/expansion-50.json"
+        }
+      }
+    },
+    "sources": {
+      "identity": {
+        "url": "https://musicbrainz.org/artist/69737ebe-836c-40dc-a938-7e85688426ff",
+        "license": "CC0-1.0",
+        "accessedAt": "2026-10-27T22:28:57.041Z"
+      },
+      "aliases": {
+        "url": "https://musicbrainz.org/artist/69737ebe-836c-40dc-a938-7e85688426ff",
+        "license": "CC0-1.0"
+      },
+      "country": {
+        "url": "https://musicbrainz.org/artist/69737ebe-836c-40dc-a938-7e85688426ff",
+        "meaning": "MusicBrainz country association; not nationality",
+        "license": "CC0-1.0"
+      },
+      "dates": {
+        "url": "https://musicbrainz.org/artist/69737ebe-836c-40dc-a938-7e85688426ff",
+        "license": "CC0-1.0"
+      },
+      "members": {
+        "url": "https://musicbrainz.org/artist/69737ebe-836c-40dc-a938-7e85688426ff",
+        "license": "CC0-1.0",
+        "exhaustive": false
+      },
+      "knownFor": {
+        "url": "https://www.wikidata.org/wiki/Q53453",
+        "field": "description",
+        "license": "CC0-1.0"
+      }
+    }
+  },
+  {
+    "id": "los-001504",
+    "editionId": "origins-01",
+    "mbid": "e21f19cb-0e60-4f64-b14c-cdf0f03d4a9e",
+    "wikidataId": "Q1363146",
+    "name": "Laurent Voulzy",
+    "displayName": "Laurent Voulzy",
+    "type": "solo",
+    "entityType": "Person",
+    "genres": [
+      "chanson",
+      "pop"
+    ],
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "aliases": [
+      "Lucien Voulzy"
+    ],
+    "country": "FR",
+    "area": "France",
+    "birthDate": "1948-12-18",
+    "deathDate": null,
+    "formationDate": null,
+    "careerStart": null,
+    "nationality": null,
+    "members": null,
+    "formerMembers": null,
+    "notableAlbums": null,
+    "knownTracks": null,
+    "awards": null,
+    "biography": null,
+    "knownFor": "auteur-compositeur-interprète français",
+    "knownForLanguage": "fr",
+    "portrait": null,
+    "provenance": {
+      "musicbrainz": {
+        "url": "https://musicbrainz.org/artist/e21f19cb-0e60-4f64-b14c-cdf0f03d4a9e",
+        "apiUrl": "https://musicbrainz.org/ws/2/artist/e21f19cb-0e60-4f64-b14c-cdf0f03d4a9e?inc=aliases+url-rels+artist-rels&fmt=json",
+        "verifiedAt": "2026-10-27T22:28:58.299Z",
+        "verification": {
+          "verified": true,
+          "method": "reciprocal-musicbrainz-wikidata-and-name-type",
+          "nameMatch": true,
+          "reciprocal": true,
+          "declaredMbid": true,
+          "returnedName": "Laurent Voulzy",
+          "returnedType": "Person",
+          "reciprocalUrl": "https://www.wikidata.org/wiki/Q1363146",
+          "review": null
+        }
+      },
+      "wikidata": {
+        "url": "https://www.wikidata.org/wiki/Q1363146",
+        "revision": null
+      },
+      "classification": {
+        "kind": "editorial",
+        "source": "data/candidates.json",
+        "policy": "docs/editorial-policy.md",
+        "genres": {
+          "kind": "editorial",
+          "source": "data/artist-additions/expansion-50.json"
+        }
+      }
+    },
+    "sources": {
+      "identity": {
+        "url": "https://musicbrainz.org/artist/e21f19cb-0e60-4f64-b14c-cdf0f03d4a9e",
+        "license": "CC0-1.0",
+        "accessedAt": "2026-10-27T22:28:58.299Z"
+      },
+      "aliases": {
+        "url": "https://musicbrainz.org/artist/e21f19cb-0e60-4f64-b14c-cdf0f03d4a9e",
+        "license": "CC0-1.0"
+      },
+      "country": {
+        "url": "https://musicbrainz.org/artist/e21f19cb-0e60-4f64-b14c-cdf0f03d4a9e",
+        "meaning": "MusicBrainz country association; not nationality",
+        "license": "CC0-1.0"
+      },
+      "dates": {
+        "url": "https://musicbrainz.org/artist/e21f19cb-0e60-4f64-b14c-cdf0f03d4a9e",
+        "license": "CC0-1.0"
+      },
+      "members": {
+        "url": "https://musicbrainz.org/artist/e21f19cb-0e60-4f64-b14c-cdf0f03d4a9e",
+        "license": "CC0-1.0",
+        "exhaustive": false
+      },
+      "knownFor": {
+        "url": "https://www.wikidata.org/wiki/Q1363146",
+        "field": "description",
+        "license": "CC0-1.0"
+      }
+    }
+  },
+  {
+    "id": "los-001505",
+    "editionId": "origins-01",
+    "mbid": "2db6e9c3-5aa1-4876-9ec6-8f18c75d5210",
+    "wikidataId": "Q719307",
+    "name": "Pascal Obispo",
+    "displayName": "Pascal Obispo",
+    "type": "solo",
+    "entityType": "Person",
+    "genres": [
+      "chanson",
+      "pop",
+      "rock"
+    ],
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "aliases": [
+      "Pascal Michel Obispo",
+      "Pascal Obispo"
+    ],
+    "country": "FR",
+    "area": "France",
+    "birthDate": "1965-01-08",
+    "deathDate": null,
+    "formationDate": null,
+    "careerStart": null,
+    "nationality": null,
+    "members": null,
+    "formerMembers": null,
+    "notableAlbums": null,
+    "knownTracks": null,
+    "awards": null,
+    "biography": null,
+    "knownFor": "auteur-compositeur-interprète français",
+    "knownForLanguage": "fr",
+    "portrait": null,
+    "provenance": {
+      "musicbrainz": {
+        "url": "https://musicbrainz.org/artist/2db6e9c3-5aa1-4876-9ec6-8f18c75d5210",
+        "apiUrl": "https://musicbrainz.org/ws/2/artist/2db6e9c3-5aa1-4876-9ec6-8f18c75d5210?inc=aliases+url-rels+artist-rels&fmt=json",
+        "verifiedAt": "2026-10-27T22:29:01.619Z",
+        "verification": {
+          "verified": true,
+          "method": "reciprocal-musicbrainz-wikidata-and-name-type",
+          "nameMatch": true,
+          "reciprocal": true,
+          "declaredMbid": true,
+          "returnedName": "Pascal Obispo",
+          "returnedType": "Person",
+          "reciprocalUrl": "https://www.wikidata.org/wiki/Q719307",
+          "review": null
+        }
+      },
+      "wikidata": {
+        "url": "https://www.wikidata.org/wiki/Q719307",
+        "revision": null
+      },
+      "classification": {
+        "kind": "editorial",
+        "source": "data/candidates.json",
+        "policy": "docs/editorial-policy.md",
+        "genres": {
+          "kind": "editorial",
+          "source": "data/artist-additions/expansion-50.json"
+        }
+      }
+    },
+    "sources": {
+      "identity": {
+        "url": "https://musicbrainz.org/artist/2db6e9c3-5aa1-4876-9ec6-8f18c75d5210",
+        "license": "CC0-1.0",
+        "accessedAt": "2026-10-27T22:29:01.619Z"
+      },
+      "aliases": {
+        "url": "https://musicbrainz.org/artist/2db6e9c3-5aa1-4876-9ec6-8f18c75d5210",
+        "license": "CC0-1.0"
+      },
+      "country": {
+        "url": "https://musicbrainz.org/artist/2db6e9c3-5aa1-4876-9ec6-8f18c75d5210",
+        "meaning": "MusicBrainz country association; not nationality",
+        "license": "CC0-1.0"
+      },
+      "dates": {
+        "url": "https://musicbrainz.org/artist/2db6e9c3-5aa1-4876-9ec6-8f18c75d5210",
+        "license": "CC0-1.0"
+      },
+      "members": {
+        "url": "https://musicbrainz.org/artist/2db6e9c3-5aa1-4876-9ec6-8f18c75d5210",
+        "license": "CC0-1.0",
+        "exhaustive": false
+      },
+      "knownFor": {
+        "url": "https://www.wikidata.org/wiki/Q719307",
+        "field": "description",
+        "license": "CC0-1.0"
+      }
+    }
+  },
+  {
+    "id": "los-001506",
+    "editionId": "origins-01",
+    "mbid": "bbd476fe-2987-4e5a-a278-ce5d5f3a6b9c",
+    "wikidataId": "Q171530",
+    "name": "Patrick Bruel",
+    "displayName": "Patrick Bruel",
+    "type": "solo",
+    "entityType": "Person",
+    "genres": [
+      "chanson",
+      "pop"
+    ],
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "aliases": [
+      "Patrick Benguigui",
+      "Patrick Bruel",
+      "Patrick Bruel‐Benguigui"
+    ],
+    "country": "FR",
+    "area": "France",
+    "birthDate": "1959-05-14",
+    "deathDate": null,
+    "formationDate": null,
+    "careerStart": null,
+    "nationality": null,
+    "members": null,
+    "formerMembers": null,
+    "notableAlbums": null,
+    "knownTracks": null,
+    "awards": null,
+    "biography": null,
+    "knownFor": "chanteur et acteur français",
+    "knownForLanguage": "fr",
+    "portrait": null,
+    "provenance": {
+      "musicbrainz": {
+        "url": "https://musicbrainz.org/artist/bbd476fe-2987-4e5a-a278-ce5d5f3a6b9c",
+        "apiUrl": "https://musicbrainz.org/ws/2/artist/bbd476fe-2987-4e5a-a278-ce5d5f3a6b9c?inc=aliases+url-rels+artist-rels&fmt=json",
+        "verifiedAt": "2026-10-27T22:29:05.103Z",
+        "verification": {
+          "verified": true,
+          "method": "reciprocal-musicbrainz-wikidata-and-name-type",
+          "nameMatch": true,
+          "reciprocal": true,
+          "declaredMbid": true,
+          "returnedName": "Patrick Bruel",
+          "returnedType": "Person",
+          "reciprocalUrl": "https://www.wikidata.org/wiki/Q171530",
+          "review": null
+        }
+      },
+      "wikidata": {
+        "url": "https://www.wikidata.org/wiki/Q171530",
+        "revision": null
+      },
+      "classification": {
+        "kind": "editorial",
+        "source": "data/candidates.json",
+        "policy": "docs/editorial-policy.md",
+        "genres": {
+          "kind": "editorial",
+          "source": "data/artist-additions/expansion-50.json"
+        }
+      }
+    },
+    "sources": {
+      "identity": {
+        "url": "https://musicbrainz.org/artist/bbd476fe-2987-4e5a-a278-ce5d5f3a6b9c",
+        "license": "CC0-1.0",
+        "accessedAt": "2026-10-27T22:29:05.103Z"
+      },
+      "aliases": {
+        "url": "https://musicbrainz.org/artist/bbd476fe-2987-4e5a-a278-ce5d5f3a6b9c",
+        "license": "CC0-1.0"
+      },
+      "country": {
+        "url": "https://musicbrainz.org/artist/bbd476fe-2987-4e5a-a278-ce5d5f3a6b9c",
+        "meaning": "MusicBrainz country association; not nationality",
+        "license": "CC0-1.0"
+      },
+      "dates": {
+        "url": "https://musicbrainz.org/artist/bbd476fe-2987-4e5a-a278-ce5d5f3a6b9c",
+        "license": "CC0-1.0"
+      },
+      "members": {
+        "url": "https://musicbrainz.org/artist/bbd476fe-2987-4e5a-a278-ce5d5f3a6b9c",
+        "license": "CC0-1.0",
+        "exhaustive": false
+      },
+      "knownFor": {
+        "url": "https://www.wikidata.org/wiki/Q171530",
+        "field": "description",
+        "license": "CC0-1.0"
+      }
+    }
+  },
+  {
+    "id": "los-001507",
+    "editionId": "origins-01",
+    "mbid": "b5a9e7a0-04fe-42ae-965a-4c857ab22978",
+    "wikidataId": "Q1429449",
+    "name": "Florent Pagny",
+    "displayName": "Florent Pagny",
+    "type": "solo",
+    "entityType": "Person",
+    "genres": [
+      "chanson",
+      "pop"
+    ],
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "aliases": [],
+    "country": "FR",
+    "area": "France",
+    "birthDate": "1961-11-06",
+    "deathDate": null,
+    "formationDate": null,
+    "careerStart": null,
+    "nationality": null,
+    "members": null,
+    "formerMembers": null,
+    "notableAlbums": null,
+    "knownTracks": null,
+    "awards": null,
+    "biography": null,
+    "knownFor": "chanteur français",
+    "knownForLanguage": "fr",
+    "portrait": null,
+    "provenance": {
+      "musicbrainz": {
+        "url": "https://musicbrainz.org/artist/b5a9e7a0-04fe-42ae-965a-4c857ab22978",
+        "apiUrl": "https://musicbrainz.org/ws/2/artist/b5a9e7a0-04fe-42ae-965a-4c857ab22978?inc=aliases+url-rels+artist-rels&fmt=json",
+        "verifiedAt": "2026-10-27T22:29:38.964Z",
+        "verification": {
+          "verified": true,
+          "method": "reciprocal-musicbrainz-wikidata-and-name-type",
+          "nameMatch": true,
+          "reciprocal": true,
+          "declaredMbid": true,
+          "returnedName": "Florent Pagny",
+          "returnedType": "Person",
+          "reciprocalUrl": "https://www.wikidata.org/wiki/Q1429449",
+          "review": null
+        }
+      },
+      "wikidata": {
+        "url": "https://www.wikidata.org/wiki/Q1429449",
+        "revision": null
+      },
+      "classification": {
+        "kind": "editorial",
+        "source": "data/candidates.json",
+        "policy": "docs/editorial-policy.md",
+        "genres": {
+          "kind": "editorial",
+          "source": "data/artist-additions/expansion-50.json"
+        }
+      }
+    },
+    "sources": {
+      "identity": {
+        "url": "https://musicbrainz.org/artist/b5a9e7a0-04fe-42ae-965a-4c857ab22978",
+        "license": "CC0-1.0",
+        "accessedAt": "2026-10-27T22:29:38.964Z"
+      },
+      "aliases": {
+        "url": "https://musicbrainz.org/artist/b5a9e7a0-04fe-42ae-965a-4c857ab22978",
+        "license": "CC0-1.0"
+      },
+      "country": {
+        "url": "https://musicbrainz.org/artist/b5a9e7a0-04fe-42ae-965a-4c857ab22978",
+        "meaning": "MusicBrainz country association; not nationality",
+        "license": "CC0-1.0"
+      },
+      "dates": {
+        "url": "https://musicbrainz.org/artist/b5a9e7a0-04fe-42ae-965a-4c857ab22978",
+        "license": "CC0-1.0"
+      },
+      "members": {
+        "url": "https://musicbrainz.org/artist/b5a9e7a0-04fe-42ae-965a-4c857ab22978",
+        "license": "CC0-1.0",
+        "exhaustive": false
+      },
+      "knownFor": {
+        "url": "https://www.wikidata.org/wiki/Q1429449",
+        "field": "description",
+        "license": "CC0-1.0"
+      }
+    }
+  },
+  {
+    "id": "los-001508",
+    "editionId": "origins-01",
+    "mbid": "932cb13f-677c-4e63-beb1-fca45574d280",
+    "wikidataId": "Q167889",
+    "name": "Zazie",
+    "displayName": "Zazie",
+    "type": "solo",
+    "entityType": "Person",
+    "genres": [
+      "chanson",
+      "pop"
+    ],
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "aliases": [
+      "DE TRUCHIS ZAZIE",
+      "Isabelle Marie Anne de Truchis de Varennes",
+      "Isabelle de Truchis de Varennes",
+      "ザジ"
+    ],
+    "country": "FR",
+    "area": "France",
+    "birthDate": "1964-04-18",
+    "deathDate": null,
+    "formationDate": null,
+    "careerStart": null,
+    "nationality": null,
+    "members": null,
+    "formerMembers": null,
+    "notableAlbums": null,
+    "knownTracks": null,
+    "awards": null,
+    "biography": null,
+    "knownFor": "mannequin et auteure-compositrice-interprète française",
+    "knownForLanguage": "fr",
+    "portrait": null,
+    "provenance": {
+      "musicbrainz": {
+        "url": "https://musicbrainz.org/artist/932cb13f-677c-4e63-beb1-fca45574d280",
+        "apiUrl": "https://musicbrainz.org/ws/2/artist/932cb13f-677c-4e63-beb1-fca45574d280?inc=aliases+url-rels+artist-rels&fmt=json",
+        "verifiedAt": "2026-10-27T22:29:42.235Z",
+        "verification": {
+          "verified": true,
+          "method": "reciprocal-musicbrainz-wikidata-and-name-type",
+          "nameMatch": true,
+          "reciprocal": true,
+          "declaredMbid": true,
+          "returnedName": "Zazie",
+          "returnedType": "Person",
+          "reciprocalUrl": "https://www.wikidata.org/wiki/Q167889",
+          "review": null
+        }
+      },
+      "wikidata": {
+        "url": "https://www.wikidata.org/wiki/Q167889",
+        "revision": null
+      },
+      "classification": {
+        "kind": "editorial",
+        "source": "data/candidates.json",
+        "policy": "docs/editorial-policy.md",
+        "genres": {
+          "kind": "editorial",
+          "source": "data/artist-additions/expansion-50.json"
+        }
+      }
+    },
+    "sources": {
+      "identity": {
+        "url": "https://musicbrainz.org/artist/932cb13f-677c-4e63-beb1-fca45574d280",
+        "license": "CC0-1.0",
+        "accessedAt": "2026-10-27T22:29:42.235Z"
+      },
+      "aliases": {
+        "url": "https://musicbrainz.org/artist/932cb13f-677c-4e63-beb1-fca45574d280",
+        "license": "CC0-1.0"
+      },
+      "country": {
+        "url": "https://musicbrainz.org/artist/932cb13f-677c-4e63-beb1-fca45574d280",
+        "meaning": "MusicBrainz country association; not nationality",
+        "license": "CC0-1.0"
+      },
+      "dates": {
+        "url": "https://musicbrainz.org/artist/932cb13f-677c-4e63-beb1-fca45574d280",
+        "license": "CC0-1.0"
+      },
+      "members": {
+        "url": "https://musicbrainz.org/artist/932cb13f-677c-4e63-beb1-fca45574d280",
+        "license": "CC0-1.0",
+        "exhaustive": false
+      },
+      "knownFor": {
+        "url": "https://www.wikidata.org/wiki/Q167889",
+        "field": "description",
+        "license": "CC0-1.0"
+      }
+    }
+  },
+  {
+    "id": "los-001509",
+    "editionId": "origins-01",
+    "mbid": "18b23026-ed29-445a-9bb4-4e86598ab5a9",
+    "wikidataId": "Q185002",
+    "name": "Mylène Farmer",
+    "displayName": "Mylène Farmer",
+    "type": "solo",
+    "entityType": "Person",
+    "genres": [
+      "pop",
+      "electronic"
+    ],
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "aliases": [
+      "Mylene Farmer",
+      "Mylhne Farmer",
+      "Mylène Gautier",
+      "Mylène Jeanne Gautier",
+      "Милен Фармер"
+    ],
+    "country": "FR",
+    "area": "France",
+    "birthDate": "1961-09-12",
+    "deathDate": null,
+    "formationDate": null,
+    "careerStart": null,
+    "nationality": null,
+    "members": null,
+    "formerMembers": null,
+    "notableAlbums": null,
+    "knownTracks": null,
+    "awards": null,
+    "biography": null,
+    "knownFor": "auteure-compositrice-interprète franco-canadienne",
+    "knownForLanguage": "fr",
+    "portrait": null,
+    "provenance": {
+      "musicbrainz": {
+        "url": "https://musicbrainz.org/artist/18b23026-ed29-445a-9bb4-4e86598ab5a9",
+        "apiUrl": "https://musicbrainz.org/ws/2/artist/18b23026-ed29-445a-9bb4-4e86598ab5a9?inc=aliases+url-rels+artist-rels&fmt=json",
+        "verifiedAt": "2026-10-27T22:29:46.855Z",
+        "verification": {
+          "verified": true,
+          "method": "reciprocal-musicbrainz-wikidata-and-name-type",
+          "nameMatch": true,
+          "reciprocal": true,
+          "declaredMbid": true,
+          "returnedName": "Mylène Farmer",
+          "returnedType": "Person",
+          "reciprocalUrl": "https://www.wikidata.org/wiki/Q185002",
+          "review": null
+        }
+      },
+      "wikidata": {
+        "url": "https://www.wikidata.org/wiki/Q185002",
+        "revision": null
+      },
+      "classification": {
+        "kind": "editorial",
+        "source": "data/candidates.json",
+        "policy": "docs/editorial-policy.md",
+        "genres": {
+          "kind": "editorial",
+          "source": "data/artist-additions/expansion-50.json"
+        }
+      }
+    },
+    "sources": {
+      "identity": {
+        "url": "https://musicbrainz.org/artist/18b23026-ed29-445a-9bb4-4e86598ab5a9",
+        "license": "CC0-1.0",
+        "accessedAt": "2026-10-27T22:29:46.855Z"
+      },
+      "aliases": {
+        "url": "https://musicbrainz.org/artist/18b23026-ed29-445a-9bb4-4e86598ab5a9",
+        "license": "CC0-1.0"
+      },
+      "country": {
+        "url": "https://musicbrainz.org/artist/18b23026-ed29-445a-9bb4-4e86598ab5a9",
+        "meaning": "MusicBrainz country association; not nationality",
+        "license": "CC0-1.0"
+      },
+      "dates": {
+        "url": "https://musicbrainz.org/artist/18b23026-ed29-445a-9bb4-4e86598ab5a9",
+        "license": "CC0-1.0"
+      },
+      "members": {
+        "url": "https://musicbrainz.org/artist/18b23026-ed29-445a-9bb4-4e86598ab5a9",
+        "license": "CC0-1.0",
+        "exhaustive": false
+      },
+      "knownFor": {
+        "url": "https://www.wikidata.org/wiki/Q185002",
+        "field": "description",
+        "license": "CC0-1.0"
+      }
+    }
+  },
+  {
+    "id": "los-001510",
+    "editionId": "origins-01",
+    "mbid": "f1dc86d6-9f45-4736-8884-7fcafbccd876",
+    "wikidataId": "Q469734",
+    "name": "Véronique Sanson",
+    "displayName": "Véronique Sanson",
+    "type": "solo",
+    "entityType": "Person",
+    "genres": [
+      "chanson",
+      "pop"
+    ],
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "aliases": [
+      "Veronique Sanson",
+      "Véronique Marie Line Sanson"
+    ],
+    "country": "FR",
+    "area": "France",
+    "birthDate": "1949-04-24",
+    "deathDate": null,
+    "formationDate": null,
+    "careerStart": null,
+    "nationality": null,
+    "members": null,
+    "formerMembers": null,
+    "notableAlbums": null,
+    "knownTracks": null,
+    "awards": null,
+    "biography": null,
+    "knownFor": "chanteuse française",
+    "knownForLanguage": "fr",
+    "portrait": null,
+    "provenance": {
+      "musicbrainz": {
+        "url": "https://musicbrainz.org/artist/f1dc86d6-9f45-4736-8884-7fcafbccd876",
+        "apiUrl": "https://musicbrainz.org/ws/2/artist/f1dc86d6-9f45-4736-8884-7fcafbccd876?inc=aliases+url-rels+artist-rels&fmt=json",
+        "verifiedAt": "2026-10-27T22:29:48.003Z",
+        "verification": {
+          "verified": true,
+          "method": "reciprocal-musicbrainz-wikidata-and-name-type",
+          "nameMatch": true,
+          "reciprocal": true,
+          "declaredMbid": true,
+          "returnedName": "Véronique Sanson",
+          "returnedType": "Person",
+          "reciprocalUrl": "https://www.wikidata.org/wiki/Q469734",
+          "review": null
+        }
+      },
+      "wikidata": {
+        "url": "https://www.wikidata.org/wiki/Q469734",
+        "revision": null
+      },
+      "classification": {
+        "kind": "editorial",
+        "source": "data/candidates.json",
+        "policy": "docs/editorial-policy.md",
+        "genres": {
+          "kind": "editorial",
+          "source": "data/artist-additions/expansion-50.json"
+        }
+      }
+    },
+    "sources": {
+      "identity": {
+        "url": "https://musicbrainz.org/artist/f1dc86d6-9f45-4736-8884-7fcafbccd876",
+        "license": "CC0-1.0",
+        "accessedAt": "2026-10-27T22:29:48.003Z"
+      },
+      "aliases": {
+        "url": "https://musicbrainz.org/artist/f1dc86d6-9f45-4736-8884-7fcafbccd876",
+        "license": "CC0-1.0"
+      },
+      "country": {
+        "url": "https://musicbrainz.org/artist/f1dc86d6-9f45-4736-8884-7fcafbccd876",
+        "meaning": "MusicBrainz country association; not nationality",
+        "license": "CC0-1.0"
+      },
+      "dates": {
+        "url": "https://musicbrainz.org/artist/f1dc86d6-9f45-4736-8884-7fcafbccd876",
+        "license": "CC0-1.0"
+      },
+      "members": {
+        "url": "https://musicbrainz.org/artist/f1dc86d6-9f45-4736-8884-7fcafbccd876",
+        "license": "CC0-1.0",
+        "exhaustive": false
+      },
+      "knownFor": {
+        "url": "https://www.wikidata.org/wiki/Q469734",
+        "field": "description",
+        "license": "CC0-1.0"
+      }
+    }
+  },
+  {
+    "id": "los-001511",
+    "editionId": "origins-01",
+    "mbid": "5cd668b6-0d20-4d1f-a84b-8bbb0fc51148",
+    "wikidataId": "Q3047356",
+    "name": "Eddy Mitchell",
+    "displayName": "Eddy Mitchell",
+    "type": "solo",
+    "entityType": "Person",
+    "genres": [
+      "rock",
+      "chanson"
+    ],
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "aliases": [
+      "Claude Lucien Moine",
+      "E. Mitčels",
+      "Eddy Michell",
+      "Eddy Mitchel"
+    ],
+    "country": "FR",
+    "area": "France",
+    "birthDate": "1942-07-03",
+    "deathDate": null,
+    "formationDate": null,
+    "careerStart": null,
+    "nationality": null,
+    "members": null,
+    "formerMembers": null,
+    "notableAlbums": null,
+    "knownTracks": null,
+    "awards": null,
+    "biography": null,
+    "knownFor": "chanteur, parolier, acteur et animateur de télévision français",
+    "knownForLanguage": "fr",
+    "portrait": null,
+    "provenance": {
+      "musicbrainz": {
+        "url": "https://musicbrainz.org/artist/5cd668b6-0d20-4d1f-a84b-8bbb0fc51148",
+        "apiUrl": "https://musicbrainz.org/ws/2/artist/5cd668b6-0d20-4d1f-a84b-8bbb0fc51148?inc=aliases+url-rels+artist-rels&fmt=json",
+        "verifiedAt": "2026-10-27T22:30:02.194Z",
+        "verification": {
+          "verified": true,
+          "method": "reciprocal-musicbrainz-wikidata-and-name-type",
+          "nameMatch": true,
+          "reciprocal": true,
+          "declaredMbid": true,
+          "returnedName": "Eddy Mitchell",
+          "returnedType": "Person",
+          "reciprocalUrl": "https://www.wikidata.org/wiki/Q3047356",
+          "review": null
+        }
+      },
+      "wikidata": {
+        "url": "https://www.wikidata.org/wiki/Q3047356",
+        "revision": null
+      },
+      "classification": {
+        "kind": "editorial",
+        "source": "data/candidates.json",
+        "policy": "docs/editorial-policy.md",
+        "genres": {
+          "kind": "editorial",
+          "source": "data/artist-additions/expansion-50.json"
+        }
+      }
+    },
+    "sources": {
+      "identity": {
+        "url": "https://musicbrainz.org/artist/5cd668b6-0d20-4d1f-a84b-8bbb0fc51148",
+        "license": "CC0-1.0",
+        "accessedAt": "2026-10-27T22:30:02.194Z"
+      },
+      "aliases": {
+        "url": "https://musicbrainz.org/artist/5cd668b6-0d20-4d1f-a84b-8bbb0fc51148",
+        "license": "CC0-1.0"
+      },
+      "country": {
+        "url": "https://musicbrainz.org/artist/5cd668b6-0d20-4d1f-a84b-8bbb0fc51148",
+        "meaning": "MusicBrainz country association; not nationality",
+        "license": "CC0-1.0"
+      },
+      "dates": {
+        "url": "https://musicbrainz.org/artist/5cd668b6-0d20-4d1f-a84b-8bbb0fc51148",
+        "license": "CC0-1.0"
+      },
+      "members": {
+        "url": "https://musicbrainz.org/artist/5cd668b6-0d20-4d1f-a84b-8bbb0fc51148",
+        "license": "CC0-1.0",
+        "exhaustive": false
+      },
+      "knownFor": {
+        "url": "https://www.wikidata.org/wiki/Q3047356",
+        "field": "description",
+        "license": "CC0-1.0"
+      }
+    }
+  },
+  {
+    "id": "los-001512",
+    "editionId": "origins-01",
+    "mbid": "3c3f2d7e-95aa-4e3f-b431-0d9c3fb572cb",
+    "wikidataId": "Q543613",
+    "name": "Michel Berger",
+    "displayName": "Michel Berger",
+    "type": "solo",
+    "entityType": "Person",
+    "genres": [
+      "chanson",
+      "pop"
+    ],
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "aliases": [
+      "M. Hursel",
+      "Michel Hursel",
+      "Michel Jean Hamburger",
+      "Mike Hamburger"
+    ],
+    "country": "FR",
+    "area": "France",
+    "birthDate": "1947-11-28",
+    "deathDate": "1992-08-02",
+    "formationDate": null,
+    "careerStart": null,
+    "nationality": null,
+    "members": null,
+    "formerMembers": null,
+    "notableAlbums": null,
+    "knownTracks": null,
+    "awards": null,
+    "biography": null,
+    "knownFor": "chanteur, auteur-compositeur-interprète, pianiste, directeur artistique et arrangeur musical français",
+    "knownForLanguage": "fr",
+    "portrait": null,
+    "provenance": {
+      "musicbrainz": {
+        "url": "https://musicbrainz.org/artist/3c3f2d7e-95aa-4e3f-b431-0d9c3fb572cb",
+        "apiUrl": "https://musicbrainz.org/ws/2/artist/3c3f2d7e-95aa-4e3f-b431-0d9c3fb572cb?inc=aliases+url-rels+artist-rels&fmt=json",
+        "verifiedAt": "2026-10-27T22:30:03.271Z",
+        "verification": {
+          "verified": true,
+          "method": "reciprocal-musicbrainz-wikidata-and-name-type",
+          "nameMatch": true,
+          "reciprocal": true,
+          "declaredMbid": true,
+          "returnedName": "Michel Berger",
+          "returnedType": "Person",
+          "reciprocalUrl": "https://www.wikidata.org/wiki/Q543613",
+          "review": null
+        }
+      },
+      "wikidata": {
+        "url": "https://www.wikidata.org/wiki/Q543613",
+        "revision": null
+      },
+      "classification": {
+        "kind": "editorial",
+        "source": "data/candidates.json",
+        "policy": "docs/editorial-policy.md",
+        "genres": {
+          "kind": "editorial",
+          "source": "data/artist-additions/expansion-50.json"
+        }
+      }
+    },
+    "sources": {
+      "identity": {
+        "url": "https://musicbrainz.org/artist/3c3f2d7e-95aa-4e3f-b431-0d9c3fb572cb",
+        "license": "CC0-1.0",
+        "accessedAt": "2026-10-27T22:30:03.271Z"
+      },
+      "aliases": {
+        "url": "https://musicbrainz.org/artist/3c3f2d7e-95aa-4e3f-b431-0d9c3fb572cb",
+        "license": "CC0-1.0"
+      },
+      "country": {
+        "url": "https://musicbrainz.org/artist/3c3f2d7e-95aa-4e3f-b431-0d9c3fb572cb",
+        "meaning": "MusicBrainz country association; not nationality",
+        "license": "CC0-1.0"
+      },
+      "dates": {
+        "url": "https://musicbrainz.org/artist/3c3f2d7e-95aa-4e3f-b431-0d9c3fb572cb",
+        "license": "CC0-1.0"
+      },
+      "members": {
+        "url": "https://musicbrainz.org/artist/3c3f2d7e-95aa-4e3f-b431-0d9c3fb572cb",
+        "license": "CC0-1.0",
+        "exhaustive": false
+      },
+      "knownFor": {
+        "url": "https://www.wikidata.org/wiki/Q543613",
+        "field": "description",
+        "license": "CC0-1.0"
+      }
+    }
+  },
+  {
+    "id": "los-001513",
+    "editionId": "origins-01",
+    "mbid": "385966f0-b912-4755-bad6-4780ebf3f4cd",
+    "wikidataId": "Q208258",
+    "name": "France Gall",
+    "displayName": "France Gall",
+    "type": "solo",
+    "entityType": "Person",
+    "genres": [
+      "chanson",
+      "pop"
+    ],
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "aliases": [
+      "France Galle",
+      "Isabelle Gall",
+      "Isabelle Geneviève Marie Anne Gall",
+      "フランス・ギャル"
+    ],
+    "country": "FR",
+    "area": "France",
+    "birthDate": "1947-10-09",
+    "deathDate": "2018-01-07",
+    "formationDate": null,
+    "careerStart": null,
+    "nationality": null,
+    "members": null,
+    "formerMembers": null,
+    "notableAlbums": null,
+    "knownTracks": null,
+    "awards": null,
+    "biography": null,
+    "knownFor": "chanteuse française",
+    "knownForLanguage": "fr",
+    "portrait": null,
+    "provenance": {
+      "musicbrainz": {
+        "url": "https://musicbrainz.org/artist/385966f0-b912-4755-bad6-4780ebf3f4cd",
+        "apiUrl": "https://musicbrainz.org/ws/2/artist/385966f0-b912-4755-bad6-4780ebf3f4cd?inc=aliases+url-rels+artist-rels&fmt=json",
+        "verifiedAt": "2026-10-27T18:31:39.959Z",
+        "verification": {
+          "verified": true,
+          "method": "reciprocal-musicbrainz-wikidata-and-name-type",
+          "nameMatch": true,
+          "reciprocal": true,
+          "declaredMbid": true,
+          "returnedName": "France Gall",
+          "returnedType": "Person",
+          "reciprocalUrl": "https://www.wikidata.org/wiki/Q208258",
+          "review": null
+        }
+      },
+      "wikidata": {
+        "url": "https://www.wikidata.org/wiki/Q208258",
+        "revision": null
+      },
+      "classification": {
+        "kind": "editorial",
+        "source": "data/candidates.json",
+        "policy": "docs/editorial-policy.md",
+        "genres": {
+          "kind": "editorial",
+          "source": "data/artist-additions/expansion-50.json"
+        }
+      }
+    },
+    "sources": {
+      "identity": {
+        "url": "https://musicbrainz.org/artist/385966f0-b912-4755-bad6-4780ebf3f4cd",
+        "license": "CC0-1.0",
+        "accessedAt": "2026-10-27T18:31:39.959Z"
+      },
+      "aliases": {
+        "url": "https://musicbrainz.org/artist/385966f0-b912-4755-bad6-4780ebf3f4cd",
+        "license": "CC0-1.0"
+      },
+      "country": {
+        "url": "https://musicbrainz.org/artist/385966f0-b912-4755-bad6-4780ebf3f4cd",
+        "meaning": "MusicBrainz country association; not nationality",
+        "license": "CC0-1.0"
+      },
+      "dates": {
+        "url": "https://musicbrainz.org/artist/385966f0-b912-4755-bad6-4780ebf3f4cd",
+        "license": "CC0-1.0"
+      },
+      "members": {
+        "url": "https://musicbrainz.org/artist/385966f0-b912-4755-bad6-4780ebf3f4cd",
+        "license": "CC0-1.0",
+        "exhaustive": false
+      },
+      "knownFor": {
+        "url": "https://www.wikidata.org/wiki/Q208258",
+        "field": "description",
+        "license": "CC0-1.0"
+      }
+    }
+  },
+  {
+    "id": "los-001514",
+    "editionId": "origins-01",
+    "mbid": "2caf1462-9be7-4603-8090-3c511e846fa5",
+    "wikidataId": "Q1802",
+    "name": "Daniel Balavoine",
+    "displayName": "Daniel Balavoine",
+    "type": "solo",
+    "entityType": "Person",
+    "genres": [
+      "chanson",
+      "pop",
+      "rock"
+    ],
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "aliases": [
+      "Daniel Xavier Marie Balavoine"
+    ],
+    "country": "FR",
+    "area": "France",
+    "birthDate": "1952-02-05",
+    "deathDate": "1986-01-14",
+    "formationDate": null,
+    "careerStart": null,
+    "nationality": null,
+    "members": null,
+    "formerMembers": null,
+    "notableAlbums": null,
+    "knownTracks": null,
+    "awards": null,
+    "biography": null,
+    "knownFor": "chanteur et acteur français",
+    "knownForLanguage": "fr",
+    "portrait": null,
+    "provenance": {
+      "musicbrainz": {
+        "url": "https://musicbrainz.org/artist/2caf1462-9be7-4603-8090-3c511e846fa5",
+        "apiUrl": "https://musicbrainz.org/ws/2/artist/2caf1462-9be7-4603-8090-3c511e846fa5?inc=aliases+url-rels+artist-rels&fmt=json",
+        "verifiedAt": "2026-10-27T22:30:08.745Z",
+        "verification": {
+          "verified": true,
+          "method": "reciprocal-musicbrainz-wikidata-and-name-type",
+          "nameMatch": true,
+          "reciprocal": true,
+          "declaredMbid": true,
+          "returnedName": "Daniel Balavoine",
+          "returnedType": "Person",
+          "reciprocalUrl": "https://www.wikidata.org/wiki/Q1802",
+          "review": null
+        }
+      },
+      "wikidata": {
+        "url": "https://www.wikidata.org/wiki/Q1802",
+        "revision": null
+      },
+      "classification": {
+        "kind": "editorial",
+        "source": "data/candidates.json",
+        "policy": "docs/editorial-policy.md",
+        "genres": {
+          "kind": "editorial",
+          "source": "data/artist-additions/expansion-50.json"
+        }
+      }
+    },
+    "sources": {
+      "identity": {
+        "url": "https://musicbrainz.org/artist/2caf1462-9be7-4603-8090-3c511e846fa5",
+        "license": "CC0-1.0",
+        "accessedAt": "2026-10-27T22:30:08.745Z"
+      },
+      "aliases": {
+        "url": "https://musicbrainz.org/artist/2caf1462-9be7-4603-8090-3c511e846fa5",
+        "license": "CC0-1.0"
+      },
+      "country": {
+        "url": "https://musicbrainz.org/artist/2caf1462-9be7-4603-8090-3c511e846fa5",
+        "meaning": "MusicBrainz country association; not nationality",
+        "license": "CC0-1.0"
+      },
+      "dates": {
+        "url": "https://musicbrainz.org/artist/2caf1462-9be7-4603-8090-3c511e846fa5",
+        "license": "CC0-1.0"
+      },
+      "members": {
+        "url": "https://musicbrainz.org/artist/2caf1462-9be7-4603-8090-3c511e846fa5",
+        "license": "CC0-1.0",
+        "exhaustive": false
+      },
+      "knownFor": {
+        "url": "https://www.wikidata.org/wiki/Q1802",
+        "field": "description",
+        "license": "CC0-1.0"
+      }
+    }
+  },
+  {
+    "id": "los-001515",
+    "editionId": "origins-01",
+    "mbid": "a4e34a43-d8de-48eb-9ec6-349b62756590",
+    "wikidataId": "Q612672",
+    "name": "Téléphone",
+    "displayName": "Téléphone",
+    "type": "group",
+    "entityType": "Group",
+    "genres": [
+      "rock"
+    ],
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "aliases": [
+      "Telephone"
+    ],
+    "country": "FR",
+    "area": "France",
+    "birthDate": null,
+    "deathDate": null,
+    "formationDate": "1976-11-12",
+    "careerStart": null,
+    "nationality": null,
+    "members": [
+      {
+        "name": "Jean‐Louis Aubert",
+        "mbid": "f8e2ddaf-f556-4e1f-8ab2-f111bc6410ee",
+        "begin": null,
+        "end": null,
+        "ended": false
+      },
+      {
+        "name": "Louis Bertignac",
+        "mbid": "e1e12165-2f0b-4e2b-b2af-3a7014856a48",
+        "begin": null,
+        "end": null,
+        "ended": false
+      },
+      {
+        "name": "Richard Kolinka",
+        "mbid": "1f075c3c-6300-4d4f-a91c-794c27e473e1",
+        "begin": null,
+        "end": null,
+        "ended": false
+      },
+      {
+        "name": "Corine Marienneau",
+        "mbid": "2b48b84f-8e15-43c1-ae0a-8f7872cffc53",
+        "begin": null,
+        "end": null,
+        "ended": false
+      }
+    ],
+    "formerMembers": [],
+    "notableAlbums": null,
+    "knownTracks": null,
+    "awards": null,
+    "biography": null,
+    "knownFor": "groupe de rock français",
+    "knownForLanguage": "fr",
+    "portrait": null,
+    "provenance": {
+      "musicbrainz": {
+        "url": "https://musicbrainz.org/artist/a4e34a43-d8de-48eb-9ec6-349b62756590",
+        "apiUrl": "https://musicbrainz.org/ws/2/artist/a4e34a43-d8de-48eb-9ec6-349b62756590?inc=aliases+url-rels+artist-rels&fmt=json",
+        "verifiedAt": "2026-10-27T22:30:12.297Z",
+        "verification": {
+          "verified": true,
+          "method": "reciprocal-musicbrainz-wikidata-and-name-type",
+          "nameMatch": true,
+          "reciprocal": true,
+          "declaredMbid": true,
+          "returnedName": "Téléphone",
+          "returnedType": "Group",
+          "reciprocalUrl": "https://www.wikidata.org/wiki/Q612672",
+          "review": null
+        }
+      },
+      "wikidata": {
+        "url": "https://www.wikidata.org/wiki/Q612672",
+        "revision": null
+      },
+      "classification": {
+        "kind": "editorial",
+        "source": "data/candidates.json",
+        "policy": "docs/editorial-policy.md",
+        "genres": {
+          "kind": "editorial",
+          "source": "data/artist-additions/expansion-50.json"
+        }
+      }
+    },
+    "sources": {
+      "identity": {
+        "url": "https://musicbrainz.org/artist/a4e34a43-d8de-48eb-9ec6-349b62756590",
+        "license": "CC0-1.0",
+        "accessedAt": "2026-10-27T22:30:12.297Z"
+      },
+      "aliases": {
+        "url": "https://musicbrainz.org/artist/a4e34a43-d8de-48eb-9ec6-349b62756590",
+        "license": "CC0-1.0"
+      },
+      "country": {
+        "url": "https://musicbrainz.org/artist/a4e34a43-d8de-48eb-9ec6-349b62756590",
+        "meaning": "MusicBrainz country association; not nationality",
+        "license": "CC0-1.0"
+      },
+      "dates": {
+        "url": "https://musicbrainz.org/artist/a4e34a43-d8de-48eb-9ec6-349b62756590",
+        "license": "CC0-1.0"
+      },
+      "members": {
+        "url": "https://musicbrainz.org/artist/a4e34a43-d8de-48eb-9ec6-349b62756590",
+        "license": "CC0-1.0",
+        "exhaustive": false
+      },
+      "knownFor": {
+        "url": "https://www.wikidata.org/wiki/Q612672",
+        "field": "description",
+        "license": "CC0-1.0"
+      }
+    }
+  },
+  {
+    "id": "los-001516",
+    "editionId": "origins-01",
+    "mbid": "076caf66-1bb1-4486-8f46-910c83441eab",
+    "wikidataId": "Q1122583",
+    "name": "Indochine",
+    "displayName": "Indochine",
+    "type": "group",
+    "entityType": "Group",
+    "genres": [
+      "rock",
+      "pop"
+    ],
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "aliases": [],
+    "country": "FR",
+    "area": "France",
+    "birthDate": null,
+    "deathDate": null,
+    "formationDate": "1981",
+    "careerStart": null,
+    "nationality": null,
+    "members": [
+      {
+        "name": "Boris Jardel",
+        "mbid": "e075fa4d-b0e6-479f-abda-b592ec099e0b",
+        "begin": "1998",
+        "end": null,
+        "ended": false
+      },
+      {
+        "name": "Oli de Sat",
+        "mbid": "e5d994a2-b286-438f-a103-0c4b5b494d44",
+        "begin": "1998",
+        "end": null,
+        "ended": false
+      },
+      {
+        "name": "Nicola Sirkis",
+        "mbid": "26d43ea0-af36-4496-b393-5ae006d96e44",
+        "begin": null,
+        "end": null,
+        "ended": false
+      }
+    ],
+    "formerMembers": [
+      {
+        "name": "Stéphane Sirkis",
+        "mbid": "27a7f340-4616-4a14-aeef-8ac4d0ee5cfa",
+        "begin": "1982",
+        "end": "1999",
+        "ended": true
+      },
+      {
+        "name": "Arnaud Devos",
+        "mbid": "75dfc957-6ea4-4d98-bb05-1613d5d5af49",
+        "begin": "1985",
+        "end": "1986",
+        "ended": true
+      },
+      {
+        "name": "Dimitri Bodianski",
+        "mbid": "d7df6127-1667-4644-af70-df0435dfc8fc",
+        "begin": null,
+        "end": "1989",
+        "ended": true
+      },
+      {
+        "name": "Dominik Nicolas",
+        "mbid": "98acc52f-6764-4f9b-9815-b749779dfd03",
+        "begin": null,
+        "end": "1994",
+        "ended": true
+      }
+    ],
+    "notableAlbums": null,
+    "knownTracks": null,
+    "awards": null,
+    "biography": null,
+    "knownFor": "groupe de rock et new wave français",
+    "knownForLanguage": "fr",
+    "portrait": null,
+    "provenance": {
+      "musicbrainz": {
+        "url": "https://musicbrainz.org/artist/076caf66-1bb1-4486-8f46-910c83441eab",
+        "apiUrl": "https://musicbrainz.org/ws/2/artist/076caf66-1bb1-4486-8f46-910c83441eab?inc=aliases+url-rels+artist-rels&fmt=json",
+        "verifiedAt": "2026-10-27T22:30:15.725Z",
+        "verification": {
+          "verified": true,
+          "method": "reciprocal-musicbrainz-wikidata-and-name-type",
+          "nameMatch": true,
+          "reciprocal": true,
+          "declaredMbid": true,
+          "returnedName": "Indochine",
+          "returnedType": "Group",
+          "reciprocalUrl": "https://www.wikidata.org/wiki/Q1122583",
+          "review": null
+        }
+      },
+      "wikidata": {
+        "url": "https://www.wikidata.org/wiki/Q1122583",
+        "revision": null
+      },
+      "classification": {
+        "kind": "editorial",
+        "source": "data/candidates.json",
+        "policy": "docs/editorial-policy.md",
+        "genres": {
+          "kind": "editorial",
+          "source": "data/artist-additions/expansion-50.json"
+        }
+      }
+    },
+    "sources": {
+      "identity": {
+        "url": "https://musicbrainz.org/artist/076caf66-1bb1-4486-8f46-910c83441eab",
+        "license": "CC0-1.0",
+        "accessedAt": "2026-10-27T22:30:15.725Z"
+      },
+      "aliases": {
+        "url": "https://musicbrainz.org/artist/076caf66-1bb1-4486-8f46-910c83441eab",
+        "license": "CC0-1.0"
+      },
+      "country": {
+        "url": "https://musicbrainz.org/artist/076caf66-1bb1-4486-8f46-910c83441eab",
+        "meaning": "MusicBrainz country association; not nationality",
+        "license": "CC0-1.0"
+      },
+      "dates": {
+        "url": "https://musicbrainz.org/artist/076caf66-1bb1-4486-8f46-910c83441eab",
+        "license": "CC0-1.0"
+      },
+      "members": {
+        "url": "https://musicbrainz.org/artist/076caf66-1bb1-4486-8f46-910c83441eab",
+        "license": "CC0-1.0",
+        "exhaustive": false
+      },
+      "knownFor": {
+        "url": "https://www.wikidata.org/wiki/Q1122583",
+        "field": "description",
+        "license": "CC0-1.0"
+      }
+    }
+  },
+  {
+    "id": "los-001517",
+    "editionId": "origins-01",
+    "mbid": "04d25080-32e2-49a2-b638-c9ca4f3e12bd",
+    "wikidataId": "Q1431385",
+    "name": "Louise Attaque",
+    "displayName": "Louise Attaque",
+    "type": "group",
+    "entityType": "Group",
+    "genres": [
+      "rock",
+      "folk"
+    ],
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "aliases": [],
+    "country": "FR",
+    "area": "France",
+    "birthDate": null,
+    "deathDate": null,
+    "formationDate": "1994",
+    "careerStart": null,
+    "nationality": null,
+    "members": [
+      {
+        "name": "Robin Feix",
+        "mbid": "024d678e-f89e-4e99-b1e5-75e48afbe4b5",
+        "begin": "1994",
+        "end": null,
+        "ended": false
+      },
+      {
+        "name": "Gaëtan Roussel",
+        "mbid": "3e2c4afa-36a0-4955-a5b2-7cf3949e038e",
+        "begin": "1994",
+        "end": null,
+        "ended": false
+      },
+      {
+        "name": "Arnaud Samuel",
+        "mbid": "6e63a3c8-6685-4fe5-91b4-b03fffed3dc4",
+        "begin": "1994",
+        "end": null,
+        "ended": false
+      },
+      {
+        "name": "Nicolas Musset",
+        "mbid": "7d9e986a-d628-4acd-b51f-f90ae9168b1d",
+        "begin": "2015",
+        "end": null,
+        "ended": false
+      }
+    ],
+    "formerMembers": [
+      {
+        "name": "Alexandre Margraff",
+        "mbid": "1044bc15-f884-4e9f-9422-4bacc94a9b69",
+        "begin": "1994",
+        "end": "2015",
+        "ended": true
+      }
+    ],
+    "notableAlbums": null,
+    "knownTracks": null,
+    "awards": null,
+    "biography": null,
+    "knownFor": "groupe de musique français",
+    "knownForLanguage": "fr",
+    "portrait": null,
+    "provenance": {
+      "musicbrainz": {
+        "url": "https://musicbrainz.org/artist/04d25080-32e2-49a2-b638-c9ca4f3e12bd",
+        "apiUrl": "https://musicbrainz.org/ws/2/artist/04d25080-32e2-49a2-b638-c9ca4f3e12bd?inc=aliases+url-rels+artist-rels&fmt=json",
+        "verifiedAt": "2026-10-27T22:30:19.251Z",
+        "verification": {
+          "verified": true,
+          "method": "reciprocal-musicbrainz-wikidata-and-name-type",
+          "nameMatch": true,
+          "reciprocal": true,
+          "declaredMbid": true,
+          "returnedName": "Louise Attaque",
+          "returnedType": "Group",
+          "reciprocalUrl": "https://www.wikidata.org/wiki/Q1431385",
+          "review": null
+        }
+      },
+      "wikidata": {
+        "url": "https://www.wikidata.org/wiki/Q1431385",
+        "revision": null
+      },
+      "classification": {
+        "kind": "editorial",
+        "source": "data/candidates.json",
+        "policy": "docs/editorial-policy.md",
+        "genres": {
+          "kind": "editorial",
+          "source": "data/artist-additions/expansion-50.json"
+        }
+      }
+    },
+    "sources": {
+      "identity": {
+        "url": "https://musicbrainz.org/artist/04d25080-32e2-49a2-b638-c9ca4f3e12bd",
+        "license": "CC0-1.0",
+        "accessedAt": "2026-10-27T22:30:19.251Z"
+      },
+      "aliases": {
+        "url": "https://musicbrainz.org/artist/04d25080-32e2-49a2-b638-c9ca4f3e12bd",
+        "license": "CC0-1.0"
+      },
+      "country": {
+        "url": "https://musicbrainz.org/artist/04d25080-32e2-49a2-b638-c9ca4f3e12bd",
+        "meaning": "MusicBrainz country association; not nationality",
+        "license": "CC0-1.0"
+      },
+      "dates": {
+        "url": "https://musicbrainz.org/artist/04d25080-32e2-49a2-b638-c9ca4f3e12bd",
+        "license": "CC0-1.0"
+      },
+      "members": {
+        "url": "https://musicbrainz.org/artist/04d25080-32e2-49a2-b638-c9ca4f3e12bd",
+        "license": "CC0-1.0",
+        "exhaustive": false
+      },
+      "knownFor": {
+        "url": "https://www.wikidata.org/wiki/Q1431385",
+        "field": "description",
+        "license": "CC0-1.0"
+      }
+    }
+  },
+  {
+    "id": "los-001518",
+    "editionId": "origins-01",
+    "mbid": "e6358374-5eea-4205-be22-382ed6df493c",
+    "wikidataId": "Q728707",
+    "name": "Noir Désir",
+    "displayName": "Noir Désir",
+    "type": "group",
+    "entityType": "Group",
+    "genres": [
+      "rock"
+    ],
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "aliases": [
+      "Noir Desir",
+      "Noir Disir"
+    ],
+    "country": "FR",
+    "area": "France",
+    "birthDate": null,
+    "deathDate": null,
+    "formationDate": "1980",
+    "careerStart": null,
+    "nationality": null,
+    "members": [],
+    "formerMembers": [
+      {
+        "name": "Jean-Paul Roy",
+        "mbid": "0d469f86-8d02-4ac7-9651-118300cb168b",
+        "begin": "1996",
+        "end": "2010-11-30",
+        "ended": true
+      },
+      {
+        "name": "Frédéric Vidalenc",
+        "mbid": "0f7cc8eb-5553-468c-9837-03d6a60b3f08",
+        "begin": null,
+        "end": "1996",
+        "ended": true
+      },
+      {
+        "name": "Serge Teyssot-Gay",
+        "mbid": "6eba0f25-f0e5-4ed2-9b31-1a79318cfca9",
+        "begin": null,
+        "end": "2010-11-29",
+        "ended": true
+      },
+      {
+        "name": "Denis Barthe",
+        "mbid": "f19536ef-5437-4f27-8efa-6f86a7367140",
+        "begin": null,
+        "end": "2010-11-30",
+        "ended": true
+      },
+      {
+        "name": "Bertrand Cantat",
+        "mbid": "8f26eb5c-8f37-4bae-97cb-08e862437b21",
+        "begin": null,
+        "end": "2010-11-30",
+        "ended": true
+      }
+    ],
+    "notableAlbums": null,
+    "knownTracks": null,
+    "awards": null,
+    "biography": null,
+    "knownFor": "groupe de rock français",
+    "knownForLanguage": "fr",
+    "portrait": null,
+    "provenance": {
+      "musicbrainz": {
+        "url": "https://musicbrainz.org/artist/e6358374-5eea-4205-be22-382ed6df493c",
+        "apiUrl": "https://musicbrainz.org/ws/2/artist/e6358374-5eea-4205-be22-382ed6df493c?inc=aliases+url-rels+artist-rels&fmt=json",
+        "verifiedAt": "2026-10-27T22:30:20.330Z",
+        "verification": {
+          "verified": true,
+          "method": "reciprocal-musicbrainz-wikidata-and-name-type",
+          "nameMatch": true,
+          "reciprocal": true,
+          "declaredMbid": true,
+          "returnedName": "Noir Désir",
+          "returnedType": "Group",
+          "reciprocalUrl": "https://www.wikidata.org/wiki/Q728707",
+          "review": null
+        }
+      },
+      "wikidata": {
+        "url": "https://www.wikidata.org/wiki/Q728707",
+        "revision": null
+      },
+      "classification": {
+        "kind": "editorial",
+        "source": "data/candidates.json",
+        "policy": "docs/editorial-policy.md",
+        "genres": {
+          "kind": "editorial",
+          "source": "data/artist-additions/expansion-50.json"
+        }
+      }
+    },
+    "sources": {
+      "identity": {
+        "url": "https://musicbrainz.org/artist/e6358374-5eea-4205-be22-382ed6df493c",
+        "license": "CC0-1.0",
+        "accessedAt": "2026-10-27T22:30:20.330Z"
+      },
+      "aliases": {
+        "url": "https://musicbrainz.org/artist/e6358374-5eea-4205-be22-382ed6df493c",
+        "license": "CC0-1.0"
+      },
+      "country": {
+        "url": "https://musicbrainz.org/artist/e6358374-5eea-4205-be22-382ed6df493c",
+        "meaning": "MusicBrainz country association; not nationality",
+        "license": "CC0-1.0"
+      },
+      "dates": {
+        "url": "https://musicbrainz.org/artist/e6358374-5eea-4205-be22-382ed6df493c",
+        "license": "CC0-1.0"
+      },
+      "members": {
+        "url": "https://musicbrainz.org/artist/e6358374-5eea-4205-be22-382ed6df493c",
+        "license": "CC0-1.0",
+        "exhaustive": false
+      },
+      "knownFor": {
+        "url": "https://www.wikidata.org/wiki/Q728707",
+        "field": "description",
+        "license": "CC0-1.0"
+      }
+    }
+  },
+  {
+    "id": "los-001519",
+    "editionId": "origins-01",
+    "mbid": "0bfe360b-4abf-4750-962c-981cc5bfc4cf",
+    "wikidataId": "Q584735",
+    "name": "Les Rita Mitsouko",
+    "displayName": "Les Rita Mitsouko",
+    "type": "group",
+    "entityType": "Group",
+    "genres": [
+      "rock",
+      "pop"
+    ],
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "aliases": [
+      "Rita Mitsouko"
+    ],
+    "country": "FR",
+    "area": "France",
+    "birthDate": null,
+    "deathDate": null,
+    "formationDate": "1980",
+    "careerStart": null,
+    "nationality": null,
+    "members": [],
+    "formerMembers": [
+      {
+        "name": "Fred Chichin",
+        "mbid": "4dff408b-1d85-4792-9c04-7b8aa8971e47",
+        "begin": "1980",
+        "end": "2007-11-28",
+        "ended": true
+      },
+      {
+        "name": "Catherine Ringer",
+        "mbid": "4912212f-1b27-4b65-9d4d-bf6df4963272",
+        "begin": "1980",
+        "end": "2007",
+        "ended": true
+      }
+    ],
+    "notableAlbums": null,
+    "knownTracks": null,
+    "awards": null,
+    "biography": null,
+    "knownFor": "groupe de musique français",
+    "knownForLanguage": "fr",
+    "portrait": null,
+    "provenance": {
+      "musicbrainz": {
+        "url": "https://musicbrainz.org/artist/0bfe360b-4abf-4750-962c-981cc5bfc4cf",
+        "apiUrl": "https://musicbrainz.org/ws/2/artist/0bfe360b-4abf-4750-962c-981cc5bfc4cf?inc=aliases+url-rels+artist-rels&fmt=json",
+        "verifiedAt": "2026-10-27T22:30:23.773Z",
+        "verification": {
+          "verified": true,
+          "method": "reciprocal-musicbrainz-wikidata-and-name-type",
+          "nameMatch": true,
+          "reciprocal": true,
+          "declaredMbid": true,
+          "returnedName": "Les Rita Mitsouko",
+          "returnedType": "Group",
+          "reciprocalUrl": "https://www.wikidata.org/wiki/Q584735",
+          "review": null
+        }
+      },
+      "wikidata": {
+        "url": "https://www.wikidata.org/wiki/Q584735",
+        "revision": null
+      },
+      "classification": {
+        "kind": "editorial",
+        "source": "data/candidates.json",
+        "policy": "docs/editorial-policy.md",
+        "genres": {
+          "kind": "editorial",
+          "source": "data/artist-additions/expansion-50.json"
+        }
+      }
+    },
+    "sources": {
+      "identity": {
+        "url": "https://musicbrainz.org/artist/0bfe360b-4abf-4750-962c-981cc5bfc4cf",
+        "license": "CC0-1.0",
+        "accessedAt": "2026-10-27T22:30:23.773Z"
+      },
+      "aliases": {
+        "url": "https://musicbrainz.org/artist/0bfe360b-4abf-4750-962c-981cc5bfc4cf",
+        "license": "CC0-1.0"
+      },
+      "country": {
+        "url": "https://musicbrainz.org/artist/0bfe360b-4abf-4750-962c-981cc5bfc4cf",
+        "meaning": "MusicBrainz country association; not nationality",
+        "license": "CC0-1.0"
+      },
+      "dates": {
+        "url": "https://musicbrainz.org/artist/0bfe360b-4abf-4750-962c-981cc5bfc4cf",
+        "license": "CC0-1.0"
+      },
+      "members": {
+        "url": "https://musicbrainz.org/artist/0bfe360b-4abf-4750-962c-981cc5bfc4cf",
+        "license": "CC0-1.0",
+        "exhaustive": false
+      },
+      "knownFor": {
+        "url": "https://www.wikidata.org/wiki/Q584735",
+        "field": "description",
+        "license": "CC0-1.0"
+      }
+    }
+  },
+  {
+    "id": "los-001520",
+    "editionId": "origins-01",
+    "mbid": "2be7b462-382f-4dd4-a635-99c4801dcd39",
+    "wikidataId": "Q691657",
+    "name": "Superbus",
+    "displayName": "Superbus",
+    "type": "group",
+    "entityType": "Group",
+    "genres": [
+      "rock",
+      "pop"
+    ],
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "aliases": [],
+    "country": "FR",
+    "area": "France",
+    "birthDate": null,
+    "deathDate": null,
+    "formationDate": "1999",
+    "careerStart": null,
+    "nationality": null,
+    "members": [
+      {
+        "name": "Jennifer Ayache",
+        "mbid": "9e4c6b52-82b1-4ad5-b9be-47a744ed0649",
+        "begin": "1999",
+        "end": null,
+        "ended": false
+      },
+      {
+        "name": "François Even",
+        "mbid": "d1748b23-a9bb-4f1e-913f-a11a30295c36",
+        "begin": "1999",
+        "end": null,
+        "ended": false
+      },
+      {
+        "name": "Patrice Focone",
+        "mbid": "6fafa6c7-fa1d-4846-a741-878e656d6d51",
+        "begin": "1999",
+        "end": null,
+        "ended": false
+      },
+      {
+        "name": "Michel Giovannetti",
+        "mbid": "54fd408b-5a60-49d7-a4c5-e7bce85cdb65",
+        "begin": "1999",
+        "end": null,
+        "ended": false
+      },
+      {
+        "name": "Romain Bachelard",
+        "mbid": "416c5735-9da1-4ecd-ad6b-18cc74350d6a",
+        "begin": "2023",
+        "end": null,
+        "ended": false
+      }
+    ],
+    "formerMembers": [
+      {
+        "name": "Nicolas Jean",
+        "mbid": "e89b4129-6ff4-4ccf-8ec9-392179e13f1d",
+        "begin": "2000",
+        "end": "2000",
+        "ended": true
+      },
+      {
+        "name": "Guillaume Rousé",
+        "mbid": "ec65706a-661a-4bcc-9f67-e807bb0e8e35",
+        "begin": "2000",
+        "end": "2006",
+        "ended": true
+      },
+      {
+        "name": "Gregory Abitbol",
+        "mbid": "93bef032-ab82-4cb3-b230-066d36a68593",
+        "begin": "2006",
+        "end": "2015",
+        "ended": true
+      },
+      {
+        "name": "Gregory Abitbol",
+        "mbid": "93bef032-ab82-4cb3-b230-066d36a68593",
+        "begin": "2019",
+        "end": "2023",
+        "ended": true
+      }
+    ],
+    "notableAlbums": null,
+    "knownTracks": null,
+    "awards": null,
+    "biography": null,
+    "knownFor": "groupe de pop rock français",
+    "knownForLanguage": "fr",
+    "portrait": null,
+    "provenance": {
+      "musicbrainz": {
+        "url": "https://musicbrainz.org/artist/2be7b462-382f-4dd4-a635-99c4801dcd39",
+        "apiUrl": "https://musicbrainz.org/ws/2/artist/2be7b462-382f-4dd4-a635-99c4801dcd39?inc=aliases+url-rels+artist-rels&fmt=json",
+        "verifiedAt": "2026-10-27T22:30:27.379Z",
+        "verification": {
+          "verified": true,
+          "method": "reciprocal-musicbrainz-wikidata-and-name-type",
+          "nameMatch": true,
+          "reciprocal": true,
+          "declaredMbid": true,
+          "returnedName": "Superbus",
+          "returnedType": "Group",
+          "reciprocalUrl": "https://www.wikidata.org/wiki/Q691657",
+          "review": null
+        }
+      },
+      "wikidata": {
+        "url": "https://www.wikidata.org/wiki/Q691657",
+        "revision": null
+      },
+      "classification": {
+        "kind": "editorial",
+        "source": "data/candidates.json",
+        "policy": "docs/editorial-policy.md",
+        "genres": {
+          "kind": "editorial",
+          "source": "data/artist-additions/expansion-50.json"
+        }
+      }
+    },
+    "sources": {
+      "identity": {
+        "url": "https://musicbrainz.org/artist/2be7b462-382f-4dd4-a635-99c4801dcd39",
+        "license": "CC0-1.0",
+        "accessedAt": "2026-10-27T22:30:27.379Z"
+      },
+      "aliases": {
+        "url": "https://musicbrainz.org/artist/2be7b462-382f-4dd4-a635-99c4801dcd39",
+        "license": "CC0-1.0"
+      },
+      "country": {
+        "url": "https://musicbrainz.org/artist/2be7b462-382f-4dd4-a635-99c4801dcd39",
+        "meaning": "MusicBrainz country association; not nationality",
+        "license": "CC0-1.0"
+      },
+      "dates": {
+        "url": "https://musicbrainz.org/artist/2be7b462-382f-4dd4-a635-99c4801dcd39",
+        "license": "CC0-1.0"
+      },
+      "members": {
+        "url": "https://musicbrainz.org/artist/2be7b462-382f-4dd4-a635-99c4801dcd39",
+        "license": "CC0-1.0",
+        "exhaustive": false
+      },
+      "knownFor": {
+        "url": "https://www.wikidata.org/wiki/Q691657",
+        "field": "description",
+        "license": "CC0-1.0"
+      }
+    }
+  },
+  {
+    "id": "los-001521",
+    "editionId": "origins-01",
+    "mbid": "50bb66d4-63d1-4483-afbc-dc8993d76cbd",
+    "wikidataId": "Q195380",
+    "name": "Shaka Ponk",
+    "displayName": "Shaka Ponk",
+    "type": "group",
+    "entityType": "Group",
+    "genres": [
+      "rock",
+      "electronic"
+    ],
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "aliases": [
+      "SHK PNK",
+      "SHKPNK"
+    ],
+    "country": "FR",
+    "area": "France",
+    "birthDate": null,
+    "deathDate": null,
+    "formationDate": "2004-09",
+    "careerStart": null,
+    "nationality": null,
+    "members": [
+      {
+        "name": "CC",
+        "mbid": "7508f91c-d807-4967-b8f4-e0e48e65e21e",
+        "begin": null,
+        "end": null,
+        "ended": false
+      },
+      {
+        "name": "Steve Desgarceaux",
+        "mbid": "401089eb-6006-46d9-a4fd-587544d02cfe",
+        "begin": null,
+        "end": null,
+        "ended": false
+      },
+      {
+        "name": "Frah",
+        "mbid": "c37d7988-e8cf-4d15-a144-76f170e6076b",
+        "begin": null,
+        "end": null,
+        "ended": false
+      },
+      {
+        "name": "Ion",
+        "mbid": "bf2e6c5b-2ecb-4623-bc6a-7a8c927ccbb5",
+        "begin": null,
+        "end": null,
+        "ended": false
+      },
+      {
+        "name": "Mandris",
+        "mbid": "4ae87b21-3b17-4bdb-a52a-2a42be4816ef",
+        "begin": null,
+        "end": null,
+        "ended": false
+      },
+      {
+        "name": "Samaha",
+        "mbid": "11b6b5d5-a26e-4abe-a72e-161e605db65d",
+        "begin": null,
+        "end": null,
+        "ended": false
+      }
+    ],
+    "formerMembers": [],
+    "notableAlbums": null,
+    "knownTracks": null,
+    "awards": null,
+    "biography": null,
+    "knownFor": "groupe d'électro-rock français",
+    "knownForLanguage": "fr",
+    "portrait": null,
+    "provenance": {
+      "musicbrainz": {
+        "url": "https://musicbrainz.org/artist/50bb66d4-63d1-4483-afbc-dc8993d76cbd",
+        "apiUrl": "https://musicbrainz.org/ws/2/artist/50bb66d4-63d1-4483-afbc-dc8993d76cbd?inc=aliases+url-rels+artist-rels&fmt=json",
+        "verifiedAt": "2026-10-27T22:30:36.776Z",
+        "verification": {
+          "verified": true,
+          "method": "reciprocal-musicbrainz-wikidata-and-name-type",
+          "nameMatch": true,
+          "reciprocal": true,
+          "declaredMbid": true,
+          "returnedName": "Shaka Ponk",
+          "returnedType": "Group",
+          "reciprocalUrl": "https://www.wikidata.org/wiki/Q195380",
+          "review": null
+        }
+      },
+      "wikidata": {
+        "url": "https://www.wikidata.org/wiki/Q195380",
+        "revision": null
+      },
+      "classification": {
+        "kind": "editorial",
+        "source": "data/candidates.json",
+        "policy": "docs/editorial-policy.md",
+        "genres": {
+          "kind": "editorial",
+          "source": "data/artist-additions/expansion-50.json"
+        }
+      }
+    },
+    "sources": {
+      "identity": {
+        "url": "https://musicbrainz.org/artist/50bb66d4-63d1-4483-afbc-dc8993d76cbd",
+        "license": "CC0-1.0",
+        "accessedAt": "2026-10-27T22:30:36.776Z"
+      },
+      "aliases": {
+        "url": "https://musicbrainz.org/artist/50bb66d4-63d1-4483-afbc-dc8993d76cbd",
+        "license": "CC0-1.0"
+      },
+      "country": {
+        "url": "https://musicbrainz.org/artist/50bb66d4-63d1-4483-afbc-dc8993d76cbd",
+        "meaning": "MusicBrainz country association; not nationality",
+        "license": "CC0-1.0"
+      },
+      "dates": {
+        "url": "https://musicbrainz.org/artist/50bb66d4-63d1-4483-afbc-dc8993d76cbd",
+        "license": "CC0-1.0"
+      },
+      "members": {
+        "url": "https://musicbrainz.org/artist/50bb66d4-63d1-4483-afbc-dc8993d76cbd",
+        "license": "CC0-1.0",
+        "exhaustive": false
+      },
+      "knownFor": {
+        "url": "https://www.wikidata.org/wiki/Q195380",
+        "field": "description",
+        "license": "CC0-1.0"
+      }
+    }
+  },
+  {
+    "id": "los-001522",
+    "editionId": "origins-01",
+    "mbid": "276a554b-5be6-43b3-b05d-d1e6c3dadb64",
+    "wikidataId": "Q2633657",
+    "name": "Matmatah",
+    "displayName": "Matmatah",
+    "type": "group",
+    "entityType": "Group",
+    "genres": [
+      "rock",
+      "folk"
+    ],
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "aliases": [],
+    "country": "FR",
+    "area": "France",
+    "birthDate": null,
+    "deathDate": null,
+    "formationDate": "1995",
+    "careerStart": null,
+    "nationality": null,
+    "members": [
+      {
+        "name": "Éric",
+        "mbid": "60996322-97f2-4e5a-8d85-da8643d21520",
+        "begin": "1995",
+        "end": null,
+        "ended": false
+      },
+      {
+        "name": "Stan",
+        "mbid": "e416e014-5d43-4cd2-a02f-3cfbf2b86ea7",
+        "begin": "1995",
+        "end": null,
+        "ended": false
+      },
+      {
+        "name": "Scholl",
+        "mbid": "f4a1148f-284e-4602-850e-afe0206e6d25",
+        "begin": "2003",
+        "end": null,
+        "ended": false
+      },
+      {
+        "name": "Léopold Riou",
+        "mbid": "3d9bb6be-0888-455d-bd95-066361add0fa",
+        "begin": "2022-05-23",
+        "end": null,
+        "ended": false
+      },
+      {
+        "name": "Julien Carton",
+        "mbid": "b83e35c6-bd4c-4d9f-9571-2844795a60e2",
+        "begin": null,
+        "end": null,
+        "ended": false
+      }
+    ],
+    "formerMembers": [
+      {
+        "name": "Fanch",
+        "mbid": "1d3b8ec1-95ed-44aa-9fae-522ba270470d",
+        "begin": "1995",
+        "end": "2002",
+        "ended": true
+      },
+      {
+        "name": "Sammy",
+        "mbid": "b7342c94-a909-43b4-b269-85802d537d1b",
+        "begin": "1995",
+        "end": "2008",
+        "ended": true
+      },
+      {
+        "name": "Manu Baroux",
+        "mbid": "d6ce50ad-a278-4b2a-a029-ce291d36b897",
+        "begin": "2016",
+        "end": "2021-12-08",
+        "ended": true
+      }
+    ],
+    "notableAlbums": null,
+    "knownTracks": null,
+    "awards": null,
+    "biography": null,
+    "knownFor": "groupe de musique français",
+    "knownForLanguage": "fr",
+    "portrait": null,
+    "provenance": {
+      "musicbrainz": {
+        "url": "https://musicbrainz.org/artist/276a554b-5be6-43b3-b05d-d1e6c3dadb64",
+        "apiUrl": "https://musicbrainz.org/ws/2/artist/276a554b-5be6-43b3-b05d-d1e6c3dadb64?inc=aliases+url-rels+artist-rels&fmt=json",
+        "verifiedAt": "2026-10-27T22:30:40.305Z",
+        "verification": {
+          "verified": true,
+          "method": "reciprocal-musicbrainz-wikidata-and-name-type",
+          "nameMatch": true,
+          "reciprocal": true,
+          "declaredMbid": true,
+          "returnedName": "Matmatah",
+          "returnedType": "Group",
+          "reciprocalUrl": "https://www.wikidata.org/wiki/Q2633657",
+          "review": null
+        }
+      },
+      "wikidata": {
+        "url": "https://www.wikidata.org/wiki/Q2633657",
+        "revision": null
+      },
+      "classification": {
+        "kind": "editorial",
+        "source": "data/candidates.json",
+        "policy": "docs/editorial-policy.md",
+        "genres": {
+          "kind": "editorial",
+          "source": "data/artist-additions/expansion-50.json"
+        }
+      }
+    },
+    "sources": {
+      "identity": {
+        "url": "https://musicbrainz.org/artist/276a554b-5be6-43b3-b05d-d1e6c3dadb64",
+        "license": "CC0-1.0",
+        "accessedAt": "2026-10-27T22:30:40.305Z"
+      },
+      "aliases": {
+        "url": "https://musicbrainz.org/artist/276a554b-5be6-43b3-b05d-d1e6c3dadb64",
+        "license": "CC0-1.0"
+      },
+      "country": {
+        "url": "https://musicbrainz.org/artist/276a554b-5be6-43b3-b05d-d1e6c3dadb64",
+        "meaning": "MusicBrainz country association; not nationality",
+        "license": "CC0-1.0"
+      },
+      "dates": {
+        "url": "https://musicbrainz.org/artist/276a554b-5be6-43b3-b05d-d1e6c3dadb64",
+        "license": "CC0-1.0"
+      },
+      "members": {
+        "url": "https://musicbrainz.org/artist/276a554b-5be6-43b3-b05d-d1e6c3dadb64",
+        "license": "CC0-1.0",
+        "exhaustive": false
+      },
+      "knownFor": {
+        "url": "https://www.wikidata.org/wiki/Q2633657",
+        "field": "description",
+        "license": "CC0-1.0"
+      }
+    }
+  },
+  {
+    "id": "los-001523",
+    "editionId": "origins-01",
+    "mbid": "dfbc2d9e-d1c0-442b-970f-af28bb597537",
+    "wikidataId": "Q339863",
+    "name": "Fonky Family",
+    "displayName": "Fonky Family",
+    "type": "group",
+    "entityType": "Group",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ],
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "aliases": [
+      "F.F.",
+      "FF",
+      "Fonky F",
+      "Freestyle FF",
+      "Funky Family",
+      "La FF",
+      "La Fonky Family",
+      "フォンキー・ファミリー"
+    ],
+    "country": "FR",
+    "area": "France",
+    "birthDate": null,
+    "deathDate": null,
+    "formationDate": "1994",
+    "careerStart": null,
+    "nationality": null,
+    "members": [
+      {
+        "name": "Fel",
+        "mbid": "571f5e1a-3646-418c-ba45-875b7398ce07",
+        "begin": "1994",
+        "end": null,
+        "ended": false
+      },
+      {
+        "name": "DJ Djel",
+        "mbid": "93608f71-019c-4788-908d-3e2791055ce0",
+        "begin": null,
+        "end": null,
+        "ended": false
+      },
+      {
+        "name": "Don Choa",
+        "mbid": "bc383677-5e2b-49e0-bc7d-5d8e093a95c4",
+        "begin": null,
+        "end": null,
+        "ended": false
+      },
+      {
+        "name": "Le Rat Luciano",
+        "mbid": "efe85b46-488f-4fbf-adf8-a9ca1cf26d0b",
+        "begin": null,
+        "end": null,
+        "ended": false
+      },
+      {
+        "name": "Menzo",
+        "mbid": "d7a8a282-4f76-4832-867e-8ee411e28ab7",
+        "begin": null,
+        "end": null,
+        "ended": false
+      },
+      {
+        "name": "Sat l’Artificier",
+        "mbid": "77c4c6f9-be09-4503-8964-df4221b4aab6",
+        "begin": null,
+        "end": null,
+        "ended": false
+      }
+    ],
+    "formerMembers": [
+      {
+        "name": "Karima",
+        "mbid": "f1eb3f04-0a62-48a7-add6-3643a29417c2",
+        "begin": "1994",
+        "end": "1998",
+        "ended": true
+      },
+      {
+        "name": "Pone",
+        "mbid": "34ad4bc3-efac-4913-9cb7-aac04993e7e6",
+        "begin": "1994",
+        "end": null,
+        "ended": true
+      }
+    ],
+    "notableAlbums": null,
+    "knownTracks": null,
+    "awards": null,
+    "biography": null,
+    "knownFor": "groupe de hip hop français",
+    "knownForLanguage": "fr",
+    "portrait": null,
+    "provenance": {
+      "musicbrainz": {
+        "url": "https://musicbrainz.org/artist/dfbc2d9e-d1c0-442b-970f-af28bb597537",
+        "apiUrl": "https://musicbrainz.org/ws/2/artist/dfbc2d9e-d1c0-442b-970f-af28bb597537?inc=aliases+url-rels+artist-rels&fmt=json",
+        "verifiedAt": "2026-10-27T22:30:48.405Z",
+        "verification": {
+          "verified": true,
+          "method": "reciprocal-musicbrainz-wikidata-and-name-type",
+          "nameMatch": true,
+          "reciprocal": true,
+          "declaredMbid": true,
+          "returnedName": "Fonky Family",
+          "returnedType": "Group",
+          "reciprocalUrl": "https://www.wikidata.org/wiki/Q339863",
+          "review": null
+        }
+      },
+      "wikidata": {
+        "url": "https://www.wikidata.org/wiki/Q339863",
+        "revision": null
+      },
+      "classification": {
+        "kind": "editorial",
+        "source": "data/candidates.json",
+        "policy": "docs/editorial-policy.md",
+        "genres": {
+          "kind": "editorial",
+          "source": "data/artist-additions/expansion-50.json"
+        }
+      }
+    },
+    "sources": {
+      "identity": {
+        "url": "https://musicbrainz.org/artist/dfbc2d9e-d1c0-442b-970f-af28bb597537",
+        "license": "CC0-1.0",
+        "accessedAt": "2026-10-27T22:30:48.405Z"
+      },
+      "aliases": {
+        "url": "https://musicbrainz.org/artist/dfbc2d9e-d1c0-442b-970f-af28bb597537",
+        "license": "CC0-1.0"
+      },
+      "country": {
+        "url": "https://musicbrainz.org/artist/dfbc2d9e-d1c0-442b-970f-af28bb597537",
+        "meaning": "MusicBrainz country association; not nationality",
+        "license": "CC0-1.0"
+      },
+      "dates": {
+        "url": "https://musicbrainz.org/artist/dfbc2d9e-d1c0-442b-970f-af28bb597537",
+        "license": "CC0-1.0"
+      },
+      "members": {
+        "url": "https://musicbrainz.org/artist/dfbc2d9e-d1c0-442b-970f-af28bb597537",
+        "license": "CC0-1.0",
+        "exhaustive": false
+      },
+      "knownFor": {
+        "url": "https://www.wikidata.org/wiki/Q339863",
+        "field": "description",
+        "license": "CC0-1.0"
+      }
+    }
+  },
+  {
+    "id": "los-001524",
+    "editionId": "origins-01",
+    "mbid": "6be76035-ed0f-4cba-9e7d-a37002814d6a",
+    "wikidataId": "Q531961",
+    "name": "Psy 4 de la Rime",
+    "displayName": "Psy 4 de la rime",
+    "type": "group",
+    "entityType": "Group",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ],
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "aliases": [
+      "Psy 4",
+      "Psy-4 de la Rime",
+      "Psy4",
+      "Psy4 de la Rime"
+    ],
+    "country": "FR",
+    "area": "France",
+    "birthDate": null,
+    "deathDate": null,
+    "formationDate": "1995",
+    "careerStart": null,
+    "nationality": null,
+    "members": [
+      {
+        "name": "Vincenzo",
+        "mbid": "9e454c61-f9ab-44b6-abe4-d9fcb6d7c02e",
+        "begin": "1995",
+        "end": null,
+        "ended": false
+      },
+      {
+        "name": "Alonzo",
+        "mbid": "9ff87295-bdfc-46fc-b605-456cc39d84ca",
+        "begin": null,
+        "end": null,
+        "ended": false
+      },
+      {
+        "name": "Soprano",
+        "mbid": "e52815f0-0db9-49b2-acb7-1af6b2dfa936",
+        "begin": null,
+        "end": null,
+        "ended": false
+      }
+    ],
+    "formerMembers": [
+      {
+        "name": "Sya Styles",
+        "mbid": "84129b17-7760-4e27-81d7-13734b132161",
+        "begin": null,
+        "end": null,
+        "ended": true
+      }
+    ],
+    "notableAlbums": null,
+    "knownTracks": null,
+    "awards": null,
+    "biography": null,
+    "knownFor": "groupe de rap français",
+    "knownForLanguage": "fr",
+    "portrait": null,
+    "provenance": {
+      "musicbrainz": {
+        "url": "https://musicbrainz.org/artist/6be76035-ed0f-4cba-9e7d-a37002814d6a",
+        "apiUrl": "https://musicbrainz.org/ws/2/artist/6be76035-ed0f-4cba-9e7d-a37002814d6a?inc=aliases+url-rels+artist-rels&fmt=json",
+        "verifiedAt": "2026-10-27T22:30:54.940Z",
+        "verification": {
+          "verified": true,
+          "method": "reciprocal-musicbrainz-wikidata-and-name-type",
+          "nameMatch": true,
+          "reciprocal": true,
+          "declaredMbid": true,
+          "returnedName": "Psy 4 de la Rime",
+          "returnedType": "Group",
+          "reciprocalUrl": "https://www.wikidata.org/wiki/Q531961",
+          "review": null
+        }
+      },
+      "wikidata": {
+        "url": "https://www.wikidata.org/wiki/Q531961",
+        "revision": null
+      },
+      "classification": {
+        "kind": "editorial",
+        "source": "data/candidates.json",
+        "policy": "docs/editorial-policy.md",
+        "genres": {
+          "kind": "editorial",
+          "source": "data/artist-additions/expansion-50.json"
+        }
+      }
+    },
+    "sources": {
+      "identity": {
+        "url": "https://musicbrainz.org/artist/6be76035-ed0f-4cba-9e7d-a37002814d6a",
+        "license": "CC0-1.0",
+        "accessedAt": "2026-10-27T22:30:54.940Z"
+      },
+      "aliases": {
+        "url": "https://musicbrainz.org/artist/6be76035-ed0f-4cba-9e7d-a37002814d6a",
+        "license": "CC0-1.0"
+      },
+      "country": {
+        "url": "https://musicbrainz.org/artist/6be76035-ed0f-4cba-9e7d-a37002814d6a",
+        "meaning": "MusicBrainz country association; not nationality",
+        "license": "CC0-1.0"
+      },
+      "dates": {
+        "url": "https://musicbrainz.org/artist/6be76035-ed0f-4cba-9e7d-a37002814d6a",
+        "license": "CC0-1.0"
+      },
+      "members": {
+        "url": "https://musicbrainz.org/artist/6be76035-ed0f-4cba-9e7d-a37002814d6a",
+        "license": "CC0-1.0",
+        "exhaustive": false
+      },
+      "knownFor": {
+        "url": "https://www.wikidata.org/wiki/Q531961",
+        "field": "description",
+        "license": "CC0-1.0"
+      }
+    }
+  },
+  {
+    "id": "los-001525",
+    "editionId": "origins-01",
+    "mbid": "88ad74d6-2dde-496f-86f3-722ff9274ea9",
+    "wikidataId": "Q2295917",
+    "name": "Sniper",
+    "displayName": "Sniper",
+    "type": "group",
+    "entityType": "Group",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ],
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "aliases": [],
+    "country": "FR",
+    "area": "Deuil-la-Barre",
+    "birthDate": null,
+    "deathDate": null,
+    "formationDate": "1997",
+    "careerStart": null,
+    "nationality": null,
+    "members": [
+      {
+        "name": "Aketo",
+        "mbid": "8602d379-ba9d-4814-a4f7-7455bcad6d48",
+        "begin": "1997",
+        "end": null,
+        "ended": false
+      },
+      {
+        "name": "DJ Boudj",
+        "mbid": "479e8cac-2a73-4fd6-8629-c0a56fac5b43",
+        "begin": null,
+        "end": null,
+        "ended": false
+      },
+      {
+        "name": "Tunisiano",
+        "mbid": "4544414e-96cb-404a-a674-eccf4bf35a6c",
+        "begin": null,
+        "end": null,
+        "ended": false
+      }
+    ],
+    "formerMembers": [
+      {
+        "name": "Blacko",
+        "mbid": "e070ca6a-05e6-42b2-a3e9-d0e6efb39b78",
+        "begin": null,
+        "end": "2007-07",
+        "ended": true
+      }
+    ],
+    "notableAlbums": null,
+    "knownTracks": null,
+    "awards": null,
+    "biography": null,
+    "knownFor": "groupe de rap français",
+    "knownForLanguage": "fr",
+    "portrait": null,
+    "provenance": {
+      "musicbrainz": {
+        "url": "https://musicbrainz.org/artist/88ad74d6-2dde-496f-86f3-722ff9274ea9",
+        "apiUrl": "https://musicbrainz.org/ws/2/artist/88ad74d6-2dde-496f-86f3-722ff9274ea9?inc=aliases+url-rels+artist-rels&fmt=json",
+        "verifiedAt": "2026-10-27T22:30:57.424Z",
+        "verification": {
+          "verified": true,
+          "method": "reciprocal-musicbrainz-wikidata-and-name-type",
+          "nameMatch": true,
+          "reciprocal": true,
+          "declaredMbid": true,
+          "returnedName": "Sniper",
+          "returnedType": "Group",
+          "reciprocalUrl": "https://www.wikidata.org/wiki/Q2295917",
+          "review": null
+        }
+      },
+      "wikidata": {
+        "url": "https://www.wikidata.org/wiki/Q2295917",
+        "revision": null
+      },
+      "classification": {
+        "kind": "editorial",
+        "source": "data/candidates.json",
+        "policy": "docs/editorial-policy.md",
+        "genres": {
+          "kind": "editorial",
+          "source": "data/artist-additions/expansion-50.json"
+        }
+      }
+    },
+    "sources": {
+      "identity": {
+        "url": "https://musicbrainz.org/artist/88ad74d6-2dde-496f-86f3-722ff9274ea9",
+        "license": "CC0-1.0",
+        "accessedAt": "2026-10-27T22:30:57.424Z"
+      },
+      "aliases": {
+        "url": "https://musicbrainz.org/artist/88ad74d6-2dde-496f-86f3-722ff9274ea9",
+        "license": "CC0-1.0"
+      },
+      "country": {
+        "url": "https://musicbrainz.org/artist/88ad74d6-2dde-496f-86f3-722ff9274ea9",
+        "meaning": "MusicBrainz country association; not nationality",
+        "license": "CC0-1.0"
+      },
+      "dates": {
+        "url": "https://musicbrainz.org/artist/88ad74d6-2dde-496f-86f3-722ff9274ea9",
+        "license": "CC0-1.0"
+      },
+      "members": {
+        "url": "https://musicbrainz.org/artist/88ad74d6-2dde-496f-86f3-722ff9274ea9",
+        "license": "CC0-1.0",
+        "exhaustive": false
+      },
+      "knownFor": {
+        "url": "https://www.wikidata.org/wiki/Q2295917",
+        "field": "description",
+        "license": "CC0-1.0"
+      }
+    }
+  },
+  {
+    "id": "los-001526",
+    "editionId": "origins-01",
+    "mbid": "32dc3f24-253c-47ef-9f7c-157f8442f4a6",
+    "wikidataId": "Q170549",
+    "name": "113",
+    "displayName": "113",
+    "type": "group",
+    "entityType": "Group",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ],
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "aliases": [
+      "1.1.3.",
+      "Le 113"
+    ],
+    "country": "FR",
+    "area": "France",
+    "birthDate": null,
+    "deathDate": null,
+    "formationDate": null,
+    "careerStart": null,
+    "nationality": null,
+    "members": [
+      {
+        "name": "AP du 113",
+        "mbid": "c7364ead-1d6a-42c5-af1f-5accf3c5d781",
+        "begin": null,
+        "end": null,
+        "ended": false
+      },
+      {
+        "name": "Mokobé",
+        "mbid": "89431b9d-e345-4be4-8646-c8a5366b5794",
+        "begin": null,
+        "end": null,
+        "ended": false
+      },
+      {
+        "name": "Rim’K",
+        "mbid": "b4a9c13f-e8c6-44cb-a693-1c23e8692cd5",
+        "begin": null,
+        "end": null,
+        "ended": false
+      }
+    ],
+    "formerMembers": [],
+    "notableAlbums": null,
+    "knownTracks": null,
+    "awards": null,
+    "biography": null,
+    "knownFor": "groupe de rap français",
+    "knownForLanguage": "fr",
+    "portrait": null,
+    "provenance": {
+      "musicbrainz": {
+        "url": "https://musicbrainz.org/artist/32dc3f24-253c-47ef-9f7c-157f8442f4a6",
+        "apiUrl": "https://musicbrainz.org/ws/2/artist/32dc3f24-253c-47ef-9f7c-157f8442f4a6?inc=aliases+url-rels+artist-rels&fmt=json",
+        "verifiedAt": "2026-10-27T22:31:00.915Z",
+        "verification": {
+          "verified": true,
+          "method": "reciprocal-musicbrainz-wikidata-and-name-type",
+          "nameMatch": true,
+          "reciprocal": true,
+          "declaredMbid": true,
+          "returnedName": "113",
+          "returnedType": "Group",
+          "reciprocalUrl": "https://www.wikidata.org/wiki/Q170549",
+          "review": null
+        }
+      },
+      "wikidata": {
+        "url": "https://www.wikidata.org/wiki/Q170549",
+        "revision": null
+      },
+      "classification": {
+        "kind": "editorial",
+        "source": "data/candidates.json",
+        "policy": "docs/editorial-policy.md",
+        "genres": {
+          "kind": "editorial",
+          "source": "data/artist-additions/expansion-50.json"
+        }
+      }
+    },
+    "sources": {
+      "identity": {
+        "url": "https://musicbrainz.org/artist/32dc3f24-253c-47ef-9f7c-157f8442f4a6",
+        "license": "CC0-1.0",
+        "accessedAt": "2026-10-27T22:31:00.915Z"
+      },
+      "aliases": {
+        "url": "https://musicbrainz.org/artist/32dc3f24-253c-47ef-9f7c-157f8442f4a6",
+        "license": "CC0-1.0"
+      },
+      "country": {
+        "url": "https://musicbrainz.org/artist/32dc3f24-253c-47ef-9f7c-157f8442f4a6",
+        "meaning": "MusicBrainz country association; not nationality",
+        "license": "CC0-1.0"
+      },
+      "dates": {
+        "url": "https://musicbrainz.org/artist/32dc3f24-253c-47ef-9f7c-157f8442f4a6",
+        "license": "CC0-1.0"
+      },
+      "members": {
+        "url": "https://musicbrainz.org/artist/32dc3f24-253c-47ef-9f7c-157f8442f4a6",
+        "license": "CC0-1.0",
+        "exhaustive": false
+      },
+      "knownFor": {
+        "url": "https://www.wikidata.org/wiki/Q170549",
+        "field": "description",
+        "license": "CC0-1.0"
+      }
+    }
+  },
+  {
+    "id": "los-001527",
+    "editionId": "origins-01",
+    "mbid": "c4dc0648-cf89-4e38-81de-28ab8a2a41b9",
+    "wikidataId": "Q265830",
+    "name": "Lunatic",
+    "displayName": "Lunatic",
+    "type": "group",
+    "entityType": "Group",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ],
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "aliases": [
+      "Les Lunatic",
+      "Lunatik"
+    ],
+    "country": "FR",
+    "area": "France",
+    "birthDate": null,
+    "deathDate": null,
+    "formationDate": "1994",
+    "careerStart": null,
+    "nationality": null,
+    "members": [],
+    "formerMembers": [
+      {
+        "name": "Ali",
+        "mbid": "f12c52ad-6a95-4d48-bdb5-71bc31235cab",
+        "begin": "1994",
+        "end": "2003",
+        "ended": true
+      },
+      {
+        "name": "Booba",
+        "mbid": "785c0e9c-89f6-4bf4-8296-443a46632d62",
+        "begin": "1994",
+        "end": "2003",
+        "ended": true
+      }
+    ],
+    "notableAlbums": null,
+    "knownTracks": null,
+    "awards": null,
+    "biography": null,
+    "knownFor": "groupe de hip-hop, français",
+    "knownForLanguage": "fr",
+    "portrait": null,
+    "provenance": {
+      "musicbrainz": {
+        "url": "https://musicbrainz.org/artist/c4dc0648-cf89-4e38-81de-28ab8a2a41b9",
+        "apiUrl": "https://musicbrainz.org/ws/2/artist/c4dc0648-cf89-4e38-81de-28ab8a2a41b9?inc=aliases+url-rels+artist-rels&fmt=json",
+        "verifiedAt": "2026-10-27T22:31:04.321Z",
+        "verification": {
+          "verified": true,
+          "method": "reciprocal-musicbrainz-wikidata-and-name-type",
+          "nameMatch": true,
+          "reciprocal": true,
+          "declaredMbid": true,
+          "returnedName": "Lunatic",
+          "returnedType": "Group",
+          "reciprocalUrl": "https://www.wikidata.org/wiki/Q265830",
+          "review": null
+        }
+      },
+      "wikidata": {
+        "url": "https://www.wikidata.org/wiki/Q265830",
+        "revision": null
+      },
+      "classification": {
+        "kind": "editorial",
+        "source": "data/candidates.json",
+        "policy": "docs/editorial-policy.md",
+        "genres": {
+          "kind": "editorial",
+          "source": "data/artist-additions/expansion-50.json"
+        }
+      }
+    },
+    "sources": {
+      "identity": {
+        "url": "https://musicbrainz.org/artist/c4dc0648-cf89-4e38-81de-28ab8a2a41b9",
+        "license": "CC0-1.0",
+        "accessedAt": "2026-10-27T22:31:04.321Z"
+      },
+      "aliases": {
+        "url": "https://musicbrainz.org/artist/c4dc0648-cf89-4e38-81de-28ab8a2a41b9",
+        "license": "CC0-1.0"
+      },
+      "country": {
+        "url": "https://musicbrainz.org/artist/c4dc0648-cf89-4e38-81de-28ab8a2a41b9",
+        "meaning": "MusicBrainz country association; not nationality",
+        "license": "CC0-1.0"
+      },
+      "dates": {
+        "url": "https://musicbrainz.org/artist/c4dc0648-cf89-4e38-81de-28ab8a2a41b9",
+        "license": "CC0-1.0"
+      },
+      "members": {
+        "url": "https://musicbrainz.org/artist/c4dc0648-cf89-4e38-81de-28ab8a2a41b9",
+        "license": "CC0-1.0",
+        "exhaustive": false
+      },
+      "knownFor": {
+        "url": "https://www.wikidata.org/wiki/Q265830",
+        "field": "description",
+        "license": "CC0-1.0"
+      }
+    }
+  },
+  {
+    "id": "los-001528",
+    "editionId": "origins-01",
+    "mbid": "3d0e05e9-c1aa-4d57-a8e6-cb6ab5b6d930",
+    "wikidataId": "Q3212543",
+    "name": "La Rumeur",
+    "displayName": "La Rumeur",
+    "type": "group",
+    "entityType": "Group",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ],
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "aliases": [],
+    "country": "FR",
+    "area": "France",
+    "birthDate": null,
+    "deathDate": null,
+    "formationDate": "1995",
+    "careerStart": null,
+    "nationality": null,
+    "members": [
+      {
+        "name": "Le Bavar",
+        "mbid": "db7a3dad-6f62-4b60-bf0f-2324e57ad370",
+        "begin": "1995",
+        "end": null,
+        "ended": false
+      },
+      {
+        "name": "Ékoué",
+        "mbid": "efa48b0d-1b81-4aa2-a2f7-41529127de57",
+        "begin": "1995",
+        "end": null,
+        "ended": false
+      },
+      {
+        "name": "Hamé",
+        "mbid": "c7e0fd44-aef9-46cb-afbf-9359eb83f30f",
+        "begin": "1995",
+        "end": null,
+        "ended": false
+      },
+      {
+        "name": "Kool M Da Loop Digga",
+        "mbid": "bb6fc831-da94-41fe-8b22-8f0a544ec5db",
+        "begin": "1995",
+        "end": null,
+        "ended": false
+      },
+      {
+        "name": "Kool M Da Loop Digga",
+        "mbid": "bb6fc831-da94-41fe-8b22-8f0a544ec5db",
+        "begin": "1995",
+        "end": null,
+        "ended": false
+      },
+      {
+        "name": "Le Paria",
+        "mbid": "8180a7e9-1d95-4e5e-9193-bd2143304932",
+        "begin": "1995",
+        "end": null,
+        "ended": false
+      },
+      {
+        "name": "Soul G",
+        "mbid": "ce19b873-fd11-4024-94b6-c14dd04a8be6",
+        "begin": "1995",
+        "end": null,
+        "ended": false
+      },
+      {
+        "name": "Soul G",
+        "mbid": "ce19b873-fd11-4024-94b6-c14dd04a8be6",
+        "begin": "1995",
+        "end": null,
+        "ended": false
+      }
+    ],
+    "formerMembers": [
+      {
+        "name": "Goz",
+        "mbid": "6dc24b82-1e1f-438e-b6d0-9a3a6f1e9496",
+        "begin": "1995",
+        "end": "2002",
+        "ended": true
+      },
+      {
+        "name": "Rissno",
+        "mbid": "c97bdb55-72b9-4bc1-a70a-4675b2ca0653",
+        "begin": "2002",
+        "end": "2005",
+        "ended": true
+      }
+    ],
+    "notableAlbums": null,
+    "knownTracks": null,
+    "awards": null,
+    "biography": null,
+    "knownFor": "groupe français de hip-hop",
+    "knownForLanguage": "fr",
+    "portrait": null,
+    "provenance": {
+      "musicbrainz": {
+        "url": "https://musicbrainz.org/artist/3d0e05e9-c1aa-4d57-a8e6-cb6ab5b6d930",
+        "apiUrl": "https://musicbrainz.org/ws/2/artist/3d0e05e9-c1aa-4d57-a8e6-cb6ab5b6d930?inc=aliases+url-rels+artist-rels&fmt=json",
+        "verifiedAt": "2026-10-27T22:31:10.060Z",
+        "verification": {
+          "verified": true,
+          "method": "reciprocal-musicbrainz-wikidata-and-name-type",
+          "nameMatch": true,
+          "reciprocal": true,
+          "declaredMbid": true,
+          "returnedName": "La Rumeur",
+          "returnedType": "Group",
+          "reciprocalUrl": "https://www.wikidata.org/wiki/Q3212543",
+          "review": null
+        }
+      },
+      "wikidata": {
+        "url": "https://www.wikidata.org/wiki/Q3212543",
+        "revision": null
+      },
+      "classification": {
+        "kind": "editorial",
+        "source": "data/candidates.json",
+        "policy": "docs/editorial-policy.md",
+        "genres": {
+          "kind": "editorial",
+          "source": "data/artist-additions/expansion-50.json"
+        }
+      }
+    },
+    "sources": {
+      "identity": {
+        "url": "https://musicbrainz.org/artist/3d0e05e9-c1aa-4d57-a8e6-cb6ab5b6d930",
+        "license": "CC0-1.0",
+        "accessedAt": "2026-10-27T22:31:10.060Z"
+      },
+      "aliases": {
+        "url": "https://musicbrainz.org/artist/3d0e05e9-c1aa-4d57-a8e6-cb6ab5b6d930",
+        "license": "CC0-1.0"
+      },
+      "country": {
+        "url": "https://musicbrainz.org/artist/3d0e05e9-c1aa-4d57-a8e6-cb6ab5b6d930",
+        "meaning": "MusicBrainz country association; not nationality",
+        "license": "CC0-1.0"
+      },
+      "dates": {
+        "url": "https://musicbrainz.org/artist/3d0e05e9-c1aa-4d57-a8e6-cb6ab5b6d930",
+        "license": "CC0-1.0"
+      },
+      "members": {
+        "url": "https://musicbrainz.org/artist/3d0e05e9-c1aa-4d57-a8e6-cb6ab5b6d930",
+        "license": "CC0-1.0",
+        "exhaustive": false
+      },
+      "knownFor": {
+        "url": "https://www.wikidata.org/wiki/Q3212543",
+        "field": "description",
+        "license": "CC0-1.0"
+      }
+    }
+  },
+  {
+    "id": "los-001529",
+    "editionId": "origins-01",
+    "mbid": "38923a6b-1c6d-4e81-9a41-0323b6ce4339",
+    "wikidataId": "Q2813204",
+    "name": "1995",
+    "displayName": "1995",
+    "type": "group",
+    "entityType": "Group",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ],
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "aliases": [],
+    "country": "FR",
+    "area": "France",
+    "birthDate": null,
+    "deathDate": null,
+    "formationDate": "2008",
+    "careerStart": null,
+    "nationality": null,
+    "members": [],
+    "formerMembers": [
+      {
+        "name": "Fonky Flav",
+        "mbid": "093877dc-e402-4edf-9b9e-35b700819c07",
+        "begin": null,
+        "end": null,
+        "ended": true
+      },
+      {
+        "name": "Hologram Lo’",
+        "mbid": "f3d01a40-f9eb-477e-b404-2e2d128f7d37",
+        "begin": null,
+        "end": null,
+        "ended": true
+      },
+      {
+        "name": "Nekfeu",
+        "mbid": "d721866d-5640-44ee-87f7-23dd062abd8a",
+        "begin": null,
+        "end": null,
+        "ended": true
+      },
+      {
+        "name": "Sneazzy",
+        "mbid": "721fb557-32d7-4dbb-ac24-6cfac6f2266d",
+        "begin": null,
+        "end": null,
+        "ended": true
+      },
+      {
+        "name": "Alpha Wann",
+        "mbid": "7bfb81ef-e6aa-4716-a9a5-fa5f1b419680",
+        "begin": null,
+        "end": null,
+        "ended": true
+      },
+      {
+        "name": "Darryl Zeuja",
+        "mbid": "9c59f99d-0b51-46e5-bd25-b6d1344b6507",
+        "begin": null,
+        "end": null,
+        "ended": true
+      }
+    ],
+    "notableAlbums": null,
+    "knownTracks": null,
+    "awards": null,
+    "biography": null,
+    "knownFor": "groupe de rap",
+    "knownForLanguage": "fr",
+    "portrait": null,
+    "provenance": {
+      "musicbrainz": {
+        "url": "https://musicbrainz.org/artist/38923a6b-1c6d-4e81-9a41-0323b6ce4339",
+        "apiUrl": "https://musicbrainz.org/ws/2/artist/38923a6b-1c6d-4e81-9a41-0323b6ce4339?inc=aliases+url-rels+artist-rels&fmt=json",
+        "verifiedAt": "2026-10-27T22:31:13.565Z",
+        "verification": {
+          "verified": true,
+          "method": "reciprocal-musicbrainz-wikidata-and-name-type",
+          "nameMatch": true,
+          "reciprocal": true,
+          "declaredMbid": true,
+          "returnedName": "1995",
+          "returnedType": "Group",
+          "reciprocalUrl": "https://www.wikidata.org/wiki/Q2813204",
+          "review": null
+        }
+      },
+      "wikidata": {
+        "url": "https://www.wikidata.org/wiki/Q2813204",
+        "revision": null
+      },
+      "classification": {
+        "kind": "editorial",
+        "source": "data/candidates.json",
+        "policy": "docs/editorial-policy.md",
+        "genres": {
+          "kind": "editorial",
+          "source": "data/artist-additions/expansion-50.json"
+        }
+      }
+    },
+    "sources": {
+      "identity": {
+        "url": "https://musicbrainz.org/artist/38923a6b-1c6d-4e81-9a41-0323b6ce4339",
+        "license": "CC0-1.0",
+        "accessedAt": "2026-10-27T22:31:13.565Z"
+      },
+      "aliases": {
+        "url": "https://musicbrainz.org/artist/38923a6b-1c6d-4e81-9a41-0323b6ce4339",
+        "license": "CC0-1.0"
+      },
+      "country": {
+        "url": "https://musicbrainz.org/artist/38923a6b-1c6d-4e81-9a41-0323b6ce4339",
+        "meaning": "MusicBrainz country association; not nationality",
+        "license": "CC0-1.0"
+      },
+      "dates": {
+        "url": "https://musicbrainz.org/artist/38923a6b-1c6d-4e81-9a41-0323b6ce4339",
+        "license": "CC0-1.0"
+      },
+      "members": {
+        "url": "https://musicbrainz.org/artist/38923a6b-1c6d-4e81-9a41-0323b6ce4339",
+        "license": "CC0-1.0",
+        "exhaustive": false
+      },
+      "knownFor": {
+        "url": "https://www.wikidata.org/wiki/Q2813204",
+        "field": "description",
+        "license": "CC0-1.0"
+      }
+    }
+  },
+  {
+    "id": "los-001530",
+    "editionId": "origins-01",
+    "mbid": "f4824366-d97b-4929-a970-a94845306f4a",
+    "wikidataId": "Q20666368",
+    "name": "Bigflo & Oli",
+    "displayName": "Bigflo & Oli",
+    "type": "group",
+    "entityType": "Group",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ],
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "aliases": [
+      "Bigflo et Oli"
+    ],
+    "country": "FR",
+    "area": "France",
+    "birthDate": null,
+    "deathDate": null,
+    "formationDate": "2005",
+    "careerStart": null,
+    "nationality": null,
+    "members": [
+      {
+        "name": "Florian Ordoñez",
+        "mbid": "0cf6c073-0c5f-402f-a650-3be84fe9dca6",
+        "begin": null,
+        "end": null,
+        "ended": false
+      },
+      {
+        "name": "Olivio Ordonez",
+        "mbid": "28f96a7c-c02a-4ee0-b6a8-0dc6bdea1578",
+        "begin": null,
+        "end": null,
+        "ended": false
+      }
+    ],
+    "formerMembers": [],
+    "notableAlbums": null,
+    "knownTracks": null,
+    "awards": null,
+    "biography": null,
+    "knownFor": "duo de rappeurs français",
+    "knownForLanguage": "fr",
+    "portrait": null,
+    "provenance": {
+      "musicbrainz": {
+        "url": "https://musicbrainz.org/artist/f4824366-d97b-4929-a970-a94845306f4a",
+        "apiUrl": "https://musicbrainz.org/ws/2/artist/f4824366-d97b-4929-a970-a94845306f4a?inc=aliases+url-rels+artist-rels&fmt=json",
+        "verifiedAt": "2026-10-27T22:31:24.239Z",
+        "verification": {
+          "verified": true,
+          "method": "reciprocal-musicbrainz-wikidata-and-name-type",
+          "nameMatch": true,
+          "reciprocal": true,
+          "declaredMbid": true,
+          "returnedName": "Bigflo & Oli",
+          "returnedType": "Group",
+          "reciprocalUrl": "https://www.wikidata.org/wiki/Q20666368",
+          "review": null
+        }
+      },
+      "wikidata": {
+        "url": "https://www.wikidata.org/wiki/Q20666368",
+        "revision": null
+      },
+      "classification": {
+        "kind": "editorial",
+        "source": "data/candidates.json",
+        "policy": "docs/editorial-policy.md",
+        "genres": {
+          "kind": "editorial",
+          "source": "data/artist-additions/expansion-50.json"
+        }
+      }
+    },
+    "sources": {
+      "identity": {
+        "url": "https://musicbrainz.org/artist/f4824366-d97b-4929-a970-a94845306f4a",
+        "license": "CC0-1.0",
+        "accessedAt": "2026-10-27T22:31:24.239Z"
+      },
+      "aliases": {
+        "url": "https://musicbrainz.org/artist/f4824366-d97b-4929-a970-a94845306f4a",
+        "license": "CC0-1.0"
+      },
+      "country": {
+        "url": "https://musicbrainz.org/artist/f4824366-d97b-4929-a970-a94845306f4a",
+        "meaning": "MusicBrainz country association; not nationality",
+        "license": "CC0-1.0"
+      },
+      "dates": {
+        "url": "https://musicbrainz.org/artist/f4824366-d97b-4929-a970-a94845306f4a",
+        "license": "CC0-1.0"
+      },
+      "members": {
+        "url": "https://musicbrainz.org/artist/f4824366-d97b-4929-a970-a94845306f4a",
+        "license": "CC0-1.0",
+        "exhaustive": false
+      },
+      "knownFor": {
+        "url": "https://www.wikidata.org/wiki/Q20666368",
+        "field": "description",
+        "license": "CC0-1.0"
+      }
+    }
+  },
+  {
+    "id": "los-001531",
+    "editionId": "origins-01",
+    "mbid": "1d9ecb7b-61ef-4e48-af99-a732367398aa",
+    "wikidataId": "Q30232600",
+    "name": "Columbine",
+    "displayName": "Columbine",
+    "type": "group",
+    "entityType": "Group",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ],
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "aliases": [],
+    "country": "FR",
+    "area": "France",
+    "birthDate": null,
+    "deathDate": null,
+    "formationDate": "2014-06-17",
+    "careerStart": null,
+    "nationality": null,
+    "members": [
+      {
+        "name": "Chaman",
+        "mbid": "cb700db6-1a41-439a-bb51-842cd9cde8e4",
+        "begin": null,
+        "end": null,
+        "ended": false
+      },
+      {
+        "name": "Foda C",
+        "mbid": "5d80b95d-6e3a-4912-afab-221895cbf505",
+        "begin": null,
+        "end": null,
+        "ended": false
+      },
+      {
+        "name": "Lorenzo",
+        "mbid": "c1fba7ff-e49f-4910-91c0-2e091bc667b8",
+        "begin": null,
+        "end": null,
+        "ended": false
+      },
+      {
+        "name": "Lujipeka",
+        "mbid": "9389423b-8325-49d0-a273-952a561bf5ec",
+        "begin": null,
+        "end": null,
+        "ended": false
+      },
+      {
+        "name": "Sully",
+        "mbid": "91951942-cafc-45fa-8834-e09057a4e755",
+        "begin": null,
+        "end": null,
+        "ended": false
+      }
+    ],
+    "formerMembers": [],
+    "notableAlbums": null,
+    "knownTracks": null,
+    "awards": null,
+    "biography": null,
+    "knownFor": "collectif de rap français rennais",
+    "knownForLanguage": "fr",
+    "portrait": null,
+    "provenance": {
+      "musicbrainz": {
+        "url": "https://musicbrainz.org/artist/1d9ecb7b-61ef-4e48-af99-a732367398aa",
+        "apiUrl": "https://musicbrainz.org/ws/2/artist/1d9ecb7b-61ef-4e48-af99-a732367398aa?inc=aliases+url-rels+artist-rels&fmt=json",
+        "verifiedAt": "2026-10-27T22:31:25.386Z",
+        "verification": {
+          "verified": true,
+          "method": "reciprocal-musicbrainz-wikidata-and-name-type",
+          "nameMatch": true,
+          "reciprocal": true,
+          "declaredMbid": true,
+          "returnedName": "Columbine",
+          "returnedType": "Group",
+          "reciprocalUrl": "https://www.wikidata.org/wiki/Q30232600",
+          "review": null
+        }
+      },
+      "wikidata": {
+        "url": "https://www.wikidata.org/wiki/Q30232600",
+        "revision": null
+      },
+      "classification": {
+        "kind": "editorial",
+        "source": "data/candidates.json",
+        "policy": "docs/editorial-policy.md",
+        "genres": {
+          "kind": "editorial",
+          "source": "data/artist-additions/expansion-50.json"
+        }
+      }
+    },
+    "sources": {
+      "identity": {
+        "url": "https://musicbrainz.org/artist/1d9ecb7b-61ef-4e48-af99-a732367398aa",
+        "license": "CC0-1.0",
+        "accessedAt": "2026-10-27T22:31:25.386Z"
+      },
+      "aliases": {
+        "url": "https://musicbrainz.org/artist/1d9ecb7b-61ef-4e48-af99-a732367398aa",
+        "license": "CC0-1.0"
+      },
+      "country": {
+        "url": "https://musicbrainz.org/artist/1d9ecb7b-61ef-4e48-af99-a732367398aa",
+        "meaning": "MusicBrainz country association; not nationality",
+        "license": "CC0-1.0"
+      },
+      "dates": {
+        "url": "https://musicbrainz.org/artist/1d9ecb7b-61ef-4e48-af99-a732367398aa",
+        "license": "CC0-1.0"
+      },
+      "members": {
+        "url": "https://musicbrainz.org/artist/1d9ecb7b-61ef-4e48-af99-a732367398aa",
+        "license": "CC0-1.0",
+        "exhaustive": false
+      },
+      "knownFor": {
+        "url": "https://www.wikidata.org/wiki/Q30232600",
+        "field": "description",
+        "license": "CC0-1.0"
+      }
+    }
+  },
+  {
+    "id": "los-001532",
+    "editionId": "origins-01",
+    "mbid": "a4ab6bb1-2b7e-4d5f-bad6-dcd6b6daa5d6",
+    "wikidataId": "Q24286848",
+    "name": "Djadja & Dinaz",
+    "displayName": "Djadja & Dinaz",
+    "type": "group",
+    "entityType": "Group",
+    "genres": [
+      "rap",
+      "hip-hop",
+      "trap"
+    ],
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "aliases": [],
+    "country": "FR",
+    "area": "Paris",
+    "birthDate": null,
+    "deathDate": null,
+    "formationDate": "2014",
+    "careerStart": null,
+    "nationality": null,
+    "members": [
+      {
+        "name": "Dinaz",
+        "mbid": "c57ccd6f-f278-42e1-8c22-6eeea1d7da9d",
+        "begin": null,
+        "end": null,
+        "ended": false
+      },
+      {
+        "name": "Djadja",
+        "mbid": "9aeae65c-c81b-4a9c-8a66-84e70ea567c8",
+        "begin": null,
+        "end": null,
+        "ended": false
+      }
+    ],
+    "formerMembers": [],
+    "notableAlbums": null,
+    "knownTracks": null,
+    "awards": null,
+    "biography": null,
+    "knownFor": "duo français de rap",
+    "knownForLanguage": "fr",
+    "portrait": null,
+    "provenance": {
+      "musicbrainz": {
+        "url": "https://musicbrainz.org/artist/a4ab6bb1-2b7e-4d5f-bad6-dcd6b6daa5d6",
+        "apiUrl": "https://musicbrainz.org/ws/2/artist/a4ab6bb1-2b7e-4d5f-bad6-dcd6b6daa5d6?inc=aliases+url-rels+artist-rels&fmt=json",
+        "verifiedAt": "2026-10-27T22:31:28.857Z",
+        "verification": {
+          "verified": true,
+          "method": "reciprocal-musicbrainz-wikidata-and-name-type",
+          "nameMatch": true,
+          "reciprocal": true,
+          "declaredMbid": true,
+          "returnedName": "Djadja & Dinaz",
+          "returnedType": "Group",
+          "reciprocalUrl": "https://www.wikidata.org/wiki/Q24286848",
+          "review": null
+        }
+      },
+      "wikidata": {
+        "url": "https://www.wikidata.org/wiki/Q24286848",
+        "revision": null
+      },
+      "classification": {
+        "kind": "editorial",
+        "source": "data/candidates.json",
+        "policy": "docs/editorial-policy.md",
+        "genres": {
+          "kind": "editorial",
+          "source": "data/artist-additions/expansion-50.json"
+        }
+      }
+    },
+    "sources": {
+      "identity": {
+        "url": "https://musicbrainz.org/artist/a4ab6bb1-2b7e-4d5f-bad6-dcd6b6daa5d6",
+        "license": "CC0-1.0",
+        "accessedAt": "2026-10-27T22:31:28.857Z"
+      },
+      "aliases": {
+        "url": "https://musicbrainz.org/artist/a4ab6bb1-2b7e-4d5f-bad6-dcd6b6daa5d6",
+        "license": "CC0-1.0"
+      },
+      "country": {
+        "url": "https://musicbrainz.org/artist/a4ab6bb1-2b7e-4d5f-bad6-dcd6b6daa5d6",
+        "meaning": "MusicBrainz country association; not nationality",
+        "license": "CC0-1.0"
+      },
+      "dates": {
+        "url": "https://musicbrainz.org/artist/a4ab6bb1-2b7e-4d5f-bad6-dcd6b6daa5d6",
+        "license": "CC0-1.0"
+      },
+      "members": {
+        "url": "https://musicbrainz.org/artist/a4ab6bb1-2b7e-4d5f-bad6-dcd6b6daa5d6",
+        "license": "CC0-1.0",
+        "exhaustive": false
+      },
+      "knownFor": {
+        "url": "https://www.wikidata.org/wiki/Q24286848",
+        "field": "description",
+        "license": "CC0-1.0"
+      }
+    }
+  },
+  {
+    "id": "los-001533",
+    "editionId": "origins-01",
+    "mbid": "4020ea18-d886-483c-910f-a0e7e039c097",
+    "wikidataId": "Q36695463",
+    "name": "Georgio",
+    "displayName": "Georgio",
+    "type": "solo",
+    "entityType": "Person",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ],
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "aliases": [
+      "Georges Édouard Nicolo"
+    ],
+    "country": "FR",
+    "area": "France",
+    "birthDate": "1993-01-21",
+    "deathDate": null,
+    "formationDate": null,
+    "careerStart": null,
+    "nationality": null,
+    "members": null,
+    "formerMembers": null,
+    "notableAlbums": null,
+    "knownTracks": null,
+    "awards": null,
+    "biography": null,
+    "knownFor": "rappeur français",
+    "knownForLanguage": "fr",
+    "portrait": null,
+    "provenance": {
+      "musicbrainz": {
+        "url": "https://musicbrainz.org/artist/4020ea18-d886-483c-910f-a0e7e039c097",
+        "apiUrl": "https://musicbrainz.org/ws/2/artist/4020ea18-d886-483c-910f-a0e7e039c097?inc=aliases+url-rels+artist-rels&fmt=json",
+        "verifiedAt": "2026-10-27T22:31:29.976Z",
+        "verification": {
+          "verified": true,
+          "method": "reciprocal-musicbrainz-wikidata-and-name-type",
+          "nameMatch": true,
+          "reciprocal": true,
+          "declaredMbid": true,
+          "returnedName": "Georgio",
+          "returnedType": "Person",
+          "reciprocalUrl": "https://www.wikidata.org/wiki/Q36695463",
+          "review": null
+        }
+      },
+      "wikidata": {
+        "url": "https://www.wikidata.org/wiki/Q36695463",
+        "revision": null
+      },
+      "classification": {
+        "kind": "editorial",
+        "source": "data/candidates.json",
+        "policy": "docs/editorial-policy.md",
+        "genres": {
+          "kind": "editorial",
+          "source": "data/artist-additions/expansion-50.json"
+        }
+      }
+    },
+    "sources": {
+      "identity": {
+        "url": "https://musicbrainz.org/artist/4020ea18-d886-483c-910f-a0e7e039c097",
+        "license": "CC0-1.0",
+        "accessedAt": "2026-10-27T22:31:29.976Z"
+      },
+      "aliases": {
+        "url": "https://musicbrainz.org/artist/4020ea18-d886-483c-910f-a0e7e039c097",
+        "license": "CC0-1.0"
+      },
+      "country": {
+        "url": "https://musicbrainz.org/artist/4020ea18-d886-483c-910f-a0e7e039c097",
+        "meaning": "MusicBrainz country association; not nationality",
+        "license": "CC0-1.0"
+      },
+      "dates": {
+        "url": "https://musicbrainz.org/artist/4020ea18-d886-483c-910f-a0e7e039c097",
+        "license": "CC0-1.0"
+      },
+      "members": {
+        "url": "https://musicbrainz.org/artist/4020ea18-d886-483c-910f-a0e7e039c097",
+        "license": "CC0-1.0",
+        "exhaustive": false
+      },
+      "knownFor": {
+        "url": "https://www.wikidata.org/wiki/Q36695463",
+        "field": "description",
+        "license": "CC0-1.0"
+      }
+    }
+  },
+  {
+    "id": "los-001534",
+    "editionId": "origins-01",
+    "mbid": "eae469dd-07e1-44e1-89a4-823c38bc9222",
+    "wikidataId": "Q19629308",
+    "name": "Scylla",
+    "displayName": "Scylla",
+    "type": "solo",
+    "entityType": "Person",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ],
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "aliases": [
+      "Gilles Alpen"
+    ],
+    "country": "BE",
+    "area": "Belgium",
+    "birthDate": "1980-10-14",
+    "deathDate": null,
+    "formationDate": null,
+    "careerStart": null,
+    "nationality": null,
+    "members": null,
+    "formerMembers": null,
+    "notableAlbums": null,
+    "knownTracks": null,
+    "awards": null,
+    "biography": null,
+    "knownFor": "rappeur et slameur belge",
+    "knownForLanguage": "fr",
+    "portrait": null,
+    "provenance": {
+      "musicbrainz": {
+        "url": "https://musicbrainz.org/artist/eae469dd-07e1-44e1-89a4-823c38bc9222",
+        "apiUrl": "https://musicbrainz.org/ws/2/artist/eae469dd-07e1-44e1-89a4-823c38bc9222?inc=aliases+url-rels+artist-rels&fmt=json",
+        "verifiedAt": "2026-10-27T22:31:31.219Z",
+        "verification": {
+          "verified": true,
+          "method": "reciprocal-musicbrainz-wikidata-and-name-type",
+          "nameMatch": true,
+          "reciprocal": true,
+          "declaredMbid": true,
+          "returnedName": "Scylla",
+          "returnedType": "Person",
+          "reciprocalUrl": "https://www.wikidata.org/wiki/Q19629308",
+          "review": null
+        }
+      },
+      "wikidata": {
+        "url": "https://www.wikidata.org/wiki/Q19629308",
+        "revision": null
+      },
+      "classification": {
+        "kind": "editorial",
+        "source": "data/candidates.json",
+        "policy": "docs/editorial-policy.md",
+        "genres": {
+          "kind": "editorial",
+          "source": "data/artist-additions/expansion-50.json"
+        }
+      }
+    },
+    "sources": {
+      "identity": {
+        "url": "https://musicbrainz.org/artist/eae469dd-07e1-44e1-89a4-823c38bc9222",
+        "license": "CC0-1.0",
+        "accessedAt": "2026-10-27T22:31:31.219Z"
+      },
+      "aliases": {
+        "url": "https://musicbrainz.org/artist/eae469dd-07e1-44e1-89a4-823c38bc9222",
+        "license": "CC0-1.0"
+      },
+      "country": {
+        "url": "https://musicbrainz.org/artist/eae469dd-07e1-44e1-89a4-823c38bc9222",
+        "meaning": "MusicBrainz country association; not nationality",
+        "license": "CC0-1.0"
+      },
+      "dates": {
+        "url": "https://musicbrainz.org/artist/eae469dd-07e1-44e1-89a4-823c38bc9222",
+        "license": "CC0-1.0"
+      },
+      "members": {
+        "url": "https://musicbrainz.org/artist/eae469dd-07e1-44e1-89a4-823c38bc9222",
+        "license": "CC0-1.0",
+        "exhaustive": false
+      },
+      "knownFor": {
+        "url": "https://www.wikidata.org/wiki/Q19629308",
+        "field": "description",
+        "license": "CC0-1.0"
+      }
+    }
+  },
+  {
+    "id": "los-001535",
+    "editionId": "origins-01",
+    "mbid": "a3a3457c-619c-4b15-95f8-3c239a52e7e7",
+    "wikidataId": "Q89349527",
+    "name": "Davodka",
+    "displayName": "Davodka",
+    "type": "solo",
+    "entityType": "Person",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ],
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "aliases": [],
+    "country": "FR",
+    "area": "France",
+    "birthDate": "1988",
+    "deathDate": null,
+    "formationDate": null,
+    "careerStart": null,
+    "nationality": null,
+    "members": null,
+    "formerMembers": null,
+    "notableAlbums": null,
+    "knownTracks": null,
+    "awards": null,
+    "biography": null,
+    "knownFor": "rappeur franco-russe",
+    "knownForLanguage": "fr",
+    "portrait": null,
+    "provenance": {
+      "musicbrainz": {
+        "url": "https://musicbrainz.org/artist/a3a3457c-619c-4b15-95f8-3c239a52e7e7",
+        "apiUrl": "https://musicbrainz.org/ws/2/artist/a3a3457c-619c-4b15-95f8-3c239a52e7e7?inc=aliases+url-rels+artist-rels&fmt=json",
+        "verifiedAt": "2026-10-27T22:31:32.327Z",
+        "verification": {
+          "verified": true,
+          "method": "reciprocal-musicbrainz-wikidata-and-name-type",
+          "nameMatch": true,
+          "reciprocal": true,
+          "declaredMbid": true,
+          "returnedName": "Davodka",
+          "returnedType": "Person",
+          "reciprocalUrl": "https://www.wikidata.org/wiki/Q89349527",
+          "review": null
+        }
+      },
+      "wikidata": {
+        "url": "https://www.wikidata.org/wiki/Q89349527",
+        "revision": null
+      },
+      "classification": {
+        "kind": "editorial",
+        "source": "data/candidates.json",
+        "policy": "docs/editorial-policy.md",
+        "genres": {
+          "kind": "editorial",
+          "source": "data/artist-additions/expansion-50.json"
+        }
+      }
+    },
+    "sources": {
+      "identity": {
+        "url": "https://musicbrainz.org/artist/a3a3457c-619c-4b15-95f8-3c239a52e7e7",
+        "license": "CC0-1.0",
+        "accessedAt": "2026-10-27T22:31:32.327Z"
+      },
+      "aliases": {
+        "url": "https://musicbrainz.org/artist/a3a3457c-619c-4b15-95f8-3c239a52e7e7",
+        "license": "CC0-1.0"
+      },
+      "country": {
+        "url": "https://musicbrainz.org/artist/a3a3457c-619c-4b15-95f8-3c239a52e7e7",
+        "meaning": "MusicBrainz country association; not nationality",
+        "license": "CC0-1.0"
+      },
+      "dates": {
+        "url": "https://musicbrainz.org/artist/a3a3457c-619c-4b15-95f8-3c239a52e7e7",
+        "license": "CC0-1.0"
+      },
+      "members": {
+        "url": "https://musicbrainz.org/artist/a3a3457c-619c-4b15-95f8-3c239a52e7e7",
+        "license": "CC0-1.0",
+        "exhaustive": false
+      },
+      "knownFor": {
+        "url": "https://www.wikidata.org/wiki/Q89349527",
+        "field": "description",
+        "license": "CC0-1.0"
+      }
+    }
+  },
+  {
+    "id": "los-001536",
+    "editionId": "origins-01",
+    "mbid": "a1e28395-699b-4bb8-8e7a-e5eda8ac7c4c",
+    "wikidataId": "Q104632488",
+    "name": "Green Montana",
+    "displayName": "Green Montana",
+    "type": "solo",
+    "entityType": "Person",
+    "genres": [
+      "rap",
+      "hip-hop",
+      "trap"
+    ],
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "aliases": [],
+    "country": "BE",
+    "area": "Belgium",
+    "birthDate": "1993",
+    "deathDate": null,
+    "formationDate": null,
+    "careerStart": null,
+    "nationality": null,
+    "members": null,
+    "formerMembers": null,
+    "notableAlbums": null,
+    "knownTracks": null,
+    "awards": null,
+    "biography": null,
+    "knownFor": "rappeur et chanteur belge d'origine congolaise",
+    "knownForLanguage": "fr",
+    "portrait": null,
+    "provenance": {
+      "musicbrainz": {
+        "url": "https://musicbrainz.org/artist/a1e28395-699b-4bb8-8e7a-e5eda8ac7c4c",
+        "apiUrl": "https://musicbrainz.org/ws/2/artist/a1e28395-699b-4bb8-8e7a-e5eda8ac7c4c?inc=aliases+url-rels+artist-rels&fmt=json",
+        "verifiedAt": "2026-10-27T22:31:35.822Z",
+        "verification": {
+          "verified": true,
+          "method": "reciprocal-musicbrainz-wikidata-and-name-type",
+          "nameMatch": true,
+          "reciprocal": true,
+          "declaredMbid": true,
+          "returnedName": "Green Montana",
+          "returnedType": "Person",
+          "reciprocalUrl": "https://www.wikidata.org/wiki/Q104632488",
+          "review": null
+        }
+      },
+      "wikidata": {
+        "url": "https://www.wikidata.org/wiki/Q104632488",
+        "revision": null
+      },
+      "classification": {
+        "kind": "editorial",
+        "source": "data/candidates.json",
+        "policy": "docs/editorial-policy.md",
+        "genres": {
+          "kind": "editorial",
+          "source": "data/artist-additions/expansion-50.json"
+        }
+      }
+    },
+    "sources": {
+      "identity": {
+        "url": "https://musicbrainz.org/artist/a1e28395-699b-4bb8-8e7a-e5eda8ac7c4c",
+        "license": "CC0-1.0",
+        "accessedAt": "2026-10-27T22:31:35.822Z"
+      },
+      "aliases": {
+        "url": "https://musicbrainz.org/artist/a1e28395-699b-4bb8-8e7a-e5eda8ac7c4c",
+        "license": "CC0-1.0"
+      },
+      "country": {
+        "url": "https://musicbrainz.org/artist/a1e28395-699b-4bb8-8e7a-e5eda8ac7c4c",
+        "meaning": "MusicBrainz country association; not nationality",
+        "license": "CC0-1.0"
+      },
+      "dates": {
+        "url": "https://musicbrainz.org/artist/a1e28395-699b-4bb8-8e7a-e5eda8ac7c4c",
+        "license": "CC0-1.0"
+      },
+      "members": {
+        "url": "https://musicbrainz.org/artist/a1e28395-699b-4bb8-8e7a-e5eda8ac7c4c",
+        "license": "CC0-1.0",
+        "exhaustive": false
+      },
+      "knownFor": {
+        "url": "https://www.wikidata.org/wiki/Q104632488",
+        "field": "description",
+        "license": "CC0-1.0"
+      }
+    }
+  },
+  {
+    "id": "los-001537",
+    "editionId": "origins-01",
+    "mbid": "64baacc9-13bb-4722-bf2e-10f2b4073fa0",
+    "wikidataId": "Q111541337",
+    "name": "Zamdane",
+    "displayName": "Zamdane",
+    "type": "solo",
+    "entityType": "Person",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ],
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "aliases": [
+      "Ayoub Zaidane",
+      "أيوب زيدان"
+    ],
+    "country": "MA",
+    "area": "Marrakech-Menara",
+    "birthDate": "1997-09-25",
+    "deathDate": null,
+    "formationDate": null,
+    "careerStart": null,
+    "nationality": null,
+    "members": null,
+    "formerMembers": null,
+    "notableAlbums": null,
+    "knownTracks": null,
+    "awards": null,
+    "biography": null,
+    "knownFor": "rappeur marocain d'expression française",
+    "knownForLanguage": "fr",
+    "portrait": null,
+    "provenance": {
+      "musicbrainz": {
+        "url": "https://musicbrainz.org/artist/64baacc9-13bb-4722-bf2e-10f2b4073fa0",
+        "apiUrl": "https://musicbrainz.org/ws/2/artist/64baacc9-13bb-4722-bf2e-10f2b4073fa0?inc=aliases+url-rels+artist-rels&fmt=json",
+        "verifiedAt": "2026-10-27T22:31:39.234Z",
+        "verification": {
+          "verified": true,
+          "method": "reciprocal-musicbrainz-wikidata-and-name-type",
+          "nameMatch": true,
+          "reciprocal": true,
+          "declaredMbid": true,
+          "returnedName": "Zamdane",
+          "returnedType": "Person",
+          "reciprocalUrl": "https://www.wikidata.org/wiki/Q111541337",
+          "review": null
+        }
+      },
+      "wikidata": {
+        "url": "https://www.wikidata.org/wiki/Q111541337",
+        "revision": null
+      },
+      "classification": {
+        "kind": "editorial",
+        "source": "data/candidates.json",
+        "policy": "docs/editorial-policy.md",
+        "genres": {
+          "kind": "editorial",
+          "source": "data/artist-additions/expansion-50.json"
+        }
+      }
+    },
+    "sources": {
+      "identity": {
+        "url": "https://musicbrainz.org/artist/64baacc9-13bb-4722-bf2e-10f2b4073fa0",
+        "license": "CC0-1.0",
+        "accessedAt": "2026-10-27T22:31:39.234Z"
+      },
+      "aliases": {
+        "url": "https://musicbrainz.org/artist/64baacc9-13bb-4722-bf2e-10f2b4073fa0",
+        "license": "CC0-1.0"
+      },
+      "country": {
+        "url": "https://musicbrainz.org/artist/64baacc9-13bb-4722-bf2e-10f2b4073fa0",
+        "meaning": "MusicBrainz country association; not nationality",
+        "license": "CC0-1.0"
+      },
+      "dates": {
+        "url": "https://musicbrainz.org/artist/64baacc9-13bb-4722-bf2e-10f2b4073fa0",
+        "license": "CC0-1.0"
+      },
+      "members": {
+        "url": "https://musicbrainz.org/artist/64baacc9-13bb-4722-bf2e-10f2b4073fa0",
+        "license": "CC0-1.0",
+        "exhaustive": false
+      },
+      "knownFor": {
+        "url": "https://www.wikidata.org/wiki/Q111541337",
+        "field": "description",
+        "license": "CC0-1.0"
+      }
+    }
+  },
+  {
+    "id": "los-001538",
+    "editionId": "origins-01",
+    "mbid": "d6302903-1f62-420a-8d8b-c54941ac754e",
+    "wikidataId": "Q7294351",
+    "name": "Rapsody",
+    "displayName": "Rapsody",
+    "type": "solo",
+    "entityType": "Person",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ],
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "aliases": [
+      "Marlanna Evans"
+    ],
+    "country": "US",
+    "area": "United States",
+    "birthDate": "1983-01-21",
+    "deathDate": null,
+    "formationDate": null,
+    "careerStart": null,
+    "nationality": null,
+    "members": null,
+    "formerMembers": null,
+    "notableAlbums": null,
+    "knownTracks": null,
+    "awards": null,
+    "biography": null,
+    "knownFor": "rappeuse américaine",
+    "knownForLanguage": "fr",
+    "portrait": null,
+    "provenance": {
+      "musicbrainz": {
+        "url": "https://musicbrainz.org/artist/d6302903-1f62-420a-8d8b-c54941ac754e",
+        "apiUrl": "https://musicbrainz.org/ws/2/artist/d6302903-1f62-420a-8d8b-c54941ac754e?inc=aliases+url-rels+artist-rels&fmt=json",
+        "verifiedAt": "2026-10-27T22:31:48.844Z",
+        "verification": {
+          "verified": true,
+          "method": "reciprocal-musicbrainz-wikidata-and-name-type",
+          "nameMatch": true,
+          "reciprocal": true,
+          "declaredMbid": true,
+          "returnedName": "Rapsody",
+          "returnedType": "Person",
+          "reciprocalUrl": "https://www.wikidata.org/wiki/Q7294351",
+          "review": null
+        }
+      },
+      "wikidata": {
+        "url": "https://www.wikidata.org/wiki/Q7294351",
+        "revision": null
+      },
+      "classification": {
+        "kind": "editorial",
+        "source": "data/candidates.json",
+        "policy": "docs/editorial-policy.md",
+        "genres": {
+          "kind": "editorial",
+          "source": "data/artist-additions/expansion-50.json"
+        }
+      }
+    },
+    "sources": {
+      "identity": {
+        "url": "https://musicbrainz.org/artist/d6302903-1f62-420a-8d8b-c54941ac754e",
+        "license": "CC0-1.0",
+        "accessedAt": "2026-10-27T22:31:48.844Z"
+      },
+      "aliases": {
+        "url": "https://musicbrainz.org/artist/d6302903-1f62-420a-8d8b-c54941ac754e",
+        "license": "CC0-1.0"
+      },
+      "country": {
+        "url": "https://musicbrainz.org/artist/d6302903-1f62-420a-8d8b-c54941ac754e",
+        "meaning": "MusicBrainz country association; not nationality",
+        "license": "CC0-1.0"
+      },
+      "dates": {
+        "url": "https://musicbrainz.org/artist/d6302903-1f62-420a-8d8b-c54941ac754e",
+        "license": "CC0-1.0"
+      },
+      "members": {
+        "url": "https://musicbrainz.org/artist/d6302903-1f62-420a-8d8b-c54941ac754e",
+        "license": "CC0-1.0",
+        "exhaustive": false
+      },
+      "knownFor": {
+        "url": "https://www.wikidata.org/wiki/Q7294351",
+        "field": "description",
+        "license": "CC0-1.0"
+      }
+    }
+  },
+  {
+    "id": "los-001539",
+    "editionId": "origins-01",
+    "mbid": "ae952d46-0f36-414c-90d4-f202ea2d4a71",
+    "wikidataId": "Q56292576",
+    "name": "Tierra Whack",
+    "displayName": "Tierra Whack",
+    "type": "solo",
+    "entityType": "Person",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ],
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "aliases": [
+      "Tierra Sharday Whack-Welton"
+    ],
+    "country": "US",
+    "area": "United States",
+    "birthDate": "1995-08-11",
+    "deathDate": null,
+    "formationDate": null,
+    "careerStart": null,
+    "nationality": null,
+    "members": null,
+    "formerMembers": null,
+    "notableAlbums": null,
+    "knownTracks": null,
+    "awards": null,
+    "biography": null,
+    "knownFor": "rappeuse américaine",
+    "knownForLanguage": "fr",
+    "portrait": null,
+    "provenance": {
+      "musicbrainz": {
+        "url": "https://musicbrainz.org/artist/ae952d46-0f36-414c-90d4-f202ea2d4a71",
+        "apiUrl": "https://musicbrainz.org/ws/2/artist/ae952d46-0f36-414c-90d4-f202ea2d4a71?inc=aliases+url-rels+artist-rels&fmt=json",
+        "verifiedAt": "2026-10-27T22:31:51.147Z",
+        "verification": {
+          "verified": true,
+          "method": "reciprocal-musicbrainz-wikidata-and-name-type",
+          "nameMatch": true,
+          "reciprocal": true,
+          "declaredMbid": true,
+          "returnedName": "Tierra Whack",
+          "returnedType": "Person",
+          "reciprocalUrl": "https://www.wikidata.org/wiki/Q56292576",
+          "review": null
+        }
+      },
+      "wikidata": {
+        "url": "https://www.wikidata.org/wiki/Q56292576",
+        "revision": null
+      },
+      "classification": {
+        "kind": "editorial",
+        "source": "data/candidates.json",
+        "policy": "docs/editorial-policy.md",
+        "genres": {
+          "kind": "editorial",
+          "source": "data/artist-additions/expansion-50.json"
+        }
+      }
+    },
+    "sources": {
+      "identity": {
+        "url": "https://musicbrainz.org/artist/ae952d46-0f36-414c-90d4-f202ea2d4a71",
+        "license": "CC0-1.0",
+        "accessedAt": "2026-10-27T22:31:51.147Z"
+      },
+      "aliases": {
+        "url": "https://musicbrainz.org/artist/ae952d46-0f36-414c-90d4-f202ea2d4a71",
+        "license": "CC0-1.0"
+      },
+      "country": {
+        "url": "https://musicbrainz.org/artist/ae952d46-0f36-414c-90d4-f202ea2d4a71",
+        "meaning": "MusicBrainz country association; not nationality",
+        "license": "CC0-1.0"
+      },
+      "dates": {
+        "url": "https://musicbrainz.org/artist/ae952d46-0f36-414c-90d4-f202ea2d4a71",
+        "license": "CC0-1.0"
+      },
+      "members": {
+        "url": "https://musicbrainz.org/artist/ae952d46-0f36-414c-90d4-f202ea2d4a71",
+        "license": "CC0-1.0",
+        "exhaustive": false
+      },
+      "knownFor": {
+        "url": "https://www.wikidata.org/wiki/Q56292576",
+        "field": "description",
+        "license": "CC0-1.0"
+      }
+    }
+  },
+  {
+    "id": "los-001540",
+    "editionId": "origins-01",
+    "mbid": "02708fd6-0fe6-4738-a27d-0561ace8b4c6",
+    "wikidataId": "Q880574",
+    "name": "Black Star",
+    "displayName": "Black Star",
+    "type": "group",
+    "entityType": "Group",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ],
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "aliases": [
+      "Black Star",
+      "Blackstar",
+      "Mos Def & Talib Kweli",
+      "Mos def and Talib kawileb",
+      "Talib Kweli & Mos Def"
+    ],
+    "country": "US",
+    "area": "United States",
+    "birthDate": null,
+    "deathDate": null,
+    "formationDate": "1997",
+    "careerStart": null,
+    "nationality": null,
+    "members": [
+      {
+        "name": "Yasiin Bey",
+        "mbid": "f5c4c27e-5902-4fc0-adfb-7775da3d5363",
+        "begin": null,
+        "end": null,
+        "ended": false
+      },
+      {
+        "name": "Talib Kweli",
+        "mbid": "bb3cbea2-5ad4-4917-bc84-8a1975d40315",
+        "begin": null,
+        "end": null,
+        "ended": false
+      }
+    ],
+    "formerMembers": [],
+    "notableAlbums": null,
+    "knownTracks": null,
+    "awards": null,
+    "biography": null,
+    "knownFor": "groupe de musique américain",
+    "knownForLanguage": "fr",
+    "portrait": null,
+    "provenance": {
+      "musicbrainz": {
+        "url": "https://musicbrainz.org/artist/02708fd6-0fe6-4738-a27d-0561ace8b4c6",
+        "apiUrl": "https://musicbrainz.org/ws/2/artist/02708fd6-0fe6-4738-a27d-0561ace8b4c6?inc=aliases+url-rels+artist-rels&fmt=json",
+        "verifiedAt": "2026-10-27T22:32:59.879Z",
+        "verification": {
+          "verified": true,
+          "method": "reciprocal-musicbrainz-wikidata-and-name-type",
+          "nameMatch": true,
+          "reciprocal": true,
+          "declaredMbid": true,
+          "returnedName": "Black Star",
+          "returnedType": "Group",
+          "reciprocalUrl": "https://www.wikidata.org/wiki/Q880574",
+          "review": null
+        }
+      },
+      "wikidata": {
+        "url": "https://www.wikidata.org/wiki/Q880574",
+        "revision": null
+      },
+      "classification": {
+        "kind": "editorial",
+        "source": "data/candidates.json",
+        "policy": "docs/editorial-policy.md",
+        "genres": {
+          "kind": "editorial",
+          "source": "data/artist-additions/expansion-50.json"
+        }
+      }
+    },
+    "sources": {
+      "identity": {
+        "url": "https://musicbrainz.org/artist/02708fd6-0fe6-4738-a27d-0561ace8b4c6",
+        "license": "CC0-1.0",
+        "accessedAt": "2026-10-27T22:32:59.879Z"
+      },
+      "aliases": {
+        "url": "https://musicbrainz.org/artist/02708fd6-0fe6-4738-a27d-0561ace8b4c6",
+        "license": "CC0-1.0"
+      },
+      "country": {
+        "url": "https://musicbrainz.org/artist/02708fd6-0fe6-4738-a27d-0561ace8b4c6",
+        "meaning": "MusicBrainz country association; not nationality",
+        "license": "CC0-1.0"
+      },
+      "dates": {
+        "url": "https://musicbrainz.org/artist/02708fd6-0fe6-4738-a27d-0561ace8b4c6",
+        "license": "CC0-1.0"
+      },
+      "members": {
+        "url": "https://musicbrainz.org/artist/02708fd6-0fe6-4738-a27d-0561ace8b4c6",
+        "license": "CC0-1.0",
+        "exhaustive": false
+      },
+      "knownFor": {
+        "url": "https://www.wikidata.org/wiki/Q880574",
+        "field": "description",
+        "license": "CC0-1.0"
+      }
+    }
+  },
+  {
+    "id": "los-001541",
+    "editionId": "origins-01",
+    "mbid": "ff44f779-74ab-48f8-aac3-39ebe8f7c18e",
+    "wikidataId": "Q3027728",
+    "name": "Digable Planets",
+    "displayName": "Digable Planets",
+    "type": "group",
+    "entityType": "Group",
+    "genres": [
+      "hip-hop",
+      "jazz"
+    ],
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "aliases": [
+      "Digable Planet"
+    ],
+    "country": "US",
+    "area": "Philadelphia",
+    "birthDate": null,
+    "deathDate": null,
+    "formationDate": "1992",
+    "careerStart": null,
+    "nationality": null,
+    "members": [
+      {
+        "name": "Butterfly",
+        "mbid": "b0cc6682-b7c2-49cd-99a1-53667d54a63a",
+        "begin": null,
+        "end": null,
+        "ended": false
+      },
+      {
+        "name": "Doodlebug",
+        "mbid": "9a7759f9-680c-4559-ab0e-0b365743eaa3",
+        "begin": null,
+        "end": null,
+        "ended": false
+      },
+      {
+        "name": "Ladybug Mecca",
+        "mbid": "8688b60c-0469-40f2-827e-f4bd6900051b",
+        "begin": null,
+        "end": null,
+        "ended": false
+      },
+      {
+        "name": "Silkworm",
+        "mbid": "2e3a358a-5950-4993-8b94-b1bbddba08b1",
+        "begin": null,
+        "end": null,
+        "ended": false
+      }
+    ],
+    "formerMembers": [],
+    "notableAlbums": null,
+    "knownTracks": null,
+    "awards": null,
+    "biography": null,
+    "knownFor": "groupe américain de rap",
+    "knownForLanguage": "fr",
+    "portrait": null,
+    "provenance": {
+      "musicbrainz": {
+        "url": "https://musicbrainz.org/artist/ff44f779-74ab-48f8-aac3-39ebe8f7c18e",
+        "apiUrl": "https://musicbrainz.org/ws/2/artist/ff44f779-74ab-48f8-aac3-39ebe8f7c18e?inc=aliases+url-rels+artist-rels&fmt=json",
+        "verifiedAt": "2026-10-27T22:33:04.971Z",
+        "verification": {
+          "verified": true,
+          "method": "reciprocal-musicbrainz-wikidata-and-name-type",
+          "nameMatch": true,
+          "reciprocal": true,
+          "declaredMbid": true,
+          "returnedName": "Digable Planets",
+          "returnedType": "Group",
+          "reciprocalUrl": "https://www.wikidata.org/wiki/Q3027728",
+          "review": null
+        }
+      },
+      "wikidata": {
+        "url": "https://www.wikidata.org/wiki/Q3027728",
+        "revision": null
+      },
+      "classification": {
+        "kind": "editorial",
+        "source": "data/candidates.json",
+        "policy": "docs/editorial-policy.md",
+        "genres": {
+          "kind": "editorial",
+          "source": "data/artist-additions/expansion-50.json"
+        }
+      }
+    },
+    "sources": {
+      "identity": {
+        "url": "https://musicbrainz.org/artist/ff44f779-74ab-48f8-aac3-39ebe8f7c18e",
+        "license": "CC0-1.0",
+        "accessedAt": "2026-10-27T22:33:04.971Z"
+      },
+      "aliases": {
+        "url": "https://musicbrainz.org/artist/ff44f779-74ab-48f8-aac3-39ebe8f7c18e",
+        "license": "CC0-1.0"
+      },
+      "country": {
+        "url": "https://musicbrainz.org/artist/ff44f779-74ab-48f8-aac3-39ebe8f7c18e",
+        "meaning": "MusicBrainz country association; not nationality",
+        "license": "CC0-1.0"
+      },
+      "dates": {
+        "url": "https://musicbrainz.org/artist/ff44f779-74ab-48f8-aac3-39ebe8f7c18e",
+        "license": "CC0-1.0"
+      },
+      "members": {
+        "url": "https://musicbrainz.org/artist/ff44f779-74ab-48f8-aac3-39ebe8f7c18e",
+        "license": "CC0-1.0",
+        "exhaustive": false
+      },
+      "knownFor": {
+        "url": "https://www.wikidata.org/wiki/Q3027728",
+        "field": "description",
+        "license": "CC0-1.0"
+      }
+    }
+  },
+  {
+    "id": "los-001542",
+    "editionId": "origins-01",
+    "mbid": "d7134426-a937-43bf-bc54-f10ad8102ed9",
+    "wikidataId": "Q1856396",
+    "name": "The Pharcyde",
+    "displayName": "The Pharcyde",
+    "type": "group",
+    "entityType": "Group",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ],
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "aliases": [
+      "Pharcyde",
+      "The Pharmacyde"
+    ],
+    "country": "US",
+    "area": "United States",
+    "birthDate": null,
+    "deathDate": null,
+    "formationDate": "1989",
+    "careerStart": null,
+    "nationality": null,
+    "members": [
+      {
+        "name": "John Barnes III",
+        "mbid": "874b6e26-6aeb-4bc1-b523-6e68b86d8def",
+        "begin": null,
+        "end": null,
+        "ended": false
+      },
+      {
+        "name": "Mr. Choc",
+        "mbid": "f5f394a2-9426-46f6-bb41-226aa8f38305",
+        "begin": null,
+        "end": null,
+        "ended": false
+      },
+      {
+        "name": "Fatlip",
+        "mbid": "2cdda8a0-80c6-4929-b69c-8732fb4cd75b",
+        "begin": null,
+        "end": null,
+        "ended": false
+      },
+      {
+        "name": "Imani",
+        "mbid": "4ed18642-041d-4195-96ae-42d0847dc99d",
+        "begin": null,
+        "end": null,
+        "ended": false
+      },
+      {
+        "name": "SLIMKID3",
+        "mbid": "3c761fad-d9a9-48bb-b4d8-05056bceb17e",
+        "begin": null,
+        "end": null,
+        "ended": false
+      }
+    ],
+    "formerMembers": [
+      {
+        "name": "Bootie Brown",
+        "mbid": "fb86fedf-8a52-4ada-baa0-1c52bd0cbfa9",
+        "begin": null,
+        "end": null,
+        "ended": true
+      }
+    ],
+    "notableAlbums": null,
+    "knownTracks": null,
+    "awards": null,
+    "biography": null,
+    "knownFor": "groupe de musique américain",
+    "knownForLanguage": "fr",
+    "portrait": null,
+    "provenance": {
+      "musicbrainz": {
+        "url": "https://musicbrainz.org/artist/d7134426-a937-43bf-bc54-f10ad8102ed9",
+        "apiUrl": "https://musicbrainz.org/ws/2/artist/d7134426-a937-43bf-bc54-f10ad8102ed9?inc=aliases+url-rels+artist-rels&fmt=json",
+        "verifiedAt": "2026-10-27T22:33:09.137Z",
+        "verification": {
+          "verified": true,
+          "method": "reciprocal-musicbrainz-wikidata-and-name-type",
+          "nameMatch": true,
+          "reciprocal": true,
+          "declaredMbid": true,
+          "returnedName": "The Pharcyde",
+          "returnedType": "Group",
+          "reciprocalUrl": "https://www.wikidata.org/wiki/Q1856396",
+          "review": null
+        }
+      },
+      "wikidata": {
+        "url": "https://www.wikidata.org/wiki/Q1856396",
+        "revision": null
+      },
+      "classification": {
+        "kind": "editorial",
+        "source": "data/candidates.json",
+        "policy": "docs/editorial-policy.md",
+        "genres": {
+          "kind": "editorial",
+          "source": "data/artist-additions/expansion-50.json"
+        }
+      }
+    },
+    "sources": {
+      "identity": {
+        "url": "https://musicbrainz.org/artist/d7134426-a937-43bf-bc54-f10ad8102ed9",
+        "license": "CC0-1.0",
+        "accessedAt": "2026-10-27T22:33:09.137Z"
+      },
+      "aliases": {
+        "url": "https://musicbrainz.org/artist/d7134426-a937-43bf-bc54-f10ad8102ed9",
+        "license": "CC0-1.0"
+      },
+      "country": {
+        "url": "https://musicbrainz.org/artist/d7134426-a937-43bf-bc54-f10ad8102ed9",
+        "meaning": "MusicBrainz country association; not nationality",
+        "license": "CC0-1.0"
+      },
+      "dates": {
+        "url": "https://musicbrainz.org/artist/d7134426-a937-43bf-bc54-f10ad8102ed9",
+        "license": "CC0-1.0"
+      },
+      "members": {
+        "url": "https://musicbrainz.org/artist/d7134426-a937-43bf-bc54-f10ad8102ed9",
+        "license": "CC0-1.0",
+        "exhaustive": false
+      },
+      "knownFor": {
+        "url": "https://www.wikidata.org/wiki/Q1856396",
+        "field": "description",
+        "license": "CC0-1.0"
+      }
+    }
+  },
+  {
+    "id": "los-001543",
+    "editionId": "origins-01",
+    "mbid": "7b61cf8f-c042-4bd4-b64a-25cb40f3dd50",
+    "wikidataId": "Q1516678",
+    "name": "Souls of Mischief",
+    "displayName": "Souls of Mischief",
+    "type": "group",
+    "entityType": "Group",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ],
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "aliases": [],
+    "country": "US",
+    "area": "United States",
+    "birthDate": null,
+    "deathDate": null,
+    "formationDate": "1991",
+    "careerStart": null,
+    "nationality": null,
+    "members": [
+      {
+        "name": "A‐Plus",
+        "mbid": "f52456a6-3c44-45ff-b953-a7cb4c14829b",
+        "begin": null,
+        "end": null,
+        "ended": false
+      },
+      {
+        "name": "Opio",
+        "mbid": "838e4698-4c62-48d5-bf0d-661704bb17a7",
+        "begin": null,
+        "end": null,
+        "ended": false
+      },
+      {
+        "name": "Phesto",
+        "mbid": "76936c3b-e728-47ad-b9fd-36e0248170bd",
+        "begin": null,
+        "end": null,
+        "ended": false
+      },
+      {
+        "name": "Tajai",
+        "mbid": "e8d18c0f-543e-40dd-a57d-6f6851fd5cc7",
+        "begin": null,
+        "end": null,
+        "ended": false
+      }
+    ],
+    "formerMembers": [],
+    "notableAlbums": null,
+    "knownTracks": null,
+    "awards": null,
+    "biography": null,
+    "knownFor": "groupe de musique américain",
+    "knownForLanguage": "fr",
+    "portrait": null,
+    "provenance": {
+      "musicbrainz": {
+        "url": "https://musicbrainz.org/artist/7b61cf8f-c042-4bd4-b64a-25cb40f3dd50",
+        "apiUrl": "https://musicbrainz.org/ws/2/artist/7b61cf8f-c042-4bd4-b64a-25cb40f3dd50?inc=aliases+url-rels+artist-rels&fmt=json",
+        "verifiedAt": "2026-10-27T22:33:12.425Z",
+        "verification": {
+          "verified": true,
+          "method": "reciprocal-musicbrainz-wikidata-and-name-type",
+          "nameMatch": true,
+          "reciprocal": true,
+          "declaredMbid": true,
+          "returnedName": "Souls of Mischief",
+          "returnedType": "Group",
+          "reciprocalUrl": "https://www.wikidata.org/wiki/Q1516678",
+          "review": null
+        }
+      },
+      "wikidata": {
+        "url": "https://www.wikidata.org/wiki/Q1516678",
+        "revision": null
+      },
+      "classification": {
+        "kind": "editorial",
+        "source": "data/candidates.json",
+        "policy": "docs/editorial-policy.md",
+        "genres": {
+          "kind": "editorial",
+          "source": "data/artist-additions/expansion-50.json"
+        }
+      }
+    },
+    "sources": {
+      "identity": {
+        "url": "https://musicbrainz.org/artist/7b61cf8f-c042-4bd4-b64a-25cb40f3dd50",
+        "license": "CC0-1.0",
+        "accessedAt": "2026-10-27T22:33:12.425Z"
+      },
+      "aliases": {
+        "url": "https://musicbrainz.org/artist/7b61cf8f-c042-4bd4-b64a-25cb40f3dd50",
+        "license": "CC0-1.0"
+      },
+      "country": {
+        "url": "https://musicbrainz.org/artist/7b61cf8f-c042-4bd4-b64a-25cb40f3dd50",
+        "meaning": "MusicBrainz country association; not nationality",
+        "license": "CC0-1.0"
+      },
+      "dates": {
+        "url": "https://musicbrainz.org/artist/7b61cf8f-c042-4bd4-b64a-25cb40f3dd50",
+        "license": "CC0-1.0"
+      },
+      "members": {
+        "url": "https://musicbrainz.org/artist/7b61cf8f-c042-4bd4-b64a-25cb40f3dd50",
+        "license": "CC0-1.0",
+        "exhaustive": false
+      },
+      "knownFor": {
+        "url": "https://www.wikidata.org/wiki/Q1516678",
+        "field": "description",
+        "license": "CC0-1.0"
+      }
+    }
+  },
+  {
+    "id": "los-001544",
+    "editionId": "origins-01",
+    "mbid": "11c6b106-1c1f-429d-8407-b1ee155d7f72",
+    "wikidataId": "Q1399598",
+    "name": "Jurassic 5",
+    "displayName": "Jurassic 5",
+    "type": "group",
+    "entityType": "Group",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ],
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "aliases": [
+      "J5",
+      "Jurassic Five",
+      "Jurassic-5",
+      "Jurrasic 5",
+      "jurassic 5"
+    ],
+    "country": "US",
+    "area": "United States",
+    "birthDate": null,
+    "deathDate": null,
+    "formationDate": "1993",
+    "careerStart": null,
+    "nationality": null,
+    "members": [
+      {
+        "name": "Akil",
+        "mbid": "8b6d2740-f901-49ac-9fbb-c99edbdc4048",
+        "begin": null,
+        "end": null,
+        "ended": false
+      },
+      {
+        "name": "Chali 2na",
+        "mbid": "871c27c9-2121-4eb9-a072-e36a0e367642",
+        "begin": null,
+        "end": null,
+        "ended": false
+      },
+      {
+        "name": "Marc 7",
+        "mbid": "02958659-d30a-433e-8b0f-fc9b932d9994",
+        "begin": null,
+        "end": null,
+        "ended": false
+      },
+      {
+        "name": "DJ Nu‐Mark",
+        "mbid": "1968d208-dfec-4eec-b0ff-2a6926f15a38",
+        "begin": null,
+        "end": null,
+        "ended": false
+      },
+      {
+        "name": "Zaakir",
+        "mbid": "938ebefb-ea11-4709-95d5-57d8673f2112",
+        "begin": null,
+        "end": null,
+        "ended": false
+      }
+    ],
+    "formerMembers": [
+      {
+        "name": "Cut Chemist",
+        "mbid": "e0975164-e68b-45d6-9854-d5d0ce84e671",
+        "begin": null,
+        "end": "2005",
+        "ended": true
+      }
+    ],
+    "notableAlbums": null,
+    "knownTracks": null,
+    "awards": null,
+    "biography": null,
+    "knownFor": "groupe américain de rap",
+    "knownForLanguage": "fr",
+    "portrait": null,
+    "provenance": {
+      "musicbrainz": {
+        "url": "https://musicbrainz.org/artist/11c6b106-1c1f-429d-8407-b1ee155d7f72",
+        "apiUrl": "https://musicbrainz.org/ws/2/artist/11c6b106-1c1f-429d-8407-b1ee155d7f72?inc=aliases+url-rels+artist-rels&fmt=json",
+        "verifiedAt": "2026-10-27T22:33:15.581Z",
+        "verification": {
+          "verified": true,
+          "method": "reciprocal-musicbrainz-wikidata-and-name-type",
+          "nameMatch": true,
+          "reciprocal": true,
+          "declaredMbid": true,
+          "returnedName": "Jurassic 5",
+          "returnedType": "Group",
+          "reciprocalUrl": "https://www.wikidata.org/wiki/Q1399598",
+          "review": null
+        }
+      },
+      "wikidata": {
+        "url": "https://www.wikidata.org/wiki/Q1399598",
+        "revision": null
+      },
+      "classification": {
+        "kind": "editorial",
+        "source": "data/candidates.json",
+        "policy": "docs/editorial-policy.md",
+        "genres": {
+          "kind": "editorial",
+          "source": "data/artist-additions/expansion-50.json"
+        }
+      }
+    },
+    "sources": {
+      "identity": {
+        "url": "https://musicbrainz.org/artist/11c6b106-1c1f-429d-8407-b1ee155d7f72",
+        "license": "CC0-1.0",
+        "accessedAt": "2026-10-27T22:33:15.581Z"
+      },
+      "aliases": {
+        "url": "https://musicbrainz.org/artist/11c6b106-1c1f-429d-8407-b1ee155d7f72",
+        "license": "CC0-1.0"
+      },
+      "country": {
+        "url": "https://musicbrainz.org/artist/11c6b106-1c1f-429d-8407-b1ee155d7f72",
+        "meaning": "MusicBrainz country association; not nationality",
+        "license": "CC0-1.0"
+      },
+      "dates": {
+        "url": "https://musicbrainz.org/artist/11c6b106-1c1f-429d-8407-b1ee155d7f72",
+        "license": "CC0-1.0"
+      },
+      "members": {
+        "url": "https://musicbrainz.org/artist/11c6b106-1c1f-429d-8407-b1ee155d7f72",
+        "license": "CC0-1.0",
+        "exhaustive": false
+      },
+      "knownFor": {
+        "url": "https://www.wikidata.org/wiki/Q1399598",
+        "field": "description",
+        "license": "CC0-1.0"
+      }
+    }
+  },
+  {
+    "id": "los-001545",
+    "editionId": "origins-01",
+    "mbid": "3dc00dcb-6106-43d1-b48d-21d236f53983",
+    "wikidataId": "Q1983446",
+    "name": "People Under the Stairs",
+    "displayName": "People Under the Stairs",
+    "type": "group",
+    "entityType": "Group",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ],
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "aliases": [
+      "P.U.T.S.",
+      "People Under the Stairs:",
+      "Puts"
+    ],
+    "country": "US",
+    "area": "United States",
+    "birthDate": null,
+    "deathDate": null,
+    "formationDate": "1997",
+    "careerStart": null,
+    "nationality": null,
+    "members": [
+      {
+        "name": "Double K",
+        "mbid": "6823580e-74a0-4486-9e9f-9121a4c27677",
+        "begin": null,
+        "end": null,
+        "ended": false
+      },
+      {
+        "name": "Thes One",
+        "mbid": "d1281759-3892-49e5-9b7a-ce73cfd4f835",
+        "begin": null,
+        "end": null,
+        "ended": false
+      }
+    ],
+    "formerMembers": [],
+    "notableAlbums": null,
+    "knownTracks": null,
+    "awards": null,
+    "biography": null,
+    "knownFor": "groupe de musique américain",
+    "knownForLanguage": "fr",
+    "portrait": null,
+    "provenance": {
+      "musicbrainz": {
+        "url": "https://musicbrainz.org/artist/3dc00dcb-6106-43d1-b48d-21d236f53983",
+        "apiUrl": "https://musicbrainz.org/ws/2/artist/3dc00dcb-6106-43d1-b48d-21d236f53983?inc=aliases+url-rels+artist-rels&fmt=json",
+        "verifiedAt": "2026-10-27T22:33:33.129Z",
+        "verification": {
+          "verified": true,
+          "method": "reciprocal-musicbrainz-wikidata-and-name-type",
+          "nameMatch": true,
+          "reciprocal": true,
+          "declaredMbid": true,
+          "returnedName": "People Under the Stairs",
+          "returnedType": "Group",
+          "reciprocalUrl": "https://www.wikidata.org/wiki/Q1983446",
+          "review": null
+        }
+      },
+      "wikidata": {
+        "url": "https://www.wikidata.org/wiki/Q1983446",
+        "revision": null
+      },
+      "classification": {
+        "kind": "editorial",
+        "source": "data/candidates.json",
+        "policy": "docs/editorial-policy.md",
+        "genres": {
+          "kind": "editorial",
+          "source": "data/artist-additions/expansion-50.json"
+        }
+      }
+    },
+    "sources": {
+      "identity": {
+        "url": "https://musicbrainz.org/artist/3dc00dcb-6106-43d1-b48d-21d236f53983",
+        "license": "CC0-1.0",
+        "accessedAt": "2026-10-27T22:33:33.129Z"
+      },
+      "aliases": {
+        "url": "https://musicbrainz.org/artist/3dc00dcb-6106-43d1-b48d-21d236f53983",
+        "license": "CC0-1.0"
+      },
+      "country": {
+        "url": "https://musicbrainz.org/artist/3dc00dcb-6106-43d1-b48d-21d236f53983",
+        "meaning": "MusicBrainz country association; not nationality",
+        "license": "CC0-1.0"
+      },
+      "dates": {
+        "url": "https://musicbrainz.org/artist/3dc00dcb-6106-43d1-b48d-21d236f53983",
+        "license": "CC0-1.0"
+      },
+      "members": {
+        "url": "https://musicbrainz.org/artist/3dc00dcb-6106-43d1-b48d-21d236f53983",
+        "license": "CC0-1.0",
+        "exhaustive": false
+      },
+      "knownFor": {
+        "url": "https://www.wikidata.org/wiki/Q1983446",
+        "field": "description",
+        "license": "CC0-1.0"
+      }
+    }
+  },
+  {
+    "id": "los-001546",
+    "editionId": "origins-01",
+    "mbid": "c71abd83-9d66-4c7b-9f0d-c9c36e85a955",
+    "wikidataId": "Q905438",
+    "name": "Dilated Peoples",
+    "displayName": "Dilated Peoples",
+    "type": "group",
+    "entityType": "Group",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ],
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "aliases": [
+      "Dialated People",
+      "Dialated Peoples",
+      "Dilated People",
+      "Dilated Peoples"
+    ],
+    "country": "US",
+    "area": "United States",
+    "birthDate": null,
+    "deathDate": null,
+    "formationDate": "1992",
+    "careerStart": null,
+    "nationality": null,
+    "members": [
+      {
+        "name": "Babu",
+        "mbid": "92caf313-a918-472d-9feb-50ac01e910d0",
+        "begin": null,
+        "end": null,
+        "ended": false
+      },
+      {
+        "name": "Evidence",
+        "mbid": "995c1ef8-5a55-40dc-b87f-f4a0ee95650b",
+        "begin": null,
+        "end": null,
+        "ended": false
+      },
+      {
+        "name": "Rakaa Iriscience",
+        "mbid": "a1c23001-af49-4f2e-8e62-06346a734eeb",
+        "begin": null,
+        "end": null,
+        "ended": false
+      }
+    ],
+    "formerMembers": [],
+    "notableAlbums": null,
+    "knownTracks": null,
+    "awards": null,
+    "biography": null,
+    "knownFor": "groupe de musique américain",
+    "knownForLanguage": "fr",
+    "portrait": null,
+    "provenance": {
+      "musicbrainz": {
+        "url": "https://musicbrainz.org/artist/c71abd83-9d66-4c7b-9f0d-c9c36e85a955",
+        "apiUrl": "https://musicbrainz.org/ws/2/artist/c71abd83-9d66-4c7b-9f0d-c9c36e85a955?inc=aliases+url-rels+artist-rels&fmt=json",
+        "verifiedAt": "2026-10-27T22:33:36.941Z",
+        "verification": {
+          "verified": true,
+          "method": "reciprocal-musicbrainz-wikidata-and-name-type",
+          "nameMatch": true,
+          "reciprocal": true,
+          "declaredMbid": true,
+          "returnedName": "Dilated Peoples",
+          "returnedType": "Group",
+          "reciprocalUrl": "https://www.wikidata.org/wiki/Q905438",
+          "review": null
+        }
+      },
+      "wikidata": {
+        "url": "https://www.wikidata.org/wiki/Q905438",
+        "revision": null
+      },
+      "classification": {
+        "kind": "editorial",
+        "source": "data/candidates.json",
+        "policy": "docs/editorial-policy.md",
+        "genres": {
+          "kind": "editorial",
+          "source": "data/artist-additions/expansion-50.json"
+        }
+      }
+    },
+    "sources": {
+      "identity": {
+        "url": "https://musicbrainz.org/artist/c71abd83-9d66-4c7b-9f0d-c9c36e85a955",
+        "license": "CC0-1.0",
+        "accessedAt": "2026-10-27T22:33:36.941Z"
+      },
+      "aliases": {
+        "url": "https://musicbrainz.org/artist/c71abd83-9d66-4c7b-9f0d-c9c36e85a955",
+        "license": "CC0-1.0"
+      },
+      "country": {
+        "url": "https://musicbrainz.org/artist/c71abd83-9d66-4c7b-9f0d-c9c36e85a955",
+        "meaning": "MusicBrainz country association; not nationality",
+        "license": "CC0-1.0"
+      },
+      "dates": {
+        "url": "https://musicbrainz.org/artist/c71abd83-9d66-4c7b-9f0d-c9c36e85a955",
+        "license": "CC0-1.0"
+      },
+      "members": {
+        "url": "https://musicbrainz.org/artist/c71abd83-9d66-4c7b-9f0d-c9c36e85a955",
+        "license": "CC0-1.0",
+        "exhaustive": false
+      },
+      "knownFor": {
+        "url": "https://www.wikidata.org/wiki/Q905438",
+        "field": "description",
+        "license": "CC0-1.0"
+      }
+    }
+  },
+  {
+    "id": "los-001547",
+    "editionId": "origins-01",
+    "mbid": "69c4cc43-8163-41c5-ac81-30946d27bb69",
+    "wikidataId": "Q1144020",
+    "name": "CunninLynguists",
+    "displayName": "CunninLynguists",
+    "type": "group",
+    "entityType": "Group",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ],
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "aliases": [
+      "Cunnin Lynguists",
+      "Cunning Lynguists",
+      "CunningLynguists",
+      "Cunninylynguists"
+    ],
+    "country": "US",
+    "area": "United States",
+    "birthDate": null,
+    "deathDate": null,
+    "formationDate": "2000-03",
+    "careerStart": null,
+    "nationality": null,
+    "members": [
+      {
+        "name": "Deacon the Villain",
+        "mbid": "0f94a853-225e-469c-a352-a68f4f22c103",
+        "begin": "2001",
+        "end": null,
+        "ended": false
+      },
+      {
+        "name": "Kno",
+        "mbid": "8e346269-5371-468b-9d4d-6f8daa278bc3",
+        "begin": "2001",
+        "end": null,
+        "ended": false
+      },
+      {
+        "name": "Natti",
+        "mbid": "2f237389-5603-45eb-9024-dbc05d2c840a",
+        "begin": "2005-06-01",
+        "end": null,
+        "ended": false
+      }
+    ],
+    "formerMembers": [
+      {
+        "name": "Mr. SOS",
+        "mbid": "a84881c2-0702-4e98-8dbb-1db840f1aa6b",
+        "begin": "2003",
+        "end": "2005",
+        "ended": true
+      }
+    ],
+    "notableAlbums": null,
+    "knownTracks": null,
+    "awards": null,
+    "biography": null,
+    "knownFor": "groupe de musique américain",
+    "knownForLanguage": "fr",
+    "portrait": null,
+    "provenance": {
+      "musicbrainz": {
+        "url": "https://musicbrainz.org/artist/69c4cc43-8163-41c5-ac81-30946d27bb69",
+        "apiUrl": "https://musicbrainz.org/ws/2/artist/69c4cc43-8163-41c5-ac81-30946d27bb69?inc=aliases+url-rels+artist-rels&fmt=json",
+        "verifiedAt": "2026-10-27T22:33:39.816Z",
+        "verification": {
+          "verified": true,
+          "method": "reciprocal-musicbrainz-wikidata-and-name-type",
+          "nameMatch": true,
+          "reciprocal": true,
+          "declaredMbid": true,
+          "returnedName": "CunninLynguists",
+          "returnedType": "Group",
+          "reciprocalUrl": "https://www.wikidata.org/wiki/Q1144020",
+          "review": null
+        }
+      },
+      "wikidata": {
+        "url": "https://www.wikidata.org/wiki/Q1144020",
+        "revision": null
+      },
+      "classification": {
+        "kind": "editorial",
+        "source": "data/candidates.json",
+        "policy": "docs/editorial-policy.md",
+        "genres": {
+          "kind": "editorial",
+          "source": "data/artist-additions/expansion-50.json"
+        }
+      }
+    },
+    "sources": {
+      "identity": {
+        "url": "https://musicbrainz.org/artist/69c4cc43-8163-41c5-ac81-30946d27bb69",
+        "license": "CC0-1.0",
+        "accessedAt": "2026-10-27T22:33:39.816Z"
+      },
+      "aliases": {
+        "url": "https://musicbrainz.org/artist/69c4cc43-8163-41c5-ac81-30946d27bb69",
+        "license": "CC0-1.0"
+      },
+      "country": {
+        "url": "https://musicbrainz.org/artist/69c4cc43-8163-41c5-ac81-30946d27bb69",
+        "meaning": "MusicBrainz country association; not nationality",
+        "license": "CC0-1.0"
+      },
+      "dates": {
+        "url": "https://musicbrainz.org/artist/69c4cc43-8163-41c5-ac81-30946d27bb69",
+        "license": "CC0-1.0"
+      },
+      "members": {
+        "url": "https://musicbrainz.org/artist/69c4cc43-8163-41c5-ac81-30946d27bb69",
+        "license": "CC0-1.0",
+        "exhaustive": false
+      },
+      "knownFor": {
+        "url": "https://www.wikidata.org/wiki/Q1144020",
+        "field": "description",
+        "license": "CC0-1.0"
+      }
+    }
+  },
+  {
+    "id": "los-001548",
+    "editionId": "origins-01",
+    "mbid": "a80c5dc5-b12e-4667-9f5a-b568961f3839",
+    "wikidataId": "Q15052731",
+    "name": "Run the Jewels",
+    "displayName": "Run the Jewels",
+    "type": "group",
+    "entityType": "Group",
+    "genres": [
+      "rap",
+      "hip-hop"
+    ],
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "aliases": [
+      "RTJ"
+    ],
+    "country": "US",
+    "area": "United States",
+    "birthDate": null,
+    "deathDate": null,
+    "formationDate": "2013",
+    "careerStart": null,
+    "nationality": null,
+    "members": [
+      {
+        "name": "El‐P",
+        "mbid": "d9241f5b-721a-4e08-a25a-acd83ed878cc",
+        "begin": "2013",
+        "end": null,
+        "ended": false
+      },
+      {
+        "name": "Killer Mike",
+        "mbid": "47864525-aea7-439a-800f-17c57e51cbcc",
+        "begin": "2013",
+        "end": null,
+        "ended": false
+      }
+    ],
+    "formerMembers": [],
+    "notableAlbums": null,
+    "knownTracks": null,
+    "awards": null,
+    "biography": null,
+    "knownFor": "duo de rap/hip-hop",
+    "knownForLanguage": "fr",
+    "portrait": null,
+    "provenance": {
+      "musicbrainz": {
+        "url": "https://musicbrainz.org/artist/a80c5dc5-b12e-4667-9f5a-b568961f3839",
+        "apiUrl": "https://musicbrainz.org/ws/2/artist/a80c5dc5-b12e-4667-9f5a-b568961f3839?inc=aliases+url-rels+artist-rels&fmt=json",
+        "verifiedAt": "2026-10-27T22:33:41.320Z",
+        "verification": {
+          "verified": true,
+          "method": "reciprocal-musicbrainz-wikidata-and-name-type",
+          "nameMatch": true,
+          "reciprocal": true,
+          "declaredMbid": true,
+          "returnedName": "Run the Jewels",
+          "returnedType": "Group",
+          "reciprocalUrl": "https://www.wikidata.org/wiki/Q15052731",
+          "review": null
+        }
+      },
+      "wikidata": {
+        "url": "https://www.wikidata.org/wiki/Q15052731",
+        "revision": null
+      },
+      "classification": {
+        "kind": "editorial",
+        "source": "data/candidates.json",
+        "policy": "docs/editorial-policy.md",
+        "genres": {
+          "kind": "editorial",
+          "source": "data/artist-additions/expansion-50.json"
+        }
+      }
+    },
+    "sources": {
+      "identity": {
+        "url": "https://musicbrainz.org/artist/a80c5dc5-b12e-4667-9f5a-b568961f3839",
+        "license": "CC0-1.0",
+        "accessedAt": "2026-10-27T22:33:41.320Z"
+      },
+      "aliases": {
+        "url": "https://musicbrainz.org/artist/a80c5dc5-b12e-4667-9f5a-b568961f3839",
+        "license": "CC0-1.0"
+      },
+      "country": {
+        "url": "https://musicbrainz.org/artist/a80c5dc5-b12e-4667-9f5a-b568961f3839",
+        "meaning": "MusicBrainz country association; not nationality",
+        "license": "CC0-1.0"
+      },
+      "dates": {
+        "url": "https://musicbrainz.org/artist/a80c5dc5-b12e-4667-9f5a-b568961f3839",
+        "license": "CC0-1.0"
+      },
+      "members": {
+        "url": "https://musicbrainz.org/artist/a80c5dc5-b12e-4667-9f5a-b568961f3839",
+        "license": "CC0-1.0",
+        "exhaustive": false
+      },
+      "knownFor": {
+        "url": "https://www.wikidata.org/wiki/Q15052731",
+        "field": "description",
+        "license": "CC0-1.0"
+      }
+    }
+  },
+  {
+    "id": "los-001549",
+    "editionId": "origins-01",
+    "mbid": "775ad383-ac2d-479a-af9d-b561442cb749",
+    "wikidataId": "Q96405837",
+    "name": "Sleep Token",
+    "displayName": "Sleep Token",
+    "type": "group",
+    "entityType": "Group",
+    "genres": [
+      "metal",
+      "rock"
+    ],
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "aliases": [
+      "Sleeptoken"
+    ],
+    "country": "GB",
+    "area": "United Kingdom",
+    "birthDate": null,
+    "deathDate": null,
+    "formationDate": "2016",
+    "careerStart": null,
+    "nationality": null,
+    "members": [
+      {
+        "name": "II",
+        "mbid": "4332a72b-f2a4-4344-a7ac-777b3fed9b02",
+        "begin": null,
+        "end": null,
+        "ended": false
+      },
+      {
+        "name": "II",
+        "mbid": "4332a72b-f2a4-4344-a7ac-777b3fed9b02",
+        "begin": null,
+        "end": null,
+        "ended": false
+      },
+      {
+        "name": "Vessel",
+        "mbid": "2567df4b-04ec-4409-9011-6b1c266ec736",
+        "begin": null,
+        "end": null,
+        "ended": false
+      },
+      {
+        "name": "Vessel",
+        "mbid": "2567df4b-04ec-4409-9011-6b1c266ec736",
+        "begin": null,
+        "end": null,
+        "ended": false
+      },
+      {
+        "name": "Vessel",
+        "mbid": "2567df4b-04ec-4409-9011-6b1c266ec736",
+        "begin": null,
+        "end": null,
+        "ended": false
+      },
+      {
+        "name": "Vessel",
+        "mbid": "2567df4b-04ec-4409-9011-6b1c266ec736",
+        "begin": null,
+        "end": null,
+        "ended": false
+      }
+    ],
+    "formerMembers": [],
+    "notableAlbums": null,
+    "knownTracks": null,
+    "awards": null,
+    "biography": null,
+    "knownFor": "groupe britannique de métal alternatif",
+    "knownForLanguage": "fr",
+    "portrait": null,
+    "provenance": {
+      "musicbrainz": {
+        "url": "https://musicbrainz.org/artist/775ad383-ac2d-479a-af9d-b561442cb749",
+        "apiUrl": "https://musicbrainz.org/ws/2/artist/775ad383-ac2d-479a-af9d-b561442cb749?inc=aliases+url-rels+artist-rels&fmt=json",
+        "verifiedAt": "2026-10-27T22:33:44.474Z",
+        "verification": {
+          "verified": true,
+          "method": "reciprocal-musicbrainz-wikidata-and-name-type",
+          "nameMatch": true,
+          "reciprocal": true,
+          "declaredMbid": true,
+          "returnedName": "Sleep Token",
+          "returnedType": "Group",
+          "reciprocalUrl": "https://www.wikidata.org/wiki/Q96405837",
+          "review": null
+        }
+      },
+      "wikidata": {
+        "url": "https://www.wikidata.org/wiki/Q96405837",
+        "revision": null
+      },
+      "classification": {
+        "kind": "editorial",
+        "source": "data/candidates.json",
+        "policy": "docs/editorial-policy.md",
+        "genres": {
+          "kind": "editorial",
+          "source": "data/artist-additions/expansion-50.json"
+        }
+      }
+    },
+    "sources": {
+      "identity": {
+        "url": "https://musicbrainz.org/artist/775ad383-ac2d-479a-af9d-b561442cb749",
+        "license": "CC0-1.0",
+        "accessedAt": "2026-10-27T22:33:44.474Z"
+      },
+      "aliases": {
+        "url": "https://musicbrainz.org/artist/775ad383-ac2d-479a-af9d-b561442cb749",
+        "license": "CC0-1.0"
+      },
+      "country": {
+        "url": "https://musicbrainz.org/artist/775ad383-ac2d-479a-af9d-b561442cb749",
+        "meaning": "MusicBrainz country association; not nationality",
+        "license": "CC0-1.0"
+      },
+      "dates": {
+        "url": "https://musicbrainz.org/artist/775ad383-ac2d-479a-af9d-b561442cb749",
+        "license": "CC0-1.0"
+      },
+      "members": {
+        "url": "https://musicbrainz.org/artist/775ad383-ac2d-479a-af9d-b561442cb749",
+        "license": "CC0-1.0",
+        "exhaustive": false
+      },
+      "knownFor": {
+        "url": "https://www.wikidata.org/wiki/Q96405837",
+        "field": "description",
+        "license": "CC0-1.0"
+      }
+    }
+  },
+  {
+    "id": "los-001550",
+    "editionId": "origins-01",
+    "mbid": "9c935736-7530-41e4-b776-1dbcf534c061",
+    "wikidataId": "Q104881702",
+    "name": "Spiritbox",
+    "displayName": "Spiritbox",
+    "type": "group",
+    "entityType": "Group",
+    "genres": [
+      "metal"
+    ],
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "aliases": [],
+    "country": "CA",
+    "area": "Canada",
+    "birthDate": null,
+    "deathDate": null,
+    "formationDate": "2017",
+    "careerStart": null,
+    "nationality": null,
+    "members": [
+      {
+        "name": "Courtney LaPlante",
+        "mbid": "bb724584-25e0-4388-b00d-c477a3c97fad",
+        "begin": "2016",
+        "end": null,
+        "ended": false
+      },
+      {
+        "name": "Michael Stringer",
+        "mbid": "6ff3c976-510e-4c55-9b00-dae0e200498a",
+        "begin": "2016",
+        "end": null,
+        "ended": false
+      },
+      {
+        "name": "Zev Rose",
+        "mbid": "4fabbcc8-636a-4ded-ba32-a0ee54c8db78",
+        "begin": "2020",
+        "end": null,
+        "ended": false
+      },
+      {
+        "name": "Josh Gilbert",
+        "mbid": "411a7336-117c-4b5d-9191-1f36f6de2671",
+        "begin": "2023-04",
+        "end": null,
+        "ended": false
+      }
+    ],
+    "formerMembers": [
+      {
+        "name": "Bill Crook",
+        "mbid": "7f24399d-c144-4db1-8108-a4912ae31ac2",
+        "begin": "2018",
+        "end": "2022",
+        "ended": true
+      }
+    ],
+    "notableAlbums": null,
+    "knownTracks": null,
+    "awards": null,
+    "biography": null,
+    "knownFor": "groupe de metal canadien",
+    "knownForLanguage": "fr",
+    "portrait": null,
+    "provenance": {
+      "musicbrainz": {
+        "url": "https://musicbrainz.org/artist/9c935736-7530-41e4-b776-1dbcf534c061",
+        "apiUrl": "https://musicbrainz.org/ws/2/artist/9c935736-7530-41e4-b776-1dbcf534c061?inc=aliases+url-rels+artist-rels&fmt=json",
+        "verifiedAt": "2026-10-27T22:33:48.029Z",
+        "verification": {
+          "verified": true,
+          "method": "reciprocal-musicbrainz-wikidata-and-name-type",
+          "nameMatch": true,
+          "reciprocal": true,
+          "declaredMbid": true,
+          "returnedName": "Spiritbox",
+          "returnedType": "Group",
+          "reciprocalUrl": "https://www.wikidata.org/wiki/Q104881702",
+          "review": null
+        }
+      },
+      "wikidata": {
+        "url": "https://www.wikidata.org/wiki/Q104881702",
+        "revision": null
+      },
+      "classification": {
+        "kind": "editorial",
+        "source": "data/candidates.json",
+        "policy": "docs/editorial-policy.md",
+        "genres": {
+          "kind": "editorial",
+          "source": "data/artist-additions/expansion-50.json"
+        }
+      }
+    },
+    "sources": {
+      "identity": {
+        "url": "https://musicbrainz.org/artist/9c935736-7530-41e4-b776-1dbcf534c061",
+        "license": "CC0-1.0",
+        "accessedAt": "2026-10-27T22:33:48.029Z"
+      },
+      "aliases": {
+        "url": "https://musicbrainz.org/artist/9c935736-7530-41e4-b776-1dbcf534c061",
+        "license": "CC0-1.0"
+      },
+      "country": {
+        "url": "https://musicbrainz.org/artist/9c935736-7530-41e4-b776-1dbcf534c061",
+        "meaning": "MusicBrainz country association; not nationality",
+        "license": "CC0-1.0"
+      },
+      "dates": {
+        "url": "https://musicbrainz.org/artist/9c935736-7530-41e4-b776-1dbcf534c061",
+        "license": "CC0-1.0"
+      },
+      "members": {
+        "url": "https://musicbrainz.org/artist/9c935736-7530-41e4-b776-1dbcf534c061",
+        "license": "CC0-1.0",
+        "exhaustive": false
+      },
+      "knownFor": {
+        "url": "https://www.wikidata.org/wiki/Q104881702",
+        "field": "description",
+        "license": "CC0-1.0"
+      }
+    }
+  },
+  {
+    "id": "los-001551",
+    "editionId": "origins-01",
+    "mbid": "5318e774-f5b6-4ee0-82cb-4dcf398c3ff8",
+    "wikidataId": "Q47293799",
+    "name": "Parcels",
+    "displayName": "Parcels",
+    "type": "group",
+    "entityType": "Group",
+    "genres": [
+      "funk",
+      "electronic",
+      "pop"
+    ],
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "aliases": [],
+    "country": "AU",
+    "area": "Australia",
+    "birthDate": null,
+    "deathDate": null,
+    "formationDate": "2014",
+    "careerStart": null,
+    "nationality": null,
+    "members": [
+      {
+        "name": "Jules Crommelin",
+        "mbid": "87ddb8a2-9e32-4fd2-aa16-9716a946bb62",
+        "begin": "2014",
+        "end": null,
+        "ended": false
+      },
+      {
+        "name": "Patrick Hetherington",
+        "mbid": "6459ed81-b602-4ae4-bbc2-debc52843fda",
+        "begin": "2014",
+        "end": null,
+        "ended": false
+      },
+      {
+        "name": "Patrick Hetherington",
+        "mbid": "6459ed81-b602-4ae4-bbc2-debc52843fda",
+        "begin": "2014",
+        "end": null,
+        "ended": false
+      },
+      {
+        "name": "Noah Hill",
+        "mbid": "3c2801df-00aa-4642-938a-f8a0e895837c",
+        "begin": "2014",
+        "end": null,
+        "ended": false
+      },
+      {
+        "name": "Anatole Serret",
+        "mbid": "541f7cbc-3a75-4d27-b983-232bb0474a1c",
+        "begin": "2014",
+        "end": null,
+        "ended": false
+      },
+      {
+        "name": "Louie Swain",
+        "mbid": "213c1659-4a9d-4268-a6e5-a7a108776e21",
+        "begin": "2014",
+        "end": null,
+        "ended": false
+      }
+    ],
+    "formerMembers": [],
+    "notableAlbums": null,
+    "knownTracks": null,
+    "awards": null,
+    "biography": null,
+    "knownFor": "groupe australien",
+    "knownForLanguage": "fr",
+    "portrait": null,
+    "provenance": {
+      "musicbrainz": {
+        "url": "https://musicbrainz.org/artist/5318e774-f5b6-4ee0-82cb-4dcf398c3ff8",
+        "apiUrl": "https://musicbrainz.org/ws/2/artist/5318e774-f5b6-4ee0-82cb-4dcf398c3ff8?inc=aliases+url-rels+artist-rels&fmt=json",
+        "verifiedAt": "2026-10-27T22:33:53.882Z",
+        "verification": {
+          "verified": true,
+          "method": "reciprocal-musicbrainz-wikidata-and-name-type",
+          "nameMatch": true,
+          "reciprocal": true,
+          "declaredMbid": true,
+          "returnedName": "Parcels",
+          "returnedType": "Group",
+          "reciprocalUrl": "https://www.wikidata.org/wiki/Q47293799",
+          "review": null
+        }
+      },
+      "wikidata": {
+        "url": "https://www.wikidata.org/wiki/Q47293799",
+        "revision": null
+      },
+      "classification": {
+        "kind": "editorial",
+        "source": "data/candidates.json",
+        "policy": "docs/editorial-policy.md",
+        "genres": {
+          "kind": "editorial",
+          "source": "data/artist-additions/expansion-50.json"
+        }
+      }
+    },
+    "sources": {
+      "identity": {
+        "url": "https://musicbrainz.org/artist/5318e774-f5b6-4ee0-82cb-4dcf398c3ff8",
+        "license": "CC0-1.0",
+        "accessedAt": "2026-10-27T22:33:53.882Z"
+      },
+      "aliases": {
+        "url": "https://musicbrainz.org/artist/5318e774-f5b6-4ee0-82cb-4dcf398c3ff8",
+        "license": "CC0-1.0"
+      },
+      "country": {
+        "url": "https://musicbrainz.org/artist/5318e774-f5b6-4ee0-82cb-4dcf398c3ff8",
+        "meaning": "MusicBrainz country association; not nationality",
+        "license": "CC0-1.0"
+      },
+      "dates": {
+        "url": "https://musicbrainz.org/artist/5318e774-f5b6-4ee0-82cb-4dcf398c3ff8",
+        "license": "CC0-1.0"
+      },
+      "members": {
+        "url": "https://musicbrainz.org/artist/5318e774-f5b6-4ee0-82cb-4dcf398c3ff8",
+        "license": "CC0-1.0",
+        "exhaustive": false
+      },
+      "knownFor": {
+        "url": "https://www.wikidata.org/wiki/Q47293799",
+        "field": "description",
+        "license": "CC0-1.0"
+      }
+    }
+  },
+  {
+    "id": "los-001552",
+    "editionId": "origins-01",
+    "mbid": "fc3ae4dd-dcc5-4f99-a865-6bc1a5c9b705",
+    "wikidataId": "Q15715520",
+    "name": "青葉市子",
+    "displayName": "Ichiko Aoba",
+    "type": "solo",
+    "entityType": "Person",
+    "genres": [
+      "folk",
+      "j-pop"
+    ],
+    "rarity": "common",
+    "rarityReview": {
+      "status": "pending",
+      "reason": "Rareté provisoire : revue éditoriale à effectuer ; aucune mesure du talent."
+    },
+    "aliases": [
+      "Aoba Ichiko",
+      "Ichiko Aoba",
+      "青葉市子"
+    ],
+    "country": "JP",
+    "area": "Japan",
+    "birthDate": "1990-01-28",
+    "deathDate": null,
+    "formationDate": null,
+    "careerStart": null,
+    "nationality": null,
+    "members": null,
+    "formerMembers": null,
+    "notableAlbums": null,
+    "knownTracks": null,
+    "awards": null,
+    "biography": null,
+    "knownFor": "artiste japonaise",
+    "knownForLanguage": "fr",
+    "portrait": null,
+    "provenance": {
+      "musicbrainz": {
+        "url": "https://musicbrainz.org/artist/fc3ae4dd-dcc5-4f99-a865-6bc1a5c9b705",
+        "apiUrl": "https://musicbrainz.org/ws/2/artist/fc3ae4dd-dcc5-4f99-a865-6bc1a5c9b705?inc=aliases+url-rels+artist-rels&fmt=json",
+        "verifiedAt": "2026-10-27T22:33:56.947Z",
+        "verification": {
+          "verified": true,
+          "method": "reciprocal-musicbrainz-wikidata-and-name-type",
+          "nameMatch": true,
+          "reciprocal": true,
+          "declaredMbid": true,
+          "returnedName": "青葉市子",
+          "returnedType": "Person",
+          "reciprocalUrl": "https://www.wikidata.org/wiki/Q15715520",
+          "review": null
+        }
+      },
+      "wikidata": {
+        "url": "https://www.wikidata.org/wiki/Q15715520",
+        "revision": null
+      },
+      "classification": {
+        "kind": "editorial",
+        "source": "data/candidates.json",
+        "policy": "docs/editorial-policy.md",
+        "genres": {
+          "kind": "editorial",
+          "source": "data/artist-additions/expansion-50.json"
+        }
+      }
+    },
+    "sources": {
+      "identity": {
+        "url": "https://musicbrainz.org/artist/fc3ae4dd-dcc5-4f99-a865-6bc1a5c9b705",
+        "license": "CC0-1.0",
+        "accessedAt": "2026-10-27T22:33:56.947Z"
+      },
+      "aliases": {
+        "url": "https://musicbrainz.org/artist/fc3ae4dd-dcc5-4f99-a865-6bc1a5c9b705",
+        "license": "CC0-1.0"
+      },
+      "country": {
+        "url": "https://musicbrainz.org/artist/fc3ae4dd-dcc5-4f99-a865-6bc1a5c9b705",
+        "meaning": "MusicBrainz country association; not nationality",
+        "license": "CC0-1.0"
+      },
+      "dates": {
+        "url": "https://musicbrainz.org/artist/fc3ae4dd-dcc5-4f99-a865-6bc1a5c9b705",
+        "license": "CC0-1.0"
+      },
+      "members": {
+        "url": "https://musicbrainz.org/artist/fc3ae4dd-dcc5-4f99-a865-6bc1a5c9b705",
+        "license": "CC0-1.0",
+        "exhaustive": false
+      },
+      "knownFor": {
+        "url": "https://www.wikidata.org/wiki/Q15715520",
+        "field": "description",
+        "license": "CC0-1.0"
+      }
+    }
   }
 ]

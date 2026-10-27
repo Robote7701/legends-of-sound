@@ -17,7 +17,7 @@ const families = {
   asia: ['j-pop', 'k-pop', 'vocaloid', 'cantopop', 'mandopop'],
   jazz: ['jazz', 'blues', 'soul', 'bossa-nova'],
   groove: ['funk', 'disco', 'reggae', 'dub', 'ska', 'afrobeat', 'afrobeats'],
-  world: ['latin', 'world', 'chanson', 'classical', 'arabic-classical', 'corridos-tumbados', 'desert-blues', 'fado', 'filmi', 'flamenco-pop', 'hindustani-classical', 'isicathamiya', 'morna', 'mpb', 'qawwali', 'reggaeton', 'rumba', 'samba', 'son-cubano', 'tropicalia'],
+  world: ['latin', 'world', 'chanson', 'folk', 'classical', 'arabic-classical', 'corridos-tumbados', 'desert-blues', 'fado', 'filmi', 'flamenco-pop', 'hindustani-classical', 'isicathamiya', 'morna', 'mpb', 'qawwali', 'reggaeton', 'rumba', 'samba', 'son-cubano', 'tropicalia'],
 };
 export const GENRE_STYLES = Object.fromEntries(Object.entries(families).flatMap(([style, genres]) => genres.map(genre => [genre, style])));
 export function artDirection(artist) {

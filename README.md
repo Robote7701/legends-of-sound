@@ -4,9 +4,9 @@ TCG musical gratuit, statique et indépendant de Velvet Collection. Sound Credit
 
 ## État — Catalogue et ouvertures
 
-ORIGINS comprend **1 501 artistes et groupes identifiés sur MusicBrainz**, avec contrôle croisé Wikidata, genres et raretés éditoriaux, dix boosters, fiches sourcées et explorateur du catalogue. Les champs inconnus restent null. Les notices courtes Wikidata ne sont pas des biographies complètes.
+ORIGINS comprend **1 551 artistes et groupes identifiés sur MusicBrainz**, avec contrôle croisé Wikidata, genres et raretés éditoriaux, dix boosters, fiches sourcées et explorateur du catalogue. Les champs inconnus restent null. Les notices courtes Wikidata ne sont pas des biographies complètes.
 
-Les dix boosters sont jouables en x1, x3, x5 et x10. Les tickets se rechargent hors ligne (un toutes les cinq minutes, maximum dix). Les Sound Credits complètent les tickets après confirmation. Les gains, paiements et statistiques sont enregistrés ensemble avant toute révélation. La dernière ouverture peut être revue sans paiement, même après rechargement. Le recyclage, les favoris, les souhaits et les objectifs sont disponibles. Consulter une fiche ne donne pas la carte. Les 1 501 cartes utilisent des compositions typographiques originales adaptées aux genres : aucune photo, illustration externe ou logo d’artiste. Les champs sans données sont masqués.
+Les dix boosters sont jouables en x1, x3, x5 et x10. Les tickets se rechargent hors ligne (un toutes les cinq minutes, maximum dix). Les Sound Credits complètent les tickets après confirmation. Les gains, paiements et statistiques sont enregistrés ensemble avant toute révélation. La dernière ouverture peut être revue sans paiement, même après rechargement. Le recyclage, les favoris, les souhaits et les objectifs sont disponibles. Consulter une fiche ne donne pas la carte. Les 1 551 cartes utilisent des compositions typographiques originales adaptées aux genres : aucune photo, illustration externe ou logo d’artiste. Les champs sans données sont masqués.
 
 ## Démarrer et tester
 
@@ -44,11 +44,26 @@ La collection propose favoris, verrous, souhaits, filtres possédées/manquantes
 
 Le recyclage rapide affiche, pour chacune des quatre raretés et pour l’ensemble des doublons, le nombre d’exemplaires et le gain exact en SC. Un clic ouvre la confirmation ; le premier exemplaire, les favoris et les verrous sont conservés. La sélection manuelle reste dans une rubrique repliable. Les contours des cartes sont renforcés à 3 px (4 px en légendaire) ; NEW et « Dans vos favoris » sont signalés lors des révélations et dans le bilan.
 
-Jean-Jacques Goldman a été ajouté après vérification croisée MusicBrainz/Wikidata avec un nouvel ID permanent, portant ORIGINS à **1 501 cartes**. Le dossier SACEM motive la rareté légendaire. L’outil d’ajout conserve les identifiants existants et vérifie le catalogue avant écriture : `node scripts/add-artist.js --candidate=data/artist-additions/goldman.json` (refus si déjà présent).
+Jean-Jacques Goldman a été ajouté après vérification croisée MusicBrainz/Wikidata avec un nouvel ID permanent, portant alors ORIGINS à **1 501 cartes**. Le dossier SACEM motive la rareté légendaire. L’outil d’ajout conserve les identifiants existants et vérifie le catalogue avant écriture : `node scripts/add-artist.js --candidate=data/artist-additions/goldman.json` (refus si déjà présent).
+
+## Ajout de 50 artistes et groupes
+
+Le catalogue passe de 1 501 à **1 551 cartes**. La sélection renforce la chanson française et le rap français et international. Les 50 ajouts sont recensés dans [le manifeste vérifié](data/artist-additions/expansion-50-verified.json), avec leurs identifiants permanents et liens MusicBrainz/Wikidata. Les 1 501 identités précédentes sont conservées et couvertes par un test de non-réattribution. Les raretés des nouvelles cartes restent provisoires avant revue éditoriale.
+
+L'importateur par lots vérifie le nom, le type et les liens réciproques MusicBrainz/Wikidata, refuse les correspondances ambiguës et les identités existantes ou retirées. Il utilise le cache et les limitations d'API communs aux autres importateurs. Aucune écriture du catalogue tant que 50 nouvelles identités ne sont pas validées ; une sauvegarde locale est conservée avant application. La liste contient des candidats de réserve : seules les 50 entrées du manifeste ont été ajoutées. Pour préparer un nouveau lot de candidats absents :
+
+```sh
+node scripts/add-catalog-batch.js --candidates=chemin/nouveau-lot.json
+# Après inspection de .cache/catalog-addition-report.json :
+node scripts/add-catalog-batch.js --candidates=chemin/nouveau-lot.json --apply
+node scripts/review-rarities.js
+npm test
+npm run check:catalog
+```
 
 ## Revue éditoriale des raretés
 
-Depuis COLLECTION, ouvrir « Revoir les raretés et les sources ». Les 1 501 fiches disposent d’un dossier ; 413 suggestions documentaires aident à repérer les cas à examiner. Elles ne constituent pas 1 501 décisions finales : manque de distinctions, pays ou scène ne permettent pas de déduire une rareté. Quatre promotions éditoriales motivées sont appliquées : Céline Dion, Ray Charles, Frank Sinatra et Bob Marley en légendaire. Les autres valeurs provisoires restent signalées.
+Depuis COLLECTION, ouvrir « Revoir les raretés et les sources ». Les 1 551 fiches disposent d’un dossier ; 413 suggestions documentaires aident à repérer les cas à examiner. Elles ne constituent pas 1 551 décisions finales : manque de distinctions, pays ou scène ne permettent pas de déduire une rareté. Quatre promotions éditoriales motivées sont appliquées : Céline Dion, Ray Charles, Frank Sinatra et Bob Marley en légendaire. Les autres valeurs provisoires restent signalées.
 
 Les brouillons sont enregistrés séparément sous legends-of-sound-rarity-drafts-v1 et exportables avec justification. Le script refuse des IDs inconnus/dupliqués ou des décisions sans justification, vérifie le catalogue et la disponibilité des boosters, et conserve une copie du catalogue dans le cache avant remplacement. Il ne déploie rien.
 
@@ -97,7 +112,7 @@ Un seul import à la fois. User-Agent identifié, départs espacés d’au moins
 
 ## Identité typographique
 
-Les noms deviennent les visuels des 1 501 cartes. Neuf familles graphiques suivent le premier genre reconnu : rock, métal, électronique, hip-hop, pop, Asia Wave, jazz/soul/blues, groove et musiques du monde. Aucune inférence par pays. Les artistes multigenres conservent tous leurs genres et leurs boosters.
+Les noms deviennent les visuels des 1 551 cartes. Neuf familles graphiques suivent le premier genre reconnu : rock, métal, électronique, hip-hop, pop, Asia Wave, jazz/soul/blues, groove et musiques du monde. Aucune inférence par pays. Les artistes multigenres conservent tous leurs genres et leurs boosters.
 
 [art-direction.js](./src/catalog/art-direction.js) définit les associations, palettes et variations stables par ID. [artist-artwork.js](./src/ui/artist-artwork.js) compose le texte et [artwork.css](./assets/css/artwork.css) définit les polices système et motifs CSS. Aucun téléchargement de police ou d’image. Le champ portrait reste null et le validateur refuse les portraits. L’importateur ne recherche plus de visuels. Les IDs et sauvegardes restent compatibles.
 
@@ -114,7 +129,7 @@ Les distinctions (P166), œuvres notables (P800), genres documentés (P136) et d
 npm run discover:artists
 npm run expand:catalog
 npm run enrich:catalog
-# Appliquer uniquement après validation complète des 1 501 cartes locales
+# Appliquer uniquement après validation complète des 1 551 cartes locales
 npm run enrich:catalog -- --apply
 ~~~
 
