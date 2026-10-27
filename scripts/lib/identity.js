@@ -36,6 +36,7 @@ export function makeCard(candidate, entity, response, verification) {
     id: candidate.id, editionId: 'origins-01', mbid: artist.id, wikidataId: entity.id,
     name: artist.name, displayName: candidate.name, type: candidate.type, entityType: artist.type,
     genres: candidate.genres, rarity: candidate.rarity,
+    ...(candidate.rarityReview ? { rarityReview: candidate.rarityReview } : {}),
     aliases: [...new Set((artist.aliases || []).map(a => a.name))],
     country: artist.country || null, area: artist.area?.name || null,
     birthDate: candidate.type === 'solo' && !virtual ? lifespan.begin || null : null,
@@ -50,7 +51,7 @@ export function makeCard(candidate, entity, response, verification) {
     provenance: {
       musicbrainz: { url: sourceUrl, apiUrl: response.url, verifiedAt: response.fetchedAt, verification },
       wikidata: { url: wikidataUrl, revision: entity.lastrevid || null },
-      classification: { kind: 'editorial', source: 'data/candidates.json', policy: 'docs/editorial-policy.md' },
+      classification: { kind: 'editorial', source: 'data/candidates.json', policy: 'docs/editorial-policy.md', ...(candidate.genreSelection ? { genres: candidate.genreSelection } : {}) },
     },
     sources: {
       identity: { url: sourceUrl, license: 'CC0-1.0', accessedAt: response.fetchedAt },

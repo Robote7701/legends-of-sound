@@ -2,7 +2,8 @@
   {
     "id": "origins-01",
     "name": "ÉDITION 01 — ORIGINS",
-    "targetCardCount": 500,
-    "status": "ready"
+    "targetCardCount": 1500,
+    "status": "ready",
+    "rarityReviewStatus": "pending"
   }
 ]

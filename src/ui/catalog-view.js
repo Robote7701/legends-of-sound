@@ -1,5 +1,6 @@
 import { el } from './dom.js';
 import { artistArtwork } from './artist-artwork.js';
+import { evidenceView } from './evidence-view.js';
 import { RARITIES } from '../domain/config.js';
 import { ageAt, filterArtists } from '../catalog/details.js';
 
@@ -13,6 +14,7 @@ export function showArtist(artist, opener) {
   const heading = el('h2', artist.displayName || artist.name); heading.id = 'artist-dialog-title';
   dialog.setAttribute('aria-labelledby', heading.id);
   dialog.append(close, artistArtwork(artist), el('div', RARITIES[artist.rarity].label + ' / ' + artist.id, 'eyebrow'), heading);
+  if (artist.rarityReview?.status === 'pending') dialog.append(el('p', 'Rareté provisoire — classement à revoir après enrichissement du catalogue.', 'notice'));
   if (artist.name !== artist.displayName) dialog.append(el('p', 'Nom MusicBrainz : ' + artist.name, 'muted'));
   const table = el('dl', '', 'facts');
   const fact = (label, value) => {
@@ -35,12 +37,15 @@ export function showArtist(artist, opener) {
   fact('Pseudonymes et autres noms indexés', artist.aliases.length ? artist.aliases.slice(0, 15).join(' · ') : null);
   fact('Albums marquants', artist.notableAlbums?.join(' · ') || null);
   fact('Titres connus', artist.knownTracks?.join(' · ') || null);
-  fact('Récompenses', artist.awards?.join(' · ') || null);
+  fact('Distinctions renseignées (Wikidata)', artist.awards?.join(' · ') || null);
+  fact('Œuvres notables renseignées (Wikidata)', artist.notableWorks?.join(' · ') || null);
   dialog.append(table);
   if (artist.knownFor) dialog.append(el('h3', 'POURQUOI EST-IL CÉLÈBRE ?'), el('p', artist.knownFor));
   if (artist.biography) dialog.append(el('h3', 'Biographie'), el('p', artist.biography));
   dialog.append(el('h3', 'Sources & crédits'), link('MusicBrainz — identité et données CC0', artist.provenance.musicbrainz.url), el('br'), link('Wikidata — notice descriptive CC0', artist.provenance.wikidata.url));
   dialog.append(el('p', 'Identité croisée vérifiée le ' + artist.provenance.musicbrainz.verifiedAt.slice(0, 10) + '. Les genres et raretés sont des choix éditoriaux, sans mesure du talent.', 'muted'));
+  if (artist.careerEvidence) dialog.append(el('p', 'Éléments de carrière : Wikidata, consulté le ' + artist.careerEvidence.source.accessedAt.slice(0, 10) + (artist.careerEvidence.source.revision ? ', révision ' + artist.careerEvidence.source.revision : '') + '. Distinctions, œuvres notables et début d’activité sont des listes partielles ; leur absence ne mesure pas la reconnaissance de l’artiste.', 'muted'));
+  if (artist.careerEvidence?.shard) dialog.append(evidenceView(artist));
   dialog.addEventListener('close', () => { dialog.remove(); opener?.focus(); }, { once: true });
   dialog.addEventListener('click', event => { if (event.target === dialog) { const box = dialog.getBoundingClientRect(); if (event.clientX < box.left || event.clientX > box.right || event.clientY < box.top || event.clientY > box.bottom) dialog.close(); } });
   document.body.append(dialog); dialog.showModal();
@@ -78,7 +83,7 @@ export function catalogView(catalog, save) {
       const card = el('button', '', 'artist-card rarity-' + artist.rarity);
       const owned = save?.collection[artist.id]?.count || 0;
       card.setAttribute('aria-label', (artist.displayName || artist.name) + ' — ouvrir la fiche');
-      card.append(artistArtwork(artist), el('span', RARITIES[artist.rarity].label, 'rarity-label'), el('strong', artist.displayName || artist.name), el('span', artist.genres.slice(0, 3).join(' / '), 'card-genres'), el('span', owned ? 'Possédée ×' + owned : 'Non découverte', 'owned-label'));
+      card.append(artistArtwork(artist), el('span', RARITIES[artist.rarity].label + (artist.rarityReview?.status === 'pending' ? ' · provisoire' : ''), 'rarity-label'), el('strong', artist.displayName || artist.name), el('span', artist.genres.slice(0, 3).join(' / '), 'card-genres'), el('span', owned ? 'Possédée ×' + owned : 'Non découverte', 'owned-label'));
       card.onclick = () => showArtist(artist, card); grid.append(card);
     }
     const previous = el('button', '← Précédent', 'secondary'); previous.disabled = page === 0;

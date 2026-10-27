@@ -4,7 +4,7 @@ import { readFile } from 'node:fs/promises';
 import { artDirection, ART_STYLES, GENRE_STYLES } from '../src/catalog/art-direction.js';
 const artists = JSON.parse(await readFile(new URL('../data/artists.json', import.meta.url)));
 
-test('les 500 cartes sont typographiques et chaque genre dispose d’une direction artistique', () => {
+test('toutes les cartes sont typographiques et chaque genre dispose d’une direction artistique', () => {
   for (const artist of artists) {
     assert.equal(artist.portrait, null);
     for (const genre of artist.genres) assert.ok(GENRE_STYLES[genre], genre);

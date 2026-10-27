@@ -1,6 +1,7 @@
 const frame = document.querySelector('iframe');
 const output = document.querySelector('#results');
 const checks = [];
+const catalogArtists = await (await fetch('../data/artists.json')).json();
 function assert(ok, text) { if (!ok) throw new Error(text); checks.push('OK — ' + text); }
 async function until(predicate) {
   const deadline = Date.now() + 5000;
@@ -29,6 +30,11 @@ try {
   assert([...dialog.querySelectorAll('a')].some(a => a.href === 'https://musicbrainz.org/artist/0383dadf-2a4e-4d10-a46a-e9e041da8eb3'), 'Lien MusicBrainz réel dans la fiche');
   assert(!dialog.textContent.includes('Non documenté') && !dialog.textContent.includes('Biographie non documentée'), 'Fiche allégée : champs vides masqués');
   assert(dialog.querySelector('.type-name')?.textContent === 'Queen' && !dialog.querySelector('img'), 'Fiche Queen typographique sans photographie');
+  if (dialog.querySelector('.evidence-details')) {
+    dialog.querySelector('.evidence-details summary').click();
+    await until(() => !!dialog.querySelector('.evidence-details li'));
+    assert(!!dialog.querySelector('.evidence-details a[href*="wikidata.org"]'), 'Références de carrière chargées à la demande');
+  }
   dialog.querySelector('.close-dialog').click();
   await until(() => doc.activeElement.classList.contains('artist-card'));
   assert(doc.activeElement.classList.contains('artist-card'), 'Fermeture de fiche : focus restitué à la carte');
@@ -40,12 +46,12 @@ try {
   assert(doc.querySelector('.artist-card') && doc.querySelectorAll('.artist-card').length <= 40, 'Filtre ASIA WAVE et pagination');
   selects[3].value = ''; selects[3].dispatchEvent(new Event('change', { bubbles: true }));
   doc.querySelector('.pagination button:last-child').click();
-  assert(doc.querySelector('.pagination span').textContent === '2 / 13', 'Pagination des 500 cartes : treize pages');
+  assert(doc.querySelector('.pagination span').textContent === '2 / ' + Math.ceil(catalogArtists.length / 40), 'Pagination du catalogue complet');
   selects[1].value = 'legendary'; selects[1].dispatchEvent(new Event('change', { bubbles: true }));
   assert(doc.querySelectorAll('.artist-card .type-art').length === 40, '40 compositions typographiques légendaires');
   assert(!doc.querySelector('.artist-card img'), 'Aucune image artiste chargée');
   doc.querySelector('.pagination button:last-child').click();
-  assert(doc.querySelectorAll('.artist-card .type-art').length === 10, 'Dix autres légendaires typographiques');
+  assert(doc.querySelectorAll('.artist-card .type-art').length === Math.min(40, catalogArtists.filter(a=>a.rarity==='legendary').length - 40), 'Suite des légendaires typographiques');
   frame.style.width = '390px'; await new Promise(r => setTimeout(r, 100));
   assert(doc.documentElement.scrollWidth <= 390, 'Catalogue mobile : aucun débordement global');
   doc.querySelector('nav a[href="#boosters"]').click();

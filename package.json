@@ -11,6 +11,9 @@
     "dev": "node scripts/serve.js",
     "test": "node --test",
     "check:catalog": "node scripts/validate-catalog.js --complete",
-    "import:artists": "node scripts/import-artists.js"
+    "import:artists": "node scripts/import-artists.js",
+    "discover:artists": "node scripts/discover-artists.js",
+    "expand:catalog": "node scripts/expand-catalog.js",
+    "enrich:catalog": "node scripts/enrich-catalog.js"
   }
 }

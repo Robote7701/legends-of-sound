@@ -12,7 +12,7 @@ Critères : tests de sauvegarde et configurations passants, erreurs non destruct
 
 ## Phase 2 — Catalogue
 
-Sélectionner 500 artistes et groupes internationaux ; conserver leurs identifiants internes permanents. Construire l’importateur avec User-Agent identifiable, limite MusicBrainz d’au plus une requête par seconde, cache, reprise, backoff et revue manuelle des homonymes. Vérifier les identités, genres et scènes, documenter les sources par champ et les informations manquantes. Attribuer les raretés selon une politique éditoriale expliquée ; vérifier la disponibilité des quatre raretés dans chaque booster. Composer les noms des 500 artistes en visuels typographiques originaux adaptés aux genres, sans photo ni logo externe. Enregistrer null pour les informations inconnues. Ajouter la validation complète des 500 entrées et les tests de provenance.
+Étendre à 1 500 artistes et groupes internationaux ; conserver leurs identifiants internes permanents. Construire l’importateur avec User-Agent identifiable, limite MusicBrainz d’au plus une requête par seconde, cache, reprise, backoff et revue manuelle des homonymes. Vérifier les identités, genres et scènes, documenter les sources par champ et les informations manquantes. Attribuer les raretés selon une politique éditoriale expliquée ; vérifier la disponibilité des quatre raretés dans chaque booster. Composer les noms des 1 500 artistes en visuels typographiques originaux adaptés aux genres, sans photo ni logo externe. Enregistrer null pour les informations inconnues. Ajouter la validation complète des 1 500 entrées et les tests de provenance.
 
 ## Phase 3 — Moteur du jeu
 
@@ -24,7 +24,7 @@ Développer la direction artistique originale, cartes typographiques, animations
 
 ## Phase 5 — Validation
 
-Exécuter les tests complets, auditer les 500 identités et licences, vérifier export/import et intégrité des collections, tester le sous-répertoire Pages, optimiser puis préparer une publication soumise à validation. Ne pas inclure de combats en v0.1.
+Exécuter les tests complets, auditer les 1 500 identités et sources, vérifier export/import et intégrité des collections, tester le sous-répertoire Pages, optimiser puis préparer une publication soumise à validation. Ne pas inclure de combats en v0.1.
 
 ## Décisions transverses
 

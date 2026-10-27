@@ -1,0 +1,3774 @@
+{
+  "los-000551": {
+    "source": {
+      "url": "https://www.wikidata.org/wiki/Q3482680",
+      "revision": null,
+      "accessedAt": "2026-10-27T18:13:47.400Z",
+      "license": "CC0-1.0"
+    },
+    "awards": [],
+    "notableWorks": [],
+    "genres": [
+      {
+        "id": "Q11401",
+        "name": "hip-hop",
+        "statementId": "Q3482680$98F6E27F-7A18-4675-AFBC-50D330056695",
+        "references": [
+          {
+            "hash": "d4bd87b862b12d99d26e86472d44f26858dee639",
+            "snaks": {
+              "P143": [
+                {
+                  "snaktype": "value",
+                  "property": "P143",
+                  "hash": "f30cbd35620c4ea6d0633aaf0210a8916130469b",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 8447,
+                      "id": "Q8447"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P143"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Q138020",
+        "name": "hip-hop français",
+        "statementId": "Q3482680$59269791-4f33-96fd-04b0-d4771652ca0e",
+        "references": [
+          {
+            "hash": "d4bd87b862b12d99d26e86472d44f26858dee639",
+            "snaks": {
+              "P143": [
+                {
+                  "snaktype": "value",
+                  "property": "P143",
+                  "hash": "f30cbd35620c4ea6d0633aaf0210a8916130469b",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 8447,
+                      "id": "Q8447"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P143"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Q6010",
+        "name": "rap",
+        "statementId": "Q3482680$E014786A-CCDD-4A07-8186-5D36E72CCF7C",
+        "references": [
+          {
+            "hash": "9ea2eadff5e4498de093a2abb43d7c8df9d14bac",
+            "snaks": {
+              "P248": [
+                {
+                  "snaktype": "value",
+                  "property": "P248",
+                  "hash": "924369042898feb358e4215e7b29320894193ed0",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 99181182,
+                      "id": "Q99181182"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P813": [
+                {
+                  "snaktype": "value",
+                  "property": "P813",
+                  "hash": "1f247492accf6998c23796fb8b77732803e6fcfe",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2020-09-28T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P248",
+              "P813"
+            ]
+          }
+        ]
+      }
+    ],
+    "careerStart": {
+      "value": "1986",
+      "precision": 9,
+      "statementId": "Q3482680$1a485123-406b-60fb-cc01-4278027884b3",
+      "references": [
+        {
+          "hash": "d4bd87b862b12d99d26e86472d44f26858dee639",
+          "snaks": {
+            "P143": [
+              {
+                "snaktype": "value",
+                "property": "P143",
+                "hash": "f30cbd35620c4ea6d0633aaf0210a8916130469b",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 8447,
+                    "id": "Q8447"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              }
+            ]
+          },
+          "snaks-order": [
+            "P143"
+          ]
+        }
+      ]
+    }
+  },
+  "los-000552": {
+    "source": {
+      "url": "https://www.wikidata.org/wiki/Q4734521",
+      "revision": null,
+      "accessedAt": "2026-10-27T18:13:47.400Z",
+      "license": "CC0-1.0"
+    },
+    "awards": [],
+    "notableWorks": [],
+    "genres": [
+      {
+        "id": "Q11401",
+        "name": "hip-hop",
+        "statementId": "Q4734521$F49F2B8C-7A18-4CCF-A67D-BA8D740D9E92",
+        "references": []
+      },
+      {
+        "id": "Q753679",
+        "name": "gangsta rap",
+        "statementId": "Q4734521$8947c8e1-48f0-7013-ecaf-3223b093f5dc",
+        "references": []
+      }
+    ],
+    "careerStart": {
+      "value": "1995",
+      "precision": 9,
+      "statementId": "Q4734521$7A59B570-F682-4858-B4CF-062EB50ED1F7",
+      "references": [
+        {
+          "hash": "0120d6dbcde1d97e71c3b1cdbd6fc4cd18aba22b",
+          "snaks": {
+            "P143": [
+              {
+                "snaktype": "value",
+                "property": "P143",
+                "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 328,
+                    "id": "Q328"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              }
+            ],
+            "P4656": [
+              {
+                "snaktype": "value",
+                "property": "P4656",
+                "hash": "09ddcbe401e53e52ff6d33a36466d615c1c3400d",
+                "datavalue": {
+                  "value": "https://en.wikipedia.org/w/index.php?title=Alonzo_(rapper)&oldid=910380227",
+                  "type": "string"
+                },
+                "datatype": "url"
+              }
+            ]
+          },
+          "snaks-order": [
+            "P143",
+            "P4656"
+          ]
+        }
+      ]
+    }
+  },
+  "los-000553": {
+    "source": {
+      "url": "https://www.wikidata.org/wiki/Q3194408",
+      "revision": null,
+      "accessedAt": "2026-10-27T18:13:47.400Z",
+      "license": "CC0-1.0"
+    },
+    "awards": [],
+    "notableWorks": [],
+    "genres": [
+      {
+        "id": "Q11401",
+        "name": "hip-hop",
+        "statementId": "Q3194408$F971DCF6-035E-485D-A489-672794293226",
+        "references": [
+          {
+            "hash": "d4bd87b862b12d99d26e86472d44f26858dee639",
+            "snaks": {
+              "P143": [
+                {
+                  "snaktype": "value",
+                  "property": "P143",
+                  "hash": "f30cbd35620c4ea6d0633aaf0210a8916130469b",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 8447,
+                      "id": "Q8447"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P143"
+            ]
+          }
+        ]
+      }
+    ],
+    "careerStart": {
+      "value": "1999",
+      "precision": 9,
+      "statementId": "Q3194408$53CA5FB6-961C-4A5E-A63A-F319A24C4974",
+      "references": [
+        {
+          "hash": "c2fc6f2855ad2da49b4df06e427b8d28384f36a9",
+          "snaks": {
+            "P143": [
+              {
+                "snaktype": "value",
+                "property": "P143",
+                "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 328,
+                    "id": "Q328"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              }
+            ],
+            "P4656": [
+              {
+                "snaktype": "value",
+                "property": "P4656",
+                "hash": "fd9ec6deb1099e1a6c4d12c926d4e7e09d543ec0",
+                "datavalue": {
+                  "value": "https://en.wikipedia.org/w/index.php?title=Kayna_Samet&oldid=903188716",
+                  "type": "string"
+                },
+                "datatype": "url"
+              }
+            ]
+          },
+          "snaks-order": [
+            "P143",
+            "P4656"
+          ]
+        }
+      ]
+    }
+  },
+  "los-000554": {
+    "source": {
+      "url": "https://www.wikidata.org/wiki/Q58959472",
+      "revision": null,
+      "accessedAt": "2026-10-27T18:13:47.400Z",
+      "license": "CC0-1.0"
+    },
+    "awards": [],
+    "notableWorks": [],
+    "genres": [
+      {
+        "id": "Q11401",
+        "name": "hip-hop",
+        "statementId": "Q58959472$71FBA1B0-6286-4ED8-873F-74CCB3E8DCAC",
+        "references": []
+      },
+      {
+        "id": "Q850412",
+        "name": "RnB contemporain",
+        "statementId": "Q58959472$b85144da-40f4-2cc3-6e92-8c3fcdbce212",
+        "references": []
+      },
+      {
+        "id": "Q2529400",
+        "name": "urban",
+        "statementId": "Q58959472$cbdcacdf-4650-8548-2f63-a80b496cbf74",
+        "references": []
+      }
+    ],
+    "careerStart": {
+      "value": "2017",
+      "precision": 9,
+      "statementId": "Q58959472$6FBA7D23-A799-4D5C-8624-6B4F9C57DEFC",
+      "references": [
+        {
+          "hash": "a8e8b99ce86dfea0d77bd54c7f80fceab71e3fca",
+          "snaks": {
+            "P143": [
+              {
+                "snaktype": "value",
+                "property": "P143",
+                "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 328,
+                    "id": "Q328"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              }
+            ],
+            "P4656": [
+              {
+                "snaktype": "value",
+                "property": "P4656",
+                "hash": "d5b94231caa3b8a34be0512dd1b37ac21ce11dcc",
+                "datavalue": {
+                  "value": "https://en.wikipedia.org/w/index.php?title=Vegedream&oldid=1048326061",
+                  "type": "string"
+                },
+                "datatype": "url"
+              }
+            ]
+          },
+          "snaks-order": [
+            "P143",
+            "P4656"
+          ]
+        }
+      ]
+    }
+  },
+  "los-000555": {
+    "source": {
+      "url": "https://www.wikidata.org/wiki/Q8702317",
+      "revision": null,
+      "accessedAt": "2026-10-27T18:13:47.400Z",
+      "license": "CC0-1.0"
+    },
+    "awards": [],
+    "notableWorks": [],
+    "genres": [
+      {
+        "id": "Q11401",
+        "name": "hip-hop",
+        "statementId": "Q8702317$BDCD148B-C6E9-471E-8FF8-4E10299E9A19",
+        "references": [
+          {
+            "hash": "d4bd87b862b12d99d26e86472d44f26858dee639",
+            "snaks": {
+              "P143": [
+                {
+                  "snaktype": "value",
+                  "property": "P143",
+                  "hash": "f30cbd35620c4ea6d0633aaf0210a8916130469b",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 8447,
+                      "id": "Q8447"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P143"
+            ]
+          }
+        ]
+      }
+    ],
+    "careerStart": null
+  },
+  "los-000556": {
+    "source": {
+      "url": "https://www.wikidata.org/wiki/Q106686959",
+      "revision": null,
+      "accessedAt": "2026-10-27T18:13:47.400Z",
+      "license": "CC0-1.0"
+    },
+    "awards": [],
+    "notableWorks": [],
+    "genres": [
+      {
+        "id": "Q11401",
+        "name": "hip-hop",
+        "statementId": "Q106686959$9a572a86-4177-d182-5069-aac1fc05d00d",
+        "references": []
+      },
+      {
+        "id": "Q753679",
+        "name": "gangsta rap",
+        "statementId": "Q106686959$76c1d00f-49c3-8fa5-3d08-e73479be812c",
+        "references": []
+      },
+      {
+        "id": "Q2913982",
+        "name": "trap",
+        "statementId": "Q106686959$7ed226a6-4611-774b-0088-c842eaa1a212",
+        "references": []
+      }
+    ],
+    "careerStart": {
+      "value": "2015",
+      "precision": 9,
+      "statementId": "Q106686959$985c547e-469d-bfd5-9656-3b043904b1b4",
+      "references": []
+    }
+  },
+  "los-000557": {
+    "source": {
+      "url": "https://www.wikidata.org/wiki/Q107427536",
+      "revision": null,
+      "accessedAt": "2026-10-27T18:13:47.400Z",
+      "license": "CC0-1.0"
+    },
+    "awards": [
+      {
+        "id": "Q16682528",
+        "name": "Victoire de l'artiste interprète masculin",
+        "statementId": "Q107427536$0ef756db-44b3-581e-0532-4a0c334eff8e",
+        "references": [
+          {
+            "hash": "d4bd87b862b12d99d26e86472d44f26858dee639",
+            "snaks": {
+              "P143": [
+                {
+                  "snaktype": "value",
+                  "property": "P143",
+                  "hash": "f30cbd35620c4ea6d0633aaf0210a8916130469b",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 8447,
+                      "id": "Q8447"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P143"
+            ]
+          }
+        ]
+      }
+    ],
+    "notableWorks": [],
+    "genres": [
+      {
+        "id": "Q138020",
+        "name": "hip-hop français",
+        "statementId": "Q107427536$41d97b39-4d36-a20b-82e9-dc8f6de707e9",
+        "references": []
+      },
+      {
+        "id": "Q65943851",
+        "name": "UK drill",
+        "statementId": "Q107427536$4418e0dc-4590-02ea-c432-774cac085df4",
+        "references": []
+      },
+      {
+        "id": "Q11401",
+        "name": "hip-hop",
+        "statementId": "Q107427536$1df99f2d-4db8-a963-43db-63a592eadc5d",
+        "references": []
+      },
+      {
+        "id": "Q2913982",
+        "name": "trap",
+        "statementId": "Q107427536$ce1cfb85-4345-c0b5-5b01-8264928ef6c7",
+        "references": []
+      },
+      {
+        "id": "Q15697534",
+        "name": "drill",
+        "statementId": "Q107427536$fb29b8f7-44e4-25a5-5fb5-f27bc1e99083",
+        "references": []
+      }
+    ],
+    "careerStart": {
+      "value": "2019",
+      "precision": 9,
+      "statementId": "Q107427536$0d99cea6-4fb9-6502-4607-95067ccd820c",
+      "references": []
+    }
+  },
+  "los-000558": {
+    "source": {
+      "url": "https://www.wikidata.org/wiki/Q131577832",
+      "revision": null,
+      "accessedAt": "2026-10-27T18:13:47.400Z",
+      "license": "CC0-1.0"
+    },
+    "awards": [
+      {
+        "id": "Q131843798",
+        "name": "Victoire de la révélation féminine",
+        "statementId": "Q131577832$3818fedd-4feb-740c-0b71-650bd5e60502",
+        "references": [
+          {
+            "hash": "d4bd87b862b12d99d26e86472d44f26858dee639",
+            "snaks": {
+              "P143": [
+                {
+                  "snaktype": "value",
+                  "property": "P143",
+                  "hash": "f30cbd35620c4ea6d0633aaf0210a8916130469b",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 8447,
+                      "id": "Q8447"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P143"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Q16682561",
+        "name": "Victoire du groupe ou artiste révélation scène",
+        "statementId": "Q131577832$f61877f7-4284-82b5-6529-f60459dfdf12",
+        "references": [
+          {
+            "hash": "d4bd87b862b12d99d26e86472d44f26858dee639",
+            "snaks": {
+              "P143": [
+                {
+                  "snaktype": "value",
+                  "property": "P143",
+                  "hash": "f30cbd35620c4ea6d0633aaf0210a8916130469b",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 8447,
+                      "id": "Q8447"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P143"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Q16682502",
+        "name": "Victoire de l'album",
+        "statementId": "Q131577832$7c2b25d0-4aad-b922-2515-189ac1b24d0a",
+        "references": [
+          {
+            "hash": "d4bd87b862b12d99d26e86472d44f26858dee639",
+            "snaks": {
+              "P143": [
+                {
+                  "snaktype": "value",
+                  "property": "P143",
+                  "hash": "f30cbd35620c4ea6d0633aaf0210a8916130469b",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 8447,
+                      "id": "Q8447"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P143"
+            ]
+          }
+        ]
+      }
+    ],
+    "notableWorks": [],
+    "genres": [
+      {
+        "id": "Q4950496",
+        "name": "bouyon",
+        "statementId": "Q131577832$ca85d631-4565-c0ac-e88e-bf04d15325dd",
+        "references": []
+      },
+      {
+        "id": "Q104695865",
+        "name": "hyperpop",
+        "statementId": "Q131577832$c0f81491-4aba-9249-4af2-a2dbcd3b3997",
+        "references": []
+      },
+      {
+        "id": "Q11401",
+        "name": "hip-hop",
+        "statementId": "Q131577832$2071ea16-499d-255b-20d6-aed7257376db",
+        "references": []
+      },
+      {
+        "id": "Q388296",
+        "name": "afrobeat",
+        "statementId": "Q131577832$f830d8b7-4738-f8f5-2a66-22d045ec415e",
+        "references": []
+      },
+      {
+        "id": "Q37073",
+        "name": "pop",
+        "statementId": "Q131577832$35178bf6-4f54-45aa-81dd-63d5482e066f",
+        "references": []
+      },
+      {
+        "id": "Q85741139",
+        "name": "amapiano",
+        "statementId": "Q131577832$421a8f16-4fa9-443b-cc96-661e33efafe7",
+        "references": []
+      },
+      {
+        "id": "Q227045",
+        "name": "zouk",
+        "statementId": "Q131577832$3abc26ac-4c26-da11-e9d2-d4d47e1ca3b3",
+        "references": []
+      },
+      {
+        "id": "Q752785",
+        "name": "calypso",
+        "statementId": "Q131577832$a8a787f3-4eaf-9060-b33c-3cf51fff7f3a",
+        "references": []
+      },
+      {
+        "id": "Q109653544",
+        "name": "shatta",
+        "statementId": "Q131577832$991b2676-4812-34c7-a852-eead295a374e",
+        "references": []
+      },
+      {
+        "id": "Q850412",
+        "name": "RnB contemporain",
+        "statementId": "Q131577832$14cdaf62-4615-9dd3-33e5-6065d95b848a",
+        "references": []
+      },
+      {
+        "id": "Q187760",
+        "name": "new wave",
+        "statementId": "Q131577832$c2300784-4098-0a58-ab55-f6a61203d17a",
+        "references": []
+      },
+      {
+        "id": "Q11399",
+        "name": "rock",
+        "statementId": "Q131577832$4f2c4353-439a-ec82-9c09-4a69b77fa1ec",
+        "references": []
+      }
+    ],
+    "careerStart": {
+      "value": "2018",
+      "precision": 9,
+      "statementId": "Q131577832$595005e8-4022-afe4-427c-d96191240a5f",
+      "references": []
+    }
+  },
+  "los-000559": {
+    "source": {
+      "url": "https://www.wikidata.org/wiki/Q284520",
+      "revision": null,
+      "accessedAt": "2026-10-27T18:13:47.400Z",
+      "license": "CC0-1.0"
+    },
+    "awards": [],
+    "notableWorks": [],
+    "genres": [
+      {
+        "id": "Q11401",
+        "name": "hip-hop",
+        "statementId": "Q284520$3E5B7F84-91D2-4970-B139-6977B46CA185",
+        "references": []
+      },
+      {
+        "id": "Q966564",
+        "name": "rap hardcore",
+        "statementId": "Q284520$a85f94f6-4c6e-84cf-e6b1-919d606bde7f",
+        "references": []
+      },
+      {
+        "id": "Q138020",
+        "name": "hip-hop français",
+        "statementId": "Q284520$2bef85f6-4cf7-6d85-9b7d-610d2dbf57ac",
+        "references": []
+      }
+    ],
+    "careerStart": {
+      "value": "1998",
+      "precision": 9,
+      "statementId": "Q284520$92702909-A67C-4301-BE0B-2ECBBCAE0F30",
+      "references": [
+        {
+          "hash": "3ee86850ab025f29bb19c7d13062873f38062384",
+          "snaks": {
+            "P143": [
+              {
+                "snaktype": "value",
+                "property": "P143",
+                "hash": "39224a9c2e8ce5424defbd16603d25771956c7fc",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 1551807,
+                    "id": "Q1551807"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              }
+            ],
+            "P4656": [
+              {
+                "snaktype": "value",
+                "property": "P4656",
+                "hash": "dbcc576e949419e82c4da8309826b7dfe416adce",
+                "datavalue": {
+                  "value": "https://pl.wikipedia.org/w/index.php?title=Seth_Gueko&oldid=57042982",
+                  "type": "string"
+                },
+                "datatype": "url"
+              }
+            ]
+          },
+          "snaks-order": [
+            "P143",
+            "P4656"
+          ]
+        }
+      ]
+    }
+  },
+  "los-000560": {
+    "source": {
+      "url": "https://www.wikidata.org/wiki/Q2882658",
+      "revision": null,
+      "accessedAt": "2026-10-27T18:13:47.400Z",
+      "license": "CC0-1.0"
+    },
+    "awards": [],
+    "notableWorks": [],
+    "genres": [
+      {
+        "id": "Q11401",
+        "name": "hip-hop",
+        "statementId": "Q2882658$127F5159-6F05-4F54-A09E-EE98CA177C0E",
+        "references": [
+          {
+            "hash": "d4bd87b862b12d99d26e86472d44f26858dee639",
+            "snaks": {
+              "P143": [
+                {
+                  "snaktype": "value",
+                  "property": "P143",
+                  "hash": "f30cbd35620c4ea6d0633aaf0210a8916130469b",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 8447,
+                      "id": "Q8447"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P143"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Q11399",
+        "name": "rock",
+        "statementId": "Q2882658$d28974d2-4369-5982-659c-32a6e1e3d6bf",
+        "references": []
+      }
+    ],
+    "careerStart": null
+  },
+  "los-000561": {
+    "source": {
+      "url": "https://www.wikidata.org/wiki/Q3098471",
+      "revision": null,
+      "accessedAt": "2026-10-27T18:13:47.400Z",
+      "license": "CC0-1.0"
+    },
+    "awards": [
+      {
+        "id": "Q16682509",
+        "name": "Victoire de l'album de musiques urbaines",
+        "statementId": "Q3098471$83400e0b-48ab-8b25-fe0f-096d6c3a4d2a",
+        "references": [
+          {
+            "hash": "d4bd87b862b12d99d26e86472d44f26858dee639",
+            "snaks": {
+              "P143": [
+                {
+                  "snaktype": "value",
+                  "property": "P143",
+                  "hash": "f30cbd35620c4ea6d0633aaf0210a8916130469b",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 8447,
+                      "id": "Q8447"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P143"
+            ]
+          }
+        ]
+      }
+    ],
+    "notableWorks": [],
+    "genres": [
+      {
+        "id": "Q474027",
+        "name": "dance hall",
+        "statementId": "Q3098471$0FB1FF0F-C9F9-45DE-B8E6-EFC17D9E28E1",
+        "references": []
+      },
+      {
+        "id": "Q740911",
+        "name": "ragga",
+        "statementId": "Q3098471$f65eb4a2-407a-b52e-f82f-fb0abd3f144d",
+        "references": []
+      },
+      {
+        "id": "Q11401",
+        "name": "hip-hop",
+        "statementId": "Q3098471$85471706-45ed-52dc-08a5-9ba15fc700b4",
+        "references": []
+      }
+    ],
+    "careerStart": {
+      "value": "1990",
+      "precision": 9,
+      "statementId": "Q3098471$07EE1CF9-979C-48C6-826F-9C06C42DD7B8",
+      "references": [
+        {
+          "hash": "b9f7c8711080a6c7de9690b57c2b14c6d1397c24",
+          "snaks": {
+            "P143": [
+              {
+                "snaktype": "value",
+                "property": "P143",
+                "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 328,
+                    "id": "Q328"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              }
+            ],
+            "P4656": [
+              {
+                "snaktype": "value",
+                "property": "P4656",
+                "hash": "9b470dd25238cac0b82d439656407516ccd46a67",
+                "datavalue": {
+                  "value": "https://en.wikipedia.org/w/index.php?title=Lord_Kossity&oldid=903187589",
+                  "type": "string"
+                },
+                "datatype": "url"
+              }
+            ]
+          },
+          "snaks-order": [
+            "P143",
+            "P4656"
+          ]
+        }
+      ]
+    }
+  },
+  "los-000562": {
+    "source": {
+      "url": "https://www.wikidata.org/wiki/Q2142661",
+      "revision": null,
+      "accessedAt": "2026-10-27T18:13:47.400Z",
+      "license": "CC0-1.0"
+    },
+    "awards": [],
+    "notableWorks": [],
+    "genres": [
+      {
+        "id": "Q11401",
+        "name": "hip-hop",
+        "statementId": "Q2142661$22E23CBC-1AC2-4D79-A918-D7BF69DD73D7",
+        "references": [
+          {
+            "hash": "d4bd87b862b12d99d26e86472d44f26858dee639",
+            "snaks": {
+              "P143": [
+                {
+                  "snaktype": "value",
+                  "property": "P143",
+                  "hash": "f30cbd35620c4ea6d0633aaf0210a8916130469b",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 8447,
+                      "id": "Q8447"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P143"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Q6010",
+        "name": "rap",
+        "statementId": "Q2142661$B3CD7915-2613-46B4-9346-05344A74BB69",
+        "references": [
+          {
+            "hash": "12bf99d248102576200833d25b8a423e56782805",
+            "snaks": {
+              "P248": [
+                {
+                  "snaktype": "value",
+                  "property": "P248",
+                  "hash": "924369042898feb358e4215e7b29320894193ed0",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 99181182,
+                      "id": "Q99181182"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P813": [
+                {
+                  "snaktype": "value",
+                  "property": "P813",
+                  "hash": "e8258c9476277fe87484cda97c7a3838231d32a5",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2020-09-27T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P248",
+              "P813"
+            ]
+          }
+        ]
+      }
+    ],
+    "careerStart": null
+  },
+  "los-000563": {
+    "source": {
+      "url": "https://www.wikidata.org/wiki/Q60373974",
+      "revision": null,
+      "accessedAt": "2026-10-27T18:13:48.716Z",
+      "license": "CC0-1.0"
+    },
+    "awards": [],
+    "notableWorks": [],
+    "genres": [
+      {
+        "id": "Q11401",
+        "name": "hip-hop",
+        "statementId": "Q60373974$796AAE88-BDB1-4F46-A21C-448335977BCF",
+        "references": [
+          {
+            "hash": "a8b9a55c1256d6c3b46e2d147d948a93a0e07d44",
+            "snaks": {
+              "P143": [
+                {
+                  "snaktype": "value",
+                  "property": "P143",
+                  "hash": "f30cbd35620c4ea6d0633aaf0210a8916130469b",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 8447,
+                      "id": "Q8447"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P4656": [
+                {
+                  "snaktype": "value",
+                  "property": "P4656",
+                  "hash": "07172da57cb2ed2282c57a699c5d0c1e7945fd50",
+                  "datavalue": {
+                    "value": "https://fr.wikipedia.org/w/index.php?title=Koba_LaD&oldid=165767001",
+                    "type": "string"
+                  },
+                  "datatype": "url"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P143",
+              "P4656"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Q2913982",
+        "name": "trap",
+        "statementId": "Q60373974$af788e2f-4610-8b63-89ca-9af1f8e86f55",
+        "references": []
+      },
+      {
+        "id": "Q65943851",
+        "name": "UK drill",
+        "statementId": "Q60373974$dce3013b-4385-d0c0-261c-9e8dde3f595e",
+        "references": []
+      }
+    ],
+    "careerStart": {
+      "value": "2015",
+      "precision": 9,
+      "statementId": "Q60373974$82B2CCD1-9D81-4E77-A2BF-394EB924225C",
+      "references": [
+        {
+          "hash": "f2b6d6a0e7fe9c303120a353fa03b0965547fe30",
+          "snaks": {
+            "P143": [
+              {
+                "snaktype": "value",
+                "property": "P143",
+                "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 328,
+                    "id": "Q328"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              }
+            ],
+            "P4656": [
+              {
+                "snaktype": "value",
+                "property": "P4656",
+                "hash": "8502a62d4a98915a82eac19653f2314402611c17",
+                "datavalue": {
+                  "value": "https://en.wikipedia.org/w/index.php?title=Koba_LaD&oldid=918810401",
+                  "type": "string"
+                },
+                "datatype": "url"
+              }
+            ]
+          },
+          "snaks-order": [
+            "P143",
+            "P4656"
+          ]
+        }
+      ]
+    }
+  },
+  "los-000564": {
+    "source": {
+      "url": "https://www.wikidata.org/wiki/Q3272811",
+      "revision": null,
+      "accessedAt": "2026-10-27T18:13:48.716Z",
+      "license": "CC0-1.0"
+    },
+    "awards": [],
+    "notableWorks": [],
+    "genres": [
+      {
+        "id": "Q11401",
+        "name": "hip-hop",
+        "statementId": "Q3272811$6A44C5E3-EEB4-4C94-8A33-CC922B7E739D",
+        "references": [
+          {
+            "hash": "d4bd87b862b12d99d26e86472d44f26858dee639",
+            "snaks": {
+              "P143": [
+                {
+                  "snaktype": "value",
+                  "property": "P143",
+                  "hash": "f30cbd35620c4ea6d0633aaf0210a8916130469b",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 8447,
+                      "id": "Q8447"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P143"
+            ]
+          }
+        ]
+      }
+    ],
+    "careerStart": null
+  },
+  "los-000565": {
+    "source": {
+      "url": "https://www.wikidata.org/wiki/Q60835535",
+      "revision": null,
+      "accessedAt": "2026-10-27T18:13:48.716Z",
+      "license": "CC0-1.0"
+    },
+    "awards": [],
+    "notableWorks": [],
+    "genres": [
+      {
+        "id": "Q11401",
+        "name": "hip-hop",
+        "statementId": "Q60835535$54556FC9-5908-4C20-A747-01BE215A7BFB",
+        "references": [
+          {
+            "hash": "10a0ed00b8a9bd0fd4e2eb09a77035c3a3ca57b2",
+            "snaks": {
+              "P143": [
+                {
+                  "snaktype": "value",
+                  "property": "P143",
+                  "hash": "f30cbd35620c4ea6d0633aaf0210a8916130469b",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 8447,
+                      "id": "Q8447"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P4656": [
+                {
+                  "snaktype": "value",
+                  "property": "P4656",
+                  "hash": "ebc4a1c76af4b0da464abcf1788533c0699e176e",
+                  "datavalue": {
+                    "value": "https://fr.wikipedia.org/w/index.php?title=Maes_(rappeur)&oldid=166351115",
+                    "type": "string"
+                  },
+                  "datatype": "url"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P143",
+              "P4656"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Q141459",
+        "name": "conscious hip-hop",
+        "statementId": "Q60835535$e4d443db-44ed-0783-ac1a-0e6af1b85418",
+        "references": []
+      },
+      {
+        "id": "Q474027",
+        "name": "dance hall",
+        "statementId": "Q60835535$01efa4fd-4709-05be-0ae3-13ebce7b2ee8",
+        "references": []
+      },
+      {
+        "id": "Q965635",
+        "name": "hip-hop underground",
+        "statementId": "Q60835535$dc83d413-4290-b87a-aa5d-e46c2d22f573",
+        "references": []
+      },
+      {
+        "id": "Q16829781",
+        "name": "cloud rap",
+        "statementId": "Q60835535$54310971-43df-e968-6b60-3280726d0fd1",
+        "references": []
+      }
+    ],
+    "careerStart": {
+      "value": "2009",
+      "precision": 9,
+      "statementId": "Q60835535$63E7231F-1FE6-468D-8414-D4C6FF3F2CA4",
+      "references": [
+        {
+          "hash": "7c6bf7f4e0a79cdb13c3cbcdf7d47589f1297007",
+          "snaks": {
+            "P143": [
+              {
+                "snaktype": "value",
+                "property": "P143",
+                "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 328,
+                    "id": "Q328"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              }
+            ],
+            "P4656": [
+              {
+                "snaktype": "value",
+                "property": "P4656",
+                "hash": "cdec1d0f44b55c33e4f1e723b222fe5388bf80fd",
+                "datavalue": {
+                  "value": "https://en.wikipedia.org/w/index.php?title=Maes_(rapper)&oldid=945364997",
+                  "type": "string"
+                },
+                "datatype": "url"
+              }
+            ]
+          },
+          "snaks-order": [
+            "P143",
+            "P4656"
+          ]
+        }
+      ]
+    }
+  },
+  "los-000566": {
+    "source": {
+      "url": "https://www.wikidata.org/wiki/Q50364849",
+      "revision": null,
+      "accessedAt": "2026-10-27T18:13:48.716Z",
+      "license": "CC0-1.0"
+    },
+    "awards": [],
+    "notableWorks": [],
+    "genres": [
+      {
+        "id": "Q11401",
+        "name": "hip-hop",
+        "statementId": "Q50364849$9c122152-44d1-15a5-7342-f86b3b5237ee",
+        "references": []
+      },
+      {
+        "id": "Q26234147",
+        "name": "Afro Trap",
+        "statementId": "Q50364849$67445e8e-4bdc-1e94-d40a-bbc928eea859",
+        "references": []
+      }
+    ],
+    "careerStart": {
+      "value": "2015",
+      "precision": 9,
+      "statementId": "Q50364849$3DB96E01-5658-4B8B-B0BF-58E0E0B614FC",
+      "references": [
+        {
+          "hash": "860c2b8fcf717d1e91a4fad51fb38504885edc95",
+          "snaks": {
+            "P143": [
+              {
+                "snaktype": "value",
+                "property": "P143",
+                "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 328,
+                    "id": "Q328"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              }
+            ],
+            "P4656": [
+              {
+                "snaktype": "value",
+                "property": "P4656",
+                "hash": "a92e60439e57e1090c378da246164e290c6d7969",
+                "datavalue": {
+                  "value": "https://en.wikipedia.org/w/index.php?title=Naza_(rapper)&oldid=911522157",
+                  "type": "string"
+                },
+                "datatype": "url"
+              }
+            ]
+          },
+          "snaks-order": [
+            "P143",
+            "P4656"
+          ]
+        }
+      ]
+    }
+  },
+  "los-000567": {
+    "source": {
+      "url": "https://www.wikidata.org/wiki/Q104671539",
+      "revision": null,
+      "accessedAt": "2026-10-27T18:13:48.716Z",
+      "license": "CC0-1.0"
+    },
+    "awards": [],
+    "notableWorks": [],
+    "genres": [
+      {
+        "id": "Q11401",
+        "name": "hip-hop",
+        "statementId": "Q104671539$64f4a7d6-4b86-c8b4-364d-c66683b47fee",
+        "references": []
+      },
+      {
+        "id": "Q2913982",
+        "name": "trap",
+        "statementId": "Q104671539$7b9c0a59-40ba-6895-2be6-f7ac7bb8663d",
+        "references": []
+      },
+      {
+        "id": "Q15697534",
+        "name": "drill",
+        "statementId": "Q104671539$24c880b7-4491-d1e9-840f-8fef8fe4a3c5",
+        "references": []
+      }
+    ],
+    "careerStart": {
+      "value": "2014",
+      "precision": 9,
+      "statementId": "Q104671539$38ABF7C3-DD57-4D46-9965-67BFCB6B4605",
+      "references": [
+        {
+          "hash": "33cd3d55a40344ebeb2ddcb9c4dba3ba3a2ec6fa",
+          "snaks": {
+            "P143": [
+              {
+                "snaktype": "value",
+                "property": "P143",
+                "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 328,
+                    "id": "Q328"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              }
+            ],
+            "P4656": [
+              {
+                "snaktype": "value",
+                "property": "P4656",
+                "hash": "15b6730196366a65f90b9a62b3832f8f6b802fe7",
+                "datavalue": {
+                  "value": "https://en.wikipedia.org/w/index.php?title=Leto_(rapper)&oldid=1051071842",
+                  "type": "string"
+                },
+                "datatype": "url"
+              }
+            ]
+          },
+          "snaks-order": [
+            "P143",
+            "P4656"
+          ]
+        }
+      ]
+    }
+  },
+  "los-000568": {
+    "source": {
+      "url": "https://www.wikidata.org/wiki/Q111747448",
+      "revision": null,
+      "accessedAt": "2026-10-27T18:13:48.716Z",
+      "license": "CC0-1.0"
+    },
+    "awards": [],
+    "notableWorks": [],
+    "genres": [
+      {
+        "id": "Q11401",
+        "name": "hip-hop",
+        "statementId": "Q111747448$eb03ff57-4f3f-4aa0-774d-8f16dd40ed51",
+        "references": []
+      },
+      {
+        "id": "Q6010",
+        "name": "rap",
+        "statementId": "Q111747448$c0389a74-469c-d432-d760-9682039b42cb",
+        "references": []
+      },
+      {
+        "id": "Q2913982",
+        "name": "trap",
+        "statementId": "Q111747448$b14abecd-4cc0-f4ae-78b9-69d86f47e006",
+        "references": []
+      },
+      {
+        "id": "Q15697534",
+        "name": "drill",
+        "statementId": "Q111747448$54351994-419a-df70-c102-243908f0f0f1",
+        "references": []
+      },
+      {
+        "id": "Q868855",
+        "name": "hip hop old school",
+        "statementId": "Q111747448$df4cd89b-4b9a-7588-971d-a71f392c8ad9",
+        "references": []
+      }
+    ],
+    "careerStart": {
+      "value": "2013",
+      "precision": 9,
+      "statementId": "Q111747448$a9580c63-4a14-8242-354b-3a4a7704e39a",
+      "references": []
+    }
+  },
+  "los-000569": {
+    "source": {
+      "url": "https://www.wikidata.org/wiki/Q1479403",
+      "revision": null,
+      "accessedAt": "2026-10-27T18:13:48.716Z",
+      "license": "CC0-1.0"
+    },
+    "awards": [],
+    "notableWorks": [],
+    "genres": [
+      {
+        "id": "Q11401",
+        "name": "hip-hop",
+        "statementId": "Q1479403$75F66878-63C3-44C7-96AD-3C9ED8B75805",
+        "references": []
+      },
+      {
+        "id": "Q37073",
+        "name": "pop",
+        "statementId": "Q1479403$4b4505a5-409f-e2b5-dd48-b831787cdb87",
+        "references": []
+      }
+    ],
+    "careerStart": null
+  },
+  "los-000570": {
+    "source": {
+      "url": "https://www.wikidata.org/wiki/Q957965",
+      "revision": null,
+      "accessedAt": "2026-10-27T18:13:48.716Z",
+      "license": "CC0-1.0"
+    },
+    "awards": [],
+    "notableWorks": [],
+    "genres": [
+      {
+        "id": "Q11401",
+        "name": "hip-hop",
+        "statementId": "Q957965$21CBCCE6-6972-4DFF-97B2-E03D522AFA07",
+        "references": [
+          {
+            "hash": "8b5a551a28ddc97a34ea3c8cda09aaa017a1eeb2",
+            "snaks": {
+              "P854": [
+                {
+                  "snaktype": "value",
+                  "property": "P854",
+                  "hash": "a3eac0d26c350be67e5e77c4524b4a2ef060b7f8",
+                  "datavalue": {
+                    "value": "https://www.telerama.fr/musique/dee-nasty-pionnier-du-rap-et-heros-du-monde-de-demain-j-ai-un-peu-l-impression-d-etre-le-grand-pere-du-mouvement-7012443.php",
+                    "type": "string"
+                  },
+                  "datatype": "url"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P854"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Q205049",
+        "name": "musique du monde",
+        "statementId": "Q957965$40A9E6EB-C8DC-4795-8D0D-CB2BA2367A45",
+        "references": [
+          {
+            "hash": "12bf99d248102576200833d25b8a423e56782805",
+            "snaks": {
+              "P248": [
+                {
+                  "snaktype": "value",
+                  "property": "P248",
+                  "hash": "924369042898feb358e4215e7b29320894193ed0",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 99181182,
+                      "id": "Q99181182"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P813": [
+                {
+                  "snaktype": "value",
+                  "property": "P813",
+                  "hash": "e8258c9476277fe87484cda97c7a3838231d32a5",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2020-09-27T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P248",
+              "P813"
+            ]
+          }
+        ]
+      }
+    ],
+    "careerStart": {
+      "value": "1981",
+      "precision": 9,
+      "statementId": "Q957965$3C1EF3DD-455F-4BF9-91A9-440CC0BDB3A1",
+      "references": [
+        {
+          "hash": "fabf1b04723d50e11c53a05e750a884535a3a3c3",
+          "snaks": {
+            "P143": [
+              {
+                "snaktype": "value",
+                "property": "P143",
+                "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 328,
+                    "id": "Q328"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              }
+            ],
+            "P4656": [
+              {
+                "snaktype": "value",
+                "property": "P4656",
+                "hash": "3042c630a2047e9f24fcee44d2fa5a3af2d66ca3",
+                "datavalue": {
+                  "value": "https://en.wikipedia.org/w/index.php?title=Dee_Nasty&oldid=706782545",
+                  "type": "string"
+                },
+                "datatype": "url"
+              }
+            ]
+          },
+          "snaks-order": [
+            "P143",
+            "P4656"
+          ]
+        }
+      ]
+    }
+  },
+  "los-000571": {
+    "source": {
+      "url": "https://www.wikidata.org/wiki/Q15713551",
+      "revision": null,
+      "accessedAt": "2026-10-27T18:13:48.716Z",
+      "license": "CC0-1.0"
+    },
+    "awards": [],
+    "notableWorks": [],
+    "genres": [
+      {
+        "id": "Q11401",
+        "name": "hip-hop",
+        "statementId": "Q15713551$0e641ddf-4612-37cd-499d-73d178fb7895",
+        "references": []
+      },
+      {
+        "id": "Q131272",
+        "name": "soul",
+        "statementId": "Q15713551$447e7827-41a8-d0b4-331f-fe7f87bab5e6",
+        "references": []
+      },
+      {
+        "id": "Q6010",
+        "name": "rap",
+        "statementId": "Q15713551$39798e2a-4517-ead0-fe90-3912dcb8fd98",
+        "references": []
+      }
+    ],
+    "careerStart": null
+  },
+  "los-000572": {
+    "source": {
+      "url": "https://www.wikidata.org/wiki/Q1722909",
+      "revision": null,
+      "accessedAt": "2026-10-27T18:13:48.716Z",
+      "license": "CC0-1.0"
+    },
+    "awards": [],
+    "notableWorks": [],
+    "genres": [
+      {
+        "id": "Q138020",
+        "name": "hip-hop français",
+        "statementId": "Q1722909$46A87208-14FC-4CCB-B461-172CB8682514",
+        "references": []
+      },
+      {
+        "id": "Q11401",
+        "name": "hip-hop",
+        "statementId": "Q1722909$ad77743e-4422-05a2-ef53-1f798580302a",
+        "references": []
+      }
+    ],
+    "careerStart": null
+  },
+  "los-000573": {
+    "source": {
+      "url": "https://www.wikidata.org/wiki/Q2160832",
+      "revision": null,
+      "accessedAt": "2026-10-27T18:13:48.716Z",
+      "license": "CC0-1.0"
+    },
+    "awards": [],
+    "notableWorks": [],
+    "genres": [
+      {
+        "id": "Q11401",
+        "name": "hip-hop",
+        "statementId": "Q2160832$6ABB7DD3-8429-4AB3-BB31-EC14900320DE",
+        "references": [
+          {
+            "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+            "snaks": {
+              "P143": [
+                {
+                  "snaktype": "value",
+                  "property": "P143",
+                  "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 328,
+                      "id": "Q328"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P143"
+            ]
+          }
+        ]
+      }
+    ],
+    "careerStart": {
+      "value": "2006",
+      "precision": 9,
+      "statementId": "Q2160832$E42FC735-E678-4BF3-9CCD-0D68646D25BA",
+      "references": [
+        {
+          "hash": "b997d84cf2361601e85a01fcc78c8fed671d6f30",
+          "snaks": {
+            "P143": [
+              {
+                "snaktype": "value",
+                "property": "P143",
+                "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 328,
+                    "id": "Q328"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              }
+            ],
+            "P4656": [
+              {
+                "snaktype": "value",
+                "property": "P4656",
+                "hash": "c70cc1ec2a22e00dde786afea0066ddf792fbd16",
+                "datavalue": {
+                  "value": "https://en.wikipedia.org/w/index.php?title=Onra&oldid=917330734",
+                  "type": "string"
+                },
+                "datatype": "url"
+              }
+            ]
+          },
+          "snaks-order": [
+            "P143",
+            "P4656"
+          ]
+        }
+      ]
+    }
+  },
+  "los-000574": {
+    "source": {
+      "url": "https://www.wikidata.org/wiki/Q2205546",
+      "revision": null,
+      "accessedAt": "2026-10-27T18:13:48.716Z",
+      "license": "CC0-1.0"
+    },
+    "awards": [],
+    "notableWorks": [],
+    "genres": [
+      {
+        "id": "Q11401",
+        "name": "hip-hop",
+        "statementId": "Q2205546$EB82954D-0E8D-4DBC-AB26-3D8781E2BD11",
+        "references": [
+          {
+            "hash": "d4bd87b862b12d99d26e86472d44f26858dee639",
+            "snaks": {
+              "P143": [
+                {
+                  "snaktype": "value",
+                  "property": "P143",
+                  "hash": "f30cbd35620c4ea6d0633aaf0210a8916130469b",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 8447,
+                      "id": "Q8447"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P143"
+            ]
+          }
+        ]
+      }
+    ],
+    "careerStart": {
+      "value": "1994",
+      "precision": 9,
+      "statementId": "Q2205546$D1174FF1-7445-4403-86FB-CF9790403445",
+      "references": [
+        {
+          "hash": "1c2d8c3db6151a66b018b56250facd96291676b2",
+          "snaks": {
+            "P143": [
+              {
+                "snaktype": "value",
+                "property": "P143",
+                "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 328,
+                    "id": "Q328"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              }
+            ],
+            "P4656": [
+              {
+                "snaktype": "value",
+                "property": "P4656",
+                "hash": "30b2d7a6848bf4defdc9fcb096f26d5913554329",
+                "datavalue": {
+                  "value": "https://en.wikipedia.org/w/index.php?title=Demon_One&oldid=824453693",
+                  "type": "string"
+                },
+                "datatype": "url"
+              }
+            ]
+          },
+          "snaks-order": [
+            "P143",
+            "P4656"
+          ]
+        }
+      ]
+    }
+  },
+  "los-000575": {
+    "source": {
+      "url": "https://www.wikidata.org/wiki/Q2814698",
+      "revision": null,
+      "accessedAt": "2026-10-27T18:13:48.716Z",
+      "license": "CC0-1.0"
+    },
+    "awards": [],
+    "notableWorks": [],
+    "genres": [
+      {
+        "id": "Q11401",
+        "name": "hip-hop",
+        "statementId": "Q2814698$06487C18-D3F5-4E76-A2CC-26B886BA0DEE",
+        "references": [
+          {
+            "hash": "d4bd87b862b12d99d26e86472d44f26858dee639",
+            "snaks": {
+              "P143": [
+                {
+                  "snaktype": "value",
+                  "property": "P143",
+                  "hash": "f30cbd35620c4ea6d0633aaf0210a8916130469b",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 8447,
+                      "id": "Q8447"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P143"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Q9778",
+        "name": "musique électronique",
+        "statementId": "Q2814698$928808a7-4528-2102-942c-42cb38f8f0de",
+        "references": []
+      }
+    ],
+    "careerStart": {
+      "value": "1995",
+      "precision": 9,
+      "statementId": "Q2814698$3FDC7C87-0118-454B-8C08-344A063B9899",
+      "references": [
+        {
+          "hash": "1a506b1c40427062e834aacd75c8119d5e6dfa39",
+          "snaks": {
+            "P143": [
+              {
+                "snaktype": "value",
+                "property": "P143",
+                "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 328,
+                    "id": "Q328"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              }
+            ],
+            "P4656": [
+              {
+                "snaktype": "value",
+                "property": "P4656",
+                "hash": "a94208bf24fc0d1c4fc4ba72f3fdb4c0bdccd4c0",
+                "datavalue": {
+                  "value": "https://en.wikipedia.org/w/index.php?title=20syl&oldid=915096485",
+                  "type": "string"
+                },
+                "datatype": "url"
+              }
+            ]
+          },
+          "snaks-order": [
+            "P143",
+            "P4656"
+          ]
+        }
+      ]
+    }
+  },
+  "los-000576": {
+    "source": {
+      "url": "https://www.wikidata.org/wiki/Q1957717",
+      "revision": null,
+      "accessedAt": "2026-10-27T18:13:48.716Z",
+      "license": "CC0-1.0"
+    },
+    "awards": [
+      {
+        "id": "Q16682552",
+        "name": "Victoire de la révélation variétés masculine",
+        "statementId": "Q1957717$aca6aa6f-4cef-8fbb-2033-e96a9dfed682",
+        "references": [
+          {
+            "hash": "d4bd87b862b12d99d26e86472d44f26858dee639",
+            "snaks": {
+              "P143": [
+                {
+                  "snaktype": "value",
+                  "property": "P143",
+                  "hash": "f30cbd35620c4ea6d0633aaf0210a8916130469b",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 8447,
+                      "id": "Q8447"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P143"
+            ]
+          }
+        ]
+      }
+    ],
+    "notableWorks": [],
+    "genres": [
+      {
+        "id": "Q11401",
+        "name": "hip-hop",
+        "statementId": "Q1957717$50B54892-A531-4F89-8B07-3ABCACF91923",
+        "references": [
+          {
+            "hash": "d4bd87b862b12d99d26e86472d44f26858dee639",
+            "snaks": {
+              "P143": [
+                {
+                  "snaktype": "value",
+                  "property": "P143",
+                  "hash": "f30cbd35620c4ea6d0633aaf0210a8916130469b",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 8447,
+                      "id": "Q8447"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P143"
+            ]
+          }
+        ]
+      }
+    ],
+    "careerStart": {
+      "value": "1995",
+      "precision": 9,
+      "statementId": "Q1957717$365A732E-331D-46E1-835A-5EAC9AE46118",
+      "references": [
+        {
+          "hash": "718219fe7223811b489a27c095c296b20bf11cb4",
+          "snaks": {
+            "P143": [
+              {
+                "snaktype": "value",
+                "property": "P143",
+                "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 328,
+                    "id": "Q328"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              }
+            ],
+            "P4656": [
+              {
+                "snaktype": "value",
+                "property": "P4656",
+                "hash": "2ca10a33f427a9a7ae1cb729556771567e9f9d91",
+                "datavalue": {
+                  "value": "https://en.wikipedia.org/w/index.php?title=Ménélik&oldid=867223944",
+                  "type": "string"
+                },
+                "datatype": "url"
+              }
+            ]
+          },
+          "snaks-order": [
+            "P143",
+            "P4656"
+          ]
+        }
+      ]
+    }
+  },
+  "los-000577": {
+    "source": {
+      "url": "https://www.wikidata.org/wiki/Q3091319",
+      "revision": null,
+      "accessedAt": "2026-10-27T18:13:48.716Z",
+      "license": "CC0-1.0"
+    },
+    "awards": [],
+    "notableWorks": [],
+    "genres": [
+      {
+        "id": "Q11401",
+        "name": "hip-hop",
+        "statementId": "Q3091319$041BE8E9-9676-497A-A939-1C9525C1AFD7",
+        "references": [
+          {
+            "hash": "d4bd87b862b12d99d26e86472d44f26858dee639",
+            "snaks": {
+              "P143": [
+                {
+                  "snaktype": "value",
+                  "property": "P143",
+                  "hash": "f30cbd35620c4ea6d0633aaf0210a8916130469b",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 8447,
+                      "id": "Q8447"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P143"
+            ]
+          }
+        ]
+      }
+    ],
+    "careerStart": {
+      "value": "1999",
+      "precision": 9,
+      "statementId": "Q3091319$A6E690F1-7579-46EE-94D0-1015D1B05CC6",
+      "references": [
+        {
+          "hash": "65238299558d9101845b232de32583bb37475043",
+          "snaks": {
+            "P143": [
+              {
+                "snaktype": "value",
+                "property": "P143",
+                "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 328,
+                    "id": "Q328"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              }
+            ],
+            "P4656": [
+              {
+                "snaktype": "value",
+                "property": "P4656",
+                "hash": "a150372d4366dedd85297c0d2ab83ea8ac337e09",
+                "datavalue": {
+                  "value": "https://en.wikipedia.org/w/index.php?title=Fuzati&oldid=864373692",
+                  "type": "string"
+                },
+                "datatype": "url"
+              }
+            ]
+          },
+          "snaks-order": [
+            "P143",
+            "P4656"
+          ]
+        }
+      ]
+    }
+  },
+  "los-000578": {
+    "source": {
+      "url": "https://www.wikidata.org/wiki/Q3316975",
+      "revision": null,
+      "accessedAt": "2026-10-27T18:13:48.716Z",
+      "license": "CC0-1.0"
+    },
+    "awards": [],
+    "notableWorks": [],
+    "genres": [
+      {
+        "id": "Q11401",
+        "name": "hip-hop",
+        "statementId": "Q3316975$4BB5EFE5-64C1-4E66-9DAB-ACF2DE85C5AA",
+        "references": [
+          {
+            "hash": "d4bd87b862b12d99d26e86472d44f26858dee639",
+            "snaks": {
+              "P143": [
+                {
+                  "snaktype": "value",
+                  "property": "P143",
+                  "hash": "f30cbd35620c4ea6d0633aaf0210a8916130469b",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 8447,
+                      "id": "Q8447"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P143"
+            ]
+          }
+        ]
+      }
+    ],
+    "careerStart": {
+      "value": "2003",
+      "precision": 9,
+      "statementId": "Q3316975$81CD02D2-7542-4A19-BAD3-3020B1E4DC37",
+      "references": [
+        {
+          "hash": "24dc830e0ebe6f0ddfc59e96e199512125572f91",
+          "snaks": {
+            "P143": [
+              {
+                "snaktype": "value",
+                "property": "P143",
+                "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 328,
+                    "id": "Q328"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              }
+            ],
+            "P4656": [
+              {
+                "snaktype": "value",
+                "property": "P4656",
+                "hash": "64402577c84dad1dc398970b47533602a9e6cb48",
+                "datavalue": {
+                  "value": "https://en.wikipedia.org/w/index.php?title=Mister_You&oldid=921181812",
+                  "type": "string"
+                },
+                "datatype": "url"
+              }
+            ]
+          },
+          "snaks-order": [
+            "P143",
+            "P4656"
+          ]
+        }
+      ]
+    }
+  },
+  "los-000579": {
+    "source": {
+      "url": "https://www.wikidata.org/wiki/Q2836068",
+      "revision": null,
+      "accessedAt": "2026-10-27T18:13:48.716Z",
+      "license": "CC0-1.0"
+    },
+    "awards": [],
+    "notableWorks": [],
+    "genres": [
+      {
+        "id": "Q11401",
+        "name": "hip-hop",
+        "statementId": "Q2836068$2B5122D1-7F4D-428A-AA0B-5928D21FDE1A",
+        "references": [
+          {
+            "hash": "d4bd87b862b12d99d26e86472d44f26858dee639",
+            "snaks": {
+              "P143": [
+                {
+                  "snaktype": "value",
+                  "property": "P143",
+                  "hash": "f30cbd35620c4ea6d0633aaf0210a8916130469b",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 8447,
+                      "id": "Q8447"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P143"
+            ]
+          }
+        ]
+      }
+    ],
+    "careerStart": null
+  },
+  "los-000580": {
+    "source": {
+      "url": "https://www.wikidata.org/wiki/Q3437418",
+      "revision": null,
+      "accessedAt": "2026-10-27T18:13:48.716Z",
+      "license": "CC0-1.0"
+    },
+    "awards": [],
+    "notableWorks": [],
+    "genres": [
+      {
+        "id": "Q11401",
+        "name": "hip-hop",
+        "statementId": "Q3437418$0AC6FE72-BA75-400F-B491-3F7E2E0CAAF1",
+        "references": [
+          {
+            "hash": "d4bd87b862b12d99d26e86472d44f26858dee639",
+            "snaks": {
+              "P143": [
+                {
+                  "snaktype": "value",
+                  "property": "P143",
+                  "hash": "f30cbd35620c4ea6d0633aaf0210a8916130469b",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 8447,
+                      "id": "Q8447"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P143"
+            ]
+          }
+        ]
+      }
+    ],
+    "careerStart": {
+      "value": "1990",
+      "precision": 9,
+      "statementId": "Q3437418$00C2308B-1F04-4D5E-949C-1342DA4F2ABA",
+      "references": [
+        {
+          "hash": "1b917bdff45c5ff304d2001a5057bb0b1f009427",
+          "snaks": {
+            "P143": [
+              {
+                "snaktype": "value",
+                "property": "P143",
+                "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 328,
+                    "id": "Q328"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              }
+            ],
+            "P4656": [
+              {
+                "snaktype": "value",
+                "property": "P4656",
+                "hash": "fe1d8aaaf722e9382988655be81706c1b9ca9098",
+                "datavalue": {
+                  "value": "https://en.wikipedia.org/w/index.php?title=Rocca_(French_rapper)&oldid=919258503",
+                  "type": "string"
+                },
+                "datatype": "url"
+              }
+            ]
+          },
+          "snaks-order": [
+            "P143",
+            "P4656"
+          ]
+        }
+      ]
+    }
+  },
+  "los-000581": {
+    "source": {
+      "url": "https://www.wikidata.org/wiki/Q3126630",
+      "revision": null,
+      "accessedAt": "2026-10-27T18:13:48.716Z",
+      "license": "CC0-1.0"
+    },
+    "awards": [],
+    "notableWorks": [],
+    "genres": [
+      {
+        "id": "Q11401",
+        "name": "hip-hop",
+        "statementId": "Q3126630$C482FBC4-EC66-4923-AE4E-26E625A2DD76",
+        "references": [
+          {
+            "hash": "d4bd87b862b12d99d26e86472d44f26858dee639",
+            "snaks": {
+              "P143": [
+                {
+                  "snaktype": "value",
+                  "property": "P143",
+                  "hash": "f30cbd35620c4ea6d0633aaf0210a8916130469b",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 8447,
+                      "id": "Q8447"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P143"
+            ]
+          }
+        ]
+      }
+    ],
+    "careerStart": null
+  },
+  "los-000582": {
+    "source": {
+      "url": "https://www.wikidata.org/wiki/Q41446391",
+      "revision": null,
+      "accessedAt": "2026-10-27T18:13:48.716Z",
+      "license": "CC0-1.0"
+    },
+    "awards": [],
+    "notableWorks": [],
+    "genres": [
+      {
+        "id": "Q11401",
+        "name": "hip-hop",
+        "statementId": "Q41446391$A039313C-7DA8-40C1-A0AD-A56D570E831F",
+        "references": [
+          {
+            "hash": "1aa99d1709636d3c80228f3e4445b2cc961eabb9",
+            "snaks": {
+              "P143": [
+                {
+                  "snaktype": "value",
+                  "property": "P143",
+                  "hash": "f30cbd35620c4ea6d0633aaf0210a8916130469b",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 8447,
+                      "id": "Q8447"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P4656": [
+                {
+                  "snaktype": "value",
+                  "property": "P4656",
+                  "hash": "6402bf979a5c71680ba08e87031a2d28be78e410",
+                  "datavalue": {
+                    "value": "https://fr.wikipedia.org/w/index.php?title=Alem_(beatboxeur)&oldid=165218987",
+                    "type": "string"
+                  },
+                  "datatype": "url"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P143",
+              "P4656"
+            ]
+          }
+        ]
+      }
+    ],
+    "careerStart": {
+      "value": "2008",
+      "precision": 9,
+      "statementId": "Q41446391$9DCAC8C7-F6F5-4D9B-8C35-D4BA399BBD01",
+      "references": [
+        {
+          "hash": "80dda821f05d33ff363d0dff038dea14e65fe404",
+          "snaks": {
+            "P143": [
+              {
+                "snaktype": "value",
+                "property": "P143",
+                "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 328,
+                    "id": "Q328"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              }
+            ],
+            "P4656": [
+              {
+                "snaktype": "value",
+                "property": "P4656",
+                "hash": "8e0aba37a3935ce10293d5f46e94ef6091da1146",
+                "datavalue": {
+                  "value": "https://en.wikipedia.org/w/index.php?title=Alem_(beatboxer)&oldid=1051980438",
+                  "type": "string"
+                },
+                "datatype": "url"
+              }
+            ]
+          },
+          "snaks-order": [
+            "P143",
+            "P4656"
+          ]
+        }
+      ]
+    }
+  },
+  "los-000583": {
+    "source": {
+      "url": "https://www.wikidata.org/wiki/Q55596640",
+      "revision": null,
+      "accessedAt": "2026-10-27T18:13:48.716Z",
+      "license": "CC0-1.0"
+    },
+    "awards": [],
+    "notableWorks": [],
+    "genres": [
+      {
+        "id": "Q11401",
+        "name": "hip-hop",
+        "statementId": "Q55596640$B9AF6B04-7FBF-4E8E-A049-1C97E82B7EE2",
+        "references": [
+          {
+            "hash": "ea6e0a5a359f40005f4110975c6546aeebdd0226",
+            "snaks": {
+              "P143": [
+                {
+                  "snaktype": "value",
+                  "property": "P143",
+                  "hash": "f30cbd35620c4ea6d0633aaf0210a8916130469b",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 8447,
+                      "id": "Q8447"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P4656": [
+                {
+                  "snaktype": "value",
+                  "property": "P4656",
+                  "hash": "a8f2cb06a7efd52d5aeaadac5d93b5bd886354de",
+                  "datavalue": {
+                    "value": "https://fr.wikipedia.org/w/index.php?title=Dinos_(rappeur)&oldid=166086805",
+                    "type": "string"
+                  },
+                  "datatype": "url"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P143",
+              "P4656"
+            ]
+          }
+        ]
+      }
+    ],
+    "careerStart": {
+      "value": "2011",
+      "precision": 9,
+      "statementId": "Q55596640$FA93AB62-783A-450F-8F8E-1BBBB5BE513D",
+      "references": [
+        {
+          "hash": "8aac4750c0a3e8210028349e2cd600e4c58a714a",
+          "snaks": {
+            "P143": [
+              {
+                "snaktype": "value",
+                "property": "P143",
+                "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 328,
+                    "id": "Q328"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              }
+            ],
+            "P4656": [
+              {
+                "snaktype": "value",
+                "property": "P4656",
+                "hash": "756f768975b419bf2c28fdce405b1560a7a1e161",
+                "datavalue": {
+                  "value": "https://en.wikipedia.org/w/index.php?title=Dinos_(rapper)&oldid=1037725869",
+                  "type": "string"
+                },
+                "datatype": "url"
+              }
+            ]
+          },
+          "snaks-order": [
+            "P143",
+            "P4656"
+          ]
+        }
+      ]
+    }
+  },
+  "los-000584": {
+    "source": {
+      "url": "https://www.wikidata.org/wiki/Q345777",
+      "revision": null,
+      "accessedAt": "2026-10-27T18:13:48.716Z",
+      "license": "CC0-1.0"
+    },
+    "awards": [],
+    "notableWorks": [],
+    "genres": [
+      {
+        "id": "Q11401",
+        "name": "hip-hop",
+        "statementId": "Q345777$84EB5E75-433E-41F6-9109-160407B01C08",
+        "references": []
+      }
+    ],
+    "careerStart": {
+      "value": "1987",
+      "precision": 9,
+      "statementId": "Q345777$378A6DDA-A26A-4588-A545-C0FCAEDF203C",
+      "references": [
+        {
+          "hash": "62ae435292ca79171f55fbda74c4f49f0fac029d",
+          "snaks": {
+            "P143": [
+              {
+                "snaktype": "value",
+                "property": "P143",
+                "hash": "f30cbd35620c4ea6d0633aaf0210a8916130469b",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 8447,
+                    "id": "Q8447"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              }
+            ],
+            "P4656": [
+              {
+                "snaktype": "value",
+                "property": "P4656",
+                "hash": "e10053714b91e43e7325c3a7f55e8edd4f3ced65",
+                "datavalue": {
+                  "value": "https://fr.wikipedia.org/wiki/Faf_Larage",
+                  "type": "string"
+                },
+                "datatype": "url"
+              }
+            ]
+          },
+          "snaks-order": [
+            "P143",
+            "P4656"
+          ]
+        }
+      ]
+    }
+  },
+  "los-000585": {
+    "source": {
+      "url": "https://www.wikidata.org/wiki/Q586925",
+      "revision": null,
+      "accessedAt": "2026-10-27T18:13:48.716Z",
+      "license": "CC0-1.0"
+    },
+    "awards": [],
+    "notableWorks": [],
+    "genres": [
+      {
+        "id": "Q11401",
+        "name": "hip-hop",
+        "statementId": "Q586925$2DA101AF-D846-421B-8506-A6CE9FDDDD72",
+        "references": [
+          {
+            "hash": "d4bd87b862b12d99d26e86472d44f26858dee639",
+            "snaks": {
+              "P143": [
+                {
+                  "snaktype": "value",
+                  "property": "P143",
+                  "hash": "f30cbd35620c4ea6d0633aaf0210a8916130469b",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 8447,
+                      "id": "Q8447"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P143"
+            ]
+          }
+        ]
+      }
+    ],
+    "careerStart": null
+  },
+  "los-000586": {
+    "source": {
+      "url": "https://www.wikidata.org/wiki/Q45431059",
+      "revision": null,
+      "accessedAt": "2026-10-27T18:13:48.716Z",
+      "license": "CC0-1.0"
+    },
+    "awards": [],
+    "notableWorks": [],
+    "genres": [
+      {
+        "id": "Q11401",
+        "name": "hip-hop",
+        "statementId": "Q45431059$44010D9F-EE94-4353-9712-06292DD5E741",
+        "references": [
+          {
+            "hash": "f2644b87338d7a15102f8956e61d512154d68109",
+            "snaks": {
+              "P143": [
+                {
+                  "snaktype": "value",
+                  "property": "P143",
+                  "hash": "f30cbd35620c4ea6d0633aaf0210a8916130469b",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 8447,
+                      "id": "Q8447"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P4656": [
+                {
+                  "snaktype": "value",
+                  "property": "P4656",
+                  "hash": "bc8ef659974fd6f0195a49e263193bedb96046db",
+                  "datavalue": {
+                    "value": "https://fr.wikipedia.org/w/index.php?title=Rilès&oldid=166447495",
+                    "type": "string"
+                  },
+                  "datatype": "url"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P143",
+              "P4656"
+            ]
+          }
+        ]
+      }
+    ],
+    "careerStart": null
+  },
+  "los-000587": {
+    "source": {
+      "url": "https://www.wikidata.org/wiki/Q61067692",
+      "revision": null,
+      "accessedAt": "2026-10-27T18:13:48.716Z",
+      "license": "CC0-1.0"
+    },
+    "awards": [],
+    "notableWorks": [],
+    "genres": [
+      {
+        "id": "Q6010",
+        "name": "rap",
+        "statementId": "Q61067692$5efa31c9-4890-95b1-f627-8bb91a1a0efc",
+        "references": [
+          {
+            "hash": "6cafde5d9b86c476c4c839a172776bf58ca2e920",
+            "snaks": {
+              "P143": [
+                {
+                  "snaktype": "value",
+                  "property": "P143",
+                  "hash": "9806f7100381f841399dc049ab07b12cc358e880",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 52,
+                      "id": "Q52"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P143"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Q11401",
+        "name": "hip-hop",
+        "statementId": "Q61067692$f503246a-4818-f75d-581b-e570eb6ecde8",
+        "references": [
+          {
+            "hash": "6cafde5d9b86c476c4c839a172776bf58ca2e920",
+            "snaks": {
+              "P143": [
+                {
+                  "snaktype": "value",
+                  "property": "P143",
+                  "hash": "9806f7100381f841399dc049ab07b12cc358e880",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 52,
+                      "id": "Q52"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P143"
+            ]
+          }
+        ]
+      }
+    ],
+    "careerStart": {
+      "value": "2007",
+      "precision": 9,
+      "statementId": "Q61067692$8495d5db-4865-66c2-07af-dec024d7c6a5",
+      "references": []
+    }
+  },
+  "los-000588": {
+    "source": {
+      "url": "https://www.wikidata.org/wiki/Q63148061",
+      "revision": null,
+      "accessedAt": "2026-10-27T18:13:48.716Z",
+      "license": "CC0-1.0"
+    },
+    "awards": [],
+    "notableWorks": [],
+    "genres": [
+      {
+        "id": "Q138020",
+        "name": "hip-hop français",
+        "statementId": "Q63148061$6F7B0665-B5E4-4937-9203-F598CA6CD1AB",
+        "references": []
+      },
+      {
+        "id": "Q12362064",
+        "name": "rap emo",
+        "statementId": "Q63148061$288eb204-480f-fe04-afc9-ee87f99e3108",
+        "references": []
+      },
+      {
+        "id": "Q3709211",
+        "name": "dirty rap",
+        "statementId": "Q63148061$b3accf35-42ba-2de6-e4b4-9224f356c6fe",
+        "references": []
+      },
+      {
+        "id": "Q850412",
+        "name": "RnB contemporain",
+        "statementId": "Q63148061$ddb7fe28-4ecd-3b85-cccb-fced24d82016",
+        "references": []
+      },
+      {
+        "id": "Q11401",
+        "name": "hip-hop",
+        "statementId": "Q63148061$8c16db40-4a2f-5a56-aa39-4078379e6699",
+        "references": []
+      }
+    ],
+    "careerStart": {
+      "value": "2006",
+      "precision": 9,
+      "statementId": "Q63148061$dc43a520-4c1c-2e39-b9de-d788f5afd06e",
+      "references": []
+    }
+  },
+  "los-000589": {
+    "source": {
+      "url": "https://www.wikidata.org/wiki/Q71708523",
+      "revision": null,
+      "accessedAt": "2026-10-27T18:13:48.716Z",
+      "license": "CC0-1.0"
+    },
+    "awards": [],
+    "notableWorks": [],
+    "genres": [
+      {
+        "id": "Q138020",
+        "name": "hip-hop français",
+        "statementId": "Q71708523$72C1F65A-C713-4716-B664-11AA6A9A1382",
+        "references": []
+      },
+      {
+        "id": "Q11401",
+        "name": "hip-hop",
+        "statementId": "Q71708523$bdf38949-458b-b651-61b0-11734188b2aa",
+        "references": []
+      },
+      {
+        "id": "Q2913982",
+        "name": "trap",
+        "statementId": "Q71708523$2549ceed-4535-75f5-b61c-ab6bb47c2653",
+        "references": []
+      }
+    ],
+    "careerStart": {
+      "value": "2018",
+      "precision": 9,
+      "statementId": "Q71708523$273C94E5-D9E1-4498-8BB1-2B94319D2200",
+      "references": [
+        {
+          "hash": "e783102c3d9e24504d04c86717f12eb7fa1407bb",
+          "snaks": {
+            "P143": [
+              {
+                "snaktype": "value",
+                "property": "P143",
+                "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 328,
+                    "id": "Q328"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              }
+            ],
+            "P4656": [
+              {
+                "snaktype": "value",
+                "property": "P4656",
+                "hash": "657a1a65fd305be45d75137945b268e1c512cb4c",
+                "datavalue": {
+                  "value": "https://en.wikipedia.org/w/index.php?title=Gambi_(rapper)&oldid=945927986",
+                  "type": "string"
+                },
+                "datatype": "url"
+              }
+            ]
+          },
+          "snaks-order": [
+            "P143",
+            "P4656"
+          ]
+        }
+      ]
+    }
+  },
+  "los-000590": {
+    "source": {
+      "url": "https://www.wikidata.org/wiki/Q60833361",
+      "revision": null,
+      "accessedAt": "2026-10-27T18:13:48.716Z",
+      "license": "CC0-1.0"
+    },
+    "awards": [],
+    "notableWorks": [],
+    "genres": [
+      {
+        "id": "Q138020",
+        "name": "hip-hop français",
+        "statementId": "Q60833361$43d717d5-4000-12e3-c344-cfaade658a07",
+        "references": []
+      },
+      {
+        "id": "Q850412",
+        "name": "RnB contemporain",
+        "statementId": "Q60833361$562ab963-4335-d77a-386e-959733b375cc",
+        "references": []
+      },
+      {
+        "id": "Q11401",
+        "name": "hip-hop",
+        "statementId": "Q60833361$d3982725-4eda-fef2-bc0c-84d0e5ec23c9",
+        "references": []
+      }
+    ],
+    "careerStart": {
+      "value": "2013",
+      "precision": 9,
+      "statementId": "Q60833361$B947BAFB-0052-4579-A552-35790B98C08A",
+      "references": [
+        {
+          "hash": "adecdabe113758d312e2c921604d77faf6788ac0",
+          "snaks": {
+            "P143": [
+              {
+                "snaktype": "value",
+                "property": "P143",
+                "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 328,
+                    "id": "Q328"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              }
+            ],
+            "P4656": [
+              {
+                "snaktype": "value",
+                "property": "P4656",
+                "hash": "9644f606792d481758bea30f58af293a55dd1320",
+                "datavalue": {
+                  "value": "https://en.wikipedia.org/w/index.php?title=Franglish_(rapper)&oldid=1055766326",
+                  "type": "string"
+                },
+                "datatype": "url"
+              }
+            ]
+          },
+          "snaks-order": [
+            "P143",
+            "P4656"
+          ]
+        }
+      ]
+    }
+  },
+  "los-000591": {
+    "source": {
+      "url": "https://www.wikidata.org/wiki/Q768034",
+      "revision": null,
+      "accessedAt": "2026-10-27T18:13:48.716Z",
+      "license": "CC0-1.0"
+    },
+    "awards": [],
+    "notableWorks": [],
+    "genres": [
+      {
+        "id": "Q11401",
+        "name": "hip-hop",
+        "statementId": "Q768034$B6383998-B87D-43E0-A6CB-8C90EC5576FC",
+        "references": [
+          {
+            "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+            "snaks": {
+              "P143": [
+                {
+                  "snaktype": "value",
+                  "property": "P143",
+                  "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 328,
+                      "id": "Q328"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P143"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Q850412",
+        "name": "RnB contemporain",
+        "statementId": "Q768034$b6e651e7-44e1-c5c8-ac46-f05ccb7e4eab",
+        "references": []
+      },
+      {
+        "id": "Q37073",
+        "name": "pop",
+        "statementId": "Q768034$cef7aa25-44c0-c40b-56d4-55ad68f6f57d",
+        "references": []
+      },
+      {
+        "id": "Q316930",
+        "name": "musique de danse",
+        "statementId": "Q768034$3c209763-4950-15e9-7ff9-32d79eecb693",
+        "references": []
+      }
+    ],
+    "careerStart": {
+      "value": "2004",
+      "precision": 9,
+      "statementId": "Q768034$693B8C60-F1BF-4430-8098-9DC375868137",
+      "references": [
+        {
+          "hash": "fb588b694fccb0916b11e70db54e3ae8483befe8",
+          "snaks": {
+            "P143": [
+              {
+                "snaktype": "value",
+                "property": "P143",
+                "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 328,
+                    "id": "Q328"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              }
+            ],
+            "P4656": [
+              {
+                "snaktype": "value",
+                "property": "P4656",
+                "hash": "e1294eb78657ad604e7b6b249a46631402295ef8",
+                "datavalue": {
+                  "value": "https://en.wikipedia.org/w/index.php?title=Kaye_Styles&oldid=918666426",
+                  "type": "string"
+                },
+                "datatype": "url"
+              }
+            ]
+          },
+          "snaks-order": [
+            "P143",
+            "P4656"
+          ]
+        }
+      ]
+    }
+  },
+  "los-000592": {
+    "source": {
+      "url": "https://www.wikidata.org/wiki/Q86675858",
+      "revision": null,
+      "accessedAt": "2026-10-27T18:23:15.342Z",
+      "license": "CC0-1.0"
+    },
+    "awards": [],
+    "notableWorks": [],
+    "genres": [
+      {
+        "id": "Q11401",
+        "name": "hip-hop",
+        "statementId": "Q86675858$9823d342-4593-5f36-693d-105526a39d60",
+        "references": []
+      },
+      {
+        "id": "Q141459",
+        "name": "conscious hip-hop",
+        "statementId": "Q86675858$298af896-47e4-f3a4-3f30-f228c097cf1f",
+        "references": []
+      },
+      {
+        "id": "Q966564",
+        "name": "rap hardcore",
+        "statementId": "Q86675858$45803472-469a-d883-ad94-cee3072fae99",
+        "references": []
+      }
+    ],
+    "careerStart": null
+  },
+  "los-000593": {
+    "source": {
+      "url": "https://www.wikidata.org/wiki/Q1304138",
+      "revision": null,
+      "accessedAt": "2026-10-27T18:13:49.569Z",
+      "license": "CC0-1.0"
+    },
+    "awards": [],
+    "notableWorks": [],
+    "genres": [
+      {
+        "id": "Q11401",
+        "name": "hip-hop",
+        "statementId": "Q1304138$90B20557-A0D6-4F89-BBA3-59B875A68766",
+        "references": [
+          {
+            "hash": "d4bd87b862b12d99d26e86472d44f26858dee639",
+            "snaks": {
+              "P143": [
+                {
+                  "snaktype": "value",
+                  "property": "P143",
+                  "hash": "f30cbd35620c4ea6d0633aaf0210a8916130469b",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 8447,
+                      "id": "Q8447"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P143"
+            ]
+          }
+        ]
+      }
+    ],
+    "careerStart": null
+  },
+  "los-000594": {
+    "source": {
+      "url": "https://www.wikidata.org/wiki/Q1618130",
+      "revision": null,
+      "accessedAt": "2026-10-27T18:13:49.569Z",
+      "license": "CC0-1.0"
+    },
+    "awards": [],
+    "notableWorks": [],
+    "genres": [
+      {
+        "id": "Q11401",
+        "name": "hip-hop",
+        "statementId": "Q1618130$7002137F-C1BB-42ED-94DC-2AEDFE64DD6D",
+        "references": [
+          {
+            "hash": "d4bd87b862b12d99d26e86472d44f26858dee639",
+            "snaks": {
+              "P143": [
+                {
+                  "snaktype": "value",
+                  "property": "P143",
+                  "hash": "f30cbd35620c4ea6d0633aaf0210a8916130469b",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 8447,
+                      "id": "Q8447"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P143"
+            ]
+          }
+        ]
+      }
+    ],
+    "careerStart": null
+  },
+  "los-000595": {
+    "source": {
+      "url": "https://www.wikidata.org/wiki/Q16646093",
+      "revision": null,
+      "accessedAt": "2026-10-27T18:13:49.569Z",
+      "license": "CC0-1.0"
+    },
+    "awards": [],
+    "notableWorks": [],
+    "genres": [
+      {
+        "id": "Q11401",
+        "name": "hip-hop",
+        "statementId": "Q16646093$37936A60-8BB0-43E4-AA4E-8377ADB763A5",
+        "references": [
+          {
+            "hash": "d4bd87b862b12d99d26e86472d44f26858dee639",
+            "snaks": {
+              "P143": [
+                {
+                  "snaktype": "value",
+                  "property": "P143",
+                  "hash": "f30cbd35620c4ea6d0633aaf0210a8916130469b",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 8447,
+                      "id": "Q8447"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P143"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Q6010",
+        "name": "rap",
+        "statementId": "Q16646093$91DF0842-5549-41F5-B127-BAEAB9B16534",
+        "references": [
+          {
+            "hash": "1d975eb65dd97e60434361e14e808328b9881ee5",
+            "snaks": {
+              "P248": [
+                {
+                  "snaktype": "value",
+                  "property": "P248",
+                  "hash": "924369042898feb358e4215e7b29320894193ed0",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 99181182,
+                      "id": "Q99181182"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P813": [
+                {
+                  "snaktype": "value",
+                  "property": "P813",
+                  "hash": "1f247492accf6998c23796fb8b77732803e6fcfe",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2020-09-28T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ],
+              "P8300": [
+                {
+                  "snaktype": "value",
+                  "property": "P8300",
+                  "hash": "3199e3e472e39857621438dc72c8a9d84c08022f",
+                  "datavalue": {
+                    "value": "5058",
+                    "type": "string"
+                  },
+                  "datatype": "external-id"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P248",
+              "P813",
+              "P8300"
+            ]
+          }
+        ]
+      }
+    ],
+    "careerStart": {
+      "value": "2008",
+      "precision": 9,
+      "statementId": "Q16646093$39D1F8CC-4217-46FE-885A-49D07FEA94EB",
+      "references": [
+        {
+          "hash": "9d48cfeccc08f53155344c91cc1ef93defe5b4ba",
+          "snaks": {
+            "P143": [
+              {
+                "snaktype": "value",
+                "property": "P143",
+                "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 328,
+                    "id": "Q328"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              }
+            ],
+            "P4656": [
+              {
+                "snaktype": "value",
+                "property": "P4656",
+                "hash": "deead073295df717590230624a62256988d4cc04",
+                "datavalue": {
+                  "value": "https://en.wikipedia.org/w/index.php?title=Ateyaba&oldid=1038800549",
+                  "type": "string"
+                },
+                "datatype": "url"
+              }
+            ]
+          },
+          "snaks-order": [
+            "P143",
+            "P4656"
+          ]
+        }
+      ]
+    }
+  },
+  "los-000596": {
+    "source": {
+      "url": "https://www.wikidata.org/wiki/Q111210370",
+      "revision": null,
+      "accessedAt": "2026-10-27T18:13:49.569Z",
+      "license": "CC0-1.0"
+    },
+    "awards": [],
+    "notableWorks": [],
+    "genres": [
+      {
+        "id": "Q11401",
+        "name": "hip-hop",
+        "statementId": "Q111210370$1f685eae-49bf-e1a6-08b4-e000a3d7a199",
+        "references": []
+      },
+      {
+        "id": "Q850412",
+        "name": "RnB contemporain",
+        "statementId": "Q111210370$57633ba8-45d3-e744-5bb3-622bb497a82c",
+        "references": []
+      },
+      {
+        "id": "Q131272",
+        "name": "soul",
+        "statementId": "Q111210370$53c2bbf0-4894-2c35-02d3-02ddf502138a",
+        "references": []
+      }
+    ],
+    "careerStart": {
+      "value": "2011",
+      "precision": 9,
+      "statementId": "Q111210370$06c9657c-45c2-8e2b-4e34-828f290934da",
+      "references": []
+    }
+  },
+  "los-000597": {
+    "source": {
+      "url": "https://www.wikidata.org/wiki/Q16647842",
+      "revision": null,
+      "accessedAt": "2026-10-27T18:13:49.569Z",
+      "license": "CC0-1.0"
+    },
+    "awards": [],
+    "notableWorks": [],
+    "genres": [
+      {
+        "id": "Q11401",
+        "name": "hip-hop",
+        "statementId": "Q16647842$75DF0D65-5779-4026-BE78-F5C103A9B387",
+        "references": [
+          {
+            "hash": "d4bd87b862b12d99d26e86472d44f26858dee639",
+            "snaks": {
+              "P143": [
+                {
+                  "snaktype": "value",
+                  "property": "P143",
+                  "hash": "f30cbd35620c4ea6d0633aaf0210a8916130469b",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 8447,
+                      "id": "Q8447"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P143"
+            ]
+          }
+        ]
+      }
+    ],
+    "careerStart": null
+  },
+  "los-000598": {
+    "source": {
+      "url": "https://www.wikidata.org/wiki/Q2310322",
+      "revision": null,
+      "accessedAt": "2026-10-27T18:13:49.569Z",
+      "license": "CC0-1.0"
+    },
+    "awards": [],
+    "notableWorks": [],
+    "genres": [
+      {
+        "id": "Q37073",
+        "name": "pop",
+        "statementId": "Q2310322$D16CD4C6-C980-4568-85E6-5513AAABE306",
+        "references": [
+          {
+            "hash": "d4bd87b862b12d99d26e86472d44f26858dee639",
+            "snaks": {
+              "P143": [
+                {
+                  "snaktype": "value",
+                  "property": "P143",
+                  "hash": "f30cbd35620c4ea6d0633aaf0210a8916130469b",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 8447,
+                      "id": "Q8447"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P143"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Q11401",
+        "name": "hip-hop",
+        "statementId": "Q2310322$84fe4280-4879-36b3-0003-071a180a9fe3",
+        "references": []
+      }
+    ],
+    "careerStart": {
+      "value": "1999",
+      "precision": 9,
+      "statementId": "Q2310322$FB1BF374-B8C0-4C49-ABCA-EB2054E389AB",
+      "references": [
+        {
+          "hash": "1d09250d6a087777d184e1cf7a960fb2a52d4ef5",
+          "snaks": {
+            "P143": [
+              {
+                "snaktype": "value",
+                "property": "P143",
+                "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 328,
+                    "id": "Q328"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              }
+            ],
+            "P4656": [
+              {
+                "snaktype": "value",
+                "property": "P4656",
+                "hash": "8cbc5be8b255a2116ae2272656aa08d96c93d84a",
+                "datavalue": {
+                  "value": "https://en.wikipedia.org/w/index.php?title=Teki_Latex&oldid=888337652",
+                  "type": "string"
+                },
+                "datatype": "url"
+              }
+            ]
+          },
+          "snaks-order": [
+            "P143",
+            "P4656"
+          ]
+        }
+      ]
+    }
+  },
+  "los-000599": {
+    "source": {
+      "url": "https://www.wikidata.org/wiki/Q28421664",
+      "revision": null,
+      "accessedAt": "2026-10-27T18:13:49.569Z",
+      "license": "CC0-1.0"
+    },
+    "awards": [],
+    "notableWorks": [],
+    "genres": [
+      {
+        "id": "Q11401",
+        "name": "hip-hop",
+        "statementId": "Q28421664$3c61be02-4d71-94b2-3bda-98186cd4a6d2",
+        "references": []
+      }
+    ],
+    "careerStart": {
+      "value": "1992",
+      "precision": 9,
+      "statementId": "Q28421664$b856e5bf-40b0-7892-474a-bb97f31b0b06",
+      "references": []
+    }
+  },
+  "los-000600": {
+    "source": {
+      "url": "https://www.wikidata.org/wiki/Q2928775",
+      "revision": null,
+      "accessedAt": "2026-10-27T18:13:49.569Z",
+      "license": "CC0-1.0"
+    },
+    "awards": [],
+    "notableWorks": [],
+    "genres": [
+      {
+        "id": "Q11401",
+        "name": "hip-hop",
+        "statementId": "Q2928775$AF16B11C-E5D3-46A4-9DEB-59BD959AF987",
+        "references": [
+          {
+            "hash": "d4bd87b862b12d99d26e86472d44f26858dee639",
+            "snaks": {
+              "P143": [
+                {
+                  "snaktype": "value",
+                  "property": "P143",
+                  "hash": "f30cbd35620c4ea6d0633aaf0210a8916130469b",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 8447,
+                      "id": "Q8447"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P143"
+            ]
+          }
+        ]
+      }
+    ],
+    "careerStart": {
+      "value": "1994",
+      "precision": 9,
+      "statementId": "Q2928775$6E861824-33D2-4A3E-A264-5349889F6BD8",
+      "references": [
+        {
+          "hash": "d25a7cbb1b03b47a59cc73b2cf3b50b46301f5c5",
+          "snaks": {
+            "P143": [
+              {
+                "snaktype": "value",
+                "property": "P143",
+                "hash": "4a713f1b9c73c024784e593b0da93f2244c86d3f",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 58251,
+                    "id": "Q58251"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              }
+            ],
+            "P4656": [
+              {
+                "snaktype": "value",
+                "property": "P4656",
+                "hash": "60152199d073b8f87f0f9b1c60408201052c11e3",
+                "datavalue": {
+                  "value": "https://az.wikipedia.org/w/index.php?title=Busta_Flex&oldid=4768560",
+                  "type": "string"
+                },
+                "datatype": "url"
+              }
+            ]
+          },
+          "snaks-order": [
+            "P143",
+            "P4656"
+          ]
+        }
+      ]
+    }
+  }
+}

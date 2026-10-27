@@ -35,6 +35,7 @@ function render() {
   for (const a of document.querySelectorAll('nav a')) { if (a.hash === '#' + route) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current'); }
   if (saveError) message('La sauvegarde n’a pas pu être chargée : ' + saveError + ' Aucune collection n’a été effacée. Consultez Sauvegarde pour exporter les données brutes.', true);
   if (!catalog) { heading('Chargement impossible.', 'Les données ne sont pas accessibles. Vérifiez la connexion puis rechargez la page.'); return; }
+  document.querySelector('.edition small').textContent = catalog.artists.length + ' identités vérifiées · À vous de les découvrir';
   if (route === 'settings') { settings(); return; }
   if (route === 'boosters') {
     heading('La musique devient collection.', 'Les voix qui vous accompagnent. Les groupes qui vous marquent. Bientôt, cinq cartes pour découvrir une nouvelle histoire.');
@@ -51,7 +52,9 @@ function render() {
   } else if (route === 'collection') {
     heading('Votre discothèque de légendes.', 'ÉDITION 01 — ORIGINS');
     const count = save ? Object.keys(save.collection).length : 0;
-    main.append(el('h2', count + ' carte(s) possédée(s) · objectif de l’édition : 500'));
+    main.append(el('h2', count + ' carte(s) possédée(s) · objectif de l’édition : ' + catalog.editions.reduce((sum, edition) => sum + edition.targetCardCount, 0)));
+    const provisional = catalog.artists.filter(a => a.rarityReview?.status === 'pending').length;
+    if (provisional) message('Classement à revoir ensemble : ' + provisional + ' nouvelles cartes ont une rareté provisoire. Les raretés des cartes initiales sont conservées pour comparaison.');
     main.append(el('p', catalog.artists.length + ' identités vérifiées. Explorez le catalogue et les sources ; consulter une fiche ne donne pas la carte.', 'muted'), catalogView(catalog, save));
   } else if (route === 'recycling') {
     heading('Atelier de recyclage.', 'Donnez une seconde vie à vos doublons.');
@@ -64,7 +67,7 @@ function render() {
     heading('Sources & crédits.', 'Des identités vérifiées. Une identité visuelle originale.');
     main.append(el('p', 'Identités, alias, dates et relations : MusicBrainz (données centrales CC0). Descriptions : Wikidata (CC0). Genres et raretés : classement éditorial Legends of Sound, sans mesure du talent.'));
     for (const [name, url] of [['MusicBrainz — sources et licences', 'https://musicbrainz.org/doc/About/Data_License'], ['Wikidata — licence CC0', 'https://www.wikidata.org/wiki/Wikidata:Licensing']]) { const link = el('a', name); link.href = url; main.append(link, el('br')); }
-    main.append(el('p', 'Les 500 cartes utilisent des compositions typographiques originales : noms des artistes et groupes, motifs géométriques et palettes adaptées aux genres. Les polices sont celles du système ; aucun portrait, illustration externe ou logo d’artiste n’est chargé.'));
+    main.append(el('p', 'Toutes les cartes utilisent des compositions typographiques originales : noms des artistes et groupes, motifs géométriques et palettes adaptées aux genres. Les polices sont celles du système ; aucun portrait, illustration externe ou logo d’artiste n’est chargé.'));
   } else { heading('Page introuvable.', 'Choisissez une rubrique dans la navigation.'); }
 }
 document.querySelector('.skip').addEventListener('click', event => { event.preventDefault(); main.focus(); });

@@ -10,14 +10,17 @@ const read = async name => JSON.parse(await readFile(path.join(root, name), 'utf
 const candidates = await read('data/candidates.json');
 const editions = await read('data/editions.json');
 const boosters = await read('data/boosters.json');
+const retiredIdentifiers = await read('data/retired-identifiers.json');
 const api = new ApiClient(path.join(root, '.cache/api'));
 const limit = Number(process.argv.find(a => a.startsWith('--limit='))?.split('=')[1] || candidates.length);
 const selected = candidates.slice(0, limit);
 const entitiesByTitle = new Map();
 for (let offset = 0; offset < selected.length; offset += 40) {
   const chunk = selected.slice(offset, offset + 40);
+  const titles = chunk.map(c => c.wikipediaTitle).filter(Boolean);
+  if (!titles.length) continue;
   const url = new URL('https://www.wikidata.org/w/api.php');
-  url.search = new URLSearchParams({ action: 'wbgetentities', sites: 'enwiki', titles: chunk.map(c => c.wikipediaTitle).join('|'), props: 'labels|descriptions|claims|sitelinks/urls', languages: 'en|fr', format: 'json' });
+  url.search = new URLSearchParams({ action: 'wbgetentities', sites: 'enwiki', titles: titles.join('|'), props: 'labels|descriptions|claims|sitelinks/urls', languages: 'en|fr', format: 'json' });
   const response = await api.get(url.href);
   for (const entity of Object.values(response.data.entities || {})) {
     if (entity.sitelinks?.enwiki?.title) entitiesByTitle.set(entity.sitelinks.enwiki.title, entity);
@@ -60,8 +63,14 @@ await Promise.all(Array.from({ length: 3 }, async () => {
 artists.sort((a, b) => a.id.localeCompare(b.id));
 decisions.sort((a, b) => a.id.localeCompare(b.id));
 const existing = await read('data/artists.json');
-
-validateCatalog(artists, editions.map(e => ({ ...e, status: 'preparation' })));
+for (const card of artists) {
+  const previous = existing.find(a => a.id === card.id && a.mbid === card.mbid);
+  if (previous?.careerEvidence) {
+    for (const key of ['careerEvidence', 'careerStart', 'awards', 'notableWorks']) card[key] = previous[key];
+    for (const key of ['careerEvidence', 'careerStart', 'awards', 'notableWorks']) if (previous.sources[key]) card.sources[key] = previous.sources[key];
+  }
+}
+validateCatalog(artists, editions.map(e => ({ ...e, status: 'preparation' })), { retiredIdentifiers });
 const missingFields = ['biography', 'notableAlbums', 'knownTracks', 'awards', 'careerStart', 'nationality'];
 const report = {
   generatedAt: new Date().toISOString(), candidates: selected.length, verified: artists.length,
@@ -71,13 +80,17 @@ const report = {
   boosters: boosters.map(b => ({ id: b.id, ...boosterAvailability(artists, b) })),
   missing: Object.fromEntries(missingFields.map(field => [field, artists.filter(a => a[field] === null).map(a => a.id)])),
 };
-await writeJSON(path.join(root, 'data/import-report.json'), report);
 if (process.argv.includes('--publish')) {
-  if (artists.length !== 500 || pending.length || report.boosters.some(b => !b.available)) throw new Error('Publication du catalogue refusée : identités ou raretés incomplètes.');
+  validateCatalog(artists, editions, { requireComplete: true, retiredIdentifiers });
+  if (pending.length || report.boosters.some(b => !b.available)) throw new Error('Publication du catalogue refusée : identités ou raretés incomplètes.');
   for (const card of existing) {
     if (!artists.some(a => a.id === card.id && a.mbid === card.mbid)) throw new Error('Identité permanente modifiée : ' + card.id);
   }
   await writeJSON(path.join(root, 'data/artists.json'), artists);
+  await writeJSON(path.join(root, 'data/import-report.json'), report);
   await writeJSON(path.join(root, 'data/editions.json'), editions.map(e => e.id === 'origins-01' ? { ...e, status: 'ready' } : e));
-} else await writeJSON(path.join(root, '.cache/artists-preview.json'), artists);
+} else {
+  await writeJSON(path.join(root, '.cache/artists-preview.json'), artists);
+  await writeJSON(path.join(root, '.cache/import-report-preview.json'), report);
+}
 console.log(JSON.stringify({ verified: artists.length, pending: pending.length, published: process.argv.includes('--publish') }));

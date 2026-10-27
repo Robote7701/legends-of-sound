@@ -2,7 +2,7 @@
 
 ## Identité et sélection
 
-500 entrées choisies pour couvrir plusieurs générations et scènes musicales : artistes solo, groupes, projets électroniques, artistes virtuels et producteurs Vocaloid. Les artistes peuvent appartenir à plusieurs boosters. La première sélection comportait 300 solos et 200 groupes ; le type final suit MusicBrainz, notamment pour les projets personnels comme Tame Impala. Le ratio est indicatif.
+1 500 entrées choisies pour couvrir plusieurs générations et scènes musicales : artistes solo, groupes, projets électroniques, artistes virtuels et producteurs Vocaloid. Les artistes peuvent appartenir à plusieurs boosters. La première sélection comportait 300 solos et 200 groupes ; le type final suit MusicBrainz, notamment pour les projets personnels comme Tame Impala. Le ratio est indicatif.
 
 Le registre [candidates.json](../data/candidates.json) conserve les IDs définitifs. Un ID ne doit jamais être déplacé vers un autre artiste après publication du catalogue. Le MBID ne se déduit pas d’un nom : il est obtenu via Wikidata puis consulté sur l’API officielle MusicBrainz. Le candidat doit correspondre à un nom ou alias, au type attendu et à un lien MusicBrainz retournant vers la même entité Wikidata.
 
@@ -11,6 +11,12 @@ Quand Wikidata distingue plusieurs identités MusicBrainz pour d’anciens noms,
 ## Genres
 
 Classement éditorial explicitement séparé des données d’identité. Les codes correspondent à des genres ou scènes musicales ; aucun pays n’ouvre automatiquement un booster. Les genres peuvent se cumuler et ne prétendent pas être exhaustifs. Le filtre ASIA WAVE contient j-pop, k-pop, j-rock et vocaloid : un artiste chinois, indien ou japonais n’y entre pas uniquement du fait de sa nationalité. Les tags communautaires MusicBrainz et leurs votes ne sont pas importés : ces données supplémentaires ont une licence différente des identités centrales.
+
+## Extension de la sélection
+
+L’extension utilise des genres Wikidata explicites, une sélection supplémentaire pour le rap et un contrôle croisé de chaque identité. Les descriptions et langues déclarées aident la présélection ; le nombre de liens interwiki sert à trouver des notices documentées et ne détermine aucune rareté. Un pays ou une langue parlée ne suffit pas à attribuer un genre, ni à déterminer la langue du répertoire. Les genres normalisés des nouveaux candidats conservent leur provenance ; la sélection prioritaire rap relève d’un choix éditorial explicite.
+
+Les 500 raretés initiales sont conservées pendant l’extension. Les nouvelles valeurs communes sont provisoires et signalées ; elles ne constituent pas une évaluation définitive. La revue de rareté viendra ensuite, avec des justifications sourcées. Les listes de distinctions ou d’œuvres disponibles restent des éléments incomplets, jamais un score automatique de talent ou d’influence.
 
 ## Raretés
 

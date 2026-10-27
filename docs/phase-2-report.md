@@ -1,5 +1,7 @@
 # Catalogue ORIGINS — bilan du 27 octobre 2026
 
+Ce bilan décrit le catalogue initial de 500 cartes. Voir le [bilan de l’extension à 1 500](./catalog-expansion.md) pour l’état actuel.
+
 ## Résultat
 
 500 identités distinctes : 303 solos et 197 groupes. 500 IDs internes permanents, 500 MBID distincts consultés sur l’API MusicBrainz et 500 entités Wikidata distinctes. Aucun cas en attente dans le rapport final. Les types suivent les fournisseurs, notamment pour Tame Impala, Parov Stelar et Burning Spear.

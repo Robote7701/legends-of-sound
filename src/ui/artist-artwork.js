@@ -8,7 +8,7 @@ export function artistArtwork(artist) {
   holder.style.setProperty('--paper', art.color);
   holder.style.setProperty('--type-scale', art.scale.toFixed(2));
   const top = el('span', '', 'type-top');
-  top.append(el('span', 'LOS / 01'), el('span', artist.id.replace('los-', 'N° ')));
+  top.append(el('span', 'LOS / 01'), el('span', artist.id.replace('los-', 'ID ')));
   holder.append(top, el('span', '', 'type-motif'), el('span', art.name, 'type-name'), el('span', art.label, 'type-caption'));
   const bottom = el('span', '', 'type-bottom');
   bottom.append(el('span', art.genre), el('span', artist.type === 'group' ? 'GROUPE' : 'SOLO'));
