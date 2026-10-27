@@ -65,6 +65,7 @@ decisions.sort((a, b) => a.id.localeCompare(b.id));
 const existing = await read('data/artists.json');
 for (const card of artists) {
   const previous = existing.find(a => a.id === card.id && a.mbid === card.mbid);
+  if(previous?.rarityReview?.status==='reviewed'){card.rarity=previous.rarity;card.rarityReview=previous.rarityReview;}
   if (previous?.careerEvidence) {
     for (const key of ['careerEvidence', 'careerStart', 'awards', 'notableWorks']) card[key] = previous[key];
     for (const key of ['careerEvidence', 'careerStart', 'awards', 'notableWorks']) if (previous.sources[key]) card.sources[key] = previous.sources[key];

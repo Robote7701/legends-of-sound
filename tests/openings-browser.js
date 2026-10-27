@@ -5,8 +5,10 @@ const assert=(ok,text)=>{if(!ok)throw Error(text);checks.push('OK — '+text);};
 async function until(predicate){const end=Date.now()+8000;while(!predicate()){if(Date.now()>end)throw Error('Délai dépassé');await new Promise(r=>setTimeout(r,30));}}
 let owned=false,sequence=0;
 const saved=()=>JSON.parse(localStorage.getItem(GAME.storageKey));
-async function load(tickets=10,credits=500,elapsed=0){
+const artists=await (await fetch('../data/artists.json')).json();
+async function load(tickets=10,credits=500,elapsed=0,owned=0){
  const state=createSave(Date.now());state.tickets=tickets;state.credits=credits;state.ticketUpdatedAt-=elapsed;
+ for(const artist of artists.slice(0,owned))state.collection[artist.id]={count:3,firstObtainedAt:state.createdAt,lastObtainedAt:state.createdAt};
  localStorage.setItem(GAME.storageKey,JSON.stringify(state));
  frame.src='../index.html?opening-test='+sequence+++'#boosters';
  await new Promise(resolve=>frame.onload=resolve);
@@ -24,14 +26,17 @@ try{
  await until(()=>!!doc.querySelector('.opening-dialog[open]'));
  assert(saved().stats.boostersOpened===1&&saved().tickets===9,'Double clic : une seule ouverture');
  assert(saved().lastOpening.cards.length===5&&saved().stats.cardsObtained===5,'Les cinq gains sont sauvegardés avant la révélation');
+ const sound=doc.querySelector('.opening-audio');sound.click();assert(sound.getAttribute('aria-pressed')==='true','Sons activables explicitement');sound.click();assert(sound.getAttribute('aria-pressed')==='false','Bouton muet disponible');
  doc.querySelector('.sealed-pack').click();
  await until(()=>!!doc.querySelector('.card-reveal'));
  assert(doc.querySelector('.card-reveal.rarity-legendary'),'Révélation individuelle et effet légendaire');
  doc.querySelector('.card-reveal').click();
+ await until(()=>doc.querySelectorAll('.card-reveal').length===2);
  assert(doc.querySelectorAll('.card-reveal').length===2&&!doc.querySelector('.artist-dialog'),'Cliquer sur la carte révèle la suivante sans ouvrir de fiche');
  assert(doc.querySelectorAll('.spotlight-grid .artist-card:not([hidden])').length===1,'Une seule carte active au centre de la scène');
  const skip=[...doc.querySelectorAll('.opening-dialog button')].find(b=>b.textContent.includes('Tout révéler'));skip.click();
  assert(doc.querySelectorAll('.opening-summary .artist-card').length===5,'Ignorer les animations conserve les cinq cartes');
+ assert(doc.querySelector('.session-scoreboard')&&doc.querySelector('.session-best'),'Bilan : nouveautés, progression et meilleure carte mises en avant');
  assert(new Set(saved().lastOpening.cards.map(c=>c.id)).size===5,'Cinq artistes distincts dans le paquet');
  doc=await load();
  doc.querySelector('[data-count="3"]').click();doc.querySelector('.open-selected').click();
@@ -71,6 +76,26 @@ try{
  frame.contentWindow.confirm=()=>{const changed=saved();changed.credits=550;changed.revision++;localStorage.setItem(GAME.storageKey,JSON.stringify(changed));return true;};
  doc.querySelector('.open-selected').click();await until(()=>!!doc.querySelector('.notice.error'));
  assert(saved().credits===550&&saved().stats.boostersOpened===0,'Modification pendant la confirmation : ancien devis refusé');
+ doc=await load(5,500,0,20);
+ doc.querySelector('nav a[href="#collection"]').click();await until(()=>!!doc.querySelector('.card-marks button'));
+ const ownership=[...doc.querySelectorAll('.catalog-controls label')].find(label=>label.textContent.startsWith('Ma sélection')).querySelector('select');ownership.value='owned';ownership.dispatchEvent(new Event('change'));
+ doc.querySelector('[aria-label^="♥ Favori"]').click();await until(()=>saved().favorites.length===1);
+ doc.querySelector('[aria-label^="▣ Verrou"]').click();await until(()=>saved().locked.length===1);
+ doc.querySelector('[aria-label^="☆ Souhait"]').click();await until(()=>saved().wishlist.length===1);
+ assert(saved().favorites[0]===saved().locked[0]&&saved().wishlist.length===1,'Favori, souhait et verrou enregistrés depuis la collection');
+ doc.querySelector('nav a[href="#recycling"]').click();await until(()=>!!doc.querySelector('.recycling-row'));
+ [...doc.querySelectorAll('main button')].find(b=>b.textContent.includes('Sélectionner tous')).click();
+ assert([...doc.querySelectorAll('.recycling-row input')].filter(i=>Number(i.value)>0).length===19,'Sélection automatique exclut favoris/verrous et garde un exemplaire');
+ frame.contentWindow.confirm=()=>false;[...doc.querySelectorAll('main button')].find(b=>b.textContent==='Valider le recyclage').click();
+ assert(saved().stats.cardsRecycled===0,'Annuler le recyclage ne retire aucune carte');
+ frame.contentWindow.confirm=()=>true;[...doc.querySelectorAll('main button')].find(b=>b.textContent==='Valider le recyclage').click();await until(()=>saved().stats.cardsRecycled===38);
+ assert(saved().collection[saved().favorites[0]].count===3&&Object.values(saved().collection).filter(c=>c.count===1).length===19,'Recyclage cohérent et carte protégée intacte');
+ doc.querySelector('nav a[href="#goals"]').click();await until(()=>!!doc.querySelector('.goal-panel button'));
+ doc.querySelector('.goal-panel button').click();await until(()=>saved().claimedGoals.length===1);
+ assert(saved().tickets===6&&doc.querySelector('.goal-panel button').disabled,'Objectif : ticket attribué une seule fois, bouton bloqué après récupération');
+ frame.contentWindow.location.hash='#rarity-review';await until(()=>!!doc.querySelector('.rarity-review-list article'));
+ const reviewSearch=doc.querySelector('input[type="search"]');reviewSearch.value='celine dion';reviewSearch.dispatchEvent(new Event('input'));
+ assert(doc.querySelectorAll('.rarity-review-list article').length===1&&doc.querySelector('.rarity-review-list').textContent.includes('Actuelle : Légendaire'),'Revue : recherche sans accent et correction sourcée de Céline Dion');
  output.dataset.status='passed';
 }catch(error){checks.push('ÉCHEC — '+error.message);output.dataset.status='failed';}
 finally{if(owned){frame.src='about:blank';localStorage.removeItem(GAME.storageKey);}output.textContent=checks.join('\n')+'\n'+checks.filter(c=>c.startsWith('OK')).length+' contrôles réussis.';}

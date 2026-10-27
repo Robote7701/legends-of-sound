@@ -7,9 +7,22 @@ import { recharge, nextTicketIn, quoteOpening, openBoosters } from './domain/boo
 import { boostersView } from './ui/boosters-view.js';
 import { showOpening } from './ui/opening-view.js';
 import { catalogView } from './ui/catalog-view.js';
+import { toggleMark } from './domain/progression.js';
+import { recyclingView, goalsView } from './ui/progression-view.js';
+import { rarityReviewView } from './ui/rarity-review-view.js';
 const main = document.querySelector('main');
 let catalog, store, save, saveError;
 let opening = false;
+let editing = false;
+async function mutate(operation, revision) {
+  if(editing||opening)throw Error('Une opération est déjà en cours.');
+  editing=true;
+  try {
+    save=await withSaveLock(()=>{const current=store.load();if(revision!==undefined&&current.revision!==revision)throw Error('La collection a changé. Rechargez la page avant de confirmer.');return store.commit(operation(current));});
+    wallet();return structuredClone(save);
+  } catch(error) {try{save=store.load();}catch{save=null;}throw error;}
+  finally{editing=false;}
+}
 function heading(title, description) { main.append(el('div', 'LEGENDS OF SOUND / ORIGINS', 'eyebrow'), el('h1', title), el('p', description, 'muted')); }
 function message(text, error = false) { const n = el('p', text, 'notice' + (error ? ' error' : '')); n.setAttribute('role', error ? 'alert' : 'status'); main.append(n); return n; }
 function wallet() {
@@ -20,7 +33,7 @@ function wallet() {
   node.textContent = current.tickets + '/10 tickets · ' + current.credits + ' SC' + timer;
 }
 async function purchaseOpening(booster, count, opener) {
-  if (opening || !save) return;
+  if (opening || editing || !save) return;
   opening = true;
   try {
     // Relire avant de présenter le devis ; ne jamais confirmer un ancien solde.
@@ -35,7 +48,7 @@ async function purchaseOpening(booster, count, opener) {
       const next = openBoosters(current, catalog.artists, booster, count, { approvedCredits: quote.credits });
       return store.commit(next);
     });
-    wallet(); showOpening(save.lastOpening, catalog, opener);
+    wallet(); showOpening(save.lastOpening, catalog, opener, save);
   } catch (error) {
     try { save = store.load(); } catch (readError) { save = null; saveError = readError.message; }
     message(error.message, true);
@@ -72,18 +85,24 @@ function render() {
   if (route === 'settings') { settings(); return; }
   if (route === 'boosters') {
     heading('La musique devient collection.', 'Choisissez votre scène. Ouvrez le booster. Découvrez vos cinq cartes.');
-    main.append(boostersView(catalog, () => save, purchaseOpening, opener => { if (save?.lastOpening) showOpening(save.lastOpening, catalog, opener); }));
+    main.append(boostersView(catalog, () => save, purchaseOpening, opener => { if (save?.lastOpening) showOpening(save.lastOpening, catalog, opener, save); }));
   } else if (route === 'collection') {
     heading('Votre discothèque de légendes.', 'ÉDITION 01 — ORIGINS');
     const count = save ? Object.keys(save.collection).length : 0;
     main.append(el('h2', count + ' carte(s) possédée(s) · objectif de l’édition : ' + catalog.editions.reduce((sum, edition) => sum + edition.targetCardCount, 0)));
     const provisional = catalog.artists.filter(a => a.rarityReview?.status === 'pending').length;
-    if (provisional) message('Classement à revoir ensemble : ' + provisional + ' nouvelles cartes ont une rareté provisoire. Les raretés des cartes initiales sont conservées pour comparaison.');
-    main.append(el('p', catalog.artists.length + ' identités vérifiées. Explorez le catalogue et les sources ; consulter une fiche ne donne pas la carte.', 'muted'), catalogView(catalog, save));
+    if (provisional) message('Classement à revoir ensemble : ' + provisional + ' nouvelles cartes ont une rareté provisoire. Les premières corrections sont appliquées ; chaque nouvelle décision reste motivée par ses sources.');
+    const reviewLink=el('a','Revoir les raretés et les sources','button secondary');reviewLink.href='#rarity-review';main.append(reviewLink);
+    main.append(el('p', catalog.artists.length + ' identités vérifiées. Explorez le catalogue et les sources ; consulter une fiche ne donne pas la carte.', 'muted'), catalogView(catalog, save,(kind,id,revision)=>mutate(current=>toggleMark(current,catalog.artists,kind,id),revision)));
   } else if (route === 'recycling') {
     heading('Atelier de recyclage.', 'Donnez une seconde vie à vos doublons.');
-    message('Disponible en Phase 3 avec le moteur du jeu. Aucun recyclage n’est actuellement possible.');
-    main.append(el('p', 'Valeurs prévues : commune 10 SC · rare 25 SC · épique 60 SC · légendaire 150 SC.'));
+    main.append(recyclingView(catalog,()=>save,mutate));
+  } else if (route === 'goals') {
+    heading('Chaque découverte compte.', 'Des objectifs de collection et des tickets gratuits. Chaque récompense se récupère une seule fois ; libérez de la place si votre réserve est pleine.');
+    main.append(goalsView(catalog,()=>save,mutate));
+  } else if (route === 'rarity-review') {
+    heading('Les légendes méritent une vraie revue.', 'Un atelier éditorial pour les 1 500 artistes. Les brouillons ne changent pas les tirages tant qu’ils ne sont pas appliqués au catalogue.');
+    main.append(rarityReviewView(catalog));
   } else if (route === 'statistics') {
     heading('Votre empreinte musicale.', 'Statistiques de votre sauvegarde locale.');
     if (save) { const grid = el('div', '', 'grid'); for (const [key,label] of [['boostersOpened','Boosters ouverts'],['cardsObtained','Cartes obtenues'],['cardsRecycled','Cartes recyclées']]) { const panel = el('section','','panel'); panel.append(el('h2',label),el('p',String(save.stats[key]))); grid.append(panel); } main.append(grid); }

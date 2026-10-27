@@ -48930,7 +48930,7 @@
       "pop",
       "rnb"
     ],
-    "rarity": "epic",
+    "rarity": "legendary",
     "aliases": [
       "Celine Dion",
       "Celline Dion",
@@ -49081,7 +49081,16 @@
       },
       "shard": "origins-01-005.json"
     },
-    "notableWorks": null
+    "notableWorks": null,
+    "rarityReview": {
+      "status": "reviewed",
+      "reason": "Promotion éditoriale : reconnaissance musicale durable documentée notamment par le Billboard Music Award for Icon, les Grammy Awards de l’album et de l’enregistrement de l’année. Sources : dossier de carrière Wikidata référencé dans la fiche ; ce choix ne mesure pas le talent.",
+      "reviewedAt": "2026-10-27T21:50:17.574Z",
+      "sources": [
+        "https://musicbrainz.org/artist/847e8a0c-cc20-4213-9e16-975515c2a926",
+        "https://www.wikidata.org/wiki/Q5105"
+      ]
+    }
   },
   {
     "id": "los-000245",
@@ -183494,10 +183503,15 @@
       "blues",
       "world"
     ],
-    "rarity": "common",
+    "rarity": "legendary",
     "rarityReview": {
-      "status": "pending",
-      "reason": "Valeur provisoire avant la revue éditoriale du catalogue étendu."
+      "status": "reviewed",
+      "reason": "Promotion éditoriale : dossier de carrière documentant le prix Polar Music, le Grammy du couronnement d’une carrière, le Rock and Roll Hall of Fame et le Blues Hall of Fame. Sources : références Wikidata de la fiche ; ce choix ne mesure pas le talent.",
+      "reviewedAt": "2026-10-27T21:50:17.575Z",
+      "sources": [
+        "https://musicbrainz.org/artist/2ce02909-598b-44ef-a456-151ba0a3bd70",
+        "https://www.wikidata.org/wiki/Q544387"
+      ]
     },
     "aliases": [
       "Charles Ray",
@@ -188606,10 +188620,15 @@
       "blues",
       "pop"
     ],
-    "rarity": "common",
+    "rarity": "legendary",
     "rarityReview": {
-      "status": "pending",
-      "reason": "Valeur provisoire avant la revue éditoriale du catalogue étendu."
+      "status": "reviewed",
+      "reason": "Promotion éditoriale : dossier musical documentant le Grammy du couronnement d’une carrière, le Grammy Legend Award et le Grammy de l’album de l’année. Les distinctions de cinéma ne servent pas à cette décision. Sources : références Wikidata de la fiche.",
+      "reviewedAt": "2026-10-27T21:50:17.576Z",
+      "sources": [
+        "https://musicbrainz.org/artist/197450cd-0124-4164-b723-3c22dd16494d",
+        "https://www.wikidata.org/wiki/Q40912"
+      ]
     },
     "aliases": [
       "Francis Albert Sinatra",
@@ -197557,10 +197576,15 @@
       "ska",
       "rock"
     ],
-    "rarity": "common",
+    "rarity": "legendary",
     "rarityReview": {
-      "status": "pending",
-      "reason": "Valeur provisoire avant la revue éditoriale du catalogue étendu."
+      "status": "reviewed",
+      "reason": "Promotion éditoriale : reconnaissance de carrière documentée par le Grammy du couronnement d’une carrière et le Rock and Roll Hall of Fame. Sources : références Wikidata de la fiche. Cette rareté est un choix de collection et ne mesure pas le talent.",
+      "reviewedAt": "2026-10-27T21:50:17.576Z",
+      "sources": [
+        "https://musicbrainz.org/artist/ed2ac1e9-d51d-4eff-a2c2-85e81abd6360",
+        "https://www.wikidata.org/wiki/Q409"
+      ]
     },
     "aliases": [
       "Bob Marley",

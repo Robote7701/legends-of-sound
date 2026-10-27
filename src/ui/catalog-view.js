@@ -10,7 +10,8 @@ function link(text, url) {
 export function showArtist(artist, opener) {
   const dialog = el('dialog', '', 'artist-dialog');
   const close = el('button', 'Fermer ×', 'secondary close-dialog');
-  close.onclick = () => dialog.close();
+  function cleanup(){if(!dialog.isConnected)return;dialog.remove();opener?.focus();}
+  close.onclick = () => {dialog.close();cleanup();};
   const heading = el('h2', artist.displayName || artist.name); heading.id = 'artist-dialog-title';
   dialog.setAttribute('aria-labelledby', heading.id);
   dialog.append(close, artistArtwork(artist), el('div', RARITIES[artist.rarity].label + ' / ' + artist.id, 'eyebrow'), heading);
@@ -46,12 +47,12 @@ export function showArtist(artist, opener) {
   dialog.append(el('p', 'Identité croisée vérifiée le ' + artist.provenance.musicbrainz.verifiedAt.slice(0, 10) + '. Les genres et raretés sont des choix éditoriaux, sans mesure du talent.', 'muted'));
   if (artist.careerEvidence) dialog.append(el('p', 'Éléments de carrière : Wikidata, consulté le ' + artist.careerEvidence.source.accessedAt.slice(0, 10) + (artist.careerEvidence.source.revision ? ', révision ' + artist.careerEvidence.source.revision : '') + '. Distinctions, œuvres notables et début d’activité sont des listes partielles ; leur absence ne mesure pas la reconnaissance de l’artiste.', 'muted'));
   if (artist.careerEvidence?.shard) dialog.append(evidenceView(artist));
-  dialog.addEventListener('close', () => { dialog.remove(); opener?.focus(); }, { once: true });
+  dialog.addEventListener('close', cleanup, { once: true });
   dialog.addEventListener('click', event => { if (event.target === dialog) { const box = dialog.getBoundingClientRect(); if (event.clientX < box.left || event.clientX > box.right || event.clientY < box.top || event.clientY > box.bottom) dialog.close(); } });
   document.body.append(dialog); dialog.showModal();
 }
 
-export function catalogView(catalog, save) {
+export function catalogView(catalog, save, onMark) {
   const root = el('section');
   const controls = el('form', '', 'catalog-controls'); controls.onsubmit = event => event.preventDefault();
   const searchLabel = el('label', 'Rechercher un artiste');
@@ -68,13 +69,18 @@ export function catalogView(catalog, save) {
   select('Rareté', 'rarity', Object.entries(RARITIES).map(([key, value]) => [key, value.label]));
   select('Genre', 'genre', [...new Set(catalog.artists.flatMap(a => a.genres))].sort().map(g => [g, g]));
   select('Booster', 'booster', catalog.boosters.map(b => [b.id, b.name]));
+  filters.ownership=''; filters.sort='name';
+  select('Ma sélection', 'ownership', [['owned','Possédées'],['missing','Manquantes'],['favorites','Favoris'],['wishlist','Souhaits'],['locked','Verrouillées']]);
+  select('Trier', 'sort', [['name','Nom A–Z'],['rarity','Rareté'],['recent','Dernière obtention']]);
   const count = el('p', '', 'muted'); count.setAttribute('role', 'status');
   const grid = el('div', '', 'artist-grid');
   const pagination = el('div', '', 'actions pagination');
   let page = 0;
   search.oninput = () => { filters.search = search.value; page = 0; draw(); };
   function draw() {
-    const matches = filterArtists(catalog.artists, filters, catalog.boosters);
+    const matches = filterArtists(catalog.artists, filters, catalog.boosters).filter(a=>!filters.ownership || (filters.ownership==='owned' ? !!save?.collection[a.id] : filters.ownership==='missing' ? !save?.collection[a.id] : (save?.[filters.ownership]||[]).includes(a.id)));
+    const rank=['legendary','epic','rare','common'];
+    if(!filters.search||filters.sort!=='name')matches.sort((a,b)=>filters.sort==='rarity' ? rank.indexOf(a.rarity)-rank.indexOf(b.rarity)||a.name.localeCompare(b.name) : filters.sort==='recent' ? (save?.collection[b.id]?.lastObtainedAt||0)-(save?.collection[a.id]?.lastObtainedAt||0)||a.name.localeCompare(b.name) : a.name.localeCompare(b.name));
     const pages = Math.max(1, Math.ceil(matches.length / 40));
     grid.replaceChildren(); pagination.replaceChildren();
     count.textContent = matches.length + ' artiste(s) · page ' + (page + 1) + '/' + pages;
@@ -84,7 +90,14 @@ export function catalogView(catalog, save) {
       const owned = save?.collection[artist.id]?.count || 0;
       card.setAttribute('aria-label', (artist.displayName || artist.name) + ' — ouvrir la fiche');
       card.append(artistArtwork(artist), el('span', RARITIES[artist.rarity].label + (artist.rarityReview?.status === 'pending' ? ' · provisoire' : ''), 'rarity-label'), el('strong', artist.displayName || artist.name), el('span', artist.genres.slice(0, 3).join(' / '), 'card-genres'), el('span', owned ? 'Possédée ×' + owned : 'Non découverte', 'owned-label'));
-      card.onclick = () => showArtist(artist, card); grid.append(card);
+      card.onclick = () => showArtist(artist, card);
+      const tile=el('article','','collection-tile'),marks=el('div','','card-marks'); tile.append(card);
+      if(onMark) for(const [kind,label] of [['favorites','♥ Favori'],['wishlist','☆ Souhait'],['locked','▣ Verrou']]) {
+        if(kind!=='wishlist'&&!owned)continue;
+        const button=el('button',label,'secondary');button.setAttribute('aria-label',label+' · '+(artist.displayName||artist.name));button.setAttribute('aria-pressed',String((save?.[kind]||[]).includes(artist.id)));button.disabled=!save;
+        button.onclick=async()=>{button.disabled=true;try{save=await onMark(kind,artist.id,save.revision);draw();}catch(error){count.textContent=error.message;button.disabled=false;}};marks.append(button);
+      }
+      tile.append(marks);grid.append(tile);
     }
     const previous = el('button', '← Précédent', 'secondary'); previous.disabled = page === 0;
     previous.onclick = () => { page--; draw(); root.scrollIntoView({ block: 'start' }); };

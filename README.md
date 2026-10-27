@@ -6,7 +6,7 @@ TCG musical gratuit, statique et indépendant de Velvet Collection. Sound Credit
 
 ORIGINS comprend **1 500 artistes et groupes identifiés sur MusicBrainz**, avec contrôle croisé Wikidata, genres et raretés éditoriaux, dix boosters, fiches sourcées et explorateur du catalogue. Les champs inconnus restent null. Les notices courtes Wikidata ne sont pas des biographies complètes.
 
-Les dix boosters sont jouables en x1, x3, x5 et x10. Les tickets se rechargent hors ligne (un toutes les cinq minutes, maximum dix). Les Sound Credits complètent les tickets après confirmation. Les gains, paiements et statistiques sont enregistrés ensemble avant toute révélation. La dernière ouverture peut être revue sans paiement, même après rechargement. Le recyclage reste à développer. Consulter une fiche ne donne pas la carte. Les 1 500 cartes utilisent des compositions typographiques originales adaptées aux genres : aucune photo, illustration externe ou logo d’artiste. Les champs sans données sont masqués.
+Les dix boosters sont jouables en x1, x3, x5 et x10. Les tickets se rechargent hors ligne (un toutes les cinq minutes, maximum dix). Les Sound Credits complètent les tickets après confirmation. Les gains, paiements et statistiques sont enregistrés ensemble avant toute révélation. La dernière ouverture peut être revue sans paiement, même après rechargement. Le recyclage, les favoris, les souhaits et les objectifs sont disponibles. Consulter une fiche ne donne pas la carte. Les 1 500 cartes utilisent des compositions typographiques originales adaptées aux genres : aucune photo, illustration externe ou logo d’artiste. Les champs sans données sont masqués.
 
 ## Démarrer et tester
 
@@ -34,7 +34,28 @@ La sélection utilise un carrousel à flèches, clavier et balayage tactile. ALL
 
 Le devis affiche tickets utilisés, SC dépensés et solde après paiement. Les paiements en crédits nécessitent une confirmation ; un changement de sauvegarde ou de coût annule le devis. Web Locks et écriture locale atomique protègent le paiement et les gains. Une erreur de stockage ne produit pas de paiement partiel. Le compteur repose sur l’horodatage persisté, pas sur le temps pendant lequel la page reste ouverte.
 
-La révélation propose une ouverture du paquet, puis une carte centrale à la fois sur une scène lumineuse avec halo, particules, compteur et effet doré pour les légendaires. Cliquer sur la carte avance la révélation ; les fiches artistes s’ouvrent uniquement dans le récapitulatif ou la collection. Révélation rapide, saut des animations, fermeture et préférences de réduction des mouvements sont pris en charge. Le champ optionnel lastOpening garde les résultats du dernier achat pour les revoir, sans migration ni suppression des sauvegardes existantes.
+La révélation propose une ouverture du paquet, un dos de carte puis une carte centrale à la fois sur une scène lumineuse avec halo, particules, compteur et effet doré pour les légendaires. Le suspense dure 400 ms (commune/rare), 850 ms (épique) ou 1 250 ms (légendaire), et peut être interrompu en retournant la carte. Des sons synthétisés originaux sont activables par geste utilisateur, désactivés par défaut et interrompus à la fermeture. Cliquer sur la carte avance la révélation ; les fiches artistes s’ouvrent uniquement dans le récapitulatif ou la collection. Le bilan souligne nouveautés, doublons, meilleure carte et progression actuelle. Révélation rapide, saut des animations, fermeture et préférences de réduction des mouvements sont pris en charge. Le champ optionnel lastOpening garde les résultats du dernier achat pour les revoir, sans migration ni suppression des sauvegardes existantes.
+
+## Collection, recyclage et objectifs
+
+La collection propose favoris, verrous, souhaits, filtres possédées/manquantes et tris par nom, rareté ou obtention. Les favoris et verrous exigent une carte possédée ; un souhait peut viser une carte manquante. L’atelier de recyclage propose quantités manuelles et sélection de tous les doublons. Cette sélection garde un exemplaire et ignore favoris/verrous ; le recyclage manuel peut retirer le dernier exemplaire d’une carte non protégée. Aperçu des SC, confirmation et transaction atomique précèdent toute modification.
+
+Six objectifs donnent 1 à 3 tickets : découvertes globales, rap/hip-hop, groupes rock et première légendaire. La récompense se récupère une seule fois. Si la réserve de dix tickets est trop pleine, elle reste disponible et le joueur est invité à libérer de la place. Les anciens fichiers sans wishlist ou claimedGoals restent compatibles. Ces champs sont validés à l’import.
+
+## Revue éditoriale des raretés
+
+Depuis COLLECTION, ouvrir « Revoir les raretés et les sources ». Les 1 500 fiches disposent d’un dossier ; 412 suggestions documentaires aident à repérer les cas à examiner. Elles ne constituent pas 1 500 décisions finales : manque de distinctions, pays ou scène ne permettent pas de déduire une rareté. Quatre promotions éditoriales motivées sont appliquées : Céline Dion, Ray Charles, Frank Sinatra et Bob Marley en légendaire. Les autres valeurs provisoires restent signalées.
+
+Les brouillons sont enregistrés séparément sous legends-of-sound-rarity-drafts-v1 et exportables avec justification. Le script refuse des IDs inconnus/dupliqués ou des décisions sans justification, vérifie le catalogue et la disponibilité des boosters, et conserve une copie du catalogue dans le cache avant remplacement. Il ne déploie rien.
+
+```sh
+node scripts/review-rarities.js
+node scripts/review-rarities.js --apply=chemin/legends-rarity-decisions.json
+npm test
+npm run check:catalog
+```
+
+Le rapport est [rarity-review.json](./data/rarity-review.json) ; les premières décisions sont [rarity-decisions.json](./data/rarity-decisions.json). Les preuves complètes restent dans les fiches sourcées.
 
 Les dix boosters ont des pochettes verticales à scellés crantés et reflets métallisés. Chaque thème utilise une illustration SVG originale autour d’un vinyle : guitare, batterie, micro, fréquences électroniques, etc. Le même composant sert à la sélection et à l’ouverture ; le scellé se détache avant la révélation. Aucun fichier graphique externe ni portrait n’est nécessaire. Les compositions sont définies dans [booster-artwork.js](./src/ui/booster-artwork.js) et leur mise en scène dans [opening.css](./assets/css/opening.css).
 
@@ -80,7 +101,7 @@ Les noms deviennent les visuels des 1 500 cartes. Neuf familles graphiques suive
 
 [Bilan de l’extension et validations](./docs/catalog-expansion.md).
 
-L’extension ajoute 1 000 identités vérifiées et conserve les 500 IDs et MBID initiaux. Les raretés des cartes initiales sont inchangées ; les nouvelles cartes ont une valeur commune **provisoire**, explicitement signalée, jusqu’à la revue éditoriale avec le porteur du projet. Le nombre de cartes par rareté ne définit pas les probabilités de tirage.
+L’extension ajoute 1 000 identités vérifiées et conserve les 500 IDs et MBID initiaux. Les premières corrections sourcées sont appliquées ; les autres nouvelles cartes gardent une valeur commune **provisoire**, explicitement signalée, jusqu’à leur revue éditoriale. Le nombre de cartes par rareté ne définit pas les probabilités de tirage.
 
 Les distinctions (P166), œuvres notables (P800), genres documentés (P136) et débuts d’activité (P2031) sont extraits de Wikidata quand disponibles. careerEvidence renvoie à des lots locaux de 50 fiches contenant les références de chaque déclaration ; les listes restent partielles. Aucun compteur de popularité, aucune biographie ni récompense n’est inventé. L’absence d’une distinction dans Wikidata ne vaut pas absence de reconnaissance. Les œuvres notables ne sont pas automatiquement considérées comme des albums ou des chansons.
 
@@ -116,4 +137,4 @@ Aucun workflow de déploiement automatique.
 
 ## Suite
 
-[Plan des cinq phases](./docs/implementation-plan.md). Les transactions, tickets, tirages et révélations sont disponibles. Restent notamment le recyclage, les favoris/verrous dans l’interface et les tris supplémentaires. Phase 5 : validation finale avant publication. Aucun combat en v0.1.
+[Plan des cinq phases](./docs/implementation-plan.md). Transactions, tickets, tirages, révélations, recyclage, favoris/verrous/souhaits et objectifs sont disponibles. La revue éditoriale complète reste à poursuivre dans l’atelier ; les suggestions ne sont pas appliquées automatiquement. Phase 5 : validation finale avant publication. Aucun combat en v0.1.
