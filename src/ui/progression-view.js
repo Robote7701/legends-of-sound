@@ -47,18 +47,22 @@ export function recyclingView(catalog,getSave,mutate) {
   draw();return root;
 }
 export function goalsView(catalog,getSave,mutate){
-  const root=el('section','','goals-grid'),status=el('p');status.setAttribute('role','status');let busy=false;
-  const toolbar=el('div','','goal-toolbar'),filter=el('select');filter.setAttribute('aria-label','Filtrer les objectifs');for(const [value,label]of [['all','Tous les objectifs'],['ready','Récompenses disponibles'],['progress','En cours'],['claimed','Déjà récupérés']])filter.append(new Option(label,value));filter.onchange=draw;toolbar.append(el('strong',GOALS.length+' objectifs · récompenses en SC'),filter);
+  const root=el('section','','goals-grid'),status=el('p');status.setAttribute('role','status');let busy=false,page=0;
+  const toolbar=el('div','','goal-toolbar'),filter=el('select'),category=el('select');filter.setAttribute('aria-label','Filtrer les objectifs');for(const [value,label]of [['all','Tous les objectifs'],['ready','Récompenses disponibles'],['progress','En cours'],['claimed','Déjà récupérés']])filter.append(new Option(label,value));
+  category.setAttribute('aria-label','Catégorie des objectifs');for(const [value,label]of [['all','Toutes les catégories'],['collection','Collection'],['scenes','Scènes musicales'],['types','Solo / groupes'],['rarities','Raretés'],['activity','Ouvertures / recyclage']])category.append(new Option(label,value));
+  filter.onchange=category.onchange=()=>{page=0;draw();};toolbar.append(el('strong',GOALS.length+' objectifs · récompenses en SC'),filter,category);
   function draw(){root.replaceChildren(toolbar,status);const save=getSave();if(!save){status.textContent='Sauvegarde indisponible.';return;}
-    let shown=0;
-    for(const goal of GOALS){
+    const matches=GOALS.filter(goal=>{const value=goalProgress(save,catalog.artists,goal),claimed=(save.claimedGoals||[]).includes(goal.id),group=goal.stat?'activity':goal.genres?'scenes':goal.rarity?'rarities':goal.type?'types':'collection';return (category.value==='all'||category.value===group)&&(filter.value==='all'||filter.value==='ready'&&!claimed&&value>=goal.target||filter.value==='progress'&&!claimed&&value<goal.target||filter.value==='claimed'&&claimed);});
+    const pages=Math.max(1,Math.ceil(matches.length/4));page=Math.min(page,pages-1);
+    function pager(){const bar=el('div','','actions goal-pagination'),previous=el('button','← Précédent','secondary'),next=el('button','Suivant →','secondary');previous.disabled=busy||page===0;next.disabled=busy||page+1>=pages;previous.onclick=()=>{page--;draw();root.scrollIntoView({block:'start'});};next.onclick=()=>{page++;draw();root.scrollIntoView({block:'start'});};bar.append(previous,el('span',(page+1)+' / '+pages+' · '+matches.length+' objectifs'),next);return bar;}
+    root.append(pager());
+    for(const goal of matches.slice(page*4,page*4+4)){
       const value=goalProgress(save,catalog.artists,goal),claimed=(save.claimedGoals||[]).includes(goal.id),panel=el('article','','panel goal-panel'),progress=el('progress');progress.max=goal.target;progress.value=Math.min(value,goal.target);progress.setAttribute('aria-label',goal.description);
-      if(filter.value==='ready'&&(claimed||value<goal.target)||filter.value==='progress'&&(claimed||value>=goal.target)||filter.value==='claimed'&&!claimed)continue;
-      shown++;
       const button=el('button',claimed?'Récompense récupérée':value<goal.target?'Objectif en cours':'Récupérer '+goal.credits+' SC');button.disabled=busy||claimed||value<goal.target;
       button.onclick=async()=>{if(busy)return;busy=true;draw();try{await mutate(current=>claimGoal(current,catalog.artists,goal.id),save.revision);status.textContent='+'+goal.credits+' Sound Credits !';}catch(error){status.textContent=error.message;}finally{busy=false;draw();}};
       panel.append(el('span','+'+goal.credits+' SC','goal-reward'),el('h2',goal.name),el('p',goal.description),progress,el('p',Math.min(value,goal.target)+' / '+goal.target),button);root.append(panel);
     }
-    if(!shown)root.append(el('p','Aucun objectif dans cette catégorie.'));
+    if(!matches.length)root.append(el('p','Aucun objectif dans cette catégorie.'));
+    root.append(pager());
   }draw();return root;
 }

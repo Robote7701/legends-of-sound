@@ -128,14 +128,22 @@ Clé exclusive : legends-of-sound-v1. Une nouvelle partie reçoit 500 SC et dix 
 
 JSON corrompu, version future et erreur localStorage : signalement sans réinitialisation automatique. Export brut disponible. L’import demande confirmation et conserve une copie sous legends-of-sound-v1-before-import ; un échec de copie l’annule. Web Locks et comparaison de l’état chargé protègent les écritures entre onglets. Sans Web Locks, aucune écriture. Une écriture atomique précède la mise à jour mémoire. Le stockage local ne constitue pas un système anti-triche ; exporter régulièrement avant de changer d’appareil ou d’effacer les données du navigateur.
 
-## GitHub Pages — après validation explicite
+## Objectifs, statistiques et Debug
 
-Aucun workflow de déploiement automatique.
+Les 50 objectifs sont paginés par quatre, avec navigation en haut et en bas, filtres d’état et catégories. Les statistiques distinguent artistes découverts, exemplaires actuels, doublons, manquants et compteurs historiques, puis détaillent les progrès par rareté, solo/groupe et univers. Les univers se recouvrent : leurs totaux ne s’additionnent pas.
 
-1. Exécuter tests, contrôle des sources/licences et vérification sous un sous-répertoire.
-2. Après validation explicite, pousser la branche validée sur GitHub.
-3. Settings → Pages → Deploy from a branch : branche validée, / (root).
-4. Vérifier https://UTILISATEUR.github.io/legends-of-sound/ ainsi que les ressources, fiches et sauvegardes.
+L’onglet Debug est volontairement disponible aussi en ligne : chaque joueur peut ajouter 100, 1 000 ou 10 000 SC, ajouter 1 ou 3 tickets, ou remplir la réserve à dix. Les ajouts concernent uniquement sa sauvegarde locale ; ils ne comptent pas comme des ouvertures ou des gains de cartes. Validation des valeurs et transactions atomiques s’appliquent également au Debug.
+
+## GitHub Pages
+
+Publication autorisée par le porteur du projet. Le workflow [.github/workflows/pages.yml](./.github/workflows/pages.yml) teste le moteur et le catalogue avant de publier, sur push dans main ou lancement manuel.
+
+1. Settings → Pages → Build and deployment → Source : GitHub Actions.
+2. Pousser les commits validés sur main ; attendre la réussite de « Publish Legends of Sound ».
+3. Le workflow prépare uniquement index.html, assets, src et data : cache, scripts, tests et fichiers locaux ne sont pas déployés.
+4. Vérifier https://Robote7701.github.io/legends-of-sound/ ainsi que les ressources, fiches et sauvegardes.
+
+La partie locale sur 127.0.0.1 et la partie GitHub Pages utilisent des origines distinctes. Pour transférer une collection : exporter depuis Sauvegarde en local, puis importer le JSON sur le site publié. Aucune sauvegarde personnelle n’est publiée dans Git.
 
 [.nojekyll](./.nojekyll) désactive Jekyll. Chemins relatifs et navigation par fragments compatibles avec un sous-répertoire. Aucune clé API dans Git ou le navigateur.
 

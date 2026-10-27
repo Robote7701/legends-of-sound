@@ -10,6 +10,7 @@ import { catalogView } from './ui/catalog-view.js';
 import { toggleMark } from './domain/progression.js';
 import { recyclingView, goalsView } from './ui/progression-view.js';
 import { rarityReviewView } from './ui/rarity-review-view.js';
+import { statisticsView, debugView } from './ui/statistics-view.js';
 const main = document.querySelector('main');
 let catalog, store, save, saveError;
 let opening = false;
@@ -105,7 +106,10 @@ function render() {
     main.append(rarityReviewView(catalog));
   } else if (route === 'statistics') {
     heading('Votre empreinte musicale.', 'Statistiques de votre sauvegarde locale.');
-    if (save) { const grid = el('div', '', 'grid'); for (const [key,label] of [['boostersOpened','Boosters ouverts'],['cardsObtained','Cartes obtenues'],['cardsRecycled','Cartes recyclées']]) { const panel = el('section','','panel'); panel.append(el('h2',label),el('p',String(save.stats[key]))); grid.append(panel); } main.append(grid); }
+    main.append(statisticsView(catalog,save));
+  } else if (route === 'debug') {
+    heading('La régie de test.', 'Ajoutez des Sound Credits ou des boosters gratuits à votre partie.');
+    main.append(debugView(()=>save,mutate));
   } else if (route === 'credits') {
     heading('Sources & crédits.', 'Des identités vérifiées. Une identité visuelle originale.');
     main.append(el('p', 'Identités, alias, dates et relations : MusicBrainz (données centrales CC0). Descriptions : Wikidata (CC0). Genres et raretés : classement éditorial Legends of Sound, sans mesure du talent.'));

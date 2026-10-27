@@ -15,7 +15,7 @@ try {
   rap.click(); assert(doc.querySelector('.selected-booster h2').textContent==='RAP', 'Booster RAP séparé');
   hiphop.click(); assert(doc.querySelector('.selected-booster h2').textContent==='HIP-HOP', 'Booster HIP-HOP séparé');
   assert(doc.querySelectorAll('.drop-rate').length===4 && !!doc.querySelector('.free-boosters progress'), 'Taux de drop et barre de recharge visibles');
-  for (const route of ['collection', 'recycling', 'statistics', 'settings', 'credits', 'boosters']) {
+  for (const route of ['collection', 'recycling', 'goals', 'statistics', 'debug', 'settings', 'credits', 'boosters']) {
     doc.querySelector('nav a[href="#' + route + '"]').click();
     await until(() => doc.querySelector('nav a[aria-current="page"]')?.hash === '#' + route);
     assert(!!doc.querySelector('main h1'), 'Navigation : ' + route);

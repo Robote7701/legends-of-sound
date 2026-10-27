@@ -93,8 +93,16 @@ try{
  frame.contentWindow.confirm=()=>true;[...doc.querySelectorAll('main button')].find(b=>b.textContent==='Valider le recyclage').click();await until(()=>saved().stats.cardsRecycled===38);
  assert(saved().collection[saved().favorites[0]].count===3&&Object.values(saved().collection).filter(c=>c.count===1).length===19,'Recyclage cohérent et carte protégée intacte');
  doc.querySelector('nav a[href="#goals"]').click();await until(()=>!!doc.querySelector('.goal-panel button'));
+ assert(doc.querySelectorAll('.goal-panel').length===4,'Objectifs paginés : seulement quatre cartes par page');
+ doc.querySelector('.goal-pagination button:last-child').click();assert(doc.querySelector('.goal-pagination span').textContent.startsWith('2 /'),'Navigation vers la deuxième page des objectifs');doc.querySelector('.goal-pagination button').click();
  doc.querySelector('.goal-panel button').click();await until(()=>saved().claimedGoals.length===1);
  assert(saved().tickets===5&&doc.querySelector('.goal-panel button').disabled,'Objectif : SC attribués sans modifier les tickets, bouton bloqué après récupération');
+ doc.querySelector('nav a[href="#statistics"]').click();await until(()=>!!doc.querySelector('.stats-row'));
+ assert(doc.querySelectorAll('.stats-row').length===16&&doc.querySelector('.stats-overview').textContent.includes('20 /'),'Statistiques : progression par rareté, type et univers musical');
+ doc.querySelector('nav a[href="#debug"]').click();await until(()=>!!doc.querySelector('.debug-actions button'));
+ const debugBalance=saved().credits,debugStats=JSON.stringify(saved().stats);doc.querySelector('.debug-actions button').click();doc.querySelector('.debug-actions button').click();await until(()=>saved().credits===debugBalance+100);
+ [...doc.querySelectorAll('.debug-actions button')].find(b=>b.textContent==='Remplir les 10 tickets').click();await until(()=>saved().tickets===10);
+ assert(saved().credits===debugBalance+100&&JSON.stringify(saved().stats)===debugStats,'Debug : ajout unique de SC, réserve remplie et statistiques de jeu intactes');
  frame.contentWindow.location.hash='#rarity-review';await until(()=>!!doc.querySelector('.rarity-review-list article'));
  const reviewSearch=doc.querySelector('input[type="search"]');reviewSearch.value='celine dion';reviewSearch.dispatchEvent(new Event('input'));
  assert(doc.querySelectorAll('.rarity-review-list article').length===1&&doc.querySelector('.rarity-review-list').textContent.includes('Actuelle : Légendaire'),'Revue : recherche sans accent et correction sourcée de Céline Dion');
