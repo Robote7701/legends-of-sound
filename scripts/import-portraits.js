@@ -57,4 +57,11 @@ if (process.argv.includes('--apply-reviewed')) {
     if (reviewedPortrait) { const { id, ...portrait } = reviewedPortrait; artist.portrait = portrait; }
   }
   await writeJSON(path.join(root, 'data/artists.json'), artists);
+  const reportPath = path.join(root, 'data/import-report.json');
+  try {
+    const report = JSON.parse(await readFile(reportPath, 'utf8'));
+    report.missing.portrait = artists.filter(a => !a.portrait).map(a => a.id);
+    report.portraits = { reviewed: reviewed.length, photos: reviewed.filter(p => p.mediaType !== 'illustration').length, illustrations: reviewed.filter(p => p.mediaType === 'illustration').length, updatedAt: new Date().toISOString() };
+    await writeJSON(reportPath, report);
+  } catch (error) { if (error.code !== 'ENOENT') throw error; }
 }

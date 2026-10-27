@@ -30,7 +30,11 @@ Les artistes peuvent apparaître dans plusieurs boosters, sans duplication de ca
 
 Importateur Node sans dépendance : cache avec horodatages, reprise réellement utilisée après interruption, sélection des identités ambiguës documentée, limitation des départs de requêtes, backoff et respect de Retry-After. Les écritures JSON sont atomiques ; les verrous temporaires Windows/OneDrive sont réessayés sans suppression du fichier précédent.
 
-479 propositions Commons disposent d’une image et de métadonnées de licence ; 21 fiches n’ont pas de proposition P18. **Aucun portrait n’est publié.** Les propositions restent dans un registre distinct, sans téléchargement d’images. L’application utilise des visuels originaux de remplacement. Le manifeste de portraits revus est vide ; une revue réelle de l’identité, des droits et des restrictions reste nécessaire avant publication d’une photo.
+479 propositions Commons disposent d’une image et de métadonnées de licence ; 21 fiches n’ont pas de proposition P18. Lors de la constitution initiale du catalogue, aucun portrait n’était publié et le manifeste de revue était vide.
+
+À la demande de prévisualisation suivante, les 50 légendaires ont reçu un visuel après examen des images et des notices : 48 photos, une illustration Commons de Teresa Teng clairement identifiée et l’illustration officielle Miku sous CC BY-NC 3.0 réservée à l’usage non commercial du jeu. Les fichiers sont servis localement, leurs attributions et licences conservées dans le [manifeste de revue](../data/portraits-reviewed.json) et affichées dans l’application. Les propositions trompeuses ou insuffisantes (pochette Fela Kuti, statue Celia Cruz, photos promotionnelles incertaines, projection Miku sans licence documentée du modèle) ont été écartées au profit de sources adaptées. Les autres cartes gardent le visuel de remplacement.
+
+Les champs sans données sont désormais masqués dans les fiches, sans modifier les valeurs null ni prétendre avoir enrichi les biographies. Après ajout des visuels : 34 tests Node et 24 contrôles navigateur réussis, incluant les 50 fichiers locaux et leurs empreintes SHA-256.
 
 ## Interface et vérifications
 

@@ -6,7 +6,7 @@ TCG musical gratuit, statique et indépendant de Velvet Collection. Sound Credit
 
 ORIGINS comprend **500 artistes et groupes identifiés sur MusicBrainz**, avec contrôle croisé Wikidata, genres et raretés éditoriaux, neuf boosters, fiches sourcées et explorateur du catalogue. Les champs inconnus restent null. Les notices courtes Wikidata ne sont pas des biographies complètes.
 
-Les ouvertures, la recharge active et le recyclage restent désactivés jusqu’à la Phase 3. Consulter une fiche ne donne pas la carte. Les portraits proposés par Commons sont en attente de revue ; aucune photographie n’est publiée automatiquement.
+Les ouvertures, la recharge active et le recyclage restent désactivés jusqu’à la Phase 3. Consulter une fiche ne donne pas la carte. Les 50 légendaires disposent de visuels revus, servis localement : 48 photos et deux illustrations identifiées (Teresa Teng et Hatsune Miku). Les autres propositions restent en attente ; aucune photographie n’est publiée automatiquement. Les champs de fiche sans données sont masqués, sans modifier les valeurs null du catalogue.
 
 ## Démarrer et tester
 
@@ -67,7 +67,9 @@ Un seul import à la fois. User-Agent identifié, départs espacés d’au moins
 
 Après contrôle visuel de l’identité, des licences et restrictions, ajouter une entrée dans le tableau [portraits-reviewed.json](./data/portraits-reviewed.json). Champs obligatoires : id existant, imageUrl HTTPS sur upload.wikimedia.org, sourceUrl HTTPS sur commons.wikimedia.org, photographer en texte sans HTML, license, licenseUrl, modifications, identityVerifiedAt et rightsReviewedAt (dates ISO réelles), identityVerification et rightsReview (notes concrètes de revue).
 
-Licences prises en charge : CC0-1.0, Public-domain, CC-BY-2.0/3.0/4.0, CC-BY-SA-2.0/3.0/4.0. CC BY-ND refusée. Si l’identité ou les droits restent incertains, conserver portrait:null et le visuel original de remplacement. Les crédits des portraits appliqués s’affichent dans les fiches et dans la rubrique Crédits. Ne jamais inscrire une revue qui n’a pas eu lieu.
+Licences prises en charge : CC0-1.0, Public-domain, CC-BY-2.0/3.0/4.0, CC-BY-SA-2.0/2.5/3.0/3.0-NL/4.0. CC BY-ND refusée. Exception précisément limitée à l’illustration officielle de Hatsune Miku : CC-BY-NC-3.0, image et page d’autorisation Piapro exactes, attribution Crypton et usage exclusivement non commercial. Cette exception ne vaut pas autorisation générale pour d’autres images NC.
+
+Les assets locaux dans [assets/images/artists/](./assets/images/artists/) conservent chacun leur licence source, indépendamment du code. Le manifeste contient leurs empreintes SHA-256, auteurs, titres, sources, références de revue et modifications de présentation. Les crédits apparaissent dans les fiches et dans Crédits. Le visuel Miku ne doit pas être réutilisé dans un usage commercial. Si l’identité ou les droits restent incertains, conserver portrait:null. Ne jamais inscrire une revue qui n’a pas eu lieu.
 
 ## Sauvegarde
 

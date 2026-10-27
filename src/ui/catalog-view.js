@@ -7,11 +7,18 @@ function link(text, url) {
 }
 function portrait(artist) {
   const holder = el('div', '', 'artist-art');
+  const fallback = () => {
+    holder.setAttribute('aria-hidden', 'true');
+    holder.replaceChildren(el('span', artist.type === 'group' ? '◎' : '◉', 'vinyl'), el('span', 'LEGENDS / ORIGINS', 'art-label'));
+  };
   if (artist.portrait) {
-    const img = el('img'); img.src = artist.portrait.imageUrl; img.alt = artist.displayName; img.loading = 'lazy'; holder.append(img);
-  } else {
-    holder.setAttribute('aria-hidden', 'true'); holder.append(el('span', artist.type === 'group' ? '◎' : '◉', 'vinyl'), el('span', 'LEGENDS / ORIGINS', 'art-label'));
-  }
+    const p = artist.portrait, img = el('img');
+    img.src = p.localPath ? new URL('../../' + p.localPath, import.meta.url).href : p.imageUrl;
+    img.alt = (p.mediaType === 'illustration' ? 'Illustration de ' : 'Photo de ') + artist.displayName;
+    img.loading = 'lazy'; img.decoding = 'async'; img.style.objectFit = p.fit || 'cover';
+    img.addEventListener('error', fallback, { once: true }); holder.append(img);
+    if (p.mediaType === 'illustration') holder.append(el('span', 'Illustration', 'media-label'));
+  } else fallback();
   return holder;
 }
 export function showArtist(artist, opener) {
@@ -23,7 +30,9 @@ export function showArtist(artist, opener) {
   dialog.append(close, portrait(artist), el('div', RARITIES[artist.rarity].label + ' / ' + artist.id, 'eyebrow'), heading);
   if (artist.name !== artist.displayName) dialog.append(el('p', 'Nom MusicBrainz : ' + artist.name, 'muted'));
   const table = el('dl', '', 'facts');
-  const fact = (label, value) => table.append(el('dt', label), el('dd', value === null || value === undefined || value === '' ? 'Non documenté dans cette édition' : String(value)));
+  const fact = (label, value) => {
+    if (value !== null && value !== undefined && value !== '') table.append(el('dt', label), el('dd', String(value)));
+  };
   fact('Type', artist.entityType === 'Character' ? 'Artiste virtuel / personnage Vocaloid' : artist.type === 'group' ? 'Groupe' : 'Artiste solo');
   fact('Genres (classement éditorial)', artist.genres.join(' · '));
   fact('Pays associé par MusicBrainz', artist.country ? artist.country + (artist.area ? ' — ' + artist.area : '') : null);
@@ -42,14 +51,15 @@ export function showArtist(artist, opener) {
   fact('Albums marquants', artist.notableAlbums?.join(' · ') || null);
   fact('Titres connus', artist.knownTracks?.join(' · ') || null);
   fact('Récompenses', artist.awards?.join(' · ') || null);
-  dialog.append(table, el('h3', 'POURQUOI EST-IL CÉLÈBRE ?'), el('p', artist.knownFor || 'Résumé factuel non documenté.'));
-  dialog.append(el('p', 'Notice descriptive Wikidata, conservée dans sa langue source (' + (artist.knownForLanguage || 'non disponible') + '). Elle ne constitue pas une biographie complète.', 'muted'));
-  dialog.append(el('h3', 'Biographie'), el('p', artist.biography || 'Biographie non documentée. Consultez les sources pour approfondir.'));
-  dialog.append(el('h3', 'Sources & photographie'), link('MusicBrainz — identité et données CC0', artist.provenance.musicbrainz.url), el('br'), link('Wikidata — notice descriptive CC0', artist.provenance.wikidata.url));
+  dialog.append(table);
+  if (artist.knownFor) dialog.append(el('h3', 'POURQUOI EST-IL CÉLÈBRE ?'), el('p', artist.knownFor));
+  if (artist.biography) dialog.append(el('h3', 'Biographie'), el('p', artist.biography));
+  dialog.append(el('h3', 'Sources & crédits'), link('MusicBrainz — identité et données CC0', artist.provenance.musicbrainz.url), el('br'), link('Wikidata — notice descriptive CC0', artist.provenance.wikidata.url));
   dialog.append(el('p', 'Identité croisée vérifiée le ' + artist.provenance.musicbrainz.verifiedAt.slice(0, 10) + '. Les genres et raretés sont des choix éditoriaux, sans mesure du talent.', 'muted'));
   if (artist.portrait) {
     const p = artist.portrait;
-    dialog.append(el('p', 'Photo : ' + p.photographer + ' · ' + p.license + ' · Modifications : ' + p.modifications), link('Page source de la photographie', p.sourceUrl), el('br'), link('Licence de la photographie', p.licenseUrl));
+    dialog.append(el('p', (p.mediaType === 'illustration' ? 'Illustration : ' : 'Photo : ') + p.photographer + ' · ' + p.license), el('p', p.title, 'muted'), el('p', p.modifications, 'muted'), link('Page source du visuel', p.sourceUrl), el('br'), link('Licence du visuel', p.licenseUrl));
+    if (p.attribution) dialog.append(el('p', p.attribution, 'muted'));
   } else dialog.append(el('p', 'Visuel de remplacement original. Aucun portrait sans identité et droits vérifiés n’est publié.', 'muted'));
   dialog.addEventListener('close', () => { dialog.remove(); opener?.focus(); }, { once: true });
   dialog.addEventListener('click', event => { if (event.target === dialog) { const box = dialog.getBoundingClientRect(); if (event.clientX < box.left || event.clientX > box.right || event.clientY < box.top || event.clientY > box.bottom) dialog.close(); } });
@@ -61,10 +71,12 @@ export function catalogView(catalog, save) {
   const controls = el('form', '', 'catalog-controls'); controls.onsubmit = event => event.preventDefault();
   const searchLabel = el('label', 'Rechercher un artiste');
   const search = el('input'); search.type = 'search'; search.placeholder = 'Nom ou pseudonyme…'; searchLabel.append(search); controls.append(searchLabel);
-  const filters = { search: '', type: '', rarity: '', genre: '', booster: '' };
+  const initialRarity = new URLSearchParams(location.hash.split('?')[1] || '').get('rarity') || '';
+  const filters = { search: '', type: '', rarity: Object.hasOwn(RARITIES, initialRarity) ? initialRarity : '', genre: '', booster: '' };
   function select(labelText, key, values) {
     const label = el('label', labelText), input = el('select'); input.append(new Option('Tous', ''));
     for (const [value, text] of values) input.append(new Option(text, value));
+    input.value = filters[key];
     input.onchange = () => { filters[key] = input.value; page = 0; draw(); }; label.append(input); controls.append(label);
   }
   select('Type', 'type', [['solo', 'Solo'], ['group', 'Groupe']]);

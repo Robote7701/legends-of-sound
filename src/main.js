@@ -31,7 +31,7 @@ function settings() {
   actions.append(exportButton, rawButton); main.append(actions, el('p', 'L’import remplace votre progression après confirmation. Une version inconnue ou un fichier invalide est refusé.'), label);
 }
 function render() {
-  const route = location.hash.slice(1) || 'boosters'; main.replaceChildren();
+  const route = location.hash.slice(1).split('?')[0] || 'boosters'; main.replaceChildren();
   for (const a of document.querySelectorAll('nav a')) { if (a.hash === '#' + route) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current'); }
   if (saveError) message('La sauvegarde n’a pas pu être chargée : ' + saveError + ' Aucune collection n’a été effacée. Consultez Sauvegarde pour exporter les données brutes.', true);
   if (!catalog) { heading('Chargement impossible.', 'Les données ne sont pas accessibles. Vérifiez la connexion puis rechargez la page.'); return; }
@@ -66,7 +66,7 @@ function render() {
     for (const [name, url] of [['MusicBrainz — sources et licences', 'https://musicbrainz.org/doc/About/Data_License'], ['Wikidata — licence CC0', 'https://www.wikidata.org/wiki/Wikidata:Licensing']]) { const link = el('a', name); link.href = url; main.append(link, el('br')); }
     const illustrated = catalog.artists.filter(a => a.portrait);
     main.append(el('p', illustrated.length + ' portrait(s) publié(s) après revue. Les autres fiches utilisent un visuel de remplacement original. Une proposition Commons n’est jamais publiée automatiquement.'));
-    for (const artist of illustrated) { const p = artist.portrait; const credit = el('p', artist.displayName + ' — ' + p.photographer + ' · ' + p.license + ' · Modifications : ' + p.modifications + ' '); const link = el('a', 'Source'); link.href = p.sourceUrl; const license = el('a', 'Licence'); license.href = p.licenseUrl; credit.append(link, document.createTextNode(' · '), license); main.append(credit); }
+    for (const artist of illustrated) { const p = artist.portrait; const credit = el('p', artist.displayName + ' — ' + p.photographer + ' · ' + p.license + ' · ' + (p.title || '') + ' · Modifications : ' + p.modifications + (p.attribution ? ' · ' + p.attribution : '') + ' '); const link = el('a', 'Source'); link.href = p.sourceUrl; const license = el('a', 'Licence'); license.href = p.licenseUrl; credit.append(link, document.createTextNode(' · '), license); main.append(credit); }
   } else { heading('Page introuvable.', 'Choisissez une rubrique dans la navigation.'); }
 }
 document.querySelector('.skip').addEventListener('click', event => { event.preventDefault(); main.focus(); });
